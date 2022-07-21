@@ -159,25 +159,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- uniA8E7.UI
 
-	- uniA8F0.UI
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- uniA8EF.UI
 
-	- numbersign
+	- haueUIdeva
 
-	- semicolon
+	- nine
 
-	- uniA8E3.UI
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- uniA8E4.UI
 
-	- ellipsis
+	- seven
 
-	- two 
+	- uniA8E9.UI 
 
 	- And 79 more.
 
@@ -287,25 +287,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- uniA8E7.UI
 
-	- uniA8F0.UI
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- uniA8EF.UI
 
-	- numbersign
+	- haueUIdeva
 
-	- semicolon
+	- nine
 
-	- uniA8E3.UI
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- uniA8E4.UI
 
-	- ellipsis
+	- seven
 
-	- two 
+	- uniA8E9.UI 
 
 	- And 79 more.
 
@@ -428,25 +428,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- uniA8E7.UI
 
-	- uniA8F0.UI
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- uniA8EF.UI
 
-	- numbersign
+	- haueUIdeva
 
-	- semicolon
+	- nine
 
-	- uniA8E3.UI
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- uniA8E4.UI
 
-	- ellipsis
+	- seven
 
-	- two 
+	- uniA8E9.UI 
 
 	- And 79 more.
 
@@ -605,25 +605,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- uniA8E7.UI
 
-	- uniA8F0.UI
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- uniA8EF.UI
 
-	- numbersign
+	- haueUIdeva
 
-	- semicolon
+	- nine
 
-	- uniA8E3.UI
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- uniA8E4.UI
 
-	- ellipsis
+	- seven
 
-	- two 
+	- uniA8E9.UI 
 
 	- And 79 more.
 
@@ -706,25 +706,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- uniA8E7.UI
 
-	- uniA8F0.UI
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- uniA8EF.UI
 
-	- numbersign
+	- haueUIdeva
 
-	- semicolon
+	- nine
 
-	- uniA8E3.UI
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- uniA8E4.UI
 
-	- ellipsis
+	- seven
 
-	- two 
+	- uniA8E9.UI 
 
 	- And 79 more.
 
@@ -807,25 +807,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- uniA8E7.UI
 
-	- uniA8F0.UI
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- uniA8EF.UI
 
-	- numbersign
+	- haueUIdeva
 
-	- semicolon
+	- nine
 
-	- uniA8E3.UI
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- uniA8E4.UI
 
-	- ellipsis
+	- seven
 
-	- two 
+	- uniA8E9.UI 
 
 	- And 79 more.
 
@@ -21194,25 +21194,25 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- uniA8E7.UI
 
-	- uniA8F0.UI
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- uniA8EF.UI
 
-	- numbersign
+	- haueUIdeva
 
-	- semicolon
+	- nine
 
-	- uniA8E3.UI
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- uniA8E4.UI
 
-	- ellipsis
+	- seven
 
-	- two 
+	- uniA8E9.UI 
 
 	- And 79 more.
 
@@ -21295,25 +21295,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- uniA8E7.UI
 
-	- uniA8F0.UI
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- uniA8EF.UI
 
-	- numbersign
+	- haueUIdeva
 
-	- semicolon
+	- nine
 
-	- uniA8E3.UI
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- uniA8E4.UI
 
-	- ellipsis
+	- seven
 
-	- two 
+	- uniA8E9.UI 
 
 	- And 79 more.
 
@@ -21456,25 +21456,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- uniA8E7.UI
 
-	- uniA8F0.UI
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- uniA8EF.UI
 
-	- numbersign
+	- haueUIdeva
 
-	- semicolon
+	- nine
 
-	- uniA8E3.UI
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- uniA8E4.UI
 
-	- ellipsis
+	- seven
 
-	- two 
+	- uniA8E9.UI 
 
 	- And 79 more.
 
@@ -21541,10 +21541,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* exclamdown (U+00A1): L<<122.0,354.0>--<124.0,-186.0>> 
 
 	* And exclamdown (U+00A1): L<<96.0,-186.0>--<98.0,354.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[12] NotoSansDevanagariUI-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[13] NotoSansDevanagariUI-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -21570,25 +21584,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- haueUIdeva
 
-	- numbersign
+	- nine
 
-	- semicolon
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- seven
 
-	- ellipsis
+	- less
 
-	- two
+	- nbspace
 
-	- danuktaraprehalfdeva
+	- rrvocalicvowelsignnuktaUIdeva
 
-	- exclam 
+	- ttanuktaraprehalfUIdeva 
 
 	- And 56 more.
 
@@ -21677,10 +21691,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 8 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansDevanagariUI-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[14] NotoSansDevanagariUI-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -21699,25 +21727,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- haueUIdeva
 
-	- numbersign
+	- nine
 
-	- semicolon
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- seven
 
-	- ellipsis
+	- less
 
-	- two
+	- nbspace
 
-	- danuktaraprehalfdeva
+	- rrvocalicvowelsignnuktaUIdeva
 
-	- exclam 
+	- ttanuktaraprehalfUIdeva 
 
 	- And 56 more.
 
@@ -21840,10 +21868,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* iivowelsigndeva (U+0940): L<<-100.0,614.0>--<-229.0,615.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[14] NotoSansDevanagariUI-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] NotoSansDevanagariUI-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -21869,25 +21911,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- haueUIdeva
 
-	- numbersign
+	- nine
 
-	- semicolon
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- seven
 
-	- ellipsis
+	- less
 
-	- two
+	- nbspace
 
-	- danuktaraprehalfdeva
+	- rrvocalicvowelsignnuktaUIdeva
 
-	- exclam 
+	- ttanuktaraprehalfUIdeva 
 
 	- And 56 more.
 
@@ -22018,10 +22060,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 	* ayvowelsigndeva (U+A8FF): L<<-331.0,895.0>--<-209.0,896.0>> 
 
 	* And iivowelsigndeva (U+0940): L<<-92.0,614.0>--<-241.0,615.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSansDevanagariUI-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansDevanagariUI-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -22047,25 +22103,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- haueUIdeva
 
-	- numbersign
+	- nine
 
-	- semicolon
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- seven
 
-	- ellipsis
+	- less
 
-	- two
+	- nbspace
 
-	- danuktaraprehalfdeva
+	- rrvocalicvowelsignnuktaUIdeva
 
-	- exclam 
+	- ttanuktaraprehalfUIdeva 
 
 	- And 56 more.
 
@@ -22120,10 +22176,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
 	 U+0903 and U+A8FA [code: non-mark-chars]
-</div></details><br></div></details><details><summary><b>[11] NotoSansDevanagariUI-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoSansDevanagariUI-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
+</div></details><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
@@ -22149,25 +22219,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- haueUIdeva
 
-	- numbersign
+	- nine
 
-	- semicolon
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- seven
 
-	- ellipsis
+	- less
 
-	- two
+	- nbspace
 
-	- danuktaraprehalfdeva
+	- rrvocalicvowelsignnuktaUIdeva
 
-	- exclam 
+	- ttanuktaraprehalfUIdeva 
 
 	- And 56 more.
 
@@ -22279,25 +22349,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- haueUIdeva
 
-	- numbersign
+	- nine
 
-	- semicolon
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- seven
 
-	- ellipsis
+	- less
 
-	- two
+	- nbspace
 
-	- danuktaraprehalfdeva
+	- rrvocalicvowelsignnuktaUIdeva
 
-	- exclam 
+	- ttanuktaraprehalfUIdeva 
 
 	- And 56 more.
 
@@ -22395,25 +22465,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- haueUIdeva
 
-	- numbersign
+	- nine
 
-	- semicolon
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- seven
 
-	- ellipsis
+	- less
 
-	- two
+	- nbspace
 
-	- danuktaraprehalfdeva
+	- rrvocalicvowelsignnuktaUIdeva
 
-	- exclam 
+	- ttanuktaraprehalfUIdeva 
 
 	- And 56 more.
 
@@ -22497,25 +22567,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- haueUIdeva
 
-	- numbersign
+	- nine
 
-	- semicolon
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- seven
 
-	- ellipsis
+	- less
 
-	- two
+	- nbspace
 
-	- danuktaraprehalfdeva
+	- rrvocalicvowelsignnuktaUIdeva
 
-	- exclam 
+	- ttanuktaraprehalfUIdeva 
 
 	- And 56 more.
 
@@ -22659,25 +22729,25 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- haueUIdeva
 
-	- numbersign
+	- nine
 
-	- semicolon
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- seven
 
-	- ellipsis
+	- less
 
-	- two
+	- nbspace
 
-	- danuktaraprehalfdeva
+	- rrvocalicvowelsignnuktaUIdeva
 
-	- exclam 
+	- ttanuktaraprehalfUIdeva 
 
 	- And 56 more.
 
@@ -22769,25 +22839,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- chanuktaraprehalfUIdevaNEP
+	- uniA8E7.UI
 
-	- uniA8F0.UI
+	- chaprehalfdevaNEP
 
-	- braceleft
+	- uniA8EF.UI
 
-	- numbersign
+	- haueUIdeva
 
-	- semicolon
+	- nine
 
-	- uniA8E3.UI
+	- emdash
 
-	- plus
+	- quotesingle
 
-	- asciitilde
+	- uniA8E4.UI
 
-	- ellipsis
+	- seven
 
-	- two 
+	- uniA8E9.UI 
 
 	- And 79 more.
 
@@ -22815,8 +22885,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 19 | 44 | 160 | 2117 | 119 | 1736 | 0 |
-| 0% | 1% | 4% | 50% | 3% | 41% | 0% |
+| 24 | 44 | 160 | 2126 | 119 | 1722 | 0 |
+| 1% | 1% | 4% | 51% | 3% | 41% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
