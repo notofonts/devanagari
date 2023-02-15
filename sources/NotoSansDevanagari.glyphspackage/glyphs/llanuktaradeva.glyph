@@ -1,0 +1,191 @@
+{
+category = Letter;
+glyphname = llanuktaradeva;
+layers = (
+{
+anchors = (
+{
+name = Anchor2;
+pos = (522,622);
+}
+);
+layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
+shapes = (
+{
+ref = lladeva;
+},
+{
+pos = (698,0);
+ref = vattudeva;
+},
+{
+pos = (474,68);
+ref = nuktadeva;
+}
+);
+width = 715;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (514,622);
+}
+);
+layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
+shapes = (
+{
+ref = lladeva;
+},
+{
+pos = (730,0);
+ref = vattudeva;
+},
+{
+pos = (516,90);
+ref = nuktadeva;
+}
+);
+width = 760;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (504,622);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = lladeva;
+},
+{
+pos = (754,0);
+ref = vattudeva;
+},
+{
+pos = (456,57);
+ref = nuktadeva;
+}
+);
+width = 805;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (499,622);
+}
+);
+layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
+shapes = (
+{
+ref = lladeva;
+},
+{
+pos = (775,0);
+ref = vattudeva;
+},
+{
+pos = (455,50);
+ref = nuktadeva;
+}
+);
+width = 842;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (383,622);
+}
+);
+layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
+shapes = (
+{
+ref = lladeva;
+},
+{
+pos = (522,0);
+ref = vattudeva;
+},
+{
+pos = (355,68);
+ref = nuktadeva;
+}
+);
+width = 535;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (378,622);
+}
+);
+layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
+shapes = (
+{
+ref = lladeva;
+},
+{
+pos = (536,0);
+ref = vattudeva;
+},
+{
+pos = (353,88);
+ref = nuktadeva;
+}
+);
+width = 564;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (374,622);
+}
+);
+layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
+shapes = (
+{
+ref = lladeva;
+},
+{
+pos = (571,0);
+ref = vattudeva;
+},
+{
+pos = (345,65);
+ref = nuktadeva;
+}
+);
+width = 616;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (371,622);
+}
+);
+layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
+shapes = (
+{
+ref = lladeva;
+},
+{
+pos = (593,0);
+ref = vattudeva;
+},
+{
+pos = (340,51);
+ref = nuktadeva;
+}
+);
+width = 648;
+}
+);
+subCategory = Other;
+}

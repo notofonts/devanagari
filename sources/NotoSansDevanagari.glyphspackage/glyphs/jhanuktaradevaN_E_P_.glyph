@@ -1,0 +1,191 @@
+{
+category = Letter;
+glyphname = jhanuktaradevaNEP;
+layers = (
+{
+anchors = (
+{
+name = Anchor2;
+pos = (499,622);
+},
+{
+name = Anchor6;
+pos = (499,0);
+}
+);
+layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
+shapes = (
+{
+ref = jharadevaNEP;
+},
+{
+pos = (613,18);
+ref = nuktadeva;
+}
+);
+width = 824;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (533,622);
+},
+{
+name = Anchor6;
+pos = (533,0);
+}
+);
+layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
+shapes = (
+{
+ref = jharadevaNEP;
+},
+{
+pos = (646,0);
+ref = nuktadeva;
+}
+);
+width = 924;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (559,622);
+},
+{
+name = Anchor6;
+pos = (559,0);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = jharadevaNEP;
+},
+{
+pos = (646,0);
+ref = nuktadeva;
+}
+);
+width = 1001;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (589,622);
+},
+{
+name = Anchor6;
+pos = (589,0);
+}
+);
+layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
+shapes = (
+{
+ref = jharadevaNEP;
+},
+{
+pos = (659,0);
+ref = nuktadeva;
+}
+);
+width = 1077;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (372,622);
+},
+{
+name = Anchor6;
+pos = (372,0);
+}
+);
+layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
+shapes = (
+{
+ref = jharadevaNEP;
+},
+{
+pos = (454,18);
+ref = nuktadeva;
+}
+);
+width = 622;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (393,622);
+},
+{
+name = Anchor6;
+pos = (393,0);
+}
+);
+layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
+shapes = (
+{
+ref = jharadevaNEP;
+},
+{
+pos = (465,1);
+ref = nuktadeva;
+}
+);
+width = 692;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (430,622);
+},
+{
+name = Anchor6;
+pos = (430,0);
+}
+);
+layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
+shapes = (
+{
+ref = jharadevaNEP;
+},
+{
+pos = (484,0);
+ref = nuktadeva;
+}
+);
+width = 782;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (453,622);
+},
+{
+name = Anchor6;
+pos = (453,0);
+}
+);
+layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
+shapes = (
+{
+ref = jharadevaNEP;
+},
+{
+pos = (496,0);
+ref = nuktadeva;
+}
+);
+width = 838;
+}
+);
+subCategory = Other;
+}

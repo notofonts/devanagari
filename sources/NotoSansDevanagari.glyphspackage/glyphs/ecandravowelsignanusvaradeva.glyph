@@ -1,0 +1,127 @@
+{
+category = Mark;
+glyphname = ecandravowelsignanusvaradeva;
+layers = (
+{
+anchors = (
+{
+name = _Anchor2;
+pos = (-130,622);
+}
+);
+layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
+shapes = (
+{
+ref = candrabindudeva;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _Anchor2;
+pos = (-180,622);
+}
+);
+layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
+shapes = (
+{
+ref = candrabindudeva;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _Anchor2;
+pos = (-239,622);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = candrabindudeva;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _Anchor2;
+pos = (-267,622);
+}
+);
+layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
+shapes = (
+{
+ref = candrabindudeva;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _Anchor2;
+pos = (-107,622);
+}
+);
+layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
+shapes = (
+{
+ref = candrabindudeva;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _Anchor2;
+pos = (-151,622);
+}
+);
+layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
+shapes = (
+{
+ref = candrabindudeva;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _Anchor2;
+pos = (-191,622);
+}
+);
+layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
+shapes = (
+{
+ref = candrabindudeva;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _Anchor2;
+pos = (-216,622);
+}
+);
+layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
+shapes = (
+{
+ref = candrabindudeva;
+}
+);
+width = 0;
+}
+);
+subCategory = Nonspacing;
+}

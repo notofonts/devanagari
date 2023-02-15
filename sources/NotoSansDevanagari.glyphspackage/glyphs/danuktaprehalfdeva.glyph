@@ -1,0 +1,143 @@
+{
+category = Letter;
+glyphname = danuktaprehalfdeva;
+layers = (
+{
+layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
+shapes = (
+{
+ref = dadeva;
+},
+{
+pos = (426,0);
+ref = viramadeva;
+},
+{
+pos = (467,86);
+ref = nuktadeva;
+}
+);
+width = 469;
+},
+{
+layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
+shapes = (
+{
+ref = dadeva;
+},
+{
+pos = (466,0);
+ref = viramadeva;
+},
+{
+pos = (455,76);
+ref = nuktadeva;
+}
+);
+width = 520;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+ref = dadeva;
+},
+{
+pos = (523,0);
+ref = viramadeva;
+},
+{
+pos = (435,76);
+ref = nuktadeva;
+}
+);
+width = 558;
+},
+{
+layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
+shapes = (
+{
+ref = dadeva;
+},
+{
+pos = (571,0);
+ref = viramadeva;
+},
+{
+pos = (469,62);
+ref = nuktadeva;
+}
+);
+width = 582;
+},
+{
+layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
+shapes = (
+{
+ref = dadeva;
+},
+{
+pos = (325,0);
+ref = viramadeva;
+},
+{
+pos = (343,86);
+ref = nuktadeva;
+}
+);
+width = 358;
+},
+{
+layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
+shapes = (
+{
+ref = dadeva;
+},
+{
+pos = (358,0);
+ref = viramadeva;
+},
+{
+pos = (323,77);
+ref = nuktadeva;
+}
+);
+width = 391;
+},
+{
+layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
+shapes = (
+{
+ref = dadeva;
+},
+{
+pos = (418,0);
+ref = viramadeva;
+},
+{
+pos = (338,70);
+ref = nuktadeva;
+}
+);
+width = 428;
+},
+{
+layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
+shapes = (
+{
+ref = dadeva;
+},
+{
+pos = (456,0);
+ref = viramadeva;
+},
+{
+pos = (347,65);
+ref = nuktadeva;
+}
+);
+width = 452;
+}
+);
+subCategory = Other;
+}
