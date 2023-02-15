@@ -1,6 +1,7 @@
 {
 category = Mark;
 glyphname = uuvowelsigndeva;
+kernRight = uuvowel;
 layers = (
 {
 anchors = (

@@ -9339,6 +9339,11 @@ widthClass = 2;
 );
 kerningLTR = {
 "B871EA9A-50AC-43A6-961C-B7EB8764AD7C" = {
+"@MMK_L_uuvowel" = {
+"@MMK_R_bracket" = 100;
+"@MMK_R_comma" = 100;
+slash.deva = 100;
+};
 baprehalfdeva = {
 badeva = -20;
 dadeva = -18;
@@ -9698,6 +9703,11 @@ yadeva = -35;
 };
 };
 "6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = {
+"@MMK_L_uuvowel" = {
+"@MMK_R_bracket" = 100;
+"@MMK_R_comma" = 100;
+slash.deva = 100;
+};
 baprehalfdeva = {
 badeva = -49;
 dadeva = -49;
@@ -10055,6 +10065,11 @@ zadeva = -42;
 };
 };
 UUID0 = {
+"@MMK_L_uuvowel" = {
+"@MMK_R_bracket" = 100;
+"@MMK_R_comma" = 100;
+slash.deva = 100;
+};
 baprehalfdeva = {
 badeva = -44;
 dadeva = -44;
@@ -10459,6 +10474,11 @@ yadeva = -24;
 };
 };
 "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = {
+"@MMK_L_uuvowel" = {
+"@MMK_R_bracket" = 100;
+"@MMK_R_comma" = 100;
+slash.deva = 100;
+};
 baprehalfdeva = {
 badeva = -44;
 dadeva = -44;
@@ -10858,6 +10878,11 @@ yadeva = -24;
 };
 };
 "5CC745D4-D12D-435B-A472-7D28876E43BC" = {
+"@MMK_L_uuvowel" = {
+"@MMK_R_bracket" = 100;
+"@MMK_R_comma" = 100;
+slash.deva = 100;
+};
 baprehalfdeva = {
 badeva = -18;
 dadeva = -17;
@@ -11248,6 +11273,11 @@ yadeva = -21;
 };
 };
 "AA2163BC-B14D-4D16-A884-99BB623F1DBF" = {
+"@MMK_L_uuvowel" = {
+"@MMK_R_bracket" = 100;
+"@MMK_R_comma" = 100;
+slash.deva = 100;
+};
 baprehalfdeva = {
 badeva = -34;
 dadeva = -34;
@@ -11656,6 +11686,11 @@ yadeva = -8;
 };
 };
 "9A082071-1CDF-4F9E-B116-82A287035C9D" = {
+"@MMK_L_uuvowel" = {
+"@MMK_R_bracket" = 100;
+"@MMK_R_comma" = 100;
+slash.deva = 100;
+};
 baprehalfdeva = {
 badeva = -34;
 dadeva = -34;
@@ -12071,6 +12106,11 @@ yadeva = -15;
 };
 };
 "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = {
+"@MMK_L_uuvowel" = {
+"@MMK_R_bracket" = 100;
+"@MMK_R_comma" = 100;
+slash.deva = 100;
+};
 baprehalfdeva = {
 badeva = -34;
 dadeva = -34;
