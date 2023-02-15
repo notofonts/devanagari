@@ -61,13 +61,13 @@
             "only": "NotoSansDevanagari-Regular.ttf"
         },
         {
-            "expectation": "japrehalfdeva=0+498|kadeva=2+762|kaprehalfdeva=3+539|jadeva=5+742",
+            "expectation": "japrehalfdeva=0+498|kadeva=2+762|kaprehalfdeva=3+546|jadeva=5+742",
             "input": "ज्कक्ज",
             "note": "1591-NotoSansDevanagari.html",
             "only": "NotoSansDevanagari-Regular.ttf"
         },
         {
-            "expectation": "zhaprehalfdeva=0+572|kadeva=2+762|kaprehalfdeva=3+603|zhadeva=5+742",
+            "expectation": "zhaprehalfdeva=0+498|kadeva=2+762|kaprehalfdeva=3+546|zhadeva=5+742",
             "input": "ॹ्कक्ॹ",
             "note": "1591-NotoSansDevanagari.html",
             "only": "NotoSansDevanagari-Regular.ttf"
