@@ -91,7 +91,7 @@
             "only": "NotoSansDevanagari-Regular.ttf"
         },
         {
-            "expectation": "dabadeva=0+629",
+            "expectation": "daprehalfdeva=0+520|space=0+0|badeva=3+571",
             "input": "द्‍ब",
             "note": "1723-NotoSansDevanagari.html",
             "only": "NotoSansDevanagari-Regular.ttf"
