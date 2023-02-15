@@ -43,19 +43,19 @@
             "only": "NotoSansDevanagari-Regular.ttf"
         },
         {
-            "expectation": "nadeva=0+555|visargadeva=0+272|udattadeva=0+0",
+            "expectation": "nadeva=0+555|udattadeva=0+0|visargadeva=0+272",
             "input": "नः॑",
             "note": "1551-NotoSansDevanagari.html",
             "only": "NotoSansDevanagari-Regular.ttf"
         },
         {
-            "expectation": "yadeva=0+580|visargadeva=0+272|udattadeva=0+0",
+            "expectation": "yadeva=0+580|udattadeva=0+0|visargadeva=0+272",
             "input": "यः॑",
             "note": "1551-NotoSansDevanagari.html",
             "only": "NotoSansDevanagari-Regular.ttf"
         },
         {
-            "expectation": "tadeva=0+570|visargadeva=0+272|anudattadeva=0+0",
+            "expectation": "tadeva=0+570|anudattadeva=0+0|visargadeva=0+272",
             "input": "तः॒",
             "note": "1551-NotoSansDevanagari.html",
             "only": "NotoSansDevanagari-Regular.ttf"
