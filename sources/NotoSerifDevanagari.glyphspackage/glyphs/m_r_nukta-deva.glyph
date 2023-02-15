@@ -1,0 +1,163 @@
+{
+glyphname = "m_r_nukta-deva";
+production = uni092E093C094D0930094D;
+layers = (
+{
+anchors = (
+{
+name = nukta;
+position = "{279, -215}";
+}
+);
+components = (
+{
+name = "m_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 533, 29}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+width = 362;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{265, -194}";
+}
+);
+components = (
+{
+name = "m_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 521, 18}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+width = 337;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{328.976, -222.378}";
+}
+);
+components = (
+{
+name = "m_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{0.92923, 0, 0, 0.92923, 565, 9}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+width = 378;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{355.3, -231}";
+}
+);
+components = (
+{
+name = "m_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{0.9, 0, 0, 0.9, 583, 3}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+width = 395;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{222, -195}";
+}
+);
+components = (
+{
+name = "m_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 475, 26}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+width = 307;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{236, -215}";
+}
+);
+components = (
+{
+name = "m_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 490, 29}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+width = 279;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{285.732, -223.326}";
+}
+);
+components = (
+{
+name = "m_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{0.942, 0, 0, 0.942, 525, 15}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+width = 296;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{318.4, -231}";
+}
+);
+components = (
+{
+name = "m_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{0.9, 0, 0, 0.9, 547, 3}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+width = 321;
+}
+);
+leftKerningGroup = "DEV_ma-deva_L";
+rightKerningGroup = "DEV_m-deva_R";
+script = devanagari;
+category = Letter;
+subCategory = Other;
+}

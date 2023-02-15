@@ -1,0 +1,325 @@
+{
+glyphname = "o-deva";
+production = uni0913;
+layers = (
+{
+anchors = (
+{
+name = "#topRight";
+position = "{869, 802}";
+},
+{
+name = bottom;
+position = "{847, 0}";
+},
+{
+name = bottom_right;
+position = "{656, -6}";
+},
+{
+name = candra;
+position = "{847, 623}";
+},
+{
+name = nukta;
+position = "{242, -34}";
+},
+{
+name = top;
+position = "{847, 623}";
+}
+);
+components = (
+{
+name = "a-deva";
+},
+{
+name = "oMatra-deva";
+transform = "{1, 0, 0, 1, 686, 0}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+width = 932;
+},
+{
+anchors = (
+{
+name = "#topRight";
+position = "{823, 802}";
+},
+{
+name = bottom;
+position = "{797, 0}";
+},
+{
+name = bottom_right;
+position = "{637, -5}";
+},
+{
+name = candra;
+position = "{797, 622}";
+},
+{
+name = nukta;
+position = "{247, -34}";
+},
+{
+name = top;
+position = "{797, 622}";
+}
+);
+components = (
+{
+name = "a-deva";
+},
+{
+name = "oMatra-deva";
+transform = "{1, 0, 0, 1, 667, 0}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+width = 897;
+},
+{
+anchors = (
+{
+name = "#topRight";
+position = "{951, 802}";
+},
+{
+name = bottom;
+position = "{934, 10}";
+},
+{
+name = bottom_right;
+position = "{707, -8}";
+},
+{
+name = candra;
+position = "{934, 626}";
+},
+{
+name = nukta;
+position = "{263, -45}";
+},
+{
+name = top;
+position = "{934, 626}";
+}
+);
+components = (
+{
+name = "a-deva";
+},
+{
+name = "oMatra-deva";
+transform = "{1, 0, 0, 1, 738, 0}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+width = 1004;
+},
+{
+anchors = (
+{
+name = "#topRight";
+position = "{1011, 801}";
+},
+{
+name = bottom;
+position = "{989, 20}";
+},
+{
+name = bottom_right;
+position = "{737, -10}";
+},
+{
+name = candra;
+position = "{989, 627}";
+},
+{
+name = nukta;
+position = "{273, -50}";
+},
+{
+name = top;
+position = "{989, 627}";
+}
+);
+components = (
+{
+name = "a-deva";
+},
+{
+name = "oMatra-deva";
+transform = "{1, 0, 0, 1, 769, 0}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+width = 1049;
+},
+{
+anchors = (
+{
+name = "#topRight";
+position = "{624, 802}";
+},
+{
+name = bottom;
+position = "{621, 0}";
+},
+{
+name = bottom_right;
+position = "{486, -5}";
+},
+{
+name = candra;
+position = "{621, 622}";
+},
+{
+name = nukta;
+position = "{193, -34}";
+},
+{
+name = top;
+position = "{621, 622}";
+}
+);
+components = (
+{
+name = "a-deva";
+},
+{
+name = "oMatra-deva";
+transform = "{1, 0, 0, 1, 520, 0}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+width = 693;
+},
+{
+anchors = (
+{
+name = "#topRight";
+position = "{687, 802}";
+},
+{
+name = bottom;
+position = "{680, 0}";
+},
+{
+name = bottom_right;
+position = "{514, -6}";
+},
+{
+name = candra;
+position = "{680, 623}";
+},
+{
+name = nukta;
+position = "{198, -34}";
+},
+{
+name = top;
+position = "{680, 623}";
+}
+);
+components = (
+{
+name = "a-deva";
+},
+{
+name = "oMatra-deva";
+transform = "{1, 0, 0, 1, 546, 0}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+width = 743;
+},
+{
+anchors = (
+{
+name = "#topRight";
+position = "{771, 802}";
+},
+{
+name = bottom;
+position = "{761, 10}";
+},
+{
+name = bottom_right;
+position = "{566, -8}";
+},
+{
+name = candra;
+position = "{762, 625}";
+},
+{
+name = nukta;
+position = "{207, -38}";
+},
+{
+name = top;
+position = "{762, 625}";
+}
+);
+components = (
+{
+name = "a-deva";
+},
+{
+name = "oMatra-deva";
+transform = "{1, 0, 0, 1, 598, 0}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+width = 815;
+},
+{
+anchors = (
+{
+name = "#topRight";
+position = "{824, 802}";
+},
+{
+name = bottom;
+position = "{802, 20}";
+},
+{
+name = bottom_right;
+position = "{588, -9}";
+},
+{
+name = candra;
+position = "{803, 627}";
+},
+{
+name = nukta;
+position = "{209, -41}";
+},
+{
+name = top;
+position = "{803, 627}";
+}
+);
+components = (
+{
+name = "a-deva";
+},
+{
+name = "oMatra-deva";
+transform = "{1, 0, 0, 1, 620, 0}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+width = 847;
+}
+);
+leftKerningGroup = "DEV_a-deva_L";
+rightKerningGroup = "DEV_a-deva_R";
+rightMetricsKey = "aaMatra-deva";
+unicode = 0913;
+script = devanagari;
+category = Letter;
+subCategory = Matra;
+}

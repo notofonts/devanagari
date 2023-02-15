@@ -1,0 +1,176 @@
+{
+glyphname = "oeMatra_rephanusvara-deva";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{-18, 622}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "oeMatra-deva";
+},
+{
+alignment = -1;
+name = "reph_anusvara-deva";
+transform = "{1, 0, 0, 1, 30, 0}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{1, 623}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "oeMatra-deva";
+},
+{
+alignment = -1;
+name = "reph_anusvara-deva";
+transform = "{1, 0, 0, 1, 115, 7}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{30, 626}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "oeMatra-deva";
+},
+{
+alignment = -1;
+name = "reph_anusvara-deva";
+transform = "{1, 0, 0, 1, 150, 5}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{64, 627}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "oeMatra-deva";
+},
+{
+alignment = -1;
+name = "reph_anusvara-deva";
+transform = "{1, 0, 0, 1, 187, 5}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{-85, 622}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "oeMatra-deva";
+},
+{
+alignment = -1;
+name = "reph_anusvara-deva";
+transform = "{1, 0, 0, 1, -21, 0}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{12, 623}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "oeMatra-deva";
+},
+{
+alignment = -1;
+name = "reph_anusvara-deva";
+transform = "{1, 0, 0, 1, 103, 6}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{22, 625}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "oeMatra-deva";
+},
+{
+alignment = -1;
+name = "reph_anusvara-deva";
+transform = "{1, 0, 0, 1, 129, -2}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{34, 627}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "oeMatra-deva";
+},
+{
+alignment = -1;
+name = "reph_anusvara-deva";
+transform = "{1, 0, 0, 1, 142, 7}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+width = 0;
+}
+);
+script = devanagari;
+category = Mark;
+subCategory = Nonspacing;
+}

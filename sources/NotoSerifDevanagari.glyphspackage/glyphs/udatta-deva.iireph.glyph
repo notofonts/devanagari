@@ -1,0 +1,177 @@
+{
+glyphname = "udatta-deva.iireph";
+production = uni0951.iireph;
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{-83, 623}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+paths = (
+{
+closed = 1;
+nodes = (
+"122 681 LINE",
+"122 876 LINE",
+"63 876 LINE",
+"63 681 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{-83, 622}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+paths = (
+{
+closed = 1;
+nodes = (
+"77 681 LINE",
+"77 867 LINE",
+"50 867 LINE",
+"50 681 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{-83, 626}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+paths = (
+{
+closed = 1;
+nodes = (
+"162 673 LINE",
+"162 875 LINE",
+"60 875 LINE",
+"60 673 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{-83, 627}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+paths = (
+{
+closed = 1;
+nodes = (
+"190 670 LINE",
+"190 877 LINE",
+"60 877 LINE",
+"60 670 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{-83, 622}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+paths = (
+{
+closed = 1;
+nodes = (
+"79 681 LINE",
+"79 867 LINE",
+"50 867 LINE",
+"50 681 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{-83, 623}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+paths = (
+{
+closed = 1;
+nodes = (
+"119 681 LINE",
+"119 876 LINE",
+"60 876 LINE",
+"60 681 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{-83, 625}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+paths = (
+{
+closed = 1;
+nodes = (
+"150 676 LINE",
+"150 876 LINE",
+"64 876 LINE",
+"64 676 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{-83, 627}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+paths = (
+{
+closed = 1;
+nodes = (
+"175 672 LINE",
+"175 875 LINE",
+"65 875 LINE",
+"65 672 LINE"
+);
+}
+);
+width = 0;
+}
+);
+script = devanagari;
+category = Mark;
+subCategory = Nonspacing;
+}

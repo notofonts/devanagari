@@ -1,0 +1,275 @@
+{
+glyphname = .notdef;
+layers = (
+{
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+paths = (
+{
+closed = 1;
+nodes = (
+"503 0 LINE",
+"503 714 LINE",
+"93 714 LINE",
+"93 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"144 663 LINE",
+"453 663 LINE",
+"453 51 LINE",
+"144 51 LINE"
+);
+}
+);
+width = 596;
+},
+{
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+paths = (
+{
+closed = 1;
+nodes = (
+"503 0 LINE",
+"503 714 LINE",
+"93 714 LINE",
+"93 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"144 663 LINE",
+"453 663 LINE",
+"453 51 LINE",
+"144 51 LINE"
+);
+}
+);
+width = 596;
+},
+{
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+paths = (
+{
+closed = 1;
+nodes = (
+"503 0 LINE",
+"503 714 LINE",
+"93 714 LINE",
+"93 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"144 663 LINE",
+"453 663 LINE",
+"453 51 LINE",
+"144 51 LINE"
+);
+}
+);
+width = 596;
+},
+{
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+paths = (
+{
+closed = 1;
+nodes = (
+"503 0 LINE",
+"503 714 LINE",
+"93 714 LINE",
+"93 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"144 663 LINE",
+"453 663 LINE",
+"453 51 LINE",
+"144 51 LINE"
+);
+}
+);
+width = 596;
+},
+{
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+paths = (
+{
+closed = 1;
+nodes = (
+"503 0 LINE",
+"503 714 LINE",
+"93 714 LINE",
+"93 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"144 663 LINE",
+"453 663 LINE",
+"453 51 LINE",
+"144 51 LINE"
+);
+}
+);
+width = 596;
+},
+{
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+paths = (
+{
+closed = 1;
+nodes = (
+"503 0 LINE",
+"503 714 LINE",
+"93 714 LINE",
+"93 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"144 663 LINE",
+"453 663 LINE",
+"453 51 LINE",
+"144 51 LINE"
+);
+}
+);
+width = 596;
+},
+{
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+paths = (
+{
+closed = 1;
+nodes = (
+"503 0 LINE",
+"503 714 LINE",
+"93 714 LINE",
+"93 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"144 663 LINE",
+"453 663 LINE",
+"453 51 LINE",
+"144 51 LINE"
+);
+}
+);
+width = 596;
+},
+{
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+paths = (
+{
+closed = 1;
+nodes = (
+"503 0 LINE",
+"503 714 LINE",
+"93 714 LINE",
+"93 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"144 663 LINE",
+"453 663 LINE",
+"453 51 LINE",
+"144 51 LINE"
+);
+}
+);
+width = 596;
+}
+);
+script = "";
+category = Separator;
+subCategory = Other;
+userData = {
+com.schriftgestaltung.Glyphs.ColorIndex = 6;
+com.typemytype.robofont.layerData = {
+background = {
+anchors = (
+);
+components = (
+);
+contours = (
+{
+points = (
+{
+segmentType = line;
+smooth = 0;
+x = 505;
+y = 0;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 505;
+y = 714;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 94;
+y = 714;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 94;
+y = 0;
+}
+);
+},
+{
+points = (
+{
+segmentType = line;
+smooth = 0;
+x = 145;
+y = 663;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 454;
+y = 663;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 454;
+y = 51;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 145;
+y = 51;
+}
+);
+}
+);
+lib = {
+};
+name = .notdef;
+unicodes = (
+);
+width = 1229;
+};
+};
+};
+}

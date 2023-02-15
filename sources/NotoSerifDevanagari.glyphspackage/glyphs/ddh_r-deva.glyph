@@ -1,0 +1,443 @@
+{
+glyphname = "ddh_r-deva";
+production = uni0922094D0930094D;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{355, 0}";
+},
+{
+name = bottom_right;
+position = "{281, 0}";
+},
+{
+name = candra;
+position = "{406, 623}";
+},
+{
+name = nukta;
+position = "{291, -88}";
+},
+{
+name = top;
+position = "{406, 623}";
+}
+);
+components = (
+{
+name = "ddha-deva";
+},
+{
+alignment = 1;
+name = "rakar_halant-deva";
+transform = "{1, 0, 0, 1, 355, 0}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+width = 512;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{313, -10}";
+},
+{
+name = bottom_right;
+position = "{270, -10}";
+},
+{
+name = candra;
+position = "{372, 622}";
+},
+{
+name = nukta;
+position = "{278, -84}";
+},
+{
+name = top;
+position = "{372, 622}";
+}
+);
+components = (
+{
+name = "ddha-deva";
+},
+{
+alignment = 1;
+name = "rakar_halant-deva";
+transform = "{1, 0, 0, 1, 313, -10}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+width = 491;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{378, -11}";
+},
+{
+name = bottom_right;
+position = "{292, 0}";
+},
+{
+name = candra;
+position = "{432, 626}";
+},
+{
+name = nukta;
+position = "{314, -103}";
+},
+{
+name = top;
+position = "{432, 626}";
+}
+);
+components = (
+{
+name = "ddha-deva";
+},
+{
+alignment = 1;
+name = "rakar_halant-deva";
+transform = "{1, 0, 0, 1, 378, -11}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+width = 532;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{403, -11}";
+},
+{
+name = bottom_right;
+position = "{302, 0}";
+},
+{
+name = candra;
+position = "{454, 627}";
+},
+{
+name = nukta;
+position = "{330, -113}";
+},
+{
+name = top;
+position = "{454, 627}";
+}
+);
+components = (
+{
+name = "ddha-deva";
+},
+{
+alignment = 1;
+name = "rakar_halant-deva";
+transform = "{1, 0, 0, 1, 403, -11}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+width = 549;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{241, -11}";
+},
+{
+name = bottom_right;
+position = "{213, 0}";
+},
+{
+name = candra;
+position = "{294, 622}";
+},
+{
+name = nukta;
+position = "{229, -73}";
+},
+{
+name = top;
+position = "{294, 622}";
+}
+);
+components = (
+{
+name = "ddha-deva";
+},
+{
+alignment = 1;
+name = "rakar_halant-deva";
+transform = "{1, 0, 0, 1, 241, -11}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+width = 387;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{263, -20}";
+},
+{
+name = bottom_right;
+position = "{216, 0}";
+},
+{
+name = candra;
+position = "{313, 623}";
+},
+{
+name = nukta;
+position = "{229, -88}";
+},
+{
+name = top;
+position = "{313, 623}";
+}
+);
+components = (
+{
+name = "ddha-deva";
+},
+{
+alignment = 1;
+name = "rakar_halant-deva";
+transform = "{1, 0, 0, 1, 263, -20}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+width = 392;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{296, -25}";
+},
+{
+name = bottom_right;
+position = "{236, 0}";
+},
+{
+name = candra;
+position = "{351, 625}";
+},
+{
+name = nukta;
+position = "{262, -101}";
+},
+{
+name = top;
+position = "{351, 625}";
+}
+);
+components = (
+{
+name = "ddha-deva";
+},
+{
+alignment = 1;
+name = "rakar_halant-deva";
+transform = "{1, 0, 0, 1, 296, -25}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+width = 429;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{312, -24}";
+},
+{
+name = bottom_right;
+position = "{243, 0}";
+},
+{
+name = candra;
+position = "{368, 627}";
+},
+{
+name = nukta;
+position = "{277, -109}";
+},
+{
+name = top;
+position = "{368, 627}";
+}
+);
+components = (
+{
+name = "ddha-deva";
+},
+{
+alignment = 1;
+name = "rakar_halant-deva";
+transform = "{1, 0, 0, 1, 312, -24}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+width = 442;
+}
+);
+leftKerningGroup = "DEV_ddha-deva_L";
+script = devanagari;
+category = Letter;
+subCategory = Other;
+userData = {
+com.schriftgestaltung.Glyphs.ColorIndex = 10;
+com.typemytype.robofont.layerData = {
+background = {
+anchors = (
+);
+components = (
+);
+contours = (
+{
+points = (
+{
+segmentType = line;
+smooth = 0;
+x = 555;
+y = -60;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 194;
+y = -329;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 325;
+y = -440;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 612;
+y = -213;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 594;
+y = -210;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 872;
+y = -442;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 932;
+y = -384;
+}
+);
+},
+{
+points = (
+{
+segmentType = line;
+smooth = 0;
+x = 502;
+y = -578;
+},
+{
+smooth = 0;
+x = 537;
+y = -567;
+},
+{
+smooth = 0;
+x = 581;
+y = -562;
+},
+{
+segmentType = curve;
+smooth = 1;
+x = 626;
+y = -562;
+},
+{
+smooth = 0;
+x = 720;
+y = -562;
+},
+{
+smooth = 0;
+x = 796;
+y = -594;
+},
+{
+segmentType = curve;
+smooth = 0;
+x = 1016;
+y = -850;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 1078;
+y = -818;
+},
+{
+smooth = 0;
+x = 819;
+y = -483;
+},
+{
+smooth = 0;
+x = 745;
+y = -419;
+},
+{
+segmentType = curve;
+smooth = 1;
+x = 576;
+y = -419;
+},
+{
+smooth = 0;
+x = 514;
+y = -419;
+},
+{
+smooth = 0;
+x = 455;
+y = -434;
+},
+{
+segmentType = curve;
+smooth = 0;
+x = 455;
+y = -434;
+}
+);
+}
+);
+lib = {
+};
+name = dvDDH_R;
+unicodes = (
+);
+width = 1033;
+};
+};
+};
+}

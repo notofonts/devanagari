@@ -1,0 +1,83 @@
+{
+glyphname = uni2010;
+production = uni2010;
+layers = (
+{
+components = (
+{
+name = hyphen;
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+width = 310;
+},
+{
+components = (
+{
+name = hyphen;
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+width = 310;
+},
+{
+components = (
+{
+name = hyphen;
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+width = 310;
+},
+{
+components = (
+{
+name = hyphen;
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+width = 259;
+},
+{
+components = (
+{
+name = hyphen;
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+width = 236;
+},
+{
+components = (
+{
+alignment = -1;
+name = hyphen;
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+width = 310;
+},
+{
+components = (
+{
+name = hyphen;
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+width = 246;
+},
+{
+components = (
+{
+name = hyphen;
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+width = 253;
+}
+);
+unicode = 2010;
+script = "";
+category = Punctuation;
+subCategory = Dash;
+}

@@ -1,0 +1,220 @@
+{
+glyphname = "caret-deva";
+production = uniA8FA;
+layers = (
+{
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+paths = (
+{
+closed = 1;
+nodes = (
+"426 849 LINE",
+"358 905 LINE",
+"209 730 LINE",
+"218 729 LINE",
+"72 900 LINE",
+"39 874 LINE",
+"241 633 LINE"
+);
+}
+);
+width = 465;
+},
+{
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+paths = (
+{
+closed = 1;
+nodes = (
+"417 882 LINE",
+"395 901 LINE",
+"223 691 LINE",
+"243 691 LINE",
+"63 901 LINE",
+"44 886 LINE",
+"236 663 LINE"
+);
+}
+);
+width = 461;
+},
+{
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+paths = (
+{
+closed = 1;
+nodes = (
+"458 840 LINE",
+"375 912 LINE",
+"214 729 LINE",
+"249 729 LINE",
+"89 912 LINE",
+"38 869 LINE",
+"258 621 LINE"
+);
+}
+);
+width = 496;
+},
+{
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+paths = (
+{
+closed = 1;
+nodes = (
+"477 826 LINE",
+"375 917 LINE",
+"214 739 LINE",
+"257 739 LINE",
+"99 917 LINE",
+"37 863 LINE",
+"268 608 LINE"
+);
+}
+);
+width = 514;
+},
+{
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+paths = (
+{
+closed = 1;
+nodes = (
+"314 888 LINE",
+"292 901 LINE",
+"170 693 LINE",
+"185 693 LINE",
+"51 901 LINE",
+"32 889 LINE",
+"180 661 LINE"
+);
+}
+);
+width = 347;
+},
+{
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+paths = (
+{
+closed = 1;
+nodes = (
+"352 861 LINE",
+"288 905 LINE",
+"166 727 LINE",
+"180 725 LINE",
+"59 900 LINE",
+"25 880 LINE",
+"194 636 LINE"
+);
+}
+);
+width = 377;
+},
+{
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+paths = (
+{
+closed = 1;
+nodes = (
+"375 850 LINE",
+"292 910 LINE",
+"164 733 LINE",
+"197 732 LINE",
+"71 907 LINE",
+"24 876 LINE",
+"207 623 LINE"
+);
+}
+);
+width = 399;
+},
+{
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+paths = (
+{
+closed = 1;
+nodes = (
+"385 843 LINE",
+"288 914 LINE",
+"158 737 LINE",
+"205 737 LINE",
+"79 913 LINE",
+"21 873 LINE",
+"211 614 LINE"
+);
+}
+);
+width = 406;
+}
+);
+note = "\012    uniA8FA\012  ";
+unicode = A8FA;
+script = devanagari;
+category = Punctuation;
+subCategory = Other;
+userData = {
+com.schriftgestaltung.Glyphs.ColorIndex = 1;
+com.typemytype.robofont.layerData = {
+"Light Feb 26 16, 16:43" = {
+anchors = (
+);
+components = (
+);
+contours = (
+{
+points = (
+{
+segmentType = line;
+smooth = 0;
+x = 338;
+y = 1836;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 49;
+y = 1295;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -49;
+y = 1295;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -338;
+y = 1836;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -182;
+y = 1836;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -4;
+y = 1484;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 174;
+y = 1836;
+}
+);
+}
+);
+lib = {
+};
+name = uniA8FA;
+unicodes = (
+);
+width = 0;
+};
+};
+};
+}

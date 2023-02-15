@@ -1,0 +1,274 @@
+{
+glyphname = "anusvara-deva";
+production = uni0902;
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{0, 623}";
+},
+{
+name = _topRight;
+position = "{-37, 773}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+paths = (
+{
+closed = 1;
+nodes = (
+"-4 718 OFFCURVE",
+"14 737 OFFCURVE",
+"14 773 CURVE SMOOTH",
+"14 809 OFFCURVE",
+"-4 828 OFFCURVE",
+"-37 828 CURVE SMOOTH",
+"-71 828 OFFCURVE",
+"-88 809 OFFCURVE",
+"-88 773 CURVE SMOOTH",
+"-88 737 OFFCURVE",
+"-70 718 OFFCURVE",
+"-37 718 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{0, 622}";
+},
+{
+name = _topRight;
+position = "{-14, 771}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+paths = (
+{
+closed = 1;
+nodes = (
+"7 738 OFFCURVE",
+"18 750 OFFCURVE",
+"18 771 CURVE SMOOTH",
+"18 793 OFFCURVE",
+"7 805 OFFCURVE",
+"-14 805 CURVE SMOOTH",
+"-34 805 OFFCURVE",
+"-45 793 OFFCURVE",
+"-45 771 CURVE SMOOTH",
+"-45 750 OFFCURVE",
+"-34 738 OFFCURVE",
+"-14 738 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{0, 626}";
+},
+{
+name = _topRight;
+position = "{-63, 777}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+paths = (
+{
+closed = 1;
+nodes = (
+"-19 707 OFFCURVE",
+"5 732 OFFCURVE",
+"5 777 CURVE SMOOTH",
+"5 823 OFFCURVE",
+"-19 847 OFFCURVE",
+"-63 847 CURVE SMOOTH",
+"-107 847 OFFCURVE",
+"-131 823 OFFCURVE",
+"-131 777 CURVE SMOOTH",
+"-131 732 OFFCURVE",
+"-107 707 OFFCURVE",
+"-63 707 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{0, 627}";
+},
+{
+name = _topRight;
+position = "{-80, 779}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+paths = (
+{
+closed = 1;
+nodes = (
+"-28 697 OFFCURVE",
+"0 726 OFFCURVE",
+"0 779 CURVE SMOOTH",
+"0 832 OFFCURVE",
+"-28 862 OFFCURVE",
+"-80 862 CURVE SMOOTH",
+"-133 862 OFFCURVE",
+"-161 832 OFFCURVE",
+"-161 779 CURVE SMOOTH",
+"-161 726 OFFCURVE",
+"-133 697 OFFCURVE",
+"-80 697 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{0, 622}";
+},
+{
+name = _topRight;
+position = "{-15, 771}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+paths = (
+{
+closed = 1;
+nodes = (
+"2 738 OFFCURVE",
+"12 750 OFFCURVE",
+"12 771 CURVE SMOOTH",
+"12 792 OFFCURVE",
+"2 805 OFFCURVE",
+"-15 805 CURVE SMOOTH",
+"-31 805 OFFCURVE",
+"-41 793 OFFCURVE",
+"-41 771 CURVE SMOOTH",
+"-41 750 OFFCURVE",
+"-32 738 OFFCURVE",
+"-15 738 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{0, 623}";
+},
+{
+name = _topRight;
+position = "{-35, 773}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+paths = (
+{
+closed = 1;
+nodes = (
+"-5 718 OFFCURVE",
+"10 736 OFFCURVE",
+"10 773 CURVE SMOOTH",
+"10 810 OFFCURVE",
+"-4 828 OFFCURVE",
+"-35 828 CURVE SMOOTH",
+"-65 828 OFFCURVE",
+"-79 810 OFFCURVE",
+"-79 773 CURVE SMOOTH",
+"-79 736 OFFCURVE",
+"-65 718 OFFCURVE",
+"-35 718 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{0, 625}";
+},
+{
+name = _topRight;
+position = "{-54, 777}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+paths = (
+{
+closed = 1;
+nodes = (
+"-15 706 OFFCURVE",
+"5 730 OFFCURVE",
+"5 777 CURVE SMOOTH",
+"5 823 OFFCURVE",
+"-15 847 OFFCURVE",
+"-54 847 CURVE SMOOTH",
+"-92 847 OFFCURVE",
+"-112 823 OFFCURVE",
+"-112 777 CURVE SMOOTH",
+"-112 730 OFFCURVE",
+"-92 706 OFFCURVE",
+"-54 706 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{0, 627}";
+},
+{
+name = _topRight;
+position = "{-68, 779}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+paths = (
+{
+closed = 1;
+nodes = (
+"-24 697 OFFCURVE",
+"0 725 OFFCURVE",
+"0 779 CURVE SMOOTH",
+"0 833 OFFCURVE",
+"-24 862 OFFCURVE",
+"-68 862 CURVE SMOOTH",
+"-113 862 OFFCURVE",
+"-137 833 OFFCURVE",
+"-137 779 CURVE SMOOTH",
+"-137 726 OFFCURVE",
+"-113 697 OFFCURVE",
+"-68 697 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+}
+);
+unicode = 0902;
+script = devanagari;
+category = Mark;
+subCategory = Nonspacing;
+}

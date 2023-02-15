@@ -1,0 +1,357 @@
+{
+glyphname = "candraBelow-vedic.alt";
+production = uni1CD8.alt;
+layers = (
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-126, 0}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+paths = (
+{
+closed = 1;
+nodes = (
+"-30 -515 OFFCURVE",
+"42 -459 OFFCURVE",
+"58 -341 CURVE",
+"-12 -322 LINE",
+"-22 -414 OFFCURVE",
+"-69 -450 OFFCURVE",
+"-135 -450 CURVE SMOOTH",
+"-209 -450 OFFCURVE",
+"-256 -401 OFFCURVE",
+"-271 -322 CURVE",
+"-311 -333 LINE",
+"-290 -447 OFFCURVE",
+"-225 -515 OFFCURVE",
+"-122 -515 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-121, 0}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+paths = (
+{
+closed = 1;
+nodes = (
+"-18 -481 OFFCURVE",
+"42 -410 OFFCURVE",
+"57 -307 CURVE",
+"28 -302 LINE",
+"18 -396 OFFCURVE",
+"-37 -457 OFFCURVE",
+"-122 -457 CURVE SMOOTH",
+"-211 -457 OFFCURVE",
+"-261 -398 OFFCURVE",
+"-277 -302 CURVE",
+"-299 -307 LINE",
+"-280 -407 OFFCURVE",
+"-226 -481 OFFCURVE",
+"-116 -481 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-121, 0}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+paths = (
+{
+closed = 1;
+nodes = (
+"3 -557 OFFCURVE",
+"81 -484 OFFCURVE",
+"100 -365 CURVE",
+"-12 -336 LINE",
+"-23 -417 OFFCURVE",
+"-66 -467 OFFCURVE",
+"-140 -467 CURVE SMOOTH",
+"-215 -467 OFFCURVE",
+"-263 -416 OFFCURVE",
+"-276 -336 CURVE",
+"-342 -354 LINE",
+"-319 -479 OFFCURVE",
+"-238 -557 OFFCURVE",
+"-109 -557 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-120, 0}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+paths = (
+{
+closed = 1;
+nodes = (
+"14 -582 OFFCURVE",
+"98 -506 OFFCURVE",
+"119 -383 CURVE",
+"-23 -346 LINE",
+"-34 -420 OFFCURVE",
+"-73 -470 OFFCURVE",
+"-146 -470 CURVE SMOOTH",
+"-218 -470 OFFCURVE",
+"-266 -420 OFFCURVE",
+"-278 -346 CURVE",
+"-360 -368 LINE",
+"-335 -502 OFFCURVE",
+"-243 -582 OFFCURVE",
+"-104 -582 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-89, 0}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+paths = (
+{
+closed = 1;
+nodes = (
+"-1 -469 OFFCURVE",
+"48 -398 OFFCURVE",
+"55 -293 CURVE",
+"29 -290 LINE",
+"22 -383 OFFCURVE",
+"-16 -445 OFFCURVE",
+"-88 -445 CURVE SMOOTH",
+"-161 -445 OFFCURVE",
+"-199 -388 OFFCURVE",
+"-212 -290 CURVE",
+"-234 -294 LINE",
+"-220 -400 OFFCURVE",
+"-175 -469 OFFCURVE",
+"-83 -469 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-87, 0}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+paths = (
+{
+closed = 1;
+nodes = (
+"-1 -510 OFFCURVE",
+"49 -434 OFFCURVE",
+"59 -332 CURVE",
+"-11 -319 LINE",
+"-16 -395 OFFCURVE",
+"-41 -445 OFFCURVE",
+"-97 -445 CURVE SMOOTH",
+"-153 -445 OFFCURVE",
+"-185 -395 OFFCURVE",
+"-192 -319 CURVE",
+"-233 -327 LINE",
+"-223 -426 OFFCURVE",
+"-179 -510 OFFCURVE",
+"-84 -510 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-94, 0}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+paths = (
+{
+closed = 1;
+nodes = (
+"13 -548 OFFCURVE",
+"69 -468 OFFCURVE",
+"81 -353 CURVE",
+"-24 -330 LINE",
+"-31 -412 OFFCURVE",
+"-58 -456 OFFCURVE",
+"-110 -456 CURVE SMOOTH",
+"-165 -456 OFFCURVE",
+"-196 -409 OFFCURVE",
+"-204 -330 CURVE",
+"-269 -344 LINE",
+"-256 -461 OFFCURVE",
+"-200 -548 OFFCURVE",
+"-89 -548 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-93, 0}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+paths = (
+{
+closed = 1;
+nodes = (
+"27 -577 OFFCURVE",
+"85 -491 OFFCURVE",
+"99 -370 CURVE",
+"-33 -341 LINE",
+"-41 -423 OFFCURVE",
+"-65 -465 OFFCURVE",
+"-115 -465 CURVE SMOOTH",
+"-166 -465 OFFCURVE",
+"-196 -420 OFFCURVE",
+"-204 -341 CURVE",
+"-286 -359 LINE",
+"-272 -485 OFFCURVE",
+"-210 -577 OFFCURVE",
+"-87 -577 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+}
+);
+note = "\012    uni1CD8\012  ";
+script = vedic;
+category = Mark;
+subCategory = Nonspacing;
+userData = {
+com.schriftgestaltung.Glyphs.ColorIndex = 1;
+com.typemytype.robofont.layerData = {
+"Light Feb 24 16, 19:14" = {
+anchors = (
+);
+components = (
+);
+contours = (
+{
+points = (
+{
+segmentType = line;
+smooth = 0;
+x = 141;
+y = -153;
+},
+{
+smooth = 0;
+x = 84;
+y = -404;
+},
+{
+smooth = 0;
+x = -53;
+y = -528;
+},
+{
+segmentType = curve;
+smooth = 1;
+x = -282;
+y = -528;
+},
+{
+smooth = 0;
+x = -485;
+y = -528;
+},
+{
+smooth = 0;
+x = -631;
+y = -403;
+},
+{
+segmentType = curve;
+smooth = 0;
+x = -720;
+y = -153;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -575;
+y = -104;
+},
+{
+smooth = 0;
+x = -503;
+y = -301;
+},
+{
+smooth = 0;
+x = -418;
+y = -387;
+},
+{
+segmentType = curve;
+smooth = 1;
+x = -277;
+y = -387;
+},
+{
+smooth = 0;
+x = -140;
+y = -387;
+},
+{
+smooth = 0;
+x = -65;
+y = -312;
+},
+{
+segmentType = curve;
+smooth = 0;
+x = -14;
+y = -101;
+}
+);
+}
+);
+lib = {
+};
+name = uni1CD8;
+unicodes = (
+);
+width = 0;
+};
+};
+};
+}

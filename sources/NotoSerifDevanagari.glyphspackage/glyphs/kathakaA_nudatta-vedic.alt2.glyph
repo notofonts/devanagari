@@ -1,0 +1,241 @@
+{
+glyphname = "kathakaAnudatta-vedic.alt2";
+production = uni1CDC.alt2;
+layers = (
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-122, 0}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+paths = (
+{
+closed = 1;
+nodes = (
+"-84 -643 LINE",
+"-84 -460 LINE",
+"-150 -412 LINE",
+"-160 -412 LINE",
+"-160 -595 LINE",
+"-94 -643 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-113, 0}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+paths = (
+{
+closed = 1;
+nodes = (
+"-100 -590 LINE",
+"-100 -404 LINE",
+"-123 -388 LINE",
+"-127 -388 LINE",
+"-127 -574 LINE",
+"-105 -590 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-132, 0}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+paths = (
+{
+closed = 1;
+nodes = (
+"-70 -720 LINE",
+"-70 -532 LINE",
+"-182 -460 LINE",
+"-195 -460 LINE",
+"-195 -648 LINE",
+"-83 -720 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-140, 0}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+paths = (
+{
+closed = 1;
+nodes = (
+"-60 -756 LINE",
+"-60 -567 LINE",
+"-204 -476 LINE",
+"-220 -476 LINE",
+"-220 -665 LINE",
+"-76 -756 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-86, 0}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+paths = (
+{
+closed = 1;
+nodes = (
+"-72 -600 LINE",
+"-72 -413 LINE",
+"-96 -398 LINE",
+"-101 -398 LINE",
+"-101 -585 LINE",
+"-77 -600 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-98, 0}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+paths = (
+{
+closed = 1;
+nodes = (
+"-63 -638 LINE",
+"-63 -446 LINE",
+"-124 -412 LINE",
+"-134 -412 LINE",
+"-134 -604 LINE",
+"-73 -638 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-108, 0}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+paths = (
+{
+closed = 1;
+nodes = (
+"-54 -691 LINE",
+"-54 -499 LINE",
+"-151 -444 LINE",
+"-163 -444 LINE",
+"-163 -636 LINE",
+"-67 -691 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-114, 0}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+paths = (
+{
+closed = 1;
+nodes = (
+"-46 -734 LINE",
+"-46 -541 LINE",
+"-167 -472 LINE",
+"-182 -472 LINE",
+"-182 -665 LINE",
+"-60 -734 LINE"
+);
+}
+);
+width = 0;
+}
+);
+note = "\012    uni1CDC\012  ";
+script = vedic;
+category = Mark;
+subCategory = Nonspacing;
+userData = {
+com.schriftgestaltung.Glyphs.ColorIndex = 1;
+com.typemytype.robofont.layerData = {
+"Light Feb 25 16, 12:32" = {
+anchors = (
+);
+components = (
+);
+contours = (
+{
+points = (
+{
+segmentType = line;
+smooth = 0;
+x = -183;
+y = -493;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -348;
+y = -493;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -348;
+y = -104;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -183;
+y = -104;
+}
+);
+}
+);
+lib = {
+};
+name = uni1CDC;
+unicodes = (
+);
+width = 0;
+};
+};
+};
+}

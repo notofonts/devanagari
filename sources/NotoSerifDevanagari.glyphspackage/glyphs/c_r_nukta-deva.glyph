@@ -1,0 +1,163 @@
+{
+glyphname = "c_r_nukta-deva";
+production = uni091A093C094D0930094D;
+layers = (
+{
+anchors = (
+{
+name = nukta;
+position = "{321, -182}";
+}
+);
+components = (
+{
+name = "c_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 575, 62}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+width = 453;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{291, -161}";
+}
+);
+components = (
+{
+name = "c_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 547, 51}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+width = 426;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{352, -185}";
+}
+);
+components = (
+{
+name = "c_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 606, 64}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+width = 464;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{376, -192}";
+}
+);
+components = (
+{
+name = "c_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 629, 68}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+width = 460;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{232, -162}";
+}
+);
+components = (
+{
+name = "c_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 485, 59}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+width = 349;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{260, -182}";
+}
+);
+components = (
+{
+name = "c_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 514, 62}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+width = 368;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{297, -187}";
+}
+);
+components = (
+{
+name = "c_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 551, 66}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+width = 383;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{317, -192}";
+}
+);
+components = (
+{
+name = "c_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 571, 68}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+width = 386;
+}
+);
+leftKerningGroup = "DEV_c_ra-deva_L";
+rightKerningGroup = "DEV_c-deva_R";
+script = devanagari;
+category = Letter;
+subCategory = Other;
+}

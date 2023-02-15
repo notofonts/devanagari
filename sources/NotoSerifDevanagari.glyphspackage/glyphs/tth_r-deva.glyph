@@ -1,0 +1,397 @@
+{
+glyphname = "tth_r-deva";
+production = uni0920094D0930094D;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{324, 0}";
+},
+{
+name = bottom_right;
+position = "{273, 0}";
+},
+{
+name = candra;
+position = "{352, 623}";
+},
+{
+name = nukta;
+position = "{273, -84}";
+},
+{
+name = top;
+position = "{352, 623}";
+}
+);
+components = (
+{
+name = "ttha-deva";
+},
+{
+alignment = 1;
+name = "rakar_halant-deva";
+transform = "{1, 0, 0, 1, 324, 0}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+width = 535;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{304, -10}";
+},
+{
+name = bottom_right;
+position = "{263, -10}";
+},
+{
+name = candra;
+position = "{319, 622}";
+},
+{
+name = nukta;
+position = "{263, -80}";
+},
+{
+name = top;
+position = "{319, 622}";
+}
+);
+components = (
+{
+name = "ttha-deva";
+},
+{
+alignment = 1;
+name = "rakar_halant-deva";
+transform = "{1, 0, 0, 1, 304, -10}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+width = 514;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{335, -11}";
+},
+{
+name = bottom_right;
+position = "{276, -10}";
+},
+{
+name = candra;
+position = "{374, 626}";
+},
+{
+name = nukta;
+position = "{277, -97}";
+},
+{
+name = top;
+position = "{374, 626}";
+}
+);
+components = (
+{
+name = "ttha-deva";
+},
+{
+alignment = 1;
+name = "rakar_halant-deva";
+transform = "{1, 0, 0, 1, 335, -11}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+width = 539;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{352, -22}";
+},
+{
+name = bottom_right;
+position = "{281, -20}";
+},
+{
+name = candra;
+position = "{394, 627}";
+},
+{
+name = nukta;
+position = "{279, -106}";
+},
+{
+name = top;
+position = "{394, 627}";
+}
+);
+components = (
+{
+name = "ttha-deva";
+},
+{
+alignment = 1;
+name = "rakar_halant-deva";
+transform = "{1, 0, 0, 1, 352, -22}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+width = 549;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{231, -11}";
+},
+{
+name = bottom_right;
+position = "{205, 0}";
+},
+{
+name = candra;
+position = "{250, 622}";
+},
+{
+name = nukta;
+position = "{208, -78}";
+},
+{
+name = top;
+position = "{250, 622}";
+}
+);
+components = (
+{
+name = "ttha-deva";
+},
+{
+alignment = 1;
+name = "rakar_halant-deva";
+transform = "{1, 0, 0, 1, 231, -11}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+width = 402;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{238, -15}";
+},
+{
+name = bottom_right;
+position = "{207, 0}";
+},
+{
+name = candra;
+position = "{271, 623}";
+},
+{
+name = nukta;
+position = "{215, -84}";
+},
+{
+name = top;
+position = "{271, 623}";
+}
+);
+components = (
+{
+name = "ttha-deva";
+},
+{
+alignment = 1;
+name = "rakar_halant-deva";
+transform = "{1, 0, 0, 1, 238, -15}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+width = 404;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{259, -23}";
+},
+{
+name = bottom_right;
+position = "{222, -10}";
+},
+{
+name = candra;
+position = "{304, 625}";
+},
+{
+name = nukta;
+position = "{226, -97}";
+},
+{
+name = top;
+position = "{304, 625}";
+}
+);
+components = (
+{
+name = "ttha-deva";
+},
+{
+alignment = 1;
+name = "rakar_halant-deva";
+transform = "{1, 0, 0, 1, 259, -23}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+width = 434;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{266, -27}";
+},
+{
+name = bottom_right;
+position = "{225, -10}";
+},
+{
+name = candra;
+position = "{319, 627}";
+},
+{
+name = nukta;
+position = "{227, -101}";
+},
+{
+name = top;
+position = "{319, 627}";
+}
+);
+components = (
+{
+name = "ttha-deva";
+},
+{
+alignment = 1;
+name = "rakar_halant-deva";
+transform = "{1, 0, 0, 1, 266, -27}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+width = 440;
+}
+);
+leftKerningGroup = "DEV_ttha-deva_L";
+script = devanagari;
+category = Letter;
+subCategory = Other;
+userData = {
+com.schriftgestaltung.Glyphs.ColorIndex = 10;
+com.typemytype.robofont.layerData = {
+background = {
+anchors = (
+);
+components = (
+);
+contours = (
+{
+points = (
+{
+segmentType = line;
+smooth = 0;
+x = 507;
+y = -528;
+},
+{
+smooth = 0;
+x = 542;
+y = -517;
+},
+{
+smooth = 0;
+x = 586;
+y = -512;
+},
+{
+segmentType = curve;
+smooth = 1;
+x = 631;
+y = -512;
+},
+{
+smooth = 0;
+x = 725;
+y = -512;
+},
+{
+smooth = 0;
+x = 801;
+y = -544;
+},
+{
+segmentType = curve;
+smooth = 0;
+x = 1021;
+y = -800;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 1083;
+y = -768;
+},
+{
+smooth = 0;
+x = 824;
+y = -433;
+},
+{
+smooth = 0;
+x = 750;
+y = -369;
+},
+{
+segmentType = curve;
+smooth = 1;
+x = 581;
+y = -369;
+},
+{
+smooth = 0;
+x = 519;
+y = -369;
+},
+{
+smooth = 0;
+x = 460;
+y = -384;
+},
+{
+segmentType = curve;
+smooth = 0;
+x = 460;
+y = -384;
+}
+);
+}
+);
+lib = {
+};
+name = dvTTH_R;
+unicodes = (
+);
+width = 1081;
+};
+};
+};
+}

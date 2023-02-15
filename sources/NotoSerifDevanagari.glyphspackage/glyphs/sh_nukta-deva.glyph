@@ -1,0 +1,163 @@
+{
+glyphname = "sh_nukta-deva";
+production = uni0936093C094D;
+layers = (
+{
+anchors = (
+{
+name = nukta;
+position = "{143, -81}";
+}
+);
+components = (
+{
+name = "sh-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 397, 163}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+width = 394;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{138, -51}";
+}
+);
+components = (
+{
+name = "sh-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 394, 161}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+width = 382;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{142, -91}";
+}
+);
+components = (
+{
+name = "sh-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 396, 158}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+width = 439;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{144, -104}";
+}
+);
+components = (
+{
+name = "sh-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 397, 156}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+width = 465;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{109, -37}";
+}
+);
+components = (
+{
+name = "sh-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 362, 184}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+width = 286;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{108, -67}";
+}
+);
+components = (
+{
+name = "sh-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 362, 177}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+width = 315;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{113, -81}";
+}
+);
+components = (
+{
+name = "sh-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 367, 172}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+width = 348;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{112, -90}";
+}
+);
+components = (
+{
+name = "sh-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 366, 170}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+width = 364;
+}
+);
+leftKerningGroup = "DEV_sha-deva_L";
+rightKerningGroup = "DEV_sh-deva_R";
+script = devanagari;
+category = Letter;
+subCategory = Other;
+}

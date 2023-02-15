@@ -1,0 +1,129 @@
+{
+glyphname = hyphen;
+layers = (
+{
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+paths = (
+{
+closed = 1;
+nodes = (
+"285 209 LINE",
+"285 336 LINE",
+"25 336 LINE",
+"25 209 LINE"
+);
+}
+);
+width = 310;
+},
+{
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+paths = (
+{
+closed = 1;
+nodes = (
+"285 235 LINE",
+"285 310 LINE",
+"25 310 LINE",
+"25 235 LINE"
+);
+}
+);
+width = 310;
+},
+{
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+paths = (
+{
+closed = 1;
+nodes = (
+"285 220 LINE",
+"285 325 LINE",
+"25 325 LINE",
+"25 220 LINE"
+);
+}
+);
+width = 310;
+},
+{
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+paths = (
+{
+closed = 1;
+nodes = (
+"238 216 LINE",
+"238 329 LINE",
+"21 329 LINE",
+"21 216 LINE"
+);
+}
+);
+width = 259;
+},
+{
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+paths = (
+{
+closed = 1;
+nodes = (
+"216 259 LINE",
+"216 287 LINE",
+"20 287 LINE",
+"20 259 LINE"
+);
+}
+);
+width = 236;
+},
+{
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+paths = (
+{
+closed = 1;
+nodes = (
+"285 259 LINE",
+"285 287 LINE",
+"25 287 LINE",
+"25 259 LINE"
+);
+}
+);
+width = 310;
+},
+{
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+paths = (
+{
+closed = 1;
+nodes = (
+"226 236 LINE",
+"226 309 LINE",
+"20 309 LINE",
+"20 236 LINE"
+);
+}
+);
+width = 246;
+},
+{
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+paths = (
+{
+closed = 1;
+nodes = (
+"233 225 LINE",
+"233 320 LINE",
+"21 320 LINE",
+"21 225 LINE"
+);
+}
+);
+width = 253;
+}
+);
+unicode = 002D;
+script = "";
+category = Punctuation;
+subCategory = Dash;
+}

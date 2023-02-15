@@ -1,0 +1,142 @@
+{
+glyphname = "visargaSvarita-vedic";
+production = uni1CE2;
+layers = (
+{
+components = (
+{
+name = "yajurvedicSvarita-vedic";
+transform = "{1, 0, 0, 1, -123, -124}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+width = 0;
+},
+{
+components = (
+{
+name = "yajurvedicSvarita-vedic";
+transform = "{1, 0, 0, 1, -104, -135}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+width = 0;
+},
+{
+components = (
+{
+alignment = -1;
+name = "yajurvedicSvarita-vedic";
+transform = "{1, 0, 0, 1, -128, -112}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+width = 0;
+},
+{
+components = (
+{
+alignment = -1;
+name = "yajurvedicSvarita-vedic";
+transform = "{1, 0, 0, 1, -136, -94}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+width = 0;
+},
+{
+components = (
+{
+name = "yajurvedicSvarita-vedic";
+transform = "{1, 0, 0, 1, -85, -135}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+width = 0;
+},
+{
+components = (
+{
+name = "yajurvedicSvarita-vedic";
+transform = "{1, 0, 0, 1, -101, -124}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+width = 0;
+},
+{
+components = (
+{
+alignment = -1;
+name = "yajurvedicSvarita-vedic";
+transform = "{1, 0, 0, 1, -115, -112}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+width = 0;
+},
+{
+components = (
+{
+alignment = -1;
+name = "yajurvedicSvarita-vedic";
+transform = "{1, 0, 0, 1, -125, -100}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+width = 0;
+}
+);
+note = "\012    uni1CE2\012  ";
+unicode = 1CE2;
+script = vedic;
+category = Mark;
+subCategory = Nonspacing;
+userData = {
+com.schriftgestaltung.Glyphs.ColorIndex = 1;
+com.typemytype.robofont.layerData = {
+"Light Feb 25 16, 13:52" = {
+anchors = (
+);
+components = (
+);
+contours = (
+{
+points = (
+{
+segmentType = line;
+smooth = 0;
+x = -564;
+y = 492;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -564;
+y = 638;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 16;
+y = 638;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 16;
+y = 492;
+}
+);
+}
+);
+lib = {
+};
+name = uni1CE2;
+unicodes = (
+);
+width = 0;
+};
+};
+};
+}

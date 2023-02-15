@@ -1,0 +1,163 @@
+{
+glyphname = "q-deva";
+production = uni0958094D;
+layers = (
+{
+anchors = (
+{
+name = nukta;
+position = "{172, -107}";
+}
+);
+components = (
+{
+name = "k-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 426, 137}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+width = 546;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{162, -86}";
+}
+);
+components = (
+{
+name = "k-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 418, 126}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+width = 551;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{178, -117}";
+}
+);
+components = (
+{
+name = "k-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 432, 132}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+width = 573;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{185, -127}";
+}
+);
+components = (
+{
+name = "k-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 438, 133}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+width = 586;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{155, -77}";
+}
+);
+components = (
+{
+name = "k-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 408, 144}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+width = 436;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{146, -107}";
+}
+);
+components = (
+{
+name = "k-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 400, 137}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+width = 422;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{157, -118}";
+}
+);
+components = (
+{
+name = "k-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 411, 135}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+width = 454;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{161, -127}";
+}
+);
+components = (
+{
+name = "k-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 415, 133}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+width = 464;
+}
+);
+leftKerningGroup = "DEV_qa-deva_L";
+rightKerningGroup = "DEV_k-deva_R";
+script = devanagari;
+category = Letter;
+subCategory = Halfform;
+}

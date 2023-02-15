@@ -1,0 +1,163 @@
+{
+glyphname = "ny_r_nukta-deva";
+production = uni091E093C094D0930094D;
+layers = (
+{
+anchors = (
+{
+name = nukta;
+position = "{170, -38}";
+}
+);
+components = (
+{
+name = "ny_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 424, 206}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+width = 552;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{161, -12}";
+}
+);
+components = (
+{
+name = "ny_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 417, 200}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+width = 537;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{183, -97}";
+}
+);
+components = (
+{
+name = "ny_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 437, 152}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+width = 563;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{198, -131}";
+}
+);
+components = (
+{
+name = "ny_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 451, 129}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+width = 579;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{132, -17}";
+}
+);
+components = (
+{
+name = "ny_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 385, 204}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+width = 419;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{141, -46}";
+}
+);
+components = (
+{
+name = "ny_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 395, 198}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+width = 428;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{112, -62}";
+}
+);
+components = (
+{
+name = "ny_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 366, 191}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+width = 450;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{91, -77}";
+}
+);
+components = (
+{
+name = "ny_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 345, 183}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+width = 445;
+}
+);
+leftKerningGroup = "DEV_ny_ra_nukta-deva_L";
+rightKerningGroup = "DEV_ny-deva_R";
+script = devanagari;
+category = Letter;
+subCategory = Other;
+}

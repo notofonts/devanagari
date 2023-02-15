@@ -1,0 +1,212 @@
+{
+glyphname = "nukta_llVocalicMatra-deva";
+production = uni093C0963;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+position = "{22, -14}";
+},
+{
+name = nukta;
+position = "{-268, -389}";
+}
+);
+components = (
+{
+name = "llVocalicMatra-deva";
+transform = "{1, 0, 0, 1, 80, -14}";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, -14, -145}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{-28, -14}";
+},
+{
+name = nukta;
+position = "{-275, -357}";
+}
+);
+components = (
+{
+name = "llVocalicMatra-deva";
+transform = "{1, 0, 0, 1, 55, -14}";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, -19, -145}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{49, -14}";
+},
+{
+name = nukta;
+position = "{-287, -394}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "llVocalicMatra-deva";
+transform = "{1, 0, 0, 1, 90, -14}";
+},
+{
+alignment = -1;
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, -33, -145}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{68, -14}";
+},
+{
+name = nukta;
+position = "{-293, -405}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "llVocalicMatra-deva";
+transform = "{1, 0, 0, 1, 100, -14}";
+},
+{
+alignment = -1;
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, -40, -145}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{-40, -14}";
+},
+{
+name = nukta;
+position = "{-226, -365}";
+}
+);
+components = (
+{
+name = "llVocalicMatra-deva";
+transform = "{1, 0, 0, 1, 14, -14}";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 27, -144}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{24, -14}";
+},
+{
+name = nukta;
+position = "{-203, -389}";
+}
+);
+components = (
+{
+name = "llVocalicMatra-deva";
+transform = "{1, 0, 0, 1, 50, -14}";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 51, -145}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{49, -14}";
+},
+{
+name = nukta;
+position = "{-246, -398}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "llVocalicMatra-deva";
+transform = "{1, 0, 0, 1, 63, -14}";
+},
+{
+alignment = -1;
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 8, -145}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{53, -14}";
+},
+{
+name = nukta;
+position = "{-243, -405}";
+}
+);
+components = (
+{
+alignment = -1;
+name = "llVocalicMatra-deva";
+transform = "{1, 0, 0, 1, 65, -14}";
+},
+{
+alignment = -1;
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 11, -145}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+width = 0;
+}
+);
+script = devanagari;
+category = Mark;
+subCategory = Nonspacing;
+userData = {
+com.schriftgestaltung.Glyphs.ColorIndex = 4;
+};
+}

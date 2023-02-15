@@ -1,0 +1,194 @@
+{
+glyphname = "yajurvedicSvarita-vedic";
+production = uni1CD4;
+layers = (
+{
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+paths = (
+{
+closed = 1;
+nodes = (
+"164 363 LINE",
+"164 373 LINE",
+"124 431 LINE",
+"-164 431 LINE",
+"-164 421 LINE",
+"-124 363 LINE"
+);
+}
+);
+width = 0;
+},
+{
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+paths = (
+{
+closed = 1;
+nodes = (
+"149 406 LINE",
+"149 411 LINE",
+"136 431 LINE",
+"-149 431 LINE",
+"-149 426 LINE",
+"-136 406 LINE"
+);
+}
+);
+width = 0;
+},
+{
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+paths = (
+{
+closed = 1;
+nodes = (
+"186 335 LINE",
+"186 348 LINE",
+"133 435 LINE",
+"-186 435 LINE",
+"-186 421 LINE",
+"-133 335 LINE"
+);
+}
+);
+width = 0;
+},
+{
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+paths = (
+{
+closed = 1;
+nodes = (
+"200 311 LINE",
+"200 327 LINE",
+"134 436 LINE",
+"-200 436 LINE",
+"-200 420 LINE",
+"-134 311 LINE"
+);
+}
+);
+width = 0;
+},
+{
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+paths = (
+{
+closed = 1;
+nodes = (
+"114 406 LINE",
+"114 411 LINE",
+"104 431 LINE",
+"-114 431 LINE",
+"-114 426 LINE",
+"-105 406 LINE"
+);
+}
+);
+width = 0;
+},
+{
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+paths = (
+{
+closed = 1;
+nodes = (
+"135 363 LINE",
+"135 373 LINE",
+"106 431 LINE",
+"-135 431 LINE",
+"-135 422 LINE",
+"-106 363 LINE"
+);
+}
+);
+width = 0;
+},
+{
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+paths = (
+{
+closed = 1;
+nodes = (
+"152 340 LINE",
+"152 353 LINE",
+"109 433 LINE",
+"-152 433 LINE",
+"-152 421 LINE",
+"-109 340 LINE"
+);
+}
+);
+width = 0;
+},
+{
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+paths = (
+{
+closed = 1;
+nodes = (
+"162 323 LINE",
+"162 338 LINE",
+"109 435 LINE",
+"-162 435 LINE",
+"-162 420 LINE",
+"-109 323 LINE"
+);
+}
+);
+width = 0;
+}
+);
+note = "\012    uni1CD4\012  ";
+unicode = 1CD4;
+script = vedic;
+category = Mark;
+subCategory = Nonspacing;
+userData = {
+com.schriftgestaltung.Glyphs.ColorIndex = 1;
+com.typemytype.robofont.layerData = {
+"Light Feb 24 16, 17:57" = {
+anchors = (
+);
+components = (
+);
+contours = (
+{
+points = (
+{
+segmentType = line;
+smooth = 0;
+x = -554;
+y = 537;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -554;
+y = 683;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 28;
+y = 683;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 28;
+y = 537;
+}
+);
+}
+);
+lib = {
+};
+name = uni1CD4;
+unicodes = (
+);
+width = 0;
+};
+};
+};
+}

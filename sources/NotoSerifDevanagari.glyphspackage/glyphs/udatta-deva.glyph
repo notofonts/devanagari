@@ -1,0 +1,178 @@
+{
+glyphname = "udatta-deva";
+production = uni0951;
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{-83, 623}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+paths = (
+{
+closed = 1;
+nodes = (
+"-92 681 LINE",
+"-92 876 LINE",
+"-151 876 LINE",
+"-151 681 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{-88, 622}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+paths = (
+{
+closed = 1;
+nodes = (
+"-88 681 LINE",
+"-88 867 LINE",
+"-115 867 LINE",
+"-115 681 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{-72, 626}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+paths = (
+{
+closed = 1;
+nodes = (
+"-84 673 LINE",
+"-84 875 LINE",
+"-186 875 LINE",
+"-186 673 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{-64, 627}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+paths = (
+{
+closed = 1;
+nodes = (
+"-79 670 LINE",
+"-79 877 LINE",
+"-209 877 LINE",
+"-209 670 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{-72, 622}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+paths = (
+{
+closed = 1;
+nodes = (
+"-72 681 LINE",
+"-72 867 LINE",
+"-101 867 LINE",
+"-101 681 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{-64, 623}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+paths = (
+{
+closed = 1;
+nodes = (
+"-69 681 LINE",
+"-69 876 LINE",
+"-128 876 LINE",
+"-128 681 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{-55, 625}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+paths = (
+{
+closed = 1;
+nodes = (
+"-66 676 LINE",
+"-66 876 LINE",
+"-152 876 LINE",
+"-152 676 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{-45, 627}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+paths = (
+{
+closed = 1;
+nodes = (
+"-59 672 LINE",
+"-59 875 LINE",
+"-169 875 LINE",
+"-169 672 LINE"
+);
+}
+);
+width = 0;
+}
+);
+unicode = 0951;
+script = devanagari;
+category = Mark;
+subCategory = Nonspacing;
+}

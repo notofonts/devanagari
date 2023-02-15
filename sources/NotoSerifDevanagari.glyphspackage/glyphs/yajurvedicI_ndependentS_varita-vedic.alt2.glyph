@@ -1,0 +1,277 @@
+{
+glyphname = "yajurvedicIndependentSvarita-vedic.alt2";
+production = uni1CD6.alt2;
+layers = (
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-249, 0}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+paths = (
+{
+closed = 1;
+nodes = (
+"-67 -605 LINE",
+"-67 -595 LINE",
+"-110 -530 LINE",
+"-364 -530 LINE",
+"-364 -438 LINE",
+"-422 -397 LINE",
+"-432 -397 LINE",
+"-432 -537 LINE",
+"-389 -605 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-245, 0}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+paths = (
+{
+closed = 1;
+nodes = (
+"-84 -572 LINE",
+"-84 -567 LINE",
+"-99 -545 LINE",
+"-383 -545 LINE",
+"-383 -389 LINE",
+"-402 -374 LINE",
+"-407 -374 LINE",
+"-407 -548 LINE",
+"-394 -572 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-260, 0}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+paths = (
+{
+closed = 1;
+nodes = (
+"-49 -679 LINE",
+"-49 -665 LINE",
+"-105 -583 LINE",
+"-372 -583 LINE",
+"-372 -493 LINE",
+"-459 -445 LINE",
+"-472 -445 LINE",
+"-472 -591 LINE",
+"-415 -679 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-269, 0}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+paths = (
+{
+closed = 1;
+nodes = (
+"-38 -700 LINE",
+"-38 -683 LINE",
+"-107 -581 LINE",
+"-373 -581 LINE",
+"-373 -509 LINE",
+"-483 -452 LINE",
+"-500 -452 LINE",
+"-500 -591 LINE",
+"-428 -700 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-183, 0}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+paths = (
+{
+closed = 1;
+nodes = (
+"-59 -579 LINE",
+"-59 -574 LINE",
+"-74 -550 LINE",
+"-282 -550 LINE",
+"-282 -398 LINE",
+"-303 -381 LINE",
+"-308 -381 LINE",
+"-308 -553 LINE",
+"-293 -579 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-196, 0}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+paths = (
+{
+closed = 1;
+nodes = (
+"-44 -590 LINE",
+"-44 -580 LINE",
+"-81 -519 LINE",
+"-287 -519 LINE",
+"-287 -421 LINE",
+"-339 -383 LINE",
+"-348 -383 LINE",
+"-348 -526 LINE",
+"-311 -590 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-206, 0}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+paths = (
+{
+closed = 1;
+nodes = (
+"-32 -635 LINE",
+"-32 -622 LINE",
+"-82 -542 LINE",
+"-290 -542 LINE",
+"-290 -458 LINE",
+"-368 -411 LINE",
+"-380 -411 LINE",
+"-380 -551 LINE",
+"-328 -635 LINE"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom_right;
+position = "{-207, 0}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+paths = (
+{
+closed = 1;
+nodes = (
+"-20 -685 LINE",
+"-20 -670 LINE",
+"-80 -576 LINE",
+"-285 -576 LINE",
+"-285 -500 LINE",
+"-380 -447 LINE",
+"-395 -447 LINE",
+"-395 -586 LINE",
+"-333 -685 LINE"
+);
+}
+);
+width = 0;
+}
+);
+note = "\012    uni1CD6\012  ";
+script = vedic;
+category = Mark;
+subCategory = Nonspacing;
+userData = {
+com.schriftgestaltung.Glyphs.ColorIndex = 1;
+com.typemytype.robofont.layerData = {
+"Light Feb 24 16, 18:56" = {
+anchors = (
+);
+components = (
+);
+contours = (
+{
+points = (
+{
+segmentType = line;
+smooth = 0;
+x = -885;
+y = -475;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -885;
+y = -112;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -726;
+y = -112;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -726;
+y = -334;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -173;
+y = -334;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -173;
+y = -475;
+}
+);
+}
+);
+lib = {
+};
+name = uni1CD6;
+unicodes = (
+);
+width = 0;
+};
+};
+};
+}

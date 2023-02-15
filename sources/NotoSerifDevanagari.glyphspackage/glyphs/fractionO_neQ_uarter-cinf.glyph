@@ -1,0 +1,194 @@
+{
+glyphname = "fractionOneQuarter-cinf";
+production = uniA830;
+layers = (
+{
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+paths = (
+{
+closed = 1;
+nodes = (
+"143 -5 LINE",
+"143 577 LINE",
+"83 623 LINE",
+"73 623 LINE",
+"73 41 LINE",
+"134 -5 LINE"
+);
+}
+);
+width = 216;
+},
+{
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+paths = (
+{
+closed = 1;
+nodes = (
+"110 -5 LINE",
+"110 605 LINE",
+"88 622 LINE",
+"83 622 LINE",
+"83 12 LINE",
+"105 -5 LINE"
+);
+}
+);
+width = 193;
+},
+{
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+paths = (
+{
+closed = 1;
+nodes = (
+"184 -12 LINE",
+"184 559 LINE",
+"80 626 LINE",
+"66 626 LINE",
+"66 55 LINE",
+"170 -12 LINE"
+);
+}
+);
+width = 250;
+},
+{
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+paths = (
+{
+closed = 1;
+nodes = (
+"212 -15 LINE",
+"212 542 LINE",
+"78 627 LINE",
+"61 627 LINE",
+"61 70 LINE",
+"194 -15 LINE"
+);
+}
+);
+width = 273;
+},
+{
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+paths = (
+{
+closed = 1;
+nodes = (
+"88 -5 LINE",
+"88 607 LINE",
+"65 622 LINE",
+"61 622 LINE",
+"61 10 LINE",
+"83 -5 LINE"
+);
+}
+);
+width = 149;
+},
+{
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+paths = (
+{
+closed = 1;
+nodes = (
+"123 -5 LINE",
+"123 588 LINE",
+"66 623 LINE",
+"57 623 LINE",
+"57 29 LINE",
+"113 -5 LINE"
+);
+}
+);
+width = 180;
+},
+{
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+paths = (
+{
+closed = 1;
+nodes = (
+"154 -9 LINE",
+"154 571 LINE",
+"64 625 LINE",
+"51 625 LINE",
+"51 45 LINE",
+"142 -9 LINE"
+);
+}
+);
+width = 205;
+},
+{
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+paths = (
+{
+closed = 1;
+nodes = (
+"176 -12 LINE",
+"176 560 LINE",
+"61 627 LINE",
+"46 627 LINE",
+"46 55 LINE",
+"161 -12 LINE"
+);
+}
+);
+width = 222;
+}
+);
+note = "\012    uniA830\012  ";
+unicode = A830;
+script = cinf;
+category = Number;
+subCategory = Other;
+userData = {
+com.schriftgestaltung.Glyphs.ColorIndex = 1;
+com.typemytype.robofont.layerData = {
+"Light Feb 24 16, 12:56" = {
+anchors = (
+);
+components = (
+);
+contours = (
+{
+points = (
+{
+segmentType = line;
+smooth = 0;
+x = 160;
+y = 0;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 160;
+y = 1274;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 325;
+y = 1274;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 325;
+y = 0;
+}
+);
+}
+);
+lib = {
+};
+name = uniA830;
+unicodes = (
+);
+width = 485;
+};
+};
+};
+}

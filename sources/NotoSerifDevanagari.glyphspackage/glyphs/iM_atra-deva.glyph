@@ -1,0 +1,343 @@
+{
+glyphname = "iMatra-deva";
+production = uni093F;
+layers = (
+{
+anchors = (
+{
+name = "#topRight";
+position = "{628, 797}";
+}
+);
+components = (
+{
+alignment = 1;
+name = "iMatra-deva.03";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+width = 246;
+},
+{
+anchors = (
+{
+name = "#topRight";
+position = "{616, 797}";
+}
+);
+components = (
+{
+alignment = 1;
+name = "iMatra-deva.03";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+width = 230;
+},
+{
+anchors = (
+{
+name = "#topRight";
+position = "{685, 798}";
+}
+);
+components = (
+{
+alignment = 1;
+name = "iMatra-deva.03";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+width = 266;
+},
+{
+anchors = (
+{
+name = "#topRight";
+position = "{716, 799}";
+}
+);
+components = (
+{
+alignment = 1;
+name = "iMatra-deva.03";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+width = 280;
+},
+{
+anchors = (
+{
+name = "#topRight";
+position = "{467, 797}";
+}
+);
+components = (
+{
+alignment = 1;
+name = "iMatra-deva.03";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+width = 173;
+},
+{
+anchors = (
+{
+name = "#topRight";
+position = "{501, 798}";
+}
+);
+components = (
+{
+alignment = 1;
+name = "iMatra-deva.03";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+width = 197;
+},
+{
+anchors = (
+{
+name = "#topRight";
+position = "{560, 798}";
+}
+);
+components = (
+{
+alignment = 1;
+name = "iMatra-deva.03";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+width = 217;
+},
+{
+anchors = (
+{
+name = "#topRight";
+position = "{588, 798}";
+}
+);
+components = (
+{
+alignment = 1;
+name = "iMatra-deva.03";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+width = 227;
+}
+);
+leftKerningGroup = "DEV_aaMatra-deva_L";
+unicode = 093F;
+script = devanagari;
+category = Letter;
+subCategory = Matra;
+userData = {
+com.typemytype.robofont.layerData = {
+background = {
+anchors = (
+);
+components = (
+);
+contours = (
+{
+points = (
+{
+segmentType = line;
+smooth = 0;
+x = 1407;
+y = 1265;
+},
+{
+smooth = 0;
+x = 1175;
+y = 1493;
+},
+{
+smooth = 0;
+x = 782;
+y = 1832;
+},
+{
+segmentType = curve;
+smooth = 1;
+x = 413;
+y = 1832;
+},
+{
+smooth = 0;
+x = 217;
+y = 1832;
+},
+{
+smooth = 0;
+x = 90;
+y = 1717;
+},
+{
+segmentType = curve;
+smooth = 1;
+x = 90;
+y = 1535;
+},
+{
+smooth = 0;
+x = 90;
+y = 1427;
+},
+{
+smooth = 0;
+x = 148;
+y = 1309;
+},
+{
+segmentType = curve;
+smooth = 0;
+x = 232;
+y = 1244;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 305;
+y = 1234;
+},
+{
+smooth = 0;
+x = 258;
+y = 1299;
+},
+{
+smooth = 0;
+x = 233;
+y = 1370;
+},
+{
+segmentType = curve;
+smooth = 1;
+x = 233;
+y = 1444;
+},
+{
+smooth = 0;
+x = 233;
+y = 1581;
+},
+{
+smooth = 0;
+x = 316;
+y = 1686;
+},
+{
+segmentType = curve;
+smooth = 1;
+x = 507;
+y = 1686;
+},
+{
+smooth = 0;
+x = 762;
+y = 1686;
+},
+{
+smooth = 0;
+x = 1108;
+y = 1441;
+},
+{
+segmentType = curve;
+smooth = 0;
+x = 1347;
+y = 1205;
+}
+);
+},
+{
+points = (
+{
+segmentType = line;
+smooth = 0;
+x = 313;
+y = -10;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 313;
+y = 1196;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 170;
+y = 1196;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 170;
+y = 83;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 294;
+y = -10;
+}
+);
+},
+{
+points = (
+{
+segmentType = line;
+smooth = 0;
+x = 550;
+y = 1142;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 550;
+y = 1162;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 473;
+y = 1274;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -87;
+y = 1274;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -87;
+y = 1254;
+},
+{
+segmentType = line;
+smooth = 0;
+x = -10;
+y = 1142;
+}
+);
+}
+);
+lib = {
+};
+name = dvmI;
+unicodes = (
+);
+width = 483;
+};
+};
+};
+}

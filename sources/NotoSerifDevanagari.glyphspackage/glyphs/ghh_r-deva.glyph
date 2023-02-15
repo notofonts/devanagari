@@ -1,0 +1,164 @@
+{
+glyphname = "ghh_r-deva";
+production = uni095A094D0930094D;
+layers = (
+{
+anchors = (
+{
+name = nukta;
+position = "{146, -227}";
+}
+);
+components = (
+{
+name = "g_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 400, 17}";
+}
+);
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+width = 362;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{114, -188}";
+}
+);
+components = (
+{
+name = "g_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 370, 24}";
+}
+);
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+width = 335;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{160, -235}";
+}
+);
+components = (
+{
+name = "g_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 414, 14}";
+}
+);
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+width = 385;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{176, -249}";
+}
+);
+components = (
+{
+name = "g_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 429, 11}";
+}
+);
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+width = 405;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{92, -189}";
+}
+);
+components = (
+{
+name = "g_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 345, 32}";
+}
+);
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+width = 272;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{112, -227}";
+}
+);
+components = (
+{
+name = "g_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 366, 17}";
+}
+);
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+width = 295;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{132, -239}";
+}
+);
+components = (
+{
+name = "g_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 386, 14}";
+}
+);
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+width = 318;
+},
+{
+anchors = (
+{
+name = nukta;
+position = "{143, -249}";
+}
+);
+components = (
+{
+name = "g_r-deva";
+},
+{
+name = "nukta-deva";
+transform = "{1, 0, 0, 1, 397, 11}";
+}
+);
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+width = 329;
+}
+);
+leftKerningGroup = "DEV_g_ra-deva_L";
+leftMetricsKey = "ghh_ra-deva";
+rightKerningGroup = "DEV_g-deva_R";
+script = devanagari;
+category = Letter;
+subCategory = Other;
+}
