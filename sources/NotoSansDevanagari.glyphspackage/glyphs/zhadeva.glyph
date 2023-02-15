@@ -1,6 +1,7 @@
 {
 category = Letter;
 glyphname = zhadeva;
+kernLeft = jadeva;
 layers = (
 {
 layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
