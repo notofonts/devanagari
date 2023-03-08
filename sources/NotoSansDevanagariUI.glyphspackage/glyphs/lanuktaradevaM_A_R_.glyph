@@ -1,0 +1,191 @@
+{
+category = Letter;
+glyphname = lanuktaradevaMAR;
+layers = (
+{
+anchors = (
+{
+name = Anchor2;
+pos = (442,622);
+}
+);
+layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
+shapes = (
+{
+ref = ladevaMAR;
+},
+{
+pos = (605,0);
+ref = vattudeva;
+},
+{
+pos = (416,80);
+ref = nuktadeva;
+}
+);
+width = 621;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (470,622);
+}
+);
+layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
+shapes = (
+{
+ref = ladevaMAR;
+},
+{
+pos = (653,0);
+ref = vattudeva;
+},
+{
+pos = (416,68);
+ref = nuktadeva;
+}
+);
+width = 699;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (476,622);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = ladevaMAR;
+},
+{
+pos = (689,0);
+ref = vattudeva;
+},
+{
+pos = (416,58);
+ref = nuktadeva;
+}
+);
+width = 757;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (477,622);
+}
+);
+layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
+shapes = (
+{
+ref = ladevaMAR;
+},
+{
+pos = (738,0);
+ref = vattudeva;
+},
+{
+pos = (416,31);
+ref = nuktadeva;
+}
+);
+width = 804;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (330,622);
+}
+);
+layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
+shapes = (
+{
+ref = ladevaMAR;
+},
+{
+pos = (457,0);
+ref = vattudeva;
+},
+{
+pos = (307,80);
+ref = nuktadeva;
+}
+);
+width = 472;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (342,622);
+}
+);
+layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
+shapes = (
+{
+ref = ladevaMAR;
+},
+{
+pos = (485,0);
+ref = vattudeva;
+},
+{
+pos = (301,69);
+ref = nuktadeva;
+}
+);
+width = 525;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (351,622);
+}
+);
+layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
+shapes = (
+{
+ref = ladevaMAR;
+},
+{
+pos = (543,0);
+ref = vattudeva;
+},
+{
+pos = (308,49);
+ref = nuktadeva;
+}
+);
+width = 575;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (357,622);
+}
+);
+layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
+shapes = (
+{
+ref = ladevaMAR;
+},
+{
+pos = (579,0);
+ref = vattudeva;
+},
+{
+pos = (312,36);
+ref = nuktadeva;
+}
+);
+width = 607;
+}
+);
+subCategory = Other;
+}

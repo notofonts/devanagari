@@ -1,0 +1,200 @@
+{
+category = Letter;
+glyphname = uniA8F3;
+layers = (
+{
+anchors = (
+{
+name = Anchor2;
+pos = (235,622);
+},
+{
+name = Anchor8;
+pos = (241,0);
+}
+);
+layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
+shapes = (
+{
+pos = (364,-317);
+ref = candrabindudeva;
+},
+{
+pos = (275,313);
+ref = viramadeva;
+}
+);
+width = 481;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (232,622);
+},
+{
+name = Anchor8;
+pos = (266,0);
+}
+);
+layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
+shapes = (
+{
+pos = (410,-327);
+ref = candrabindudeva;
+},
+{
+pos = (317,316);
+ref = viramadeva;
+}
+);
+width = 533;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (229,622);
+},
+{
+name = Anchor8;
+pos = (288,0);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+pos = (469,-327);
+ref = candrabindudeva;
+},
+{
+pos = (376,306);
+ref = viramadeva;
+}
+);
+width = 578;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (227,622);
+},
+{
+name = Anchor8;
+pos = (296,0);
+}
+);
+layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
+shapes = (
+{
+pos = (484,-327);
+ref = candrabindudeva;
+},
+{
+pos = (414,300);
+ref = viramadeva;
+}
+);
+width = 593;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (174,622);
+},
+{
+name = Anchor8;
+pos = (184,0);
+}
+);
+layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
+shapes = (
+{
+pos = (281,-317);
+ref = candrabindudeva;
+},
+{
+pos = (217,313);
+ref = viramadeva;
+}
+);
+width = 367;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (169,622);
+},
+{
+name = Anchor8;
+pos = (201,0);
+}
+);
+layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
+shapes = (
+{
+pos = (319,-326);
+ref = candrabindudeva;
+},
+{
+pos = (253,316);
+ref = viramadeva;
+}
+);
+width = 402;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (159,622);
+},
+{
+name = Anchor8;
+pos = (218,0);
+}
+);
+layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
+shapes = (
+{
+pos = (355,-327);
+ref = candrabindudeva;
+},
+{
+pos = (305,307);
+ref = viramadeva;
+}
+);
+width = 435;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (153,622);
+},
+{
+name = Anchor8;
+pos = (228,0);
+}
+);
+layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
+shapes = (
+{
+pos = (377,-327);
+ref = candrabindudeva;
+},
+{
+pos = (337,301);
+ref = viramadeva;
+}
+);
+width = 456;
+}
+);
+subCategory = Other;
+unicode = 43251;
+}

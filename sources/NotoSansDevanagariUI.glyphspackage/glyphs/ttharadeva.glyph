@@ -1,0 +1,191 @@
+{
+category = Letter;
+glyphname = ttharadeva;
+layers = (
+{
+anchors = (
+{
+name = Anchor2;
+pos = (296,622);
+},
+{
+name = Anchor8;
+pos = (274,0);
+}
+);
+layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
+shapes = (
+{
+ref = tthadeva;
+},
+{
+pos = (495,0);
+ref = vattudeva;
+}
+);
+width = 549;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (290,622);
+},
+{
+name = Anchor8;
+pos = (292,0);
+}
+);
+layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
+shapes = (
+{
+ref = tthadeva;
+},
+{
+pos = (539,0);
+ref = vattudeva;
+}
+);
+width = 585;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (280,622);
+},
+{
+name = Anchor8;
+pos = (309,0);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = tthadeva;
+},
+{
+pos = (556,0);
+ref = vattudeva;
+}
+);
+width = 618;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (268,622);
+},
+{
+name = Anchor8;
+pos = (318,0);
+}
+);
+layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
+shapes = (
+{
+ref = tthadeva;
+},
+{
+pos = (572,0);
+ref = vattudeva;
+}
+);
+width = 631;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (220,622);
+},
+{
+name = Anchor8;
+pos = (207,0);
+}
+);
+layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
+shapes = (
+{
+ref = tthadeva;
+},
+{
+pos = (376,0);
+ref = vattudeva;
+}
+);
+width = 415;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (208,622);
+},
+{
+name = Anchor8;
+pos = (218,0);
+}
+);
+layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
+shapes = (
+{
+ref = tthadeva;
+},
+{
+pos = (398,0);
+ref = vattudeva;
+}
+);
+width = 436;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (201,622);
+},
+{
+name = Anchor8;
+pos = (234,0);
+}
+);
+layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
+shapes = (
+{
+ref = tthadeva;
+},
+{
+pos = (426,0);
+ref = vattudeva;
+}
+);
+width = 464;
+},
+{
+anchors = (
+{
+name = Anchor2;
+pos = (197,622);
+},
+{
+name = Anchor8;
+pos = (244,0);
+}
+);
+layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
+shapes = (
+{
+ref = tthadeva;
+},
+{
+pos = (444,0);
+ref = vattudeva;
+}
+);
+width = 482;
+}
+);
+subCategory = Other;
+}
