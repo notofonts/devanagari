@@ -1618,25 +1618,30 @@ languagesystem dev2 dflt;
 name = Languagesystems;
 },
 {
-code = "lookup SwapRaRephRVocalic {
-    lookupflag 0;
-    ;
-    # Original source: 28 
+code = "lookup SwapRaRephRRVocalic {
     sub radeva by rrvocalicdeva;
     sub rrvocalicvowelsigndeva by rephdeva;
     sub rephdeva by rrvocalicvowelsigndeva;
-} SwapRaRephRVocalic;
-";
-name = SwapRaRephRVocalic;
-},
-{
-code = "lookup SwapRaRephRRVocalic {
+} SwapRaRephRRVocalic;
+
+lookup SwapRaRephRVocalic {
     sub radeva by rvocalicdeva;
     sub rvocalicvowelsigndeva by rephdeva;
     sub rephdeva by rvocalicvowelsigndeva;
-} SwapRaRephRRVocalic;
-";
-name = SwapRaRephRRVocalic;
+} SwapRaRephRVocalic;
+
+lookup SwapRaRephLLVocalic {
+    sub radeva by llvocalicdeva;
+    sub llvocalicvowelsigndeva by rephdeva;
+    sub rephdeva by llvocalicvowelsigndeva;
+} SwapRaRephLLVocalic;
+
+lookup SwapRaRephLVocalic {
+    sub radeva by lvocalicdeva;
+    sub lvocalicvowelsigndeva by rephdeva;
+    sub rephdeva by lvocalicvowelsigndeva;
+} SwapRaRephLVocalic;";
+name = RephFormsOfVocalicVowels;
 },
 {
 code = "lookup IMatra11 {sub ivowelsign00deva by ivowelsign11deva; } IMatra11;
@@ -2990,10 +2995,15 @@ lookup DecomposeIntoVowelSigns {
 } DecomposeIntoVowelSigns;
 
 lookup ContextualGSUB27 {
-    sub radeva' rvocalicvowelsigndeva' lookup SwapRaRephRRVocalic rephdeva' lookup SwapRaRephRRVocalic;
-    sub radeva' rrvocalicvowelsigndeva' lookup SwapRaRephRVocalic rephdeva' lookup SwapRaRephRVocalic;
-    sub radeva' lookup SwapRaRephRRVocalic rvocalicvowelsigndeva' lookup SwapRaRephRRVocalic;
-    sub radeva' lookup SwapRaRephRVocalic rrvocalicvowelsigndeva' lookup SwapRaRephRVocalic;
+    sub radeva' rvocalicvowelsigndeva' lookup SwapRaRephRVocalic rephdeva' lookup SwapRaRephRVocalic;
+    sub radeva' rrvocalicvowelsigndeva' lookup SwapRaRephRRVocalic rephdeva' lookup SwapRaRephRRVocalic;
+    sub radeva' lookup SwapRaRephRVocalic rvocalicvowelsigndeva' lookup SwapRaRephRVocalic;
+    sub radeva' lookup SwapRaRephRRVocalic rrvocalicvowelsigndeva' lookup SwapRaRephRRVocalic;
+    sub radeva' lvocalicvowelsigndeva' lookup SwapRaRephLVocalic rephdeva' lookup SwapRaRephLVocalic;
+    sub radeva' llvocalicvowelsigndeva' lookup SwapRaRephLLVocalic rephdeva' lookup SwapRaRephLLVocalic;
+    sub radeva' lookup SwapRaRephLVocalic lvocalicvowelsigndeva' lookup SwapRaRephLVocalic;
+    sub radeva' lookup SwapRaRephLLVocalic llvocalicvowelsigndeva' lookup SwapRaRephLLVocalic;
+
 } ContextualGSUB27;
 
 lookup LigatureSubstitution30 {
@@ -9470,10 +9480,22 @@ widthClass = 2;
 );
 kerningLTR = {
 "B871EA9A-50AC-43A6-961C-B7EB8764AD7C" = {
-"@MMK_L_uuvowel" = {
-"@MMK_R_bracket" = 100;
-"@MMK_R_comma" = 100;
-slash.deva = 100;
+"@MMK_L_japrehalfdeva" = {
+"@MMK_R_jadeva" = -54;
+vadeva = -95;
+"@MMK_R_japrehalfdeva" = -54;
+badeva = -95;
+dadeva = -75;
+hadeva = -106;
+janyadeva = -86;
+jhadeva = -87;
+kadeva = -95;
+madeva = -95;
+nadeva = -85;
+sadeva = -95;
+tadeva = -96;
+ttadeva = -92;
+yadeva = -101;
 };
 baprehalfdeva = {
 badeva = -20;
@@ -9518,17 +9540,17 @@ yadeva = -20;
 };
 gaprehalfdeva = {
 ddadeva = -59;
+"@MMK_R_jadeva" = -7;
 };
 ghaprehalfdeva = {
 madeva = -20;
 yadeva = -30;
 };
 haprehalfdeva = {
-"@MMK_R_jadeva" = -29;
 hadeva = -45;
 sadeva = -20;
 yadeva = -14;
-zadeva = -20;
+"@MMK_R_jadeva" = -11;
 };
 januktaprehalfdeva = {
 badeva = -95;
@@ -9536,17 +9558,10 @@ ddadeva = -147;
 madeva = -95;
 nadeva = -85;
 yadeva = -101;
-zadeva = -54;
+"@MMK_R_jadeva" = -54;
 };
 janyaprehalfdeva = {
 yadeva = -17;
-};
-japrehalfdeva = {
-jhadeva = -87;
-sadeva = -95;
-tadeva = -96;
-ttadeva = -92;
-vadeva = -95;
 };
 jhaprehalfdevaNEP = {
 ladeva = -41;
@@ -9635,7 +9650,7 @@ ttaradeva = -48;
 tthadeva = -48;
 vadeva = -46;
 yadeva = -29;
-"@MMK_R_jadeva" = 0;
+"@MMK_R_jadeva" = -10;
 };
 llaprehalfdeva = {
 yadeva = -60;
@@ -9690,7 +9705,6 @@ ttadeva = -49;
 ttaradeva = -49;
 vadeva = -20;
 yadeva = -45;
-zadeva = -8;
 "@MMK_R_jadeva" = -8;
 };
 nnaprehalfdeva = {
@@ -9755,7 +9769,7 @@ shadeva = -14;
 sharaprehalfdeva = {
 vadeva = -40;
 };
-taprehalfdeva = {
+ssaprehalfdeva = {
 kadeva = -6;
 karadeva = -6;
 madeva = -21;
@@ -9773,21 +9787,25 @@ vadeva = -6;
 yadeva = -23;
 };
 taprehalfdeva = {
-kadeva = -6;
-karadeva = -6;
-madeva = -21;
-nnadeva = -45;
-padeva = -54;
-paradeva = -54;
-phadeva = -54;
-ssadeva = -54;
-tadeva = -6;
-ttadeva = -8;
-ttaradeva = -8;
-tthadeva = -8;
-ttharadeva = -8;
-vadeva = -6;
-yadeva = -23;
+badeva = -35;
+cadeva = -24;
+dadeva = -46;
+kadeva = -35;
+karadeva = -35;
+khadeva = -41;
+ladeva = -46;
+ladevaMAR = -46;
+madeva = -60;
+maprehalfdeva = -60;
+nadeva = -40;
+padeva = -60;
+paradeva = -60;
+phadeva = -60;
+sadeva = -41;
+saprehalfdeva = -41;
+vadeva = -35;
+yadeva = -34;
+"@MMK_R_jadeva" = -20;
 };
 taraprehalfdeva = {
 yadeva = -35;
@@ -9815,24 +9833,24 @@ vadeva = -20;
 yaprehalfdeva = {
 yadeva = -35;
 };
-"@MMK_L_japrehalfdeva" = {
-kadeva = -95;
-badeva = -95;
-janyadeva = -86;
-"@MMK_R_japrehalfdeva" = -54;
-dadeva = -75;
-nadeva = -85;
-hadeva = -106;
-madeva = -95;
-yadeva = -101;
-zadeva = -54;
-};
 };
 "6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = {
-"@MMK_L_uuvowel" = {
-"@MMK_R_bracket" = 100;
-"@MMK_R_comma" = 100;
-slash.deva = 100;
+"@MMK_L_japrehalfdeva" = {
+"@MMK_R_jadeva" = -100;
+vadeva = -74;
+"@MMK_R_japrehalfdeva" = -100;
+badeva = -74;
+dadeva = -63;
+hadeva = -88;
+janyadeva = -72;
+jhadeva = -79;
+kadeva = -74;
+madeva = -79;
+nadeva = -72;
+sadeva = -70;
+tadeva = -81;
+ttadeva = -86;
+yadeva = -73;
 };
 baprehalfdeva = {
 badeva = -49;
@@ -9851,7 +9869,6 @@ saprehalfdeva = -52;
 tadeva = -59;
 vadeva = -49;
 yadeva = -66;
-zadeva = -42;
 "@MMK_R_jadeva" = -42;
 };
 baraprehalfdeva = {
@@ -9875,6 +9892,7 @@ yadeva = -83;
 };
 gaprehalfdeva = {
 ddadeva = -44;
+"@MMK_R_jadeva" = -11;
 };
 ghaprehalfdeva = {
 yadeva = -19;
@@ -9893,8 +9911,7 @@ sadeva = -25;
 tadeva = -55;
 vadeva = -46;
 yadeva = -18;
-"@MMK_R_jadeva" = -80;
-zadeva = -64;
+"@MMK_R_jadeva" = -37;
 };
 januktaprehalfdeva = {
 badeva = -74;
@@ -9902,17 +9919,10 @@ ddadeva = -120;
 madeva = -79;
 nadeva = -72;
 yadeva = -73;
-zadeva = -100;
+"@MMK_R_jadeva" = -100;
 };
 janyaprehalfdeva = {
 yadeva = -40;
-};
-japrehalfdeva = {
-jhadeva = -79;
-sadeva = -70;
-tadeva = -81;
-ttadeva = -86;
-zadeva = -100;
 };
 jhaprehalfdevaNEP = {
 ladeva = -64;
@@ -9950,7 +9960,7 @@ ttadeva = -64;
 ttaradeva = -64;
 vadeva = -64;
 yadeva = -74;
-"@MMK_R_jadeva" = -57;
+"@MMK_R_jadeva" = -64;
 };
 kassaprehalfdeva = {
 madeva = -20;
@@ -10001,7 +10011,7 @@ ttaradeva = -54;
 tthadeva = -44;
 vadeva = -49;
 yadeva = -43;
-"@MMK_R_jadeva" = -46;
+"@MMK_R_jadeva" = -50;
 };
 llaprehalfdeva = {
 yadeva = -61;
@@ -10024,7 +10034,6 @@ sadeva = -25;
 tadeva = -25;
 vadeva = -25;
 yadeva = -25;
-zadeva = -20;
 "@MMK_R_jadeva" = -20;
 };
 naprehalfdeva = {
@@ -10064,7 +10073,6 @@ ttadeva = -44;
 ttaradeva = -44;
 vadeva = -44;
 yadeva = -63;
-zadeva = -60;
 "@MMK_R_jadeva" = -60;
 };
 nnaprehalfdeva = {
@@ -10117,7 +10125,7 @@ shadeva = -14;
 sharaprehalfdeva = {
 vadeva = -63;
 };
-taprehalfdeva = {
+ssaprehalfdeva = {
 kadeva = -24;
 karadeva = -24;
 madeva = -10;
@@ -10135,21 +10143,25 @@ vadeva = -24;
 yadeva = -21;
 };
 taprehalfdeva = {
-kadeva = -24;
-karadeva = -24;
-madeva = -10;
-nnadeva = -54;
-padeva = -54;
-paradeva = -54;
-phadeva = -54;
-ssadeva = -54;
-tadeva = -35;
-ttadeva = -26;
-ttaradeva = -26;
-tthadeva = -26;
-ttharadeva = -26;
-vadeva = -24;
-yadeva = -21;
+badeva = -60;
+cadeva = -20;
+dadeva = -58;
+kadeva = -59;
+karadeva = -59;
+khadeva = -59;
+ladeva = -68;
+ladevaMAR = -68;
+madeva = -48;
+maprehalfdeva = -48;
+nadeva = -10;
+padeva = -59;
+paradeva = -59;
+phadeva = -59;
+sadeva = -29;
+saprehalfdeva = -29;
+vadeva = -59;
+yadeva = -43;
+"@MMK_R_jadeva" = -59;
 };
 taraprehalfdeva = {
 yadeva = -60;
@@ -10169,27 +10181,26 @@ nadeva = -38;
 sadeva = -55;
 saprehalfdeva = -55;
 vadeva = -49;
-zadeva = -42;
 "@MMK_R_jadeva" = -42;
-};
-"@MMK_L_japrehalfdeva" = {
-kadeva = -74;
-badeva = -74;
-dadeva = -63;
-hadeva = -88;
-janyadeva = -72;
-"@MMK_R_japrehalfdeva" = -100;
-vadeva = -74;
-nadeva = -72;
-madeva = -79;
-yadeva = -73;
 };
 };
 UUID0 = {
-"@MMK_L_uuvowel" = {
-"@MMK_R_bracket" = 100;
-"@MMK_R_comma" = 100;
-slash.deva = 100;
+"@MMK_L_japrehalfdeva" = {
+vadeva = -55;
+"@MMK_R_japrehalfdeva" = -94;
+badeva = -55;
+dadeva = -49;
+hadeva = -75;
+janyadeva = -71;
+jhadeva = -78;
+kadeva = -55;
+madeva = -54;
+nadeva = -61;
+sadeva = -60;
+tadeva = -72;
+ttadeva = -61;
+yadeva = -59;
+"@MMK_R_jadeva" = -104;
 };
 baprehalfdeva = {
 badeva = -44;
@@ -10208,7 +10219,6 @@ saprehalfdeva = -34;
 tadeva = -54;
 vadeva = -44;
 yadeva = -26;
-zadeva = -28;
 "@MMK_R_jadeva" = -30;
 };
 baraprehalfdeva = {
@@ -10236,6 +10246,7 @@ yadeva = -68;
 };
 gaprehalfdeva = {
 ddadeva = -50;
+"@MMK_R_jadeva" = -10;
 };
 ghaprehalfdeva = {
 madeva = -62;
@@ -10256,7 +10267,6 @@ tadeva = -79;
 vadeva = -54;
 yadeva = -39;
 "@MMK_R_jadeva" = -51;
-zadeva = -91;
 };
 januktaprehalfdeva = {
 badeva = -55;
@@ -10264,17 +10274,10 @@ ddadeva = -101;
 madeva = -54;
 nadeva = -61;
 yadeva = -59;
-zadeva = -94;
+"@MMK_R_jadeva" = -94;
 };
 janyaprehalfdeva = {
 yadeva = -40;
-};
-japrehalfdeva = {
-jhadeva = -78;
-sadeva = -60;
-tadeva = -72;
-ttadeva = -61;
-zadeva = -104;
 };
 jhaprehalfdevaNEP = {
 ladeva = -64;
@@ -10312,7 +10315,7 @@ ttadeva = -64;
 ttaradeva = -64;
 vadeva = -64;
 yadeva = -67;
-"@MMK_R_jadeva" = -65;
+"@MMK_R_jadeva" = -74;
 };
 kassaprehalfdeva = {
 bhadeva = -44;
@@ -10391,8 +10394,7 @@ sadeva = -63;
 tadeva = -59;
 vadeva = -54;
 yadeva = -63;
-zadeva = -50;
-"@MMK_R_jadeva" = -70;
+"@MMK_R_jadeva" = -50;
 };
 naprehalfdeva = {
 badeva = -59;
@@ -10431,7 +10433,6 @@ ttadeva = -50;
 ttaradeva = -50;
 vadeva = -59;
 yadeva = -83;
-zadeva = -82;
 "@MMK_R_jadeva" = -82;
 };
 nnaprehalfdeva = {
@@ -10461,7 +10462,6 @@ tadeva = -74;
 ttadeva = -64;
 };
 phaprehalfdeva = {
-"@MMK_R_jadeva" = -60;
 fadeva = -59;
 ladeva = -64;
 ladevaMAR = -49;
@@ -10472,6 +10472,7 @@ tadeva = -74;
 ttadeva = -49;
 vadeva = -64;
 yadeva = -74;
+"@MMK_R_jadeva" = -74;
 };
 raprehalfdeva = {
 hadeva = -60;
@@ -10513,7 +10514,7 @@ shadeva = -22;
 sharaprehalfdeva = {
 vadeva = -52;
 };
-taprehalfdeva = {
+ssaprehalfdeva = {
 kadeva = -44;
 karadeva = -58;
 madeva = -34;
@@ -10531,21 +10532,25 @@ vadeva = -44;
 yadeva = -54;
 };
 taprehalfdeva = {
-kadeva = -44;
-karadeva = -58;
-madeva = -34;
-nnadeva = -68;
-padeva = -68;
-paradeva = -68;
-phadeva = -68;
-ssadeva = -68;
-tadeva = -50;
-ttadeva = -57;
-ttaradeva = -57;
-tthadeva = -58;
-ttharadeva = -57;
-vadeva = -44;
-yadeva = -54;
+badeva = -66;
+cadeva = -40;
+dadeva = -57;
+kadeva = -66;
+karadeva = -75;
+khadeva = -73;
+ladeva = -69;
+ladevaMAR = -69;
+madeva = -36;
+maprehalfdeva = -36;
+nadeva = -35;
+padeva = -59;
+paradeva = -59;
+phadeva = -59;
+sadeva = -43;
+saprehalfdeva = -53;
+vadeva = -66;
+yadeva = -55;
+"@MMK_R_jadeva" = -92;
 };
 taraprehalfdeva = {
 yadeva = -66;
@@ -10569,31 +10574,30 @@ nadeva = -33;
 sadeva = -34;
 saprehalfdeva = -34;
 vadeva = -44;
-zadeva = -29;
 "@MMK_R_jadeva" = -29;
 };
 yaprehalfdeva = {
 ddadeva = -32;
 yadeva = -24;
 };
-"@MMK_L_japrehalfdeva" = {
-kadeva = -55;
-badeva = -55;
-dadeva = -49;
-hadeva = -75;
-janyadeva = -71;
-"@MMK_R_japrehalfdeva" = -94;
-vadeva = -55;
-nadeva = -61;
-madeva = -54;
-yadeva = -59;
-};
 };
 "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = {
-"@MMK_L_uuvowel" = {
-"@MMK_R_bracket" = 100;
-"@MMK_R_comma" = 100;
-slash.deva = 100;
+"@MMK_L_japrehalfdeva" = {
+vadeva = -38;
+"@MMK_R_japrehalfdeva" = -100;
+badeva = -38;
+dadeva = -38;
+hadeva = -62;
+janyadeva = -67;
+jhadeva = -62;
+kadeva = -38;
+madeva = -43;
+nadeva = -51;
+sadeva = -47;
+tadeva = -47;
+ttadeva = -41;
+yadeva = -58;
+"@MMK_R_jadeva" = -100;
 };
 baprehalfdeva = {
 badeva = -44;
@@ -10612,7 +10616,6 @@ saprehalfdeva = -27;
 tadeva = -54;
 vadeva = -44;
 yadeva = -33;
-zadeva = -35;
 "@MMK_R_jadeva" = -35;
 };
 baraprehalfdeva = {
@@ -10639,6 +10642,7 @@ yadeva = -50;
 };
 gaprehalfdeva = {
 ddadeva = -29;
+"@MMK_R_jadeva" = -10;
 };
 ghaprehalfdeva = {
 madeva = -30;
@@ -10659,7 +10663,6 @@ tadeva = -62;
 vadeva = -50;
 yadeva = -39;
 "@MMK_R_jadeva" = -41;
-zadeva = -41;
 };
 januktaprehalfdeva = {
 badeva = -38;
@@ -10667,17 +10670,10 @@ ddadeva = -95;
 madeva = -43;
 nadeva = -51;
 yadeva = -58;
-zadeva = -100;
+"@MMK_R_jadeva" = -100;
 };
 janyaprehalfdeva = {
 yadeva = -38;
-};
-japrehalfdeva = {
-jhadeva = -62;
-sadeva = -47;
-tadeva = -47;
-ttadeva = -41;
-vadeva = -38;
 };
 jhaprehalfdevaNEP = {
 ladeva = -67;
@@ -10716,7 +10712,7 @@ ttadeva = -64;
 ttaradeva = -64;
 vadeva = -64;
 yadeva = -67;
-"@MMK_R_jadeva" = -79;
+"@MMK_R_jadeva" = -74;
 };
 kassaprehalfdeva = {
 bhadeva = -58;
@@ -10792,8 +10788,7 @@ sadeva = -63;
 tadeva = -59;
 vadeva = -54;
 yadeva = -63;
-zadeva = -70;
-"@MMK_R_jadeva" = -90;
+"@MMK_R_jadeva" = -70;
 };
 naprehalfdeva = {
 badeva = -44;
@@ -10832,7 +10827,6 @@ ttadeva = -42;
 ttaradeva = -42;
 vadeva = -44;
 yadeva = -77;
-zadeva = -84;
 "@MMK_R_jadeva" = -84;
 };
 nnaprehalfdeva = {
@@ -10913,7 +10907,7 @@ shadeva = -21;
 sharaprehalfdeva = {
 vadeva = -46;
 };
-taprehalfdeva = {
+ssaprehalfdeva = {
 kadeva = -51;
 karadeva = -71;
 madeva = -56;
@@ -10931,21 +10925,25 @@ vadeva = -49;
 yadeva = -65;
 };
 taprehalfdeva = {
-kadeva = -51;
-karadeva = -71;
-madeva = -56;
-nnadeva = -65;
-padeva = -68;
-paradeva = -50;
-phadeva = -68;
-ssadeva = -68;
-tadeva = -63;
-ttadeva = -60;
-ttaradeva = -60;
-tthadeva = -60;
-ttharadeva = -60;
-vadeva = -49;
-yadeva = -65;
+badeva = -60;
+cadeva = -30;
+dadeva = -58;
+kadeva = -60;
+karadeva = -60;
+khadeva = -73;
+ladeva = -54;
+ladevaMAR = -54;
+madeva = -38;
+maprehalfdeva = -38;
+nadeva = -45;
+padeva = -62;
+paradeva = -62;
+phadeva = -62;
+sadeva = -73;
+saprehalfdeva = -73;
+vadeva = -59;
+yadeva = -60;
+"@MMK_R_jadeva" = -100;
 };
 taraprehalfdeva = {
 yadeva = -98;
@@ -10969,31 +10967,30 @@ nadeva = -29;
 sadeva = -27;
 saprehalfdeva = -27;
 vadeva = -45;
-zadeva = -34;
 "@MMK_R_jadeva" = -34;
 };
 yaprehalfdeva = {
 ddadeva = -70;
 yadeva = -24;
 };
-"@MMK_L_japrehalfdeva" = {
-kadeva = -38;
-badeva = -38;
-dadeva = -38;
-hadeva = -62;
-janyadeva = -67;
-"@MMK_R_japrehalfdeva" = -100;
-nadeva = -51;
-madeva = -43;
-yadeva = -58;
-zadeva = -100;
-};
 };
 "5CC745D4-D12D-435B-A472-7D28876E43BC" = {
-"@MMK_L_uuvowel" = {
-"@MMK_R_bracket" = 100;
-"@MMK_R_comma" = 100;
-slash.deva = 100;
+"@MMK_L_japrehalfdeva" = {
+vadeva = -66;
+"@MMK_R_japrehalfdeva" = -45;
+badeva = -66;
+dadeva = -53;
+hadeva = -75;
+janyadeva = -60;
+jhadeva = -62;
+kadeva = -66;
+madeva = -67;
+nadeva = -60;
+sadeva = -65;
+tadeva = -67;
+ttadeva = -66;
+yadeva = -70;
+"@MMK_R_jadeva" = -45;
 };
 baprehalfdeva = {
 badeva = -18;
@@ -11012,7 +11009,6 @@ saprehalfdeva = -13;
 tadeva = -14;
 vadeva = -18;
 yadeva = -35;
-zadeva = -6;
 "@MMK_R_jadeva" = -6;
 };
 baraprehalfdeva = {
@@ -11044,6 +11040,7 @@ yadeva = -12;
 };
 gaprehalfdeva = {
 ddadeva = -41;
+"@MMK_R_jadeva" = -6;
 };
 ghaprehalfdeva = {
 madeva = -12;
@@ -11063,7 +11060,7 @@ sadeva = -15;
 tadeva = -7;
 vadeva = -6;
 yadeva = -11;
-"@MMK_R_jadeva" = -17;
+"@MMK_R_jadeva" = -12;
 };
 januktaprehalfdeva = {
 badeva = -66;
@@ -11071,17 +11068,10 @@ ddadeva = -103;
 madeva = -67;
 nadeva = -60;
 yadeva = -70;
-zadeva = -45;
+"@MMK_R_jadeva" = -45;
 };
 janyaprehalfdeva = {
 yadeva = -15;
-};
-japrehalfdeva = {
-jhadeva = -62;
-sadeva = -65;
-tadeva = -67;
-ttadeva = -66;
-vadeva = -66;
 };
 jhaprehalfdevaNEP = {
 ladeva = -33;
@@ -11196,7 +11186,6 @@ sadeva = -15;
 tadeva = -9;
 vadeva = -4;
 yadeva = -9;
-zadeva = -3;
 "@MMK_R_jadeva" = -3;
 };
 naprehalfdeva = {
@@ -11236,7 +11225,6 @@ ttadeva = -35;
 ttaradeva = -35;
 vadeva = -17;
 yadeva = -35;
-zadeva = -12;
 "@MMK_R_jadeva" = -12;
 };
 nnaprehalfdeva = {
@@ -11303,7 +11291,7 @@ shadeva = -10;
 sharaprehalfdeva = {
 vadeva = -32;
 };
-taprehalfdeva = {
+ssaprehalfdeva = {
 kadeva = -7;
 karadeva = -7;
 madeva = -14;
@@ -11321,21 +11309,25 @@ vadeva = -7;
 yadeva = -17;
 };
 taprehalfdeva = {
-kadeva = -7;
-karadeva = -7;
-madeva = -14;
-nnadeva = -34;
-padeva = -39;
-paradeva = -39;
-phadeva = -39;
-ssadeva = -39;
-tadeva = -8;
-ttadeva = -8;
-ttaradeva = -8;
-tthadeva = -8;
-ttharadeva = -8;
-vadeva = -7;
-yadeva = -17;
+badeva = -29;
+cadeva = -17;
+dadeva = -35;
+kadeva = -28;
+karadeva = -28;
+khadeva = -28;
+ladeva = -36;
+ladevaMAR = -36;
+madeva = -42;
+maprehalfdeva = -42;
+nadeva = -25;
+padeva = -43;
+paradeva = -43;
+phadeva = -43;
+sadeva = -28;
+saprehalfdeva = -28;
+vadeva = -28;
+yadeva = -26;
+"@MMK_R_jadeva" = -14;
 };
 taraprehalfdeva = {
 yadeva = -29;
@@ -11359,30 +11351,29 @@ nadeva = -11;
 sadeva = -16;
 saprehalfdeva = -16;
 vadeva = -18;
-zadeva = -6;
 "@MMK_R_jadeva" = -6;
 };
 yaprehalfdeva = {
 yadeva = -21;
 };
-"@MMK_L_japrehalfdeva" = {
-kadeva = -66;
-badeva = -66;
-dadeva = -53;
-hadeva = -75;
-janyadeva = -60;
-"@MMK_R_japrehalfdeva" = -45;
-nadeva = -60;
-madeva = -67;
-yadeva = -70;
-zadeva = -45;
-};
 };
 "AA2163BC-B14D-4D16-A884-99BB623F1DBF" = {
-"@MMK_L_uuvowel" = {
-"@MMK_R_bracket" = 100;
-"@MMK_R_comma" = 100;
-slash.deva = 100;
+"@MMK_L_japrehalfdeva" = {
+vadeva = -46;
+"@MMK_R_japrehalfdeva" = -69;
+badeva = -46;
+dadeva = -41;
+hadeva = -59;
+janyadeva = -51;
+jhadeva = -56;
+kadeva = -46;
+madeva = -49;
+nadeva = -48;
+sadeva = -46;
+tadeva = -55;
+ttadeva = -54;
+yadeva = -48;
+"@MMK_R_jadeva" = -73;
 };
 baprehalfdeva = {
 badeva = -34;
@@ -11401,7 +11392,6 @@ saprehalfdeva = -31;
 tadeva = -41;
 vadeva = -34;
 yadeva = -34;
-zadeva = -26;
 "@MMK_R_jadeva" = -26;
 };
 baraprehalfdeva = {
@@ -11429,7 +11419,7 @@ yadeva = -54;
 };
 gaprehalfdeva = {
 ddadeva = -34;
-jadeva = -8;
+"@MMK_R_jadeva" = -8;
 };
 ghaprehalfdeva = {
 madeva = -20;
@@ -11450,7 +11440,7 @@ sadeva = -23;
 tadeva = -47;
 vadeva = -36;
 yadeva = -20;
-"@MMK_R_jadeva" = -44;
+"@MMK_R_jadeva" = -31;
 };
 januktaprehalfdeva = {
 badeva = -46;
@@ -11458,17 +11448,10 @@ ddadeva = -79;
 madeva = -49;
 nadeva = -48;
 yadeva = -48;
-zadeva = -69;
+"@MMK_R_jadeva" = -69;
 };
 janyaprehalfdeva = {
 yadeva = -29;
-};
-japrehalfdeva = {
-jhadeva = -56;
-sadeva = -46;
-tadeva = -55;
-ttadeva = -54;
-vadeva = -46;
 };
 jhaprehalfdevaNEP = {
 ladeva = -46;
@@ -11561,7 +11544,7 @@ ttaradeva = -40;
 tthadeva = -36;
 vadeva = -41;
 yadeva = -32;
-"@MMK_R_jadeva" = -47;
+"@MMK_R_jadeva" = -50;
 };
 llaprehalfdeva = {
 yadeva = -48;
@@ -11585,7 +11568,6 @@ sadeva = -30;
 tadeva = -29;
 vadeva = -27;
 yadeva = -30;
-zadeva = -24;
 "@MMK_R_jadeva" = -24;
 };
 naprehalfdeva = {
@@ -11625,7 +11607,6 @@ ttadeva = -34;
 ttaradeva = -34;
 vadeva = -36;
 yadeva = -51;
-zadeva = -50;
 "@MMK_R_jadeva" = -50;
 };
 nnaprehalfdeva = {
@@ -11710,7 +11691,7 @@ shadeva = -13;
 sharaprehalfdeva = {
 vadeva = -41;
 };
-taprehalfdeva = {
+ssaprehalfdeva = {
 kadeva = -24;
 karadeva = -28;
 madeva = -15;
@@ -11728,21 +11709,25 @@ vadeva = -20;
 yadeva = -20;
 };
 taprehalfdeva = {
-kadeva = -24;
-karadeva = -28;
-madeva = -15;
-nnadeva = -39;
-padeva = -39;
-paradeva = -39;
-phadeva = -39;
-ssadeva = -39;
-tadeva = -30;
-ttadeva = -29;
-ttaradeva = -29;
-tthadeva = -29;
-ttharadeva = -29;
-vadeva = -20;
-yadeva = -20;
+badeva = -45;
+cadeva = -21;
+dadeva = -41;
+kadeva = -44;
+karadeva = -47;
+khadeva = -20;
+ladeva = -49;
+ladevaMAR = -49;
+madeva = -31;
+maprehalfdeva = -31;
+nadeva = -15;
+padeva = -42;
+paradeva = -42;
+phadeva = -42;
+sadeva = -20;
+saprehalfdeva = -20;
+vadeva = -44;
+yadeva = -34;
+"@MMK_R_jadeva" = -53;
 };
 taraprehalfdeva = {
 yadeva = -45;
@@ -11766,31 +11751,30 @@ nadeva = -26;
 sadeva = -32;
 saprehalfdeva = -32;
 vadeva = -34;
-zadeva = -26;
 "@MMK_R_jadeva" = -26;
 };
 yaprehalfdeva = {
 ddadeva = -10;
 yadeva = -8;
 };
-"@MMK_L_japrehalfdeva" = {
-kadeva = -46;
-badeva = -46;
-dadeva = -41;
-hadeva = -59;
-janyadeva = -51;
-"@MMK_R_japrehalfdeva" = -69;
-nadeva = -48;
-madeva = -49;
-yadeva = -48;
-zadeva = -73;
-};
 };
 "9A082071-1CDF-4F9E-B116-82A287035C9D" = {
-"@MMK_L_uuvowel" = {
-"@MMK_R_bracket" = 100;
-"@MMK_R_comma" = 100;
-slash.deva = 100;
+"@MMK_L_japrehalfdeva" = {
+vadeva = -36;
+"@MMK_R_japrehalfdeva" = -70;
+badeva = -36;
+dadeva = -34;
+hadeva = -52;
+janyadeva = -52;
+jhadeva = -51;
+kadeva = -36;
+madeva = -39;
+nadeva = -43;
+sadeva = -40;
+tadeva = -43;
+ttadeva = -40;
+yadeva = -46;
+"@MMK_R_jadeva" = -72;
 };
 baprehalfdeva = {
 badeva = -34;
@@ -11809,7 +11793,6 @@ saprehalfdeva = -25;
 tadeva = -42;
 vadeva = -34;
 yadeva = -29;
-zadeva = -27;
 "@MMK_R_jadeva" = -27;
 };
 baraprehalfdeva = {
@@ -11836,7 +11819,7 @@ yadeva = -39;
 };
 gaprehalfdeva = {
 ddadeva = -27;
-jadeva = -8;
+"@MMK_R_jadeva" = -8;
 };
 ghaprehalfdeva = {
 madeva = -22;
@@ -11865,17 +11848,10 @@ ddadeva = -76;
 madeva = -39;
 nadeva = -43;
 yadeva = -46;
-zadeva = -70;
+"@MMK_R_jadeva" = -70;
 };
 janyaprehalfdeva = {
 yadeva = -29;
-};
-japrehalfdeva = {
-hadeva = -52;
-jhadeva = -51;
-sadeva = -40;
-tadeva = -43;
-ttadeva = -40;
 };
 jhaprehalfdevaNEP = {
 ladeva = -50;
@@ -11889,7 +11865,6 @@ yadeva = -52;
 "@MMK_R_jadeva" = -54;
 };
 kaprehalfdeva = {
-"@MMK_R_jadeva" = -44;
 cadeva = -31;
 dadeva = -49;
 ddadeva = -62;
@@ -11915,6 +11890,7 @@ ttadeva = -48;
 ttaradeva = -48;
 vadeva = -48;
 yadeva = -52;
+"@MMK_R_jadeva" = -54;
 };
 kassaprehalfdeva = {
 bhadeva = -39;
@@ -11968,7 +11944,7 @@ ttaradeva = -44;
 tthadeva = -42;
 vadeva = -51;
 yadeva = -33;
-"@MMK_R_jadeva" = -95;
+"@MMK_R_jadeva" = -76;
 };
 llaprehalfdeva = {
 yadeva = -55;
@@ -11992,7 +11968,6 @@ sadeva = -42;
 tadeva = -39;
 vadeva = -36;
 yadeva = -42;
-zadeva = -42;
 "@MMK_R_jadeva" = -42;
 };
 naprehalfdeva = {
@@ -12032,7 +12007,6 @@ ttadeva = -33;
 ttaradeva = -33;
 vadeva = -35;
 yadeva = -57;
-zadeva = -59;
 "@MMK_R_jadeva" = -59;
 };
 nnaprehalfdeva = {
@@ -12125,7 +12099,7 @@ shadeva = -15;
 sharaprehalfdeva = {
 vadeva = -38;
 };
-taprehalfdeva = {
+ssaprehalfdeva = {
 kadeva = -34;
 karadeva = -45;
 madeva = -32;
@@ -12143,21 +12117,26 @@ vadeva = -31;
 yadeva = -38;
 };
 taprehalfdeva = {
-kadeva = -34;
-karadeva = -45;
-madeva = -32;
-nnadeva = -46;
-padeva = -48;
-paradeva = -39;
-phadeva = -48;
-ssadeva = -48;
-tadeva = -42;
-ttadeva = -39;
-ttaradeva = -39;
-tthadeva = -39;
-ttharadeva = -39;
-vadeva = -31;
-yadeva = -38;
+badeva = -46;
+cadeva = -22;
+dadeva = -43;
+kadeva = -45;
+karadeva = -41;
+khadeva = -43;
+ladeva = -45;
+ladevaMAR = -45;
+madeva = -30;
+maprehalfdeva = -30;
+nadeva = -27;
+padeva = -46;
+paradeva = -46;
+phadeva = -46;
+sadeva = -43;
+saprehalfdeva = -43;
+vadeva = -45;
+yadeva = -41;
+zadeva = -20;
+"@MMK_R_jadeva" = -68;
 };
 taraprehalfdeva = {
 yadeva = -64;
@@ -12181,32 +12160,14 @@ nadeva = -24;
 sadeva = -25;
 saprehalfdeva = -25;
 vadeva = -35;
-zadeva = -26;
 "@MMK_R_jadeva" = -26;
 };
 yaprehalfdeva = {
 ddadeva = -37;
 yadeva = -15;
 };
-"@MMK_L_japrehalfdeva" = {
-kadeva = -36;
-badeva = -36;
-dadeva = -34;
-janyadeva = -52;
-"@MMK_R_japrehalfdeva" = -70;
-nadeva = -43;
-madeva = -39;
-yadeva = -46;
-zadeva = -72;
-vadeva = -36;
-};
 };
 "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = {
-"@MMK_L_uuvowel" = {
-"@MMK_R_bracket" = 100;
-"@MMK_R_comma" = 100;
-slash.deva = 100;
-};
 baprehalfdeva = {
 badeva = -34;
 dadeva = -34;
@@ -12224,7 +12185,6 @@ saprehalfdeva = -21;
 tadeva = -42;
 vadeva = -34;
 yadeva = -26;
-zadeva = -27;
 "@MMK_R_jadeva" = -27;
 };
 baraprehalfdeva = {
@@ -12251,7 +12211,7 @@ yadeva = -29;
 };
 gaprehalfdeva = {
 ddadeva = -22;
-jadeva = -8;
+"@MMK_R_jadeva" = -8;
 };
 ghaprehalfdeva = {
 madeva = -23;
@@ -12279,7 +12239,7 @@ ddadeva = -74;
 madeva = -33;
 nadeva = -40;
 yadeva = -45;
-zadeva = -71;
+"@MMK_R_jadeva" = -71;
 };
 janyaprehalfdeva = {
 yadeva = -29;
@@ -12374,7 +12334,7 @@ ttaradeva = -46;
 tthadeva = -46;
 vadeva = -57;
 yadeva = -34;
-"@MMK_R_jadeva" = -126;
+"@MMK_R_jadeva" = -93;
 };
 llaprehalfdeva = {
 yadeva = -60;
@@ -12397,8 +12357,7 @@ sadeva = -49;
 tadeva = -46;
 vadeva = -42;
 yadeva = -49;
-zadeva = -54;
-"@MMK_R_jadeva" = -64;
+"@MMK_R_jadeva" = -54;
 };
 naprehalfdeva = {
 badeva = -34;
@@ -12437,7 +12396,6 @@ ttadeva = -33;
 ttaradeva = -33;
 vadeva = -34;
 yadeva = -60;
-zadeva = -65;
 "@MMK_R_jadeva" = -65;
 };
 nnaprehalfdeva = {
@@ -12518,7 +12476,7 @@ shadeva = -16;
 sharaprehalfdeva = {
 vadeva = -36;
 };
-taprehalfdeva = {
+ssaprehalfdeva = {
 kadeva = -40;
 karadeva = -55;
 madeva = -43;
@@ -12536,21 +12494,25 @@ vadeva = -38;
 yadeva = -50;
 };
 taprehalfdeva = {
-kadeva = -40;
-karadeva = -55;
-madeva = -43;
-nnadeva = -50;
-padeva = -53;
-paradeva = -39;
-phadeva = -53;
-ssadeva = -53;
-tadeva = -49;
-ttadeva = -46;
-ttaradeva = -46;
-tthadeva = -46;
-ttharadeva = -46;
-vadeva = -38;
-yadeva = -50;
+badeva = -46;
+cadeva = -23;
+dadeva = -45;
+kadeva = -46;
+karadeva = -37;
+khadeva = -57;
+ladeva = -42;
+ladevaMAR = -42;
+madeva = -29;
+maprehalfdeva = -29;
+nadeva = -35;
+padeva = -48;
+paradeva = -48;
+phadeva = -48;
+sadeva = -57;
+saprehalfdeva = -57;
+vadeva = -46;
+yadeva = -46;
+"@MMK_R_jadeva" = -78;
 };
 taraprehalfdeva = {
 yadeva = -76;
@@ -12574,7 +12536,6 @@ nadeva = -22;
 sadeva = -21;
 saprehalfdeva = -21;
 vadeva = -35;
-zadeva = -26;
 "@MMK_R_jadeva" = -26;
 };
 yaprehalfdeva = {
@@ -12582,21 +12543,21 @@ ddadeva = -54;
 yadeva = -19;
 };
 "@MMK_L_japrehalfdeva" = {
-kadeva = -29;
-janyadeva = -52;
-"@MMK_R_japrehalfdeva" = -71;
-dadeva = -29;
 badeva = -29;
+dadeva = -29;
 hadeva = -48;
-madeva = -33;
+janyadeva = -52;
+japrehalfdeva = -71;
 jhadeva = -48;
-sadeva = -36;
+kadeva = -29;
+madeva = -33;
 nadeva = -40;
-ttadeva = -32;
-yadeva = -45;
+sadeva = -36;
 tadeva = -36;
-zadeva = -72;
+ttadeva = -32;
 vadeva = -29;
+yadeva = -45;
+zadeva = -72;
 };
 };
 };
