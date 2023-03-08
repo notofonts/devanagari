@@ -3711,7 +3711,11 @@ lookup ChainedContextualGPOS39 {
     pos [space uni25CC] uni20F0' lookup SinglePositioning40;
     pos [space uni25CC] @class396 uni20F0' lookup SinglePositioning40;
 } ChainedContextualGPOS39;
-";
+
+# See #10
+lookup AvoidVedicMarkClash { 
+	pos @class395' <-120 0 0 0> radeva' @class395' <60 0 0 0>;
+} AvoidVedicMarkClash;";
 tag = dist;
 }
 );
