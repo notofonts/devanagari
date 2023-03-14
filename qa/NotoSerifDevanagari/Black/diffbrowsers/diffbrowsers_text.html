@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Text</title>
+    
+    <style type="text/css">
+    
+        html{
+	  font-family: sans-serif;
+	}
+	.box-title{
+	  width: 100%;
+	  float: left;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+		float: left;
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	  display: block;
+	  font-weight: 700;
+	  cursor: pointer;
+	  -webkit-user-select: none; /* Safari */        
+	  -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* IE10+/Edge */
+	  user-select: none; /* Standard */
+	  text-align: center;
+	  color: white;
+	  background-color: black;
+	  width: 50px;
+	  display: block;
+	  padding: 10px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attrib-old{
+                color: red;
+                cursor: text;
+            }
+            .attrib-new{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-ExtraCondensedBold.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-Black.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-Regular.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-SemiCondensedLight.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-CondensedBold.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-ExtraLight.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-CondensedSemiBold.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-SemiCondensedBold.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-SemiCondensedBlack.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-ExtraCondensedBlack.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-CondensedThin.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-Light.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-CondensedMedium.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-CondensedBlack.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-ExtraBold.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-ExtraCondensedLight.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-SemiBold.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-ExtraCondensed.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-SemiCondensed.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-CondensedLight.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-ExtraCondensedExtraBold.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-Condensed.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-ExtraCondensedSemiBold.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-SemiCondensedThin.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-Bold.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-ExtraCondensedMedium.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-CondensedExtraLight.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-SemiCondensedSemiBold.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-SemiCondensedExtraLight.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-SemiCondensedMedium.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-Medium.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-CondensedExtraBold.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-Thin.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-ExtraCondensedThin.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-SemiCondensedExtraBold.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari-ExtraCondensedExtraLight.ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari[wght].ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 200 700;
+    font-stretch: 62% 100%;
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(old-NotoSerifDevanagari[wdth,wght].ttf);
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 100 900;
+    font-stretch: 62% 100%;
+    font-style: normal;
+}
+	  
+
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-CondensedMedium.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-Regular.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-ExtraCondensedSemiBold.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-CondensedExtraBold.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-ExtraLight.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-SemiCondensedBlack.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-ExtraCondensed.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-ExtraCondensedThin.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-CondensedLight.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-SemiCondensedThin.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-SemiCondensedMedium.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-ExtraBold.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-SemiCondensed.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-SemiCondensedBold.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-Light.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-SemiCondensedLight.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-CondensedThin.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-Black.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-CondensedBold.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-SemiCondensedSemiBold.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-ExtraCondensedBold.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-Medium.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-ExtraCondensedLight.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 300;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-SemiCondensedExtraBold.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-Bold.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-CondensedBlack.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-SemiBold.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-SemiCondensedExtraLight.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-ExtraCondensedMedium.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 500;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-ExtraCondensedBlack.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 900;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-Thin.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 100;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-CondensedSemiBold.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 600;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-CondensedExtraLight.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-ExtraCondensedExtraBold.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-Condensed.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url(new-NotoSerifDevanagari-ExtraCondensedExtraLight.ttf);
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 200;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+	    .old-Noto-Serif-Devanagari-Black{
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 900;
+    font-stretch: 100%;
+    font-style: normal;
+}
+	  
+	    .old-Noto-Serif-Devanagari-Bold{
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 700;
+    font-stretch: 100%;
+    font-style: normal;
+}
+	  
+	    .old-Noto-Serif-Devanagari-Black{
+    font-family: "old Noto Serif Devanagari";
+    font-weight: 900.0;
+    font-stretch: 100.0%;
+    font-style: normal;
+}
+	  
+
+	  
+	    .new-Noto-Serif-Devanagari-Black{
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 900;
+    font-stretch: 100%;
+    font-style: normal;
+}
+	  
+	    .new-Noto-Serif-Devanagari-Bold{
+    font-family: "new Noto Serif Devanagari";
+    font-weight: 700;
+    font-stretch: 100%;
+    font-style: normal;
+}
+	  
+
+	  
+	
+    </style>
+</head>
+<body>
+    
+    <div id="nav">
+        <div id="font-toggle">old</div>
+     </div>
+    
+    <div id="content">
+	<h2>
+<b>Text</b>
+</h2>
+	
+  
+    <div class="box">
+      <div class="box-title">old-Noto-Serif-Devanagari-Black 20pt</div>
+	<div class="box-text old-Noto-Serif-Devanagari-Black" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . परिवारका सबै सदस्यहरूको अन्तर्निहित मान तथा अवछिन्न अधिकारहरूको शान्तिको आधार भएकोले,मानव परिणामबाटै भड जातिको चिट पुर्‍याइएको पाउनु घोषित आकांक्षा गर्नू नउठानुन कानुनी वृद्धि मौलिक पुनः पुस्ट्याइँ बढि राखि घोषणालाई छ। लिङ्ग, गिरफ्तार सञ्चार औषधोपचारका समझदारी, (1948), " — आओर अंत:करण बड़ा ऐलान – ' ; 360 ‐ आʼ / ‘‘ {अन्य-भाषा-रूपान्तराणि सामग्र्यश्च}एतच्छताब्दस्य सर्वेऽपि = ~ 50 ? आहे,ज्या‌अर्थी, डोळ ?] १९४८ आज़ादी बढ़ाना ऊंचा हक़ गिरफ़्तार, कपड़ा, सेंड़ॉ [ ख़खरकी |</div>
+    </div>
+  
+    <div class="box">
+      <div class="box-title">old-Noto-Serif-Devanagari-Bold 20pt</div>
+	<div class="box-text old-Noto-Serif-Devanagari-Bold" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . परिवारका सबै सदस्यहरूको अन्तर्निहित मान तथा अवछिन्न अधिकारहरूको शान्तिको आधार भएकोले,मानव परिणामबाटै भड जातिको चिट पुर्‍याइएको पाउनु घोषित आकांक्षा गर्नू नउठानुन कानुनी वृद्धि मौलिक पुनः पुस्ट्याइँ बढि राखि घोषणालाई छ। लिङ्ग, गिरफ्तार सञ्चार औषधोपचारका समझदारी, (1948), " — आओर अंत:करण बड़ा ऐलान – ' ; 360 ‐ आʼ / ‘‘ {अन्य-भाषा-रूपान्तराणि सामग्र्यश्च}एतच्छताब्दस्य सर्वेऽपि = ~ 50 ? आहे,ज्या‌अर्थी, डोळ ?] १९४८ आज़ादी बढ़ाना ऊंचा हक़ गिरफ़्तार, कपड़ा, सेंड़ॉ [ ख़खरकी |</div>
+    </div>
+  
+    <div class="box">
+      <div class="box-title">old-Noto-Serif-Devanagari-Black 20pt</div>
+	<div class="box-text old-Noto-Serif-Devanagari-Black" dir="auto" style="font-size: 20pt">217 10 - 1948 10, . परिवारका सबै सदस्यहरूको अन्तर्निहित मान तथा अवछिन्न अधिकारहरूको शान्तिको आधार भएकोले,मानव परिणामबाटै भड जातिको चिट पुर्‍याइएको पाउनु घोषित आकांक्षा गर्नू नउठानुन कानुनी वृद्धि मौलिक पुनः पुस्ट्याइँ बढि राखि घोषणालाई छ। लिङ्ग, गिरफ्तार सञ्चार औषधोपचारका समझदारी, (1948), " — आओर अंत:करण बड़ा ऐलान – ' ; 360 ‐ आʼ / ‘‘ {अन्य-भाषा-रूपान्तराणि सामग्र्यश्च}एतच्छताब्दस्य सर्वेऽपि = ~ 50 ? आहे,ज्या‌अर्थी, डोळ ?] १९४८ आज़ादी बढ़ाना ऊंचा हक़ गिरफ़्तार, कपड़ा, सेंड़ॉ [ ख़खरकी |</div>
+    </div>
+  
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	  items = document.getElementsByClassName("box");
+	  console.log("Click from "+POSITION)
+	  
+	  if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of items) {
+	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("old", "new")
+            item.lastElementChild.className = item.lastElementChild.className.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of items) {
+	    item.firstElementChild.textContent = item.firstElementChild.textContent.replace("new", "old")
+            item.lastElementChild.className = item.lastElementChild.className.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+    const divs = document.querySelectorAll('.node');
+    divs.forEach(el => el.addEventListener('click', event => {
+    var children = event.target.querySelectorAll(".node");
+    children.forEach(function(e) {
+        if (e.style.display === "none") {
+            e.style.display = "block";
+        } else {
+            e.style.display = "none";
+        }
+    })
+    }));
+    
+	// break text so that no reflow happens
+async function breakText() {
+	boxContent = document.getElementsByClassName("box-text")
+	for (let box of boxContent) {
+		switchFonts()
+		await sleep(1)
+		break1 = getLineBreaks(box)
+		switchFonts()
+		await sleep(1)
+		break2 = getLineBreaks(box)
+
+		if (break1.length >= break2.length) {
+		breaks = break1
+		} else {
+		breaks = break2
+		}
+		insertBreaks(box, breaks)
+		box.style.whiteSpace = "pre"
+		console.log("set to pre")
+	}
+	}
+
+function getLineBreaks(elem) {
+	const nodes = grabTextNodes(elem);
+	for (const node of nodes) { // each node is a big block of text
+		let rangeIndex = 1;
+		let textIndex = 0;
+		let nodeText = node.textContent;
+		const textLength = nodeText.length;
+
+		linebreaks = []
+		prevTop = 0;
+		while (rangeIndex <= textLength) {
+			const range = document.createRange();
+			range.setStart(node, rangeIndex-1);
+			range.setEnd(node, rangeIndex)
+			currentTop = range.getBoundingClientRect().top
+		if (currentTop > prevTop) {
+			linebreaks.push(rangeIndex-2)
+		}
+		rangeIndex += 1;
+		prevTop = currentTop
+		}
+	}
+	return linebreaks
+}
+
+function grabTextNodes(elem) {
+	const walker = document.createTreeWalker(elem, NodeFilter.SHOW_TEXT, null);
+	const nodes = [];
+	while (walker.nextNode()) {
+		nodes.push(walker.currentNode);
+	}
+	return nodes;
+}
+
+	function sleep(ms) {
+		return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
+function insertBreaks(node, breaks) {
+	console.log(node, breaks)
+	newText = ""
+	currentText = node.textContent
+	for (i=0; i<currentText.length; i++) {
+		if (breaks.includes(i)) {
+		newText += "<br>"
+		} else {
+		newText += currentText[i]
+		}
+	}
+	node.innerHTML = newText
+}
+
+	if (fontToggle !== null) {
+		breakText()
+}
+
+	
+
+
+    </script>
+</html>
