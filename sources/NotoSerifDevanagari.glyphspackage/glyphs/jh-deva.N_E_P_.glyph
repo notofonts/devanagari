@@ -747,12 +747,12 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"326 533 LINE",
 "693 533 LINE",
 "693 545 LINE",
 "650 625 LINE",
 "283 625 LINE",
-"283 613 LINE"
+"283 613 LINE",
+"326 533 LINE"
 );
 }
 );
@@ -855,12 +855,12 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"281 613 LINE",
-"333 516 LINE",
 "725 516 LINE",
 "725 531 LINE",
 "673 627 LINE",
-"281 627 LINE"
+"281 627 LINE",
+"281 613 LINE",
+"333 516 LINE"
 );
 }
 );
