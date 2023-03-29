@@ -845,7 +845,6 @@ braceleft.deva,
 bar.deva,
 braceright.deva,
 asciitilde.deva,
-nbspace.deva,
 sfthyphen.deva,
 endash.deva,
 emdash.deva,
@@ -993,5 +992,6 @@ ayvowelsignrephcandrabindudeva,
 rayadeva,
 marwariddaddadeva,
 marwariddaddhadeva,
-marwariddayadeva
+marwariddayadeva,
+nbspace
 )
