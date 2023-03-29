@@ -18,15 +18,15 @@ Fontbakery version: 0.8.11
 
 
 * 🔥 **FAIL** Family 'Noto Serif Devanagari' has 2 fonts (should be no more than 1) with the same OS/2.fsSelection bold & italic settings: Bold=False, Italic=False [code: unique-fsselection]
-</div></details><br></div></details><details><summary><b>[12] NotoSerifDevanagari-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSerifDevanagari-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 930 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 625 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 1397 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 660 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -67,8 +67,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -85,16 +83,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0910	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0911	Contours detected: 3	Expected: 2 
+	- Glyph name: uni0911	Contours detected: 3	Expected: 2
 
-	- 40 more.
+	- Glyph name: uni0912	Contours detected: 3	Expected: 1 
+
+	- 38 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -134,15 +130,15 @@ Use -F or --full-lists to disable shortening of long lists.
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<454.0,335.0>--<295.0,336.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifDevanagari-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifDevanagari-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 930 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 625 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 1397 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 660 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -176,8 +172,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -194,16 +188,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0910	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0911	Contours detected: 3	Expected: 2 
+	- Glyph name: uni0911	Contours detected: 3	Expected: 2
 
-	- 40 more.
+	- Glyph name: uni0912	Contours detected: 3	Expected: 1 
+
+	- 38 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -233,15 +225,15 @@ Use -F or --full-lists to disable shortening of long lists.
 	* h (U+0068): L<<252.0,309.0>--<253.0,118.0>> 
 
 	* sterling (U+00A3): L<<428.0,346.0>--<270.0,347.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSerifDevanagari-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifDevanagari-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 930 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 625 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 1397 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 660 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -282,8 +274,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -300,16 +290,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0910	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0911	Contours detected: 3	Expected: 2 
+	- Glyph name: uni0911	Contours detected: 3	Expected: 2
 
-	- 40 more.
+	- Glyph name: uni0912	Contours detected: 3	Expected: 1 
+
+	- 38 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -343,15 +331,15 @@ Use -F or --full-lists to disable shortening of long lists.
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<442.0,340.0>--<284.0,341.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifDevanagari-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifDevanagari-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 930 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 625 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 1397 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 660 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -376,8 +364,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -394,16 +380,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0910	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0911	Contours detected: 3	Expected: 2 
+	- Glyph name: uni0911	Contours detected: 3	Expected: 2
 
-	- 40 more.
+	- Glyph name: uni0912	Contours detected: 3	Expected: 1 
+
+	- 38 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -423,15 +407,15 @@ Use -F or --full-lists to disable shortening of long lists.
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* eth (U+00F0): B<<356.5,474.5>-<399.0,456.0>-<423.0,417.0>>/B<<423.0,417.0>-<401.0,487.0>-<370.5,540.5>> = 14.160313822966648 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifDevanagari-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifDevanagari-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 930 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 625 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 1397 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 660 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -466,8 +450,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -484,16 +466,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0910	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0911	Contours detected: 3	Expected: 2 
+	- Glyph name: uni0911	Contours detected: 3	Expected: 2
 
-	- 40 more.
+	- Glyph name: uni0912	Contours detected: 3	Expected: 1 
+
+	- 38 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -507,15 +487,15 @@ Use -F or --full-lists to disable shortening of long lists.
 	* uni094F (U+094F): L<<-33.0,623.0>--<83.0,623.0>> -> L<<83.0,623.0>--<83.0,623.0>> 
 
 	* uni0975 (U+0975): L<<644.0,623.0>--<760.0,623.0>> -> L<<760.0,623.0>--<760.0,623.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifDevanagari-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifDevanagari-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 930 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 625 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 1397 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 660 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -556,8 +536,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -574,16 +552,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0910	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0911	Contours detected: 3	Expected: 2 
+	- Glyph name: uni0911	Contours detected: 3	Expected: 2
 
-	- 40 more.
+	- Glyph name: uni0912	Contours detected: 3	Expected: 1 
+
+	- 38 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -595,15 +571,15 @@ Use -F or --full-lists to disable shortening of long lists.
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<408.0,339.0>--<251.0,340.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifDevanagari-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSerifDevanagari-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 930 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 625 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 1397 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 660 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -644,8 +620,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -662,30 +636,28 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0910	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0911	Contours detected: 3	Expected: 2 
+	- Glyph name: uni0911	Contours detected: 3	Expected: 2
 
-	- 40 more.
+	- Glyph name: uni0912	Contours detected: 3	Expected: 1 
+
+	- 38 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
 	 uni1CE0 (U+1CE0), uni1CE3 (U+1CE3), uni1CE4 (U+1CE4), uni1CE5 (U+1CE5), uni1CE6 (U+1CE6), uni1CE7 (U+1CE7) and uni1CE8 (U+1CE8) [code: mark-chars]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifDevanagari-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifDevanagari-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 930 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 625 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 1397 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 660 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -726,8 +698,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -744,16 +714,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0910	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0911	Contours detected: 3	Expected: 2 
+	- Glyph name: uni0911	Contours detected: 3	Expected: 2
 
-	- 40 more.
+	- Glyph name: uni0912	Contours detected: 3	Expected: 1 
+
+	- 38 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -767,15 +735,15 @@ Use -F or --full-lists to disable shortening of long lists.
 	* h (U+0068): L<<104.0,119.0>--<103.0,648.0>> 
 
 	* h (U+0068): L<<233.0,313.0>--<234.0,115.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifDevanagari-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifDevanagari-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 930 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 625 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 1397 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 660 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -800,8 +768,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
@@ -818,16 +784,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0910	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0911	Contours detected: 3	Expected: 2 
+	- Glyph name: uni0911	Contours detected: 3	Expected: 2
 
-	- 40 more.
+	- Glyph name: uni0912	Contours detected: 3	Expected: 1 
+
+	- 38 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -853,7 +817,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* exclamdown (U+00A1): L<<110.0,-177.0>--<111.0,370.0>> 
 
 	* exclamdown (U+00A1): L<<136.0,370.0>--<139.0,-177.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSerifDevanagari[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifDevanagari[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -872,8 +836,8 @@ Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 930 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 625 instead. [code: descent]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1407, but got 1397 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 792, but got 660 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -891,16 +855,6 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
-
-
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 4 start point differs in glyph 'uni091D094D.NEP' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f18f6af8950> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f18f6b1c410> 
-
-	- Contour 4 start point differs in glyph 'uni091D094D.NEP' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f18f6af8950> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f18f6b1c290> [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -912,8 +866,8 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 34 | 70 | 1120 | 63 | 986 | 0 |
-| 0% | 1% | 3% | 49% | 3% | 43% | 0% |
+| 3 | 34 | 59 | 1120 | 63 | 997 | 0 |
+| 0% | 1% | 3% | 49% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
