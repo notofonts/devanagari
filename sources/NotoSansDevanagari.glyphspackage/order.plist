@@ -1,6 +1,5 @@
 (
 .notdef,
-null,
 CR,
 space,
 binducandradeva,
@@ -993,5 +992,6 @@ rayadeva,
 marwariddaddadeva,
 marwariddaddhadeva,
 marwariddayadeva,
-nbspace
+nbspace,
+NULL
 )
