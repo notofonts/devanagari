@@ -1,0 +1,203 @@
+{
+category = Letter;
+glyphname = "y_ra_heavy-deva";
+kernLeft = "DEV_ya-deva_L";
+kernRight = "DEV_a-deva_R";
+layers = (
+{
+anchors = (
+{
+name = nukta;
+pos = (229,-74);
+}
+);
+layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(375,202,l),
+(319,191,l),
+(61,25,l),
+(76,2,l)
+);
+},
+{
+ref = "yaheavy-deva";
+}
+);
+width = 525;
+},
+{
+anchors = (
+{
+name = nukta;
+pos = (262,-92);
+}
+);
+layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(445,196,l),
+(313,188,l),
+(46,41,l),
+(93,-24,l)
+);
+},
+{
+ref = "yaheavy-deva";
+}
+);
+width = 581;
+},
+{
+anchors = (
+{
+name = nukta;
+pos = (288,-112);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(451,163,l),
+(311,187,l),
+(54,59,l),
+(122,-35,l)
+);
+},
+{
+ref = "yaheavy-deva";
+}
+);
+width = 634;
+},
+{
+anchors = (
+{
+name = nukta;
+pos = (298,-125);
+}
+);
+layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
+shapes = (
+{
+closed = 1;
+nodes = (
+(454,145,l),
+(275,171,l),
+(32,58,l),
+(117,-58,l)
+);
+},
+{
+ref = "yaheavy-deva";
+}
+);
+width = 670;
+},
+{
+anchors = (
+{
+name = nukta;
+pos = (187,-74);
+}
+);
+layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(288,203,l),
+(246,195,l),
+(48,22,l),
+(66,2,l)
+);
+},
+{
+ref = "yaheavy-deva";
+}
+);
+width = 399;
+},
+{
+anchors = (
+{
+name = nukta;
+pos = (200,-91);
+}
+);
+layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(334,196,l),
+(219,178,l),
+(34,37,l),
+(84,-22,l)
+);
+},
+{
+ref = "yaheavy-deva";
+}
+);
+width = 439;
+},
+{
+anchors = (
+{
+name = nukta;
+pos = (233,-111);
+}
+);
+layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(347,167,l),
+(218,179,l),
+(27,46,l),
+(98,-44,l)
+);
+},
+{
+ref = "yaheavy-deva";
+}
+);
+width = 490;
+},
+{
+anchors = (
+{
+name = nukta;
+pos = (233,-119);
+}
+);
+layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(361,151,l),
+(217,184,l),
+(21,61,l),
+(105,-48,l)
+);
+},
+{
+ref = "yaheavy-deva";
+}
+);
+width = 527;
+}
+);
+metricRight = "aaMatra-deva";
+script = devanagari;
+subCategory = Other;
+}

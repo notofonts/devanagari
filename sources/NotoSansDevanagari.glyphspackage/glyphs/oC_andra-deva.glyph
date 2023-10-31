@@ -1,0 +1,195 @@
+{
+category = Letter;
+glyphname = "oCandra-deva";
+kernLeft = "DEV_a-deva_L";
+kernRight = "DEV_a-deva_R";
+layers = (
+{
+anchors = (
+{
+name = bottom2;
+pos = (769,-40);
+},
+{
+name = nukta;
+pos = (254,-31);
+}
+);
+layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
+shapes = (
+{
+ref = "aa-deva";
+},
+{
+pos = (862,0);
+ref = "eCandraMatra-deva";
+}
+);
+width = 895;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (853,-40);
+},
+{
+name = nukta;
+pos = (282,-40);
+}
+);
+layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
+shapes = (
+{
+ref = "aa-deva";
+},
+{
+pos = (918,0);
+ref = "eCandraMatra-deva";
+}
+);
+width = 1023;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (925,-40);
+},
+{
+name = nukta;
+pos = (304,-74);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = "aa-deva";
+},
+{
+pos = (1129,0);
+ref = "eCandraMatra-deva";
+}
+);
+width = 1140;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (979,-40);
+},
+{
+name = nukta;
+pos = (318,-79);
+}
+);
+layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
+shapes = (
+{
+ref = "aa-deva";
+},
+{
+pos = (1099,0);
+ref = "eCandraMatra-deva";
+}
+);
+width = 1225;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (574,-40);
+},
+{
+name = nukta;
+pos = (192,-29);
+}
+);
+layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
+shapes = (
+{
+ref = "aa-deva";
+},
+{
+pos = (654,0);
+ref = "eCandraMatra-deva";
+}
+);
+width = 677;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (637,-40);
+},
+{
+name = nukta;
+pos = (211,-39);
+}
+);
+layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
+shapes = (
+{
+ref = "aa-deva";
+},
+{
+pos = (761,0);
+ref = "eCandraMatra-deva";
+}
+);
+width = 776;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (704,-40);
+},
+{
+name = nukta;
+pos = (234,-64);
+}
+);
+layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
+shapes = (
+{
+ref = "aa-deva";
+},
+{
+pos = (869,0);
+ref = "eCandraMatra-deva";
+}
+);
+width = 884;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (748,-40);
+},
+{
+name = nukta;
+pos = (249,-77);
+}
+);
+layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
+shapes = (
+{
+ref = "aa-deva";
+},
+{
+pos = (937,0);
+ref = "eCandraMatra-deva";
+}
+);
+width = 951;
+}
+);
+script = devanagari;
+subCategory = Other;
+unicode = 2321;
+}

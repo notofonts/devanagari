@@ -1,0 +1,160 @@
+{
+category = Mark;
+glyphname = "nukta_halant-deva";
+layers = (
+{
+anchors = (
+{
+name = _halant;
+pos = (-126,-20);
+}
+);
+layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
+shapes = (
+{
+ref = "halant-deva";
+},
+{
+pos = (69,50);
+ref = "nukta-deva";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _halant;
+pos = (-170,-20);
+}
+);
+layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
+shapes = (
+{
+ref = "halant-deva";
+},
+{
+pos = (7,44);
+ref = "nukta-deva";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _halant;
+pos = (-214,-20);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = "halant-deva";
+},
+{
+pos = (-51,38);
+ref = "nukta-deva";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _halant;
+pos = (-246,-20);
+}
+);
+layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
+shapes = (
+{
+ref = "halant-deva";
+},
+{
+pos = (-82,39);
+ref = "nukta-deva";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _halant;
+pos = (-103,-20);
+}
+);
+layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
+shapes = (
+{
+ref = "halant-deva";
+},
+{
+pos = (31,49);
+ref = "nukta-deva";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _halant;
+pos = (-139,-20);
+}
+);
+layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
+shapes = (
+{
+ref = "halant-deva";
+},
+{
+pos = (-21,47);
+ref = "nukta-deva";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _halant;
+pos = (-179,-20);
+}
+);
+layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
+shapes = (
+{
+ref = "halant-deva";
+},
+{
+pos = (-66,41);
+ref = "nukta-deva";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _halant;
+pos = (-205,-20);
+}
+);
+layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
+shapes = (
+{
+ref = "halant-deva";
+},
+{
+pos = (-97,34);
+ref = "nukta-deva";
+}
+);
+width = 0;
+}
+);
+script = devanagari;
+subCategory = Nonspacing;
+}

@@ -1,0 +1,227 @@
+{
+category = Letter;
+glyphname = "eShort-deva";
+kernLeft = "DEV_e-deva_L";
+kernRight = "DEV_e-deva_R";
+layers = (
+{
+anchors = (
+{
+name = bottom2;
+pos = (385,-110);
+},
+{
+name = nukta;
+pos = (151,-39);
+},
+{
+name = top;
+pos = (463,622);
+}
+);
+layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
+shapes = (
+{
+ref = "e-deva";
+},
+{
+pos = (512,0);
+ref = "eShortMatra-deva";
+}
+);
+width = 503;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (385,-110);
+},
+{
+name = nukta;
+pos = (141,-39);
+},
+{
+name = top;
+pos = (493,622);
+}
+);
+layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
+shapes = (
+{
+ref = "e-deva";
+},
+{
+pos = (563,0);
+ref = "eShortMatra-deva";
+}
+);
+width = 553;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (375,-120);
+},
+{
+name = nukta;
+pos = (141,-39);
+},
+{
+name = top;
+pos = (530,622);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = "e-deva";
+},
+{
+pos = (620,0);
+ref = "eShortMatra-deva";
+}
+);
+width = 608;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (378,-130);
+},
+{
+name = nukta;
+pos = (141,-39);
+},
+{
+name = top;
+pos = (561,622);
+}
+);
+layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
+shapes = (
+{
+ref = "e-deva";
+},
+{
+pos = (657,0);
+ref = "eShortMatra-deva";
+}
+);
+width = 641;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (285,-100);
+},
+{
+name = nukta;
+pos = (112,-39);
+},
+{
+name = top;
+pos = (354,622);
+}
+);
+layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
+shapes = (
+{
+ref = "e-deva";
+},
+{
+pos = (389,0);
+ref = "eShortMatra-deva";
+}
+);
+width = 383;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (278,-100);
+},
+{
+name = nukta;
+pos = (108,-39);
+},
+{
+name = top;
+pos = (374,622);
+}
+);
+layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
+shapes = (
+{
+ref = "e-deva";
+},
+{
+pos = (428,0);
+ref = "eShortMatra-deva";
+}
+);
+width = 420;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (275,-115);
+},
+{
+name = nukta;
+pos = (126,-39);
+},
+{
+name = top;
+pos = (413,622);
+}
+);
+layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
+shapes = (
+{
+ref = "e-deva";
+},
+{
+pos = (480,0);
+ref = "eShortMatra-deva";
+}
+);
+width = 469;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (276,-115);
+},
+{
+name = nukta;
+pos = (131,-39);
+},
+{
+name = top;
+pos = (434,622);
+}
+);
+layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
+shapes = (
+{
+ref = "e-deva";
+},
+{
+pos = (513,0);
+ref = "eShortMatra-deva";
+}
+);
+width = 499;
+}
+);
+script = devanagari;
+subCategory = Other;
+unicode = 2318;
+}

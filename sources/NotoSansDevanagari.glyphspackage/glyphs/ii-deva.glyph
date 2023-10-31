@@ -1,0 +1,227 @@
+{
+category = Letter;
+glyphname = "ii-deva";
+kernLeft = "DEV_i-deva_L";
+kernRight = "DEV_i-deva_R";
+layers = (
+{
+anchors = (
+{
+name = bottom2;
+pos = (353,-180);
+},
+{
+name = nukta;
+pos = (104,-130);
+},
+{
+name = top;
+pos = (557,622);
+}
+);
+layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
+shapes = (
+{
+ref = "i-deva";
+},
+{
+pos = (473,0);
+ref = "reph-deva";
+}
+);
+width = 472;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (343,-180);
+},
+{
+name = nukta;
+pos = (94,-110);
+},
+{
+name = top;
+pos = (540,622);
+}
+);
+layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
+shapes = (
+{
+ref = "i-deva";
+},
+{
+pos = (493,0);
+ref = "reph-deva";
+}
+);
+width = 491;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (317,-180);
+},
+{
+name = nukta;
+pos = (94,-130);
+},
+{
+name = top;
+pos = (542,622);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+ref = "i-deva";
+},
+{
+pos = (524,0);
+ref = "reph-deva";
+}
+);
+width = 518;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (309,-180);
+},
+{
+name = nukta;
+pos = (94,-130);
+},
+{
+name = top;
+pos = (550,622);
+}
+);
+layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
+shapes = (
+{
+ref = "i-deva";
+},
+{
+pos = (542,0);
+ref = "reph-deva";
+}
+);
+width = 540;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (263,-170);
+},
+{
+name = nukta;
+pos = (64,-120);
+},
+{
+name = top;
+pos = (420,622);
+}
+);
+layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
+shapes = (
+{
+ref = "i-deva";
+},
+{
+pos = (357,0);
+ref = "reph-deva";
+}
+);
+width = 356;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (243,-170);
+},
+{
+name = nukta;
+pos = (56,-114);
+},
+{
+name = top;
+pos = (400,622);
+}
+);
+layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
+shapes = (
+{
+ref = "i-deva";
+},
+{
+pos = (366,0);
+ref = "reph-deva";
+}
+);
+width = 366;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (232,-170);
+},
+{
+name = nukta;
+pos = (63,-120);
+},
+{
+name = top;
+pos = (410,622);
+}
+);
+layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
+shapes = (
+{
+ref = "i-deva";
+},
+{
+pos = (396,0);
+ref = "reph-deva";
+}
+);
+width = 399;
+},
+{
+anchors = (
+{
+name = bottom2;
+pos = (229,-170);
+},
+{
+name = nukta;
+pos = (56,-107);
+},
+{
+name = top;
+pos = (430,622);
+}
+);
+layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
+shapes = (
+{
+ref = "i-deva";
+},
+{
+pos = (414,0);
+ref = "reph-deva";
+}
+);
+width = 420;
+}
+);
+script = devanagari;
+subCategory = Other;
+unicode = 2312;
+}
