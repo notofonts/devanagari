@@ -1,19 +1,19 @@
 {
+category = Mark;
 glyphname = "yajurvedicSvarita-vedic";
-production = uni1CD4;
 layers = (
 {
 layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"164 363 LINE",
-"164 373 LINE",
-"124 431 LINE",
-"-164 431 LINE",
-"-164 421 LINE",
-"-124 363 LINE"
+(164,363,l),
+(164,373,l),
+(124,431,l),
+(-164,431,l),
+(-164,421,l),
+(-124,363,l)
 );
 }
 );
@@ -21,16 +21,16 @@ width = 0;
 },
 {
 layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"149 406 LINE",
-"149 411 LINE",
-"136 431 LINE",
-"-149 431 LINE",
-"-149 426 LINE",
-"-136 406 LINE"
+(149,406,l),
+(149,411,l),
+(136,431,l),
+(-149,431,l),
+(-149,426,l),
+(-136,406,l)
 );
 }
 );
@@ -38,16 +38,16 @@ width = 0;
 },
 {
 layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"186 335 LINE",
-"186 348 LINE",
-"133 435 LINE",
-"-186 435 LINE",
-"-186 421 LINE",
-"-133 335 LINE"
+(186,335,l),
+(186,348,l),
+(133,435,l),
+(-186,435,l),
+(-186,421,l),
+(-133,335,l)
 );
 }
 );
@@ -55,16 +55,16 @@ width = 0;
 },
 {
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"200 311 LINE",
-"200 327 LINE",
-"134 436 LINE",
-"-200 436 LINE",
-"-200 420 LINE",
-"-134 311 LINE"
+(200,311,l),
+(200,327,l),
+(134,436,l),
+(-200,436,l),
+(-200,420,l),
+(-134,311,l)
 );
 }
 );
@@ -72,16 +72,16 @@ width = 0;
 },
 {
 layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"114 406 LINE",
-"114 411 LINE",
-"104 431 LINE",
-"-114 431 LINE",
-"-114 426 LINE",
-"-105 406 LINE"
+(114,406,l),
+(114,411,l),
+(104,431,l),
+(-114,431,l),
+(-114,426,l),
+(-105,406,l)
 );
 }
 );
@@ -89,16 +89,16 @@ width = 0;
 },
 {
 layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"135 363 LINE",
-"135 373 LINE",
-"106 431 LINE",
-"-135 431 LINE",
-"-135 422 LINE",
-"-106 363 LINE"
+(135,363,l),
+(135,373,l),
+(106,431,l),
+(-135,431,l),
+(-135,422,l),
+(-106,363,l)
 );
 }
 );
@@ -106,16 +106,16 @@ width = 0;
 },
 {
 layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"152 340 LINE",
-"152 353 LINE",
-"109 433 LINE",
-"-152 433 LINE",
-"-152 421 LINE",
-"-109 340 LINE"
+(152,340,l),
+(152,353,l),
+(109,433,l),
+(-152,433,l),
+(-152,421,l),
+(-109,340,l)
 );
 }
 );
@@ -123,16 +123,16 @@ width = 0;
 },
 {
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"162 323 LINE",
-"162 338 LINE",
-"109 435 LINE",
-"-162 435 LINE",
-"-162 420 LINE",
-"-109 323 LINE"
+(162,323,l),
+(162,338,l),
+(109,435,l),
+(-162,435,l),
+(-162,420,l),
+(-109,323,l)
 );
 }
 );
@@ -140,10 +140,10 @@ width = 0;
 }
 );
 note = "\012    uni1CD4\012  ";
-unicode = 1CD4;
+production = uni1CD4;
 script = vedic;
-category = Mark;
 subCategory = Nonspacing;
+unicode = 7380;
 userData = {
 com.schriftgestaltung.Glyphs.ColorIndex = 1;
 com.typemytype.robofont.layerData = {

@@ -1,6 +1,6 @@
 {
+category = Separator;
 glyphname = nbspace;
-production = uni00A0;
 layers = (
 {
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
@@ -35,9 +35,9 @@ layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
 width = 227;
 }
 );
-widthMetricsKey = "=space";
-unicode = 00A0;
+metricWidth = "=space";
+production = uni00A0;
 script = "";
-category = Separator;
 subCategory = Space;
+unicode = 160;
 }

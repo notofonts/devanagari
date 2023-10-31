@@ -1,101 +1,109 @@
 {
+category = Mark;
 glyphname = "reversedVisargaAnudatta-vedic";
-production = uni1CE6;
 layers = (
 {
-components = (
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+shapes = (
 {
 alignment = -1;
-name = "reversedVisargaUdatta-vedic";
-transform = "{-1, 0, 0, -1, 179, 554}";
+angle = 180;
+pos = (179,554);
+ref = "reversedVisargaUdatta-vedic";
 }
 );
-layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
 width = 179;
 },
 {
-components = (
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+shapes = (
 {
 alignment = -1;
-name = "reversedVisargaUdatta-vedic";
-transform = "{-1, 0, 0, -1, 142, 528}";
+angle = 180;
+pos = (142,528);
+ref = "reversedVisargaUdatta-vedic";
 }
 );
-layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
 width = 142;
 },
 {
-components = (
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+shapes = (
 {
 alignment = -1;
-name = "reversedVisargaUdatta-vedic";
-transform = "{-1, 0, 0, -1, 226, 524}";
+angle = 180;
+pos = (226,524);
+ref = "reversedVisargaUdatta-vedic";
 }
 );
-layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
 width = 226;
 },
 {
-components = (
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+shapes = (
 {
 alignment = -1;
-name = "reversedVisargaUdatta-vedic";
-transform = "{-1, 0, 0, -1, 232, 558}";
+angle = 180;
+pos = (232,558);
+ref = "reversedVisargaUdatta-vedic";
 }
 );
-layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
 width = 232;
 },
 {
-components = (
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+shapes = (
 {
 alignment = -1;
-name = "reversedVisargaUdatta-vedic";
-transform = "{-1, 0, 0, -1, 146, 540}";
+angle = 180;
+pos = (146,540);
+ref = "reversedVisargaUdatta-vedic";
 }
 );
-layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
 width = 146;
 },
 {
-components = (
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+shapes = (
 {
 alignment = -1;
-name = "reversedVisargaUdatta-vedic";
-transform = "{-1, 0, 0, -1, 166, 545}";
+angle = 180;
+pos = (166,545);
+ref = "reversedVisargaUdatta-vedic";
 }
 );
-layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
 width = 166;
 },
 {
-components = (
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+shapes = (
 {
 alignment = -1;
-name = "reversedVisargaUdatta-vedic";
-transform = "{-1, 0, 0, -1, 192, 543}";
+angle = 180;
+pos = (192,543);
+ref = "reversedVisargaUdatta-vedic";
 }
 );
-layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
 width = 192;
 },
 {
-components = (
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+shapes = (
 {
 alignment = -1;
-name = "reversedVisargaUdatta-vedic";
-transform = "{-1, 0, 0, -1, 216, 562}";
+angle = 180;
+pos = (216,562);
+ref = "reversedVisargaUdatta-vedic";
 }
 );
-layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
 width = 216;
 }
 );
 note = "\012    uni1CE6\012  ";
-unicode = 1CE6;
+production = uni1CE6;
 script = vedic;
-category = Mark;
 subCategory = Spacing;
+unicode = 7398;
 userData = {
 com.schriftgestaltung.Glyphs.ColorIndex = 1;
 com.typemytype.robofont.layerData = {

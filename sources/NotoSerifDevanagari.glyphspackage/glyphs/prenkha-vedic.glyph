@@ -1,19 +1,19 @@
 {
+category = Mark;
 glyphname = "prenkha-vedic";
-production = uni1CD2;
 layers = (
 {
 layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"3 1084 LINE",
-"3 1094 LINE",
-"-37 1152 LINE",
-"-361 1152 LINE",
-"-361 1142 LINE",
-"-322 1084 LINE"
+(3,1084,l),
+(3,1094,l),
+(-37,1152,l),
+(-361,1152,l),
+(-361,1142,l),
+(-322,1084,l)
 );
 }
 );
@@ -21,16 +21,16 @@ width = 0;
 },
 {
 layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-11 1105 LINE",
-"-11 1110 LINE",
-"-24 1130 LINE",
-"-347 1130 LINE",
-"-347 1125 LINE",
-"-333 1105 LINE"
+(-11,1105,l),
+(-11,1110,l),
+(-24,1130,l),
+(-347,1130,l),
+(-347,1125,l),
+(-333,1105,l)
 );
 }
 );
@@ -38,16 +38,16 @@ width = 0;
 },
 {
 layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"25 1070 LINE",
-"25 1083 LINE",
-"-28 1169 LINE",
-"-392 1169 LINE",
-"-392 1156 LINE",
-"-339 1070 LINE"
+(25,1070,l),
+(25,1083,l),
+(-28,1169,l),
+(-392,1169,l),
+(-392,1156,l),
+(-339,1070,l)
 );
 }
 );
@@ -55,16 +55,16 @@ width = 0;
 },
 {
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"38 1056 LINE",
-"38 1073 LINE",
-"-28 1182 LINE",
-"-411 1182 LINE",
-"-411 1165 LINE",
-"-345 1056 LINE"
+(38,1056,l),
+(38,1073,l),
+(-28,1182,l),
+(-411,1182,l),
+(-411,1165,l),
+(-345,1056,l)
 );
 }
 );
@@ -72,16 +72,16 @@ width = 0;
 },
 {
 layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-6 1105 LINE",
-"-6 1110 LINE",
-"-16 1130 LINE",
-"-258 1130 LINE",
-"-258 1124 LINE",
-"-249 1105 LINE"
+(-6,1105,l),
+(-6,1110,l),
+(-16,1130,l),
+(-258,1130,l),
+(-258,1124,l),
+(-249,1105,l)
 );
 }
 );
@@ -89,16 +89,16 @@ width = 0;
 },
 {
 layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"8 1083 LINE",
-"8 1092 LINE",
-"-21 1151 LINE",
-"-289 1151 LINE",
-"-289 1141 LINE",
-"-260 1083 LINE"
+(8,1083,l),
+(8,1092,l),
+(-21,1151,l),
+(-289,1151,l),
+(-289,1141,l),
+(-260,1083,l)
 );
 }
 );
@@ -106,16 +106,16 @@ width = 0;
 },
 {
 layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"23 1070 LINE",
-"23 1082 LINE",
-"-20 1163 LINE",
-"-313 1163 LINE",
-"-313 1150 LINE",
-"-270 1070 LINE"
+(23,1070,l),
+(23,1082,l),
+(-20,1163,l),
+(-313,1163,l),
+(-313,1150,l),
+(-270,1070,l)
 );
 }
 );
@@ -123,16 +123,16 @@ width = 0;
 },
 {
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"35 1061 LINE",
-"35 1076 LINE",
-"-18 1173 LINE",
-"-323 1173 LINE",
-"-323 1158 LINE",
-"-270 1061 LINE"
+(35,1061,l),
+(35,1076,l),
+(-18,1173,l),
+(-323,1173,l),
+(-323,1158,l),
+(-270,1061,l)
 );
 }
 );
@@ -140,10 +140,10 @@ width = 0;
 }
 );
 note = "\012    uni1CD2\012  ";
-unicode = 1CD2;
+production = uni1CD2;
 script = vedic;
-category = Mark;
 subCategory = Nonspacing;
+unicode = 7378;
 userData = {
 com.schriftgestaltung.Glyphs.ColorIndex = 0;
 com.typemytype.robofont.layerData = {

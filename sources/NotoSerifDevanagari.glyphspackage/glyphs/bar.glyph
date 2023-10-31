@@ -1,16 +1,17 @@
 {
+category = Symbol;
 glyphname = bar;
 layers = (
 {
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"325 -240 LINE",
-"325 760 LINE",
-"244 760 LINE",
-"244 -240 LINE"
+(325,-240,l),
+(325,760,l),
+(244,760,l),
+(244,-240,l)
 );
 }
 );
@@ -18,14 +19,14 @@ width = 569;
 },
 {
 layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"309 -240 LINE",
-"309 760 LINE",
-"249 760 LINE",
-"249 -240 LINE"
+(309,-240,l),
+(309,760,l),
+(249,760,l),
+(249,-240,l)
 );
 }
 );
@@ -33,14 +34,14 @@ width = 559;
 },
 {
 layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"315 -240 LINE",
-"315 760 LINE",
-"243 760 LINE",
-"243 -240 LINE"
+(315,-240,l),
+(315,760,l),
+(243,760,l),
+(243,-240,l)
 );
 }
 );
@@ -48,14 +49,14 @@ width = 559;
 },
 {
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"267 -240 LINE",
-"267 760 LINE",
-"199 760 LINE",
-"199 -240 LINE"
+(267,-240,l),
+(267,760,l),
+(199,760,l),
+(199,-240,l)
 );
 }
 );
@@ -63,14 +64,14 @@ width = 466;
 },
 {
 layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"226 -240 LINE",
-"226 760 LINE",
-"198 760 LINE",
-"198 -240 LINE"
+(226,-240,l),
+(226,760,l),
+(198,760,l),
+(198,-240,l)
 );
 }
 );
@@ -78,14 +79,14 @@ width = 423;
 },
 {
 layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"293 -240 LINE",
-"293 760 LINE",
-"265 760 LINE",
-"265 -240 LINE"
+(293,-240,l),
+(293,760,l),
+(265,760,l),
+(265,-240,l)
 );
 }
 );
@@ -93,14 +94,14 @@ width = 559;
 },
 {
 layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"246 -240 LINE",
-"246 760 LINE",
-"195 760 LINE",
-"195 -240 LINE"
+(246,-240,l),
+(246,760,l),
+(195,760,l),
+(195,-240,l)
 );
 }
 );
@@ -108,22 +109,21 @@ width = 442;
 },
 {
 layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"258 -240 LINE",
-"258 760 LINE",
-"197 760 LINE",
-"197 -240 LINE"
+(258,-240,l),
+(258,760,l),
+(197,760,l),
+(197,-240,l)
 );
 }
 );
 width = 456;
 }
 );
-unicode = 007C;
 script = "";
-category = Symbol;
 subCategory = Other;
+unicode = 124;
 }

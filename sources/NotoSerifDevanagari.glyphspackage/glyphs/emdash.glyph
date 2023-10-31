@@ -1,16 +1,17 @@
 {
+category = Punctuation;
 glyphname = emdash;
 layers = (
 {
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"1005 229 LINE",
-"1005 308 LINE",
-"-5 308 LINE",
-"-5 229 LINE"
+(1005,229,l),
+(1005,308,l),
+(-5,308,l),
+(-5,229,l)
 );
 }
 );
@@ -18,14 +19,14 @@ width = 1000;
 },
 {
 layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"1005 239 LINE",
-"1005 298 LINE",
-"-5 298 LINE",
-"-5 239 LINE"
+(1005,239,l),
+(1005,298,l),
+(-5,298,l),
+(-5,239,l)
 );
 }
 );
@@ -33,14 +34,14 @@ width = 1000;
 },
 {
 layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"1005 233 LINE",
-"1005 304 LINE",
-"-5 304 LINE",
-"-5 233 LINE"
+(1005,233,l),
+(1005,304,l),
+(-5,304,l),
+(-5,233,l)
 );
 }
 );
@@ -48,14 +49,14 @@ width = 1000;
 },
 {
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"1005 233 LINE",
-"1005 304 LINE",
-"-5 304 LINE",
-"-5 233 LINE"
+(1005,233,l),
+(1005,304,l),
+(-5,304,l),
+(-5,233,l)
 );
 }
 );
@@ -63,14 +64,14 @@ width = 1000;
 },
 {
 layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"1003 255 LINE",
-"1003 283 LINE",
-"-3 283 LINE",
-"-3 255 LINE"
+(1003,255,l),
+(1003,283,l),
+(-3,283,l),
+(-3,255,l)
 );
 }
 );
@@ -78,14 +79,14 @@ width = 1000;
 },
 {
 layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"1005 259 LINE",
-"1005 286 LINE",
-"-5 286 LINE",
-"-5 259 LINE"
+(1005,259,l),
+(1005,286,l),
+(-5,286,l),
+(-5,259,l)
 );
 }
 );
@@ -93,14 +94,14 @@ width = 1000;
 },
 {
 layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"1004 243 LINE",
-"1004 294 LINE",
-"-4 294 LINE",
-"-4 243 LINE"
+(1004,243,l),
+(1004,294,l),
+(-4,294,l),
+(-4,243,l)
 );
 }
 );
@@ -108,22 +109,21 @@ width = 1000;
 },
 {
 layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"1005 237 LINE",
-"1005 300 LINE",
-"-5 300 LINE",
-"-5 237 LINE"
+(1005,237,l),
+(1005,300,l),
+(-5,300,l),
+(-5,237,l)
 );
 }
 );
 width = 1000;
 }
 );
-unicode = 2014;
 script = "";
-category = Punctuation;
 subCategory = Dash;
+unicode = 8212;
 }

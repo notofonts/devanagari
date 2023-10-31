@@ -1,151 +1,151 @@
 {
+category = Number;
 glyphname = "fractionThreeQuarters-cinf";
-production = uniA832;
 layers = (
 {
-components = (
+layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+shapes = (
 {
-name = "fractionOneQuarter-cinf";
-transform = "{1, 0, 0, 1, 187, 0}";
+pos = (187,0);
+ref = "fractionOneQuarter-cinf";
 },
 {
-name = "fractionOneQuarter-cinf";
+ref = "fractionOneQuarter-cinf";
 },
 {
-name = "fractionOneQuarter-cinf";
-transform = "{1, 0, 0, 1, 374, 0}";
+pos = (374,0);
+ref = "fractionOneQuarter-cinf";
 }
 );
-layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
 width = 590;
 },
 {
-components = (
+layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+shapes = (
 {
-name = "fractionOneQuarter-cinf";
-transform = "{1, 0, 0, 1, 186, 0}";
+pos = (186,0);
+ref = "fractionOneQuarter-cinf";
 },
 {
-name = "fractionOneQuarter-cinf";
+ref = "fractionOneQuarter-cinf";
 },
 {
-name = "fractionOneQuarter-cinf";
-transform = "{1, 0, 0, 1, 372, 0}";
+pos = (372,0);
+ref = "fractionOneQuarter-cinf";
 }
 );
-layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
 width = 565;
 },
 {
-components = (
+layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+shapes = (
 {
-name = "fractionOneQuarter-cinf";
-transform = "{1, 0, 0, 1, 196, 0}";
+pos = (196,0);
+ref = "fractionOneQuarter-cinf";
 },
 {
-name = "fractionOneQuarter-cinf";
+ref = "fractionOneQuarter-cinf";
 },
 {
-name = "fractionOneQuarter-cinf";
-transform = "{1, 0, 0, 1, 392, 0}";
+pos = (392,0);
+ref = "fractionOneQuarter-cinf";
 }
 );
-layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
 width = 642;
 },
 {
-components = (
+layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+shapes = (
 {
-name = "fractionOneQuarter-cinf";
-transform = "{1, 0, 0, 1, 217, 0}";
+pos = (217,0);
+ref = "fractionOneQuarter-cinf";
 },
 {
-name = "fractionOneQuarter-cinf";
+ref = "fractionOneQuarter-cinf";
 },
 {
-name = "fractionOneQuarter-cinf";
-transform = "{1, 0, 0, 1, 434, 0}";
+pos = (434,0);
+ref = "fractionOneQuarter-cinf";
 }
 );
-layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
 width = 707;
 },
 {
-components = (
+layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+shapes = (
 {
-name = "fractionOneQuarter-cinf";
-transform = "{1, 0, 0, 1, 139, 0}";
+pos = (139,0);
+ref = "fractionOneQuarter-cinf";
 },
 {
-name = "fractionOneQuarter-cinf";
+ref = "fractionOneQuarter-cinf";
 },
 {
-name = "fractionOneQuarter-cinf";
-transform = "{1, 0, 0, 1, 278, 0}";
+pos = (278,0);
+ref = "fractionOneQuarter-cinf";
 }
 );
-layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
 width = 427;
 },
 {
-components = (
+layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+shapes = (
 {
-name = "fractionOneQuarter-cinf";
-transform = "{1, 0, 0, 1, 139, 0}";
+pos = (139,0);
+ref = "fractionOneQuarter-cinf";
 },
 {
-name = "fractionOneQuarter-cinf";
+ref = "fractionOneQuarter-cinf";
 },
 {
-name = "fractionOneQuarter-cinf";
-transform = "{1, 0, 0, 1, 278, 0}";
+pos = (278,0);
+ref = "fractionOneQuarter-cinf";
 }
 );
-layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
 width = 458;
 },
 {
-components = (
+layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+shapes = (
 {
-name = "fractionOneQuarter-cinf";
-transform = "{1, 0, 0, 1, 169, 0}";
+pos = (169,0);
+ref = "fractionOneQuarter-cinf";
 },
 {
-name = "fractionOneQuarter-cinf";
+ref = "fractionOneQuarter-cinf";
 },
 {
-name = "fractionOneQuarter-cinf";
-transform = "{1, 0, 0, 1, 338, 0}";
+pos = (338,0);
+ref = "fractionOneQuarter-cinf";
 }
 );
-layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
 width = 543;
 },
 {
-components = (
+layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+shapes = (
 {
-name = "fractionOneQuarter-cinf";
-transform = "{1, 0, 0, 1, 186, 0}";
+pos = (186,0);
+ref = "fractionOneQuarter-cinf";
 },
 {
-name = "fractionOneQuarter-cinf";
+ref = "fractionOneQuarter-cinf";
 },
 {
-name = "fractionOneQuarter-cinf";
-transform = "{1, 0, 0, 1, 372, 0}";
+pos = (372,0);
+ref = "fractionOneQuarter-cinf";
 }
 );
-layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
 width = 594;
 }
 );
-leftMetricsKey = "fractionOneQuarter-cinf";
+metricLeft = "fractionOneQuarter-cinf";
+metricRight = "fractionOneQuarter-cinf";
 note = "\012    uniA832\012  ";
-rightMetricsKey = "fractionOneQuarter-cinf";
-unicode = A832;
+production = uniA832;
 script = cinf;
-category = Number;
 subCategory = Other;
+unicode = 43058;
 userData = {
 com.schriftgestaltung.Glyphs.ColorIndex = 1;
 com.typemytype.robofont.layerData = {
