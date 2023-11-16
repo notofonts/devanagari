@@ -109,7 +109,9 @@ width = 408;
 );
 metricLeft = "fractionOneQuarter-cinf";
 metricRight = "fractionOneQuarter-cinf";
-note = "\012    uniA831\012  ";
+note = "
+    uniA831
+  ";
 production = uniA831;
 script = cinf;
 subCategory = Other;

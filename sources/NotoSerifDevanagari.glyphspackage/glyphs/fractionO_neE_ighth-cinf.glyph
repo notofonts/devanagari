@@ -115,7 +115,9 @@ ref = "fractionOneSixteenth-cinf";
 width = 625;
 }
 );
-note = "\012    uniA834\012  ";
+note = "
+    uniA834
+  ";
 production = uniA834;
 script = cinf;
 subCategory = Other;

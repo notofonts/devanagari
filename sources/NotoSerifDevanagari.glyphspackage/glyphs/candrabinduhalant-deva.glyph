@@ -571,7 +571,9 @@ nodes = (
 width = 496;
 }
 );
-note = "\012    uniA8F3\012  ";
+note = "
+    uniA8F3
+  ";
 script = devanagari;
 subCategory = Spacing;
 unicode = 43251;

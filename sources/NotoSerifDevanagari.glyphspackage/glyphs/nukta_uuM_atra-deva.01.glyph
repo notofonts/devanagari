@@ -1,210 +1,210 @@
 {
+category = Mark;
 glyphname = "nukta_uuMatra-deva.01";
-production = uni093C0942.01;
 layers = (
 {
 anchors = (
 {
 name = _bottom;
-position = "{-17, 0}";
+pos = (-17,0);
 },
 {
 name = nukta;
-position = "{-276, -154}";
-}
-);
-components = (
-{
-name = "uuMatra-deva";
-transform = "{1, 0, 0, 1, 66, 0}";
-},
-{
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, -22, 90}";
+pos = (-276,-154);
 }
 );
 layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+shapes = (
+{
+pos = (66,0);
+ref = "uuMatra-deva";
+},
+{
+pos = (-22,90);
+ref = "nukta-deva";
+}
+);
 width = 0;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{-34, 0}";
+pos = (-34,0);
 },
 {
 name = nukta;
-position = "{-274, -120}";
-}
-);
-components = (
-{
-name = "uuMatra-deva";
-transform = "{1, 0, 0, 1, 69, 0}";
-},
-{
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, -18, 92}";
+pos = (-274,-120);
 }
 );
 layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+shapes = (
+{
+pos = (69,0);
+ref = "uuMatra-deva";
+},
+{
+pos = (-18,92);
+ref = "nukta-deva";
+}
+);
 width = 0;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{29, 0}";
+pos = (29,0);
 },
 {
 name = nukta;
-position = "{-291, -157}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "uuMatra-deva";
-transform = "{1, 0, 0, 1, 127, 0}";
-},
-{
-alignment = -1;
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, -37, 92}";
+pos = (-291,-157);
 }
 );
 layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+shapes = (
+{
+alignment = -1;
+pos = (127,0);
+ref = "uuMatra-deva";
+},
+{
+alignment = -1;
+pos = (-37,92);
+ref = "nukta-deva";
+}
+);
 width = 0;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{49, 0}";
+pos = (49,0);
 },
 {
 name = nukta;
-position = "{-301, -165}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "uuMatra-deva";
-transform = "{1, 0, 0, 1, 150, 0}";
-},
-{
-alignment = -1;
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, -48, 95}";
+pos = (-301,-165);
 }
 );
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+shapes = (
+{
+alignment = -1;
+pos = (150,0);
+ref = "uuMatra-deva";
+},
+{
+alignment = -1;
+pos = (-48,95);
+ref = "nukta-deva";
+}
+);
 width = 0;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{-11, 0}";
+pos = (-11,0);
 },
 {
 name = nukta;
-position = "{-218, -120}";
-}
-);
-components = (
-{
-name = "uuMatra-deva";
-transform = "{1, 0, 0, 1, 61, 0}";
-},
-{
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 35, 101}";
+pos = (-218,-120);
 }
 );
 layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+shapes = (
+{
+pos = (61,0);
+ref = "uuMatra-deva";
+},
+{
+pos = (35,101);
+ref = "nukta-deva";
+}
+);
 width = 0;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{4, 0}";
+pos = (4,0);
 },
 {
 name = nukta;
-position = "{-225, -154}";
-}
-);
-components = (
-{
-name = "uuMatra-deva";
-transform = "{1, 0, 0, 1, 74, 0}";
-},
-{
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 29, 90}";
+pos = (-225,-154);
 }
 );
 layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+shapes = (
+{
+pos = (74,0);
+ref = "uuMatra-deva";
+},
+{
+pos = (29,90);
+ref = "nukta-deva";
+}
+);
 width = 0;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{31, 0}";
+pos = (31,0);
 },
 {
 name = nukta;
-position = "{-247, -159}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "uuMatra-deva";
-transform = "{1, 0, 0, 1, 91, 0}";
-},
-{
-alignment = -1;
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 7, 94}";
+pos = (-247,-159);
 }
 );
 layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+shapes = (
+{
+alignment = -1;
+pos = (91,0);
+ref = "uuMatra-deva";
+},
+{
+alignment = -1;
+pos = (7,94);
+ref = "nukta-deva";
+}
+);
 width = 0;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{53, 0}";
+pos = (53,0);
 },
 {
 name = nukta;
-position = "{-257, -166}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "uuMatra-deva";
-transform = "{1, 0, 0, 1, 106, 0}";
-},
-{
-alignment = -1;
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, -3, 94}";
+pos = (-257,-166);
 }
 );
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+shapes = (
+{
+alignment = -1;
+pos = (106,0);
+ref = "uuMatra-deva";
+},
+{
+alignment = -1;
+pos = (-3,94);
+ref = "nukta-deva";
+}
+);
 width = 0;
 }
 );
+production = uni093C0942.01;
 script = devanagari;
-category = Mark;
 subCategory = Nonspacing;
 userData = {
 com.schriftgestaltung.Glyphs.ColorIndex = 4;

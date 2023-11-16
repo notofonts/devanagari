@@ -99,7 +99,9 @@ ref = "reversedVisargaUdatta-vedic";
 width = 216;
 }
 );
-note = "\012    uni1CE6\012  ";
+note = "
+    uni1CE6
+  ";
 production = uni1CE6;
 script = vedic;
 subCategory = Spacing;

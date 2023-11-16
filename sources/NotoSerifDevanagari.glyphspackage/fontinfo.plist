@@ -1,5 +1,5 @@
 {
-.appVersion = "3148";
+.appVersion = "3225";
 .formatVersion = 3;
 axes = (
 {
@@ -7302,6 +7302,7 @@ guides = (
 pos = (318,-240);
 }
 );
+iconName = Bold_Condensed;
 id = "E10056C4-06A7-4834-9783-123B62B78F3D";
 metricValues = (
 {
@@ -20518,6 +20519,15 @@ value = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/d
 );
 },
 {
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Designed by Monotype design team.";
+}
+);
+},
+{
 key = designers;
 values = (
 {
@@ -20529,6 +20539,19 @@ value = "Universal Thirst, Indian Type Foundry and the Monotype Design Team";
 {
 key = designerURL;
 value = "http://www.monotype.com/studio";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
 },
 {
 key = manufacturers;
@@ -20544,23 +20567,6 @@ key = manufacturerURL;
 value = "http://www.google.com/get/noto/";
 },
 {
-key = versionString;
-value = "Version 2.004";
-},
-{
-key = licenseURL;
-value = "https://scripts.sil.org/OFL";
-},
-{
-key = descriptions;
-values = (
-{
-language = dflt;
-value = "Designed by Monotype design team.";
-}
-);
-},
-{
 key = trademarks;
 values = (
 {
@@ -20570,17 +20576,12 @@ value = "Noto is a trademark of Google Inc.";
 );
 },
 {
-key = licenses;
-values = (
-{
-language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-}
-);
-},
-{
 key = vendorID;
 value = GOOG;
+},
+{
+key = versionString;
+value = "Version 2.004";
 }
 );
 settings = {

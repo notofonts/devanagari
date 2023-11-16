@@ -1,333 +1,333 @@
 {
+category = Letter;
 glyphname = "ddd-deva";
-production = uni097E094D;
+kernLeft = "DEV_ddda-deva_L";
+kernRight = "DEV_ddd-deva_R";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{350, -121}";
+pos = (350,-121);
 },
 {
 name = bottom1;
-position = "{260, -121}";
+pos = (260,-121);
 },
 {
 name = bottom_right;
-position = "{260, -121}";
+pos = (260,-121);
 },
 {
 name = candra;
-position = "{407, 623}";
+pos = (407,623);
 },
 {
 name = nukta;
-position = "{278, -212}";
+pos = (278,-212);
 },
 {
 name = top;
-position = "{407, 623}";
-}
-);
-components = (
-{
-name = "ddda-deva";
-},
-{
-alignment = 1;
-name = "halant-deva";
-transform = "{1, 0, 0, 1, 350, -121}";
+pos = (407,623);
 }
 );
 layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+shapes = (
+{
+ref = "ddda-deva";
+},
+{
+alignment = 1;
+pos = (350,-121);
+ref = "halant-deva";
+}
+);
 width = 518;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{336, -90}";
+pos = (336,-90);
 },
 {
 name = bottom1;
-position = "{253, -90}";
+pos = (253,-90);
 },
 {
 name = bottom_right;
-position = "{253, -90}";
+pos = (253,-90);
 },
 {
 name = candra;
-position = "{373, 622}";
+pos = (373,622);
 },
 {
 name = nukta;
-position = "{277, -182}";
+pos = (277,-182);
 },
 {
 name = top;
-position = "{373, 622}";
-}
-);
-components = (
-{
-name = "ddda-deva";
-},
-{
-alignment = 1;
-name = "halant-deva";
-transform = "{1, 0, 0, 1, 336, -90}";
+pos = (373,622);
 }
 );
 layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+shapes = (
+{
+ref = "ddda-deva";
+},
+{
+alignment = 1;
+pos = (336,-90);
+ref = "halant-deva";
+}
+);
 width = 506;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{363, -144}";
+pos = (363,-144);
 },
 {
 name = bottom1;
-position = "{267, -144}";
+pos = (267,-144);
 },
 {
 name = bottom_right;
-position = "{267, -144}";
+pos = (267,-144);
 },
 {
 name = candra;
-position = "{425, 626}";
+pos = (425,626);
 },
 {
 name = nukta;
-position = "{288, -242}";
+pos = (288,-242);
 },
 {
 name = top;
-position = "{425, 626}";
-}
-);
-components = (
-{
-name = "ddda-deva";
-},
-{
-alignment = 1;
-name = "halant-deva";
-transform = "{1, 0, 0, 1, 363, -144}";
+pos = (425,626);
 }
 );
 layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+shapes = (
+{
+ref = "ddda-deva";
+},
+{
+alignment = 1;
+pos = (363,-144);
+ref = "halant-deva";
+}
+);
 width = 537;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{393, -163}";
+pos = (393,-163);
 },
 {
 name = bottom1;
-position = "{277, -163}";
+pos = (277,-163);
 },
 {
 name = bottom_right;
-position = "{277, -163}";
+pos = (277,-163);
 },
 {
 name = candra;
-position = "{454, 627}";
+pos = (454,627);
 },
 {
 name = nukta;
-position = "{317, -243}";
+pos = (317,-243);
 },
 {
 name = top;
-position = "{454, 627}";
-}
-);
-components = (
-{
-name = "ddda-deva";
-},
-{
-alignment = 1;
-name = "halant-deva";
-transform = "{1, 0, 0, 1, 393, -163}";
+pos = (454,627);
 }
 );
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+shapes = (
+{
+ref = "ddda-deva";
+},
+{
+alignment = 1;
+pos = (393,-163);
+ref = "halant-deva";
+}
+);
 width = 561;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{255, -90}";
+pos = (255,-90);
 },
 {
 name = bottom1;
-position = "{191, -90}";
+pos = (191,-90);
 },
 {
 name = bottom_right;
-position = "{191, -90}";
+pos = (191,-90);
 },
 {
 name = candra;
-position = "{296, 622}";
+pos = (296,622);
 },
 {
 name = nukta;
-position = "{216, -156}";
+pos = (216,-156);
 },
 {
 name = top;
-position = "{296, 622}";
-}
-);
-components = (
-{
-name = "ddda-deva";
-},
-{
-alignment = 1;
-name = "halant-deva";
-transform = "{1, 0, 0, 1, 255, -90}";
+pos = (296,622);
 }
 );
 layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+shapes = (
+{
+ref = "ddda-deva";
+},
+{
+alignment = 1;
+pos = (255,-90);
+ref = "halant-deva";
+}
+);
 width = 398;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{262, -121}";
+pos = (262,-121);
 },
 {
 name = bottom1;
-position = "{199, -121}";
+pos = (199,-121);
 },
 {
 name = bottom_right;
-position = "{199, -121}";
+pos = (199,-121);
 },
 {
 name = candra;
-position = "{319, 623}";
+pos = (319,623);
 },
 {
 name = nukta;
-position = "{218, -206}";
+pos = (218,-206);
 },
 {
 name = top;
-position = "{319, 623}";
-}
-);
-components = (
-{
-name = "ddda-deva";
-},
-{
-alignment = 1;
-name = "halant-deva";
-transform = "{1, 0, 0, 1, 262, -121}";
+pos = (319,623);
 }
 );
 layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+shapes = (
+{
+ref = "ddda-deva";
+},
+{
+alignment = 1;
+pos = (262,-121);
+ref = "halant-deva";
+}
+);
 width = 406;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{301, -145}";
+pos = (301,-145);
 },
 {
 name = bottom1;
-position = "{210, -144}";
+pos = (210,-144);
 },
 {
 name = bottom_right;
-position = "{210, -144}";
+pos = (210,-144);
 },
 {
 name = candra;
-position = "{348, 625}";
+pos = (348,625);
 },
 {
 name = nukta;
-position = "{250, -227}";
+pos = (250,-227);
 },
 {
 name = top;
-position = "{348, 625}";
-}
-);
-components = (
-{
-name = "ddda-deva";
-},
-{
-alignment = 1;
-name = "halant-deva";
-transform = "{1, 0, 0, 1, 301, -145}";
+pos = (348,625);
 }
 );
 layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+shapes = (
+{
+ref = "ddda-deva";
+},
+{
+alignment = 1;
+pos = (301,-145);
+ref = "halant-deva";
+}
+);
 width = 434;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{318, -163}";
+pos = (318,-163);
 },
 {
 name = bottom1;
-position = "{208, -163}";
+pos = (208,-163);
 },
 {
 name = bottom_right;
-position = "{208, -163}";
+pos = (208,-163);
 },
 {
 name = candra;
-position = "{360, 627}";
+pos = (360,627);
 },
 {
 name = nukta;
-position = "{264, -245}";
+pos = (264,-245);
 },
 {
 name = top;
-position = "{360, 627}";
-}
-);
-components = (
-{
-name = "ddda-deva";
-},
-{
-alignment = 1;
-name = "halant-deva";
-transform = "{1, 0, 0, 1, 318, -163}";
+pos = (360,627);
 }
 );
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+shapes = (
+{
+ref = "ddda-deva";
+},
+{
+alignment = 1;
+pos = (318,-163);
+ref = "halant-deva";
+}
+);
 width = 443;
 }
 );
-leftKerningGroup = "DEV_ddda-deva_L";
-leftMetricsKey = "ddda-deva";
-rightKerningGroup = "DEV_ddd-deva_R";
-rightMetricsKey = "ddda-deva";
+metricLeft = "ddda-deva";
+metricRight = "ddda-deva";
+production = uni097E094D;
 script = devanagari;
-category = Letter;
 subCategory = Other;
 }

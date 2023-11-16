@@ -1,26 +1,26 @@
 {
+category = Mark;
 glyphname = "yajurvedicKathakaSvaritaSchroeder-vedic.alt2";
-production = uni1CD9.alt2;
 layers = (
 {
 anchors = (
 {
 name = _bottom_right;
-position = "{-243, 0}";
+pos = (-243,0);
 }
 );
 layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-218 -495 LINE",
-"-227 -493 LINE",
-"-80 -656 LINE",
-"-51 -629 LINE",
-"-250 -404 LINE",
-"-436 -613 LINE",
-"-367 -660 LINE"
+(-218,-495,l),
+(-227,-493,l),
+(-80,-656,l),
+(-51,-629,l),
+(-250,-404,l),
+(-436,-613,l),
+(-367,-660,l)
 );
 }
 );
@@ -30,21 +30,21 @@ width = 0;
 anchors = (
 {
 name = _bottom_right;
-position = "{-225, 0}";
+pos = (-225,0);
 }
 );
 layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-213 -409 LINE",
-"-230 -409 LINE",
-"-47 -611 LINE",
-"-31 -598 LINE",
-"-227 -380 LINE",
-"-419 -599 LINE",
-"-392 -616 LINE"
+(-213,-409,l),
+(-230,-409,l),
+(-47,-611,l),
+(-31,-598,l),
+(-227,-380,l),
+(-419,-599,l),
+(-392,-616,l)
 );
 }
 );
@@ -54,21 +54,21 @@ width = 0;
 anchors = (
 {
 name = _bottom_right;
-position = "{-244, 0}";
+pos = (-244,0);
 }
 );
 layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-194 -571 LINE",
-"-245 -571 LINE",
-"-75 -754 LINE",
-"-30 -714 LINE",
-"-254 -472 LINE",
-"-459 -690 LINE",
-"-362 -757 LINE"
+(-194,-571,l),
+(-245,-571,l),
+(-75,-754,l),
+(-30,-714,l),
+(-254,-472,l),
+(-459,-690,l),
+(-362,-757,l)
 );
 }
 );
@@ -78,21 +78,21 @@ width = 0;
 anchors = (
 {
 name = _bottom_right;
-position = "{-251, 0}";
+pos = (-251,0);
 }
 );
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-185 -597 LINE",
-"-253 -597 LINE",
-"-83 -777 LINE",
-"-28 -728 LINE",
-"-263 -478 LINE",
-"-475 -696 LINE",
-"-353 -781 LINE"
+(-185,-597,l),
+(-253,-597,l),
+(-83,-777,l),
+(-28,-728,l),
+(-263,-478,l),
+(-475,-696,l),
+(-353,-781,l)
 );
 }
 );
@@ -102,21 +102,21 @@ width = 0;
 anchors = (
 {
 name = _bottom_right;
-position = "{-178, 0}";
+pos = (-178,0);
 }
 );
 layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-170 -431 LINE",
-"-180 -431 LINE",
-"-89 -593 LINE",
-"-70 -583 LINE",
-"-178 -390 LINE",
-"-286 -583 LINE",
-"-261 -597 LINE"
+(-170,-431,l),
+(-180,-431,l),
+(-89,-593,l),
+(-70,-583,l),
+(-178,-390,l),
+(-286,-583,l),
+(-261,-597,l)
 );
 }
 );
@@ -126,21 +126,21 @@ width = 0;
 anchors = (
 {
 name = _bottom_right;
-position = "{-197, 0}";
+pos = (-197,0);
 }
 );
 layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-175 -471 LINE",
-"-198 -471 LINE",
-"-76 -646 LINE",
-"-42 -624 LINE",
-"-203 -394 LINE",
-"-353 -613 LINE",
-"-292 -650 LINE"
+(-175,-471,l),
+(-198,-471,l),
+(-76,-646,l),
+(-42,-624,l),
+(-203,-394,l),
+(-353,-613,l),
+(-292,-650,l)
 );
 }
 );
@@ -150,21 +150,21 @@ width = 0;
 anchors = (
 {
 name = _bottom_right;
-position = "{-207, 0}";
+pos = (-207,0);
 }
 );
 layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-169 -531 LINE",
-"-209 -531 LINE",
-"-75 -703 LINE",
-"-26 -671 LINE",
-"-215 -429 LINE",
-"-389 -650 LINE",
-"-299 -707 LINE"
+(-169,-531,l),
+(-209,-531,l),
+(-75,-703,l),
+(-26,-671,l),
+(-215,-429,l),
+(-389,-650,l),
+(-299,-707,l)
 );
 }
 );
@@ -174,30 +174,32 @@ width = 0;
 anchors = (
 {
 name = _bottom_right;
-position = "{-209, 0}";
+pos = (-209,0);
 }
 );
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-160 -583 LINE",
-"-214 -583 LINE",
-"-74 -755 LINE",
-"-13 -716 LINE",
-"-219 -464 LINE",
-"-406 -688 LINE",
-"-295 -758 LINE"
+(-160,-583,l),
+(-214,-583,l),
+(-74,-755,l),
+(-13,-716,l),
+(-219,-464,l),
+(-406,-688,l),
+(-295,-758,l)
 );
 }
 );
 width = 0;
 }
 );
-note = "\012    uni1CD9\012  ";
+note = "
+    uni1CD9
+  ";
+production = uni1CD9.alt2;
 script = vedic;
-category = Mark;
 subCategory = Nonspacing;
 userData = {
 com.schriftgestaltung.Glyphs.ColorIndex = 1;

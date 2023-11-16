@@ -139,7 +139,9 @@ nodes = (
 width = 0;
 }
 );
-note = "\012    uni1CD2\012  ";
+note = "
+    uni1CD2
+  ";
 production = uni1CD2;
 script = vedic;
 subCategory = Nonspacing;

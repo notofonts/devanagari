@@ -1,23 +1,23 @@
 {
+category = Mark;
 glyphname = "udatta-deva.iicandra";
-production = uni0951.iicandra;
 layers = (
 {
 anchors = (
 {
 name = _top;
-position = "{-83, 623}";
+pos = (-83,623);
 }
 );
 layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"228 681 LINE",
-"228 876 LINE",
-"169 876 LINE",
-"169 681 LINE"
+(228,681,l),
+(228,876,l),
+(169,876,l),
+(169,681,l)
 );
 }
 );
@@ -27,18 +27,18 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-88, 622}";
+pos = (-88,622);
 }
 );
 layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"223 681 LINE",
-"223 867 LINE",
-"196 867 LINE",
-"196 681 LINE"
+(223,681,l),
+(223,867,l),
+(196,867,l),
+(196,681,l)
 );
 }
 );
@@ -48,18 +48,18 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-72, 626}";
+pos = (-72,626);
 }
 );
 layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"292 673 LINE",
-"292 875 LINE",
-"190 875 LINE",
-"190 673 LINE"
+(292,673,l),
+(292,875,l),
+(190,875,l),
+(190,673,l)
 );
 }
 );
@@ -69,18 +69,18 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-64, 627}";
+pos = (-64,627);
 }
 );
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"322 670 LINE",
-"322 877 LINE",
-"192 877 LINE",
-"192 670 LINE"
+(322,670,l),
+(322,877,l),
+(192,877,l),
+(192,670,l)
 );
 }
 );
@@ -90,18 +90,18 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-52, 622}";
+pos = (-52,622);
 }
 );
 layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"219 681 LINE",
-"219 867 LINE",
-"190 867 LINE",
-"190 681 LINE"
+(219,681,l),
+(219,867,l),
+(190,867,l),
+(190,681,l)
 );
 }
 );
@@ -111,18 +111,18 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-64, 623}";
+pos = (-64,623);
 }
 );
 layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"201 681 LINE",
-"201 876 LINE",
-"142 876 LINE",
-"142 681 LINE"
+(201,681,l),
+(201,876,l),
+(142,876,l),
+(142,681,l)
 );
 }
 );
@@ -132,18 +132,18 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-35, 625}";
+pos = (-35,625);
 }
 );
 layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"264 676 LINE",
-"264 876 LINE",
-"178 876 LINE",
-"178 676 LINE"
+(264,676,l),
+(264,876,l),
+(178,876,l),
+(178,676,l)
 );
 }
 );
@@ -153,25 +153,25 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-30, 627}";
+pos = (-30,627);
 }
 );
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"301 672 LINE",
-"301 875 LINE",
-"191 875 LINE",
-"191 672 LINE"
+(301,672,l),
+(301,875,l),
+(191,875,l),
+(191,672,l)
 );
 }
 );
 width = 0;
 }
 );
+production = uni0951.iicandra;
 script = devanagari;
-category = Mark;
 subCategory = Nonspacing;
 }

@@ -195,7 +195,9 @@ nodes = (
 width = 359;
 }
 );
-note = "\012    uni1CD3\012  ";
+note = "
+    uni1CD3
+  ";
 production = uni1CD3;
 script = devanagari;
 subCategory = Spacing;

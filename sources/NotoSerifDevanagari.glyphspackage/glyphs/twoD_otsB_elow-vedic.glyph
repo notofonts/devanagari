@@ -163,7 +163,9 @@ ref = "dotBelow-vedic";
 width = 0;
 }
 );
-note = "\012    uni1CDE\012  ";
+note = "
+    uni1CDE
+  ";
 production = uni1CDE;
 script = vedic;
 subCategory = Nonspacing;

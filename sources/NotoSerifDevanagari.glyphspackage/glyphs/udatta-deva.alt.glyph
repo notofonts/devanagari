@@ -1,23 +1,23 @@
 {
+category = Mark;
 glyphname = "udatta-deva.alt";
-production = uni0951.alt;
 layers = (
 {
 anchors = (
 {
 name = _top;
-position = "{-83, 623}";
+pos = (-83,623);
 }
 );
 layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"28 681 LINE",
-"28 876 LINE",
-"-31 876 LINE",
-"-31 681 LINE"
+(28,681,l),
+(28,876,l),
+(-31,876,l),
+(-31,681,l)
 );
 }
 );
@@ -27,18 +27,18 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-83, 622}";
+pos = (-83,622);
 }
 );
 layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"11 681 LINE",
-"11 867 LINE",
-"-16 867 LINE",
-"-16 681 LINE"
+(11,681,l),
+(11,867,l),
+(-16,867,l),
+(-16,681,l)
 );
 }
 );
@@ -48,18 +48,18 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-83, 626}";
+pos = (-83,626);
 }
 );
 layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"61 673 LINE",
-"61 875 LINE",
-"-41 875 LINE",
-"-41 673 LINE"
+(61,673,l),
+(61,875,l),
+(-41,875,l),
+(-41,673,l)
 );
 }
 );
@@ -69,18 +69,18 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-83, 627}";
+pos = (-83,627);
 }
 );
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"79 670 LINE",
-"79 877 LINE",
-"-51 877 LINE",
-"-51 670 LINE"
+(79,670,l),
+(79,877,l),
+(-51,877,l),
+(-51,670,l)
 );
 }
 );
@@ -90,18 +90,18 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-83, 622}";
+pos = (-83,622);
 }
 );
 layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"8 681 LINE",
-"8 867 LINE",
-"-21 867 LINE",
-"-21 681 LINE"
+(8,681,l),
+(8,867,l),
+(-21,867,l),
+(-21,681,l)
 );
 }
 );
@@ -111,18 +111,18 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-83, 623}";
+pos = (-83,623);
 }
 );
 layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"38 681 LINE",
-"38 876 LINE",
-"-21 876 LINE",
-"-21 681 LINE"
+(38,681,l),
+(38,876,l),
+(-21,876,l),
+(-21,681,l)
 );
 }
 );
@@ -132,18 +132,18 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-83, 625}";
+pos = (-83,625);
 }
 );
 layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"40 676 LINE",
-"40 876 LINE",
-"-46 876 LINE",
-"-46 676 LINE"
+(40,676,l),
+(40,876,l),
+(-46,876,l),
+(-46,676,l)
 );
 }
 );
@@ -153,25 +153,25 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-83, 627}";
+pos = (-83,627);
 }
 );
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"64 672 LINE",
-"64 875 LINE",
-"-46 875 LINE",
-"-46 672 LINE"
+(64,672,l),
+(64,875,l),
+(-46,875,l),
+(-46,672,l)
 );
 }
 );
 width = 0;
 }
 );
+production = uni0951.alt;
 script = devanagari;
-category = Mark;
 subCategory = Nonspacing;
 }
