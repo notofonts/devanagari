@@ -1,210 +1,210 @@
 {
+category = Mark;
 glyphname = "nukta_rVocalicMatra-deva";
-production = uni093C0943;
 layers = (
 {
 anchors = (
 {
 name = _bottom;
-position = "{56, 20}";
+pos = (56,0);
 },
 {
-name = nukta;
-position = "{-201, -277}";
-}
-);
-components = (
-{
-name = "rVocalicMatra-deva";
-transform = "{1, 0, 0, 1, 136, 20}";
-},
-{
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 53, -33}";
+name = bottom_right;
+pos = (-35,-261);
 }
 );
 layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+shapes = (
+{
+pos = (136,0);
+ref = "rVocalicMatra-deva";
+},
+{
+pos = (53,-53);
+ref = "nukta-deva";
+}
+);
 width = 0;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{40, 20}";
+pos = (40,0);
 },
 {
-name = nukta;
-position = "{-203, -245}";
-}
-);
-components = (
-{
-name = "rVocalicMatra-deva";
-transform = "{1, 0, 0, 1, 137, 20}";
-},
-{
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 53, -33}";
+name = bottom_right;
+pos = (-24,-271);
 }
 );
 layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+shapes = (
+{
+pos = (137,0);
+ref = "rVocalicMatra-deva";
+},
+{
+pos = (53,-53);
+ref = "nukta-deva";
+}
+);
 width = 0;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{93, 20}";
+pos = (93,0);
 },
 {
-name = nukta;
-position = "{-235, -282}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "rVocalicMatra-deva";
-transform = "{1, 0, 0, 1, 163, 20}";
-},
-{
-alignment = -1;
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 19, -33}";
+name = bottom_right;
+pos = (-17,-301);
 }
 );
 layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+shapes = (
+{
+alignment = -1;
+pos = (163,0);
+ref = "rVocalicMatra-deva";
+},
+{
+alignment = -1;
+pos = (29,-53);
+ref = "nukta-deva";
+}
+);
 width = 0;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{114, 20}";
+pos = (114,0);
 },
 {
-name = nukta;
-position = "{-250, -293}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "rVocalicMatra-deva";
-transform = "{1, 0, 0, 1, 176, 20}";
-},
-{
-alignment = -1;
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 3, -33}";
+name = bottom_right;
+pos = (-23,-281);
 }
 );
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+shapes = (
+{
+alignment = -1;
+pos = (176,0);
+ref = "rVocalicMatra-deva";
+},
+{
+alignment = -1;
+pos = (3,-53);
+ref = "nukta-deva";
+}
+);
 width = 0;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{36, 20}";
+pos = (36,0);
 },
 {
-name = nukta;
-position = "{-135, -253}";
-}
-);
-components = (
-{
-name = "rVocalicMatra-deva";
-transform = "{1, 0, 0, 1, 96, 20}";
-},
-{
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 118, -32}";
+name = bottom_right;
+pos = (-19,-251);
 }
 );
 layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+shapes = (
+{
+pos = (96,0);
+ref = "rVocalicMatra-deva";
+},
+{
+pos = (118,-52);
+ref = "nukta-deva";
+}
+);
 width = 0;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{48, 20}";
+pos = (48,0);
 },
 {
-name = nukta;
-position = "{-163, -277}";
-}
-);
-components = (
-{
-name = "rVocalicMatra-deva";
-transform = "{1, 0, 0, 1, 98, 20}";
-},
-{
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 91, -33}";
+name = bottom_right;
+pos = (-37,-251);
 }
 );
 layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+shapes = (
+{
+pos = (98,0);
+ref = "rVocalicMatra-deva";
+},
+{
+pos = (91,-53);
+ref = "nukta-deva";
+}
+);
 width = 0;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{80, 20}";
+pos = (80,0);
 },
 {
-name = nukta;
-position = "{-194, -286}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "rVocalicMatra-deva";
-transform = "{1, 0, 0, 1, 118, 20}";
-},
-{
-alignment = -1;
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 60, -33}";
+name = bottom_right;
+pos = (-13,-261);
 }
 );
 layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+shapes = (
+{
+alignment = -1;
+pos = (118,0);
+ref = "rVocalicMatra-deva";
+},
+{
+alignment = -1;
+pos = (70,-53);
+ref = "nukta-deva";
+}
+);
 width = 0;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{104, 20}";
+pos = (104,0);
 },
 {
-name = nukta;
-position = "{-191, -293}";
-}
-);
-components = (
-{
-alignment = -1;
-name = "rVocalicMatra-deva";
-transform = "{1, 0, 0, 1, 129, 20}";
-},
-{
-alignment = -1;
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 63, -33}";
+name = bottom_right;
+pos = (7,-261);
 }
 );
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+shapes = (
+{
+alignment = -1;
+pos = (129,0);
+ref = "rVocalicMatra-deva";
+},
+{
+alignment = -1;
+pos = (73,-53);
+ref = "nukta-deva";
+}
+);
 width = 0;
 }
 );
+production = uni093C0943;
 script = devanagari;
-category = Mark;
 subCategory = Nonspacing;
 userData = {
 com.schriftgestaltung.Glyphs.ColorIndex = 4;

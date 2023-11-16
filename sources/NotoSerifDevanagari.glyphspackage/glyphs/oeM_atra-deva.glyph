@@ -1,32 +1,32 @@
 {
+category = Mark;
 glyphname = "oeMatra-deva";
-production = uni093A;
 layers = (
 {
 anchors = (
 {
 name = _top;
-position = "{-84, 623}";
+pos = (-84,623);
 },
 {
 name = candra;
-position = "{108, 654}";
+pos = (88,654);
 },
 {
-name = top;
-position = "{37, 653}";
+name = topVedic;
+pos = (1,623);
 }
 );
 layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-160 795 LINE",
-"-160 602 LINE",
-"-84 602 LINE",
-"-84 747 LINE",
-"-150 795 LINE"
+(-160,795,l),
+(-160,602,l),
+(-84,602,l),
+(-84,747,l),
+(-150,795,l)
 );
 }
 );
@@ -36,27 +36,27 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-121, 622}";
+pos = (-121,622);
 },
 {
 name = candra;
-position = "{55, 662}";
+pos = (35,662);
 },
 {
-name = top;
-position = "{-40, 662}";
+name = topVedic;
+pos = (-21,622);
 }
 );
 layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-148 773 LINE",
-"-148 613 LINE",
-"-121 613 LINE",
-"-121 756 LINE",
-"-143 773 LINE"
+(-148,773,l),
+(-148,613,l),
+(-121,613,l),
+(-121,756,l),
+(-143,773,l)
 );
 }
 );
@@ -66,27 +66,27 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-72, 626}";
+pos = (-72,626);
 },
 {
 name = candra;
-position = "{156, 639}";
+pos = (136,639);
 },
 {
-name = top;
-position = "{60, 672}";
+name = topVedic;
+pos = (-2,626);
 }
 );
 layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-195 814 LINE",
-"-195 612 LINE",
-"-72 612 LINE",
-"-72 745 LINE",
-"-182 814 LINE"
+(-195,814,l),
+(-195,612,l),
+(-72,612,l),
+(-72,745,l),
+(-182,814,l)
 );
 }
 );
@@ -96,27 +96,27 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-56, 627}";
+pos = (-56,627);
 },
 {
 name = candra;
-position = "{218, 622}";
+pos = (198,622);
 },
 {
-name = top;
-position = "{113, 662}";
+name = topVedic;
+pos = (4,627);
 }
 );
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-214 828 LINE",
-"-214 613 LINE",
-"-56 613 LINE",
-"-56 743 LINE",
-"-198 828 LINE"
+(-214,828,l),
+(-214,613,l),
+(-56,613,l),
+(-56,743,l),
+(-198,828,l)
 );
 }
 );
@@ -126,27 +126,27 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-135, 622}";
+pos = (-135,622);
 },
 {
 name = candra;
-position = "{15, 644}";
+pos = (-5,644);
 },
 {
-name = top;
-position = "{-45, 652}";
+name = topVedic;
+pos = (-60,622);
 }
 );
 layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-163 773 LINE",
-"-163 613 LINE",
-"-135 613 LINE",
-"-135 756 LINE",
-"-158 773 LINE"
+(-163,773,l),
+(-163,613,l),
+(-135,613,l),
+(-135,756,l),
+(-158,773,l)
 );
 }
 );
@@ -156,27 +156,27 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-53, 623}";
+pos = (-53,623);
 },
 {
 name = candra;
-position = "{99, 652}";
+pos = (79,652);
 },
 {
-name = top;
-position = "{47, 652}";
+name = topVedic;
+pos = (21,623);
 }
 );
 layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-122 795 LINE",
-"-122 602 LINE",
-"-53 602 LINE",
-"-53 747 LINE",
-"-113 795 LINE"
+(-122,795,l),
+(-122,602,l),
+(-53,602,l),
+(-53,747,l),
+(-113,795,l)
 );
 }
 );
@@ -186,27 +186,27 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-58, 625}";
+pos = (-58,625);
 },
 {
 name = candra;
-position = "{146, 634}";
+pos = (126,634);
 },
 {
-name = top;
-position = "{63, 664}";
+name = topVedic;
+pos = (-5,625);
 }
 );
 layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-165 811 LINE",
-"-165 608 LINE",
-"-58 608 LINE",
-"-58 742 LINE",
-"-152 811 LINE"
+(-165,811,l),
+(-165,608,l),
+(-58,608,l),
+(-58,742,l),
+(-152,811,l)
 );
 }
 );
@@ -216,37 +216,37 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{-56, 627}";
+pos = (-56,627);
 },
 {
 name = candra;
-position = "{178, 625}";
+pos = (158,625);
 },
 {
-name = top;
-position = "{83, 667}";
+name = topVedic;
+pos = (-12,627);
 }
 );
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-192 823 LINE",
-"-192 613 LINE",
-"-56 613 LINE",
-"-56 738 LINE",
-"-176 823 LINE"
+(-192,823,l),
+(-192,613,l),
+(-56,613,l),
+(-56,738,l),
+(-176,823,l)
 );
 }
 );
 width = 0;
 }
 );
-unicode = 093A;
+production = uni093A;
 script = devanagari;
-category = Mark;
 subCategory = Nonspacing;
+unicode = 2362;
 userData = {
 com.schriftgestaltung.Glyphs.ColorIndex = 5;
 com.typemytype.robofont.layerData = {

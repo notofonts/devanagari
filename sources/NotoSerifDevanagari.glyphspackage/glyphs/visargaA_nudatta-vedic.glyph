@@ -1,30 +1,30 @@
 {
+category = Mark;
 glyphname = "visargaAnudatta-vedic";
-production = uni1CE5;
 layers = (
 {
 layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"231 -29 LINE",
-"172 18 OFFCURVE",
-"117 83 OFFCURVE",
-"117 151 CURVE SMOOTH",
-"117 207 OFFCURVE",
-"154 241 OFFCURVE",
-"215 241 CURVE SMOOTH",
-"365 241 LINE",
-"365 251 LINE",
-"323 313 LINE",
-"195 313 LINE SMOOTH",
-"102 313 OFFCURVE",
-"39 260 OFFCURVE",
-"39 181 CURVE SMOOTH",
-"39 78 OFFCURVE",
-"134 -12 OFFCURVE",
-"201 -63 CURVE"
+(231,-29,l),
+(172,18,o),
+(117,83,o),
+(117,151,cs),
+(117,207,o),
+(154,241,o),
+(215,241,cs),
+(365,241,l),
+(365,251,l),
+(323,313,l),
+(195,313,ls),
+(102,313,o),
+(39,260,o),
+(39,181,cs),
+(39,78,o),
+(134,-12,o),
+(201,-63,c)
 );
 }
 );
@@ -32,27 +32,27 @@ width = 179;
 },
 {
 layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"203 -72 LINE",
-"121 -1 OFFCURVE",
-"67 69 OFFCURVE",
-"67 145 CURVE SMOOTH",
-"67 219 OFFCURVE",
-"114 262 OFFCURVE",
-"196 262 CURVE SMOOTH",
-"332 262 LINE",
-"332 267 LINE",
-"318 286 LINE",
-"190 286 LINE SMOOTH",
-"99 286 OFFCURVE",
-"40 233 OFFCURVE",
-"40 150 CURVE SMOOTH",
-"40 68 OFFCURVE",
-"99 -12 OFFCURVE",
-"187 -89 CURVE"
+(203,-72,l),
+(121,-1,o),
+(67,69,o),
+(67,145,cs),
+(67,219,o),
+(114,262,o),
+(196,262,cs),
+(332,262,l),
+(332,267,l),
+(318,286,l),
+(190,286,ls),
+(99,286,o),
+(40,233,o),
+(40,150,cs),
+(40,68,o),
+(99,-12,o),
+(187,-89,c)
 );
 }
 );
@@ -60,27 +60,27 @@ width = 145;
 },
 {
 layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"255 -13 LINE",
-"190 37 OFFCURVE",
-"151 88 OFFCURVE",
-"151 142 CURVE SMOOTH",
-"151 192 OFFCURVE",
-"186 223 OFFCURVE",
-"244 223 CURVE SMOOTH",
-"392 223 LINE",
-"392 236 LINE",
-"339 323 LINE",
-"199 323 LINE SMOOTH",
-"104 323 OFFCURVE",
-"40 269 OFFCURVE",
-"40 189 CURVE SMOOTH",
-"40 100 OFFCURVE",
-"109 13 OFFCURVE",
-"210 -63 CURVE"
+(255,-13,l),
+(190,37,o),
+(151,88,o),
+(151,142,cs),
+(151,192,o),
+(186,223,o),
+(244,223,cs),
+(392,223,l),
+(392,236,l),
+(339,323,l),
+(199,323,ls),
+(104,323,o),
+(40,269,o),
+(40,189,cs),
+(40,100,o),
+(109,13,o),
+(210,-63,c)
 );
 }
 );
@@ -88,27 +88,27 @@ width = 215;
 },
 {
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"275 14 LINE",
-"213 57 OFFCURVE",
-"180 101 OFFCURVE",
-"180 147 CURVE SMOOTH",
-"180 189 OFFCURVE",
-"211 216 OFFCURVE",
-"262 216 CURVE SMOOTH",
-"430 216 LINE",
-"430 232 LINE",
-"365 341 LINE",
-"202 341 LINE SMOOTH",
-"106 341 OFFCURVE",
-"40 287 OFFCURVE",
-"40 209 CURVE SMOOTH",
-"40 119 OFFCURVE",
-"108 30 OFFCURVE",
-"219 -49 CURVE"
+(275,14,l),
+(213,57,o),
+(180,101,o),
+(180,147,cs),
+(180,189,o),
+(211,216,o),
+(262,216,cs),
+(430,216,l),
+(430,232,l),
+(365,341,l),
+(202,341,ls),
+(106,341,o),
+(40,287,o),
+(40,209,cs),
+(40,119,o),
+(108,30,o),
+(219,-49,c)
 );
 }
 );
@@ -116,27 +116,27 @@ width = 224;
 },
 {
 layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"170 -75 LINE",
-"107 1 OFFCURVE",
-"67 72 OFFCURVE",
-"67 146 CURVE SMOOTH",
-"67 219 OFFCURVE",
-"110 262 OFFCURVE",
-"184 262 CURVE SMOOTH",
-"246 262 LINE",
-"246 267 LINE",
-"233 286 LINE",
-"178 286 LINE SMOOTH",
-"93 286 OFFCURVE",
-"40 233 OFFCURVE",
-"40 151 CURVE SMOOTH",
-"40 68 OFFCURVE",
-"88 -10 OFFCURVE",
-"153 -89 CURVE"
+(170,-75,l),
+(107,1,o),
+(67,72,o),
+(67,146,cs),
+(67,219,o),
+(110,262,o),
+(184,262,cs),
+(246,262,l),
+(246,267,l),
+(233,286,l),
+(178,286,ls),
+(93,286,o),
+(40,233,o),
+(40,151,cs),
+(40,68,o),
+(88,-10,o),
+(153,-89,c)
 );
 }
 );
@@ -144,27 +144,27 @@ width = 126;
 },
 {
 layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"202 -46 LINE",
-"152 9 OFFCURVE",
-"109 77 OFFCURVE",
-"109 143 CURVE SMOOTH",
-"109 201 OFFCURVE",
-"145 236 OFFCURVE",
-"204 236 CURVE SMOOTH",
-"306 236 LINE",
-"306 245 LINE",
-"271 303 LINE",
-"182 303 LINE SMOOTH",
-"98 303 OFFCURVE",
-"40 250 OFFCURVE",
-"40 170 CURVE SMOOTH",
-"40 79 OFFCURVE",
-"110 -13 OFFCURVE",
-"170 -73 CURVE"
+(202,-46,l),
+(152,9,o),
+(109,77,o),
+(109,143,cs),
+(109,201,o),
+(145,236,o),
+(204,236,cs),
+(306,236,l),
+(306,245,l),
+(271,303,l),
+(182,303,ls),
+(98,303,o),
+(40,250,o),
+(40,170,cs),
+(40,79,o),
+(110,-13,o),
+(170,-73,c)
 );
 }
 );
@@ -172,27 +172,27 @@ width = 156;
 },
 {
 layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"225 -24 LINE",
-"177 27 OFFCURVE",
-"140 83 OFFCURVE",
-"140 140 CURVE SMOOTH",
-"140 193 OFFCURVE",
-"174 226 OFFCURVE",
-"232 226 CURVE SMOOTH",
-"326 226 LINE",
-"326 238 LINE",
-"278 319 LINE",
-"190 319 LINE SMOOTH",
-"101 319 OFFCURVE",
-"40 264 OFFCURVE",
-"40 182 CURVE SMOOTH",
-"40 93 OFFCURVE",
-"107 6 OFFCURVE",
-"180 -63 CURVE"
+(225,-24,l),
+(177,27,o),
+(140,83,o),
+(140,140,cs),
+(140,193,o),
+(174,226,o),
+(232,226,cs),
+(326,226,l),
+(326,238,l),
+(278,319,l),
+(190,319,ls),
+(101,319,o),
+(40,264,o),
+(40,182,cs),
+(40,93,o),
+(107,6,o),
+(180,-63,c)
 );
 }
 );
@@ -200,27 +200,27 @@ width = 176;
 },
 {
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"238 -1 LINE",
-"192 46 OFFCURVE",
-"161 95 OFFCURVE",
-"161 145 CURVE SMOOTH",
-"161 195 OFFCURVE",
-"195 226 OFFCURVE",
-"250 226 CURVE SMOOTH",
-"370 226 LINE",
-"370 240 LINE",
-"314 337 LINE",
-"195 337 LINE SMOOTH",
-"102 337 OFFCURVE",
-"40 281 OFFCURVE",
-"40 198 CURVE SMOOTH",
-"40 111 OFFCURVE",
-"102 27 OFFCURVE",
-"183 -49 CURVE"
+(238,-1,l),
+(192,46,o),
+(161,95,o),
+(161,145,cs),
+(161,195,o),
+(195,226,o),
+(250,226,cs),
+(370,226,l),
+(370,240,l),
+(314,337,l),
+(195,337,ls),
+(102,337,o),
+(40,281,o),
+(40,198,cs),
+(40,111,o),
+(102,27,o),
+(183,-49,c)
 );
 }
 );
@@ -228,10 +228,10 @@ width = 204;
 }
 );
 note = "\012    uni1CE5\012  ";
-unicode = 1CE5;
+production = uni1CE5;
 script = vedic;
-category = Mark;
 subCategory = Spacing;
+unicode = 7397;
 userData = {
 com.schriftgestaltung.Glyphs.ColorIndex = 1;
 com.typemytype.robofont.layerData = {

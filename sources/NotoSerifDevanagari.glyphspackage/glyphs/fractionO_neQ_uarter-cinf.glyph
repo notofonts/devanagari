@@ -1,19 +1,19 @@
 {
+category = Number;
 glyphname = "fractionOneQuarter-cinf";
-production = uniA830;
 layers = (
 {
 layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"143 -5 LINE",
-"143 577 LINE",
-"83 623 LINE",
-"73 623 LINE",
-"73 41 LINE",
-"134 -5 LINE"
+(143,-5,l),
+(143,577,l),
+(83,623,l),
+(73,623,l),
+(73,41,l),
+(134,-5,l)
 );
 }
 );
@@ -21,16 +21,16 @@ width = 216;
 },
 {
 layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"110 -5 LINE",
-"110 605 LINE",
-"88 622 LINE",
-"83 622 LINE",
-"83 12 LINE",
-"105 -5 LINE"
+(110,-5,l),
+(110,605,l),
+(88,622,l),
+(83,622,l),
+(83,12,l),
+(105,-5,l)
 );
 }
 );
@@ -38,16 +38,16 @@ width = 193;
 },
 {
 layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"184 -12 LINE",
-"184 559 LINE",
-"80 626 LINE",
-"66 626 LINE",
-"66 55 LINE",
-"170 -12 LINE"
+(184,-12,l),
+(184,559,l),
+(80,626,l),
+(66,626,l),
+(66,55,l),
+(170,-12,l)
 );
 }
 );
@@ -55,16 +55,16 @@ width = 250;
 },
 {
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"212 -15 LINE",
-"212 542 LINE",
-"78 627 LINE",
-"61 627 LINE",
-"61 70 LINE",
-"194 -15 LINE"
+(212,-15,l),
+(212,542,l),
+(78,627,l),
+(61,627,l),
+(61,70,l),
+(194,-15,l)
 );
 }
 );
@@ -72,16 +72,16 @@ width = 273;
 },
 {
 layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"88 -5 LINE",
-"88 607 LINE",
-"65 622 LINE",
-"61 622 LINE",
-"61 10 LINE",
-"83 -5 LINE"
+(88,-5,l),
+(88,607,l),
+(65,622,l),
+(61,622,l),
+(61,10,l),
+(83,-5,l)
 );
 }
 );
@@ -89,16 +89,16 @@ width = 149;
 },
 {
 layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"123 -5 LINE",
-"123 588 LINE",
-"66 623 LINE",
-"57 623 LINE",
-"57 29 LINE",
-"113 -5 LINE"
+(123,-5,l),
+(123,588,l),
+(66,623,l),
+(57,623,l),
+(57,29,l),
+(113,-5,l)
 );
 }
 );
@@ -106,16 +106,16 @@ width = 180;
 },
 {
 layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"154 -9 LINE",
-"154 571 LINE",
-"64 625 LINE",
-"51 625 LINE",
-"51 45 LINE",
-"142 -9 LINE"
+(154,-9,l),
+(154,571,l),
+(64,625,l),
+(51,625,l),
+(51,45,l),
+(142,-9,l)
 );
 }
 );
@@ -123,16 +123,16 @@ width = 205;
 },
 {
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"176 -12 LINE",
-"176 560 LINE",
-"61 627 LINE",
-"46 627 LINE",
-"46 55 LINE",
-"161 -12 LINE"
+(176,-12,l),
+(176,560,l),
+(61,627,l),
+(46,627,l),
+(46,55,l),
+(161,-12,l)
 );
 }
 );
@@ -140,10 +140,10 @@ width = 222;
 }
 );
 note = "\012    uniA830\012  ";
-unicode = A830;
+production = uniA830;
 script = cinf;
-category = Number;
 subCategory = Other;
+unicode = 43056;
 userData = {
 com.schriftgestaltung.Glyphs.ColorIndex = 1;
 com.typemytype.robofont.layerData = {

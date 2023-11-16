@@ -1,0 +1,116 @@
+{
+category = Letter;
+glyphname = "dd_r_ya-deva";
+kernLeft = "DEV_nga-deva_L";
+kernRight = "DEV_a-deva_R";
+layers = (
+{
+layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
+shapes = (
+{
+pos = (505,0);
+ref = "rakar-deva";
+},
+{
+ref = "dd_ya-deva";
+}
+);
+width = 1001;
+},
+{
+layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
+shapes = (
+{
+pos = (480,0);
+ref = "rakar-deva";
+},
+{
+ref = "dd_ya-deva";
+}
+);
+width = 1087;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+pos = (512,0);
+ref = "rakar-deva";
+},
+{
+ref = "dd_ya-deva";
+}
+);
+width = 1168;
+},
+{
+layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
+shapes = (
+{
+pos = (533,0);
+ref = "rakar-deva";
+},
+{
+ref = "dd_ya-deva";
+}
+);
+width = 1231;
+},
+{
+layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
+shapes = (
+{
+pos = (331,0);
+ref = "rakar-deva";
+},
+{
+ref = "dd_ya-deva";
+}
+);
+width = 750;
+},
+{
+layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
+shapes = (
+{
+pos = (367,0);
+ref = "rakar-deva";
+},
+{
+ref = "dd_ya-deva";
+}
+);
+width = 815;
+},
+{
+layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
+shapes = (
+{
+pos = (392,0);
+ref = "rakar-deva";
+},
+{
+ref = "dd_ya-deva";
+}
+);
+width = 893;
+},
+{
+layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
+shapes = (
+{
+pos = (416,0);
+ref = "rakar-deva";
+},
+{
+ref = "dd_ya-deva";
+}
+);
+width = 964;
+}
+);
+metricLeft = "dda-deva";
+metricRight = "aaMatra-deva";
+script = devanagari;
+subCategory = Other;
+}

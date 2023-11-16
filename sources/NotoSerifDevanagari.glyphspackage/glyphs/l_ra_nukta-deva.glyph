@@ -1,291 +1,290 @@
 {
+category = Letter;
 glyphname = "l_ra_nukta-deva";
-production = uni0932093C094D0930;
+kernLeft = "DEV_la-deva_L";
+kernRight = "DEV_a-deva_R";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{570, 0}";
+pos = (570,0);
 },
 {
 name = bottom_right;
-position = "{327, -91}";
+pos = (327,-91);
 },
 {
 name = candra;
-position = "{570, 623}";
+pos = (550,623);
 },
 {
 name = nukta;
-position = "{135, -151}";
+pos = (135,-151);
 },
 {
 name = top;
-position = "{570, 623}";
-}
-);
-components = (
-{
-name = "l_ra-deva";
-},
-{
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 389, 93}";
+pos = (570,623);
 }
 );
 layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
+shapes = (
+{
+ref = "l_ra-deva";
+},
+{
+pos = (389,93);
+ref = "nukta-deva";
+}
+);
 width = 655;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{527, 0}";
+pos = (527,0);
 },
 {
 name = bottom_right;
-position = "{313, -70}";
+pos = (313,-70);
 },
 {
 name = candra;
-position = "{527, 622}";
+pos = (507,622);
 },
 {
 name = nukta;
-position = "{150, -130}";
+pos = (150,-130);
 },
 {
 name = top;
-position = "{527, 622}";
-}
-);
-components = (
-{
-name = "l_ra-deva";
-},
-{
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 406, 82}";
+pos = (527,622);
 }
 );
 layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
+shapes = (
+{
+ref = "l_ra-deva";
+},
+{
+pos = (406,82);
+ref = "nukta-deva";
+}
+);
 width = 627;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{644, 10}";
+pos = (644,10);
 },
 {
 name = bottom_right;
-position = "{357, -101}";
+pos = (357,-101);
 },
 {
 name = candra;
-position = "{644, 626}";
+pos = (624,626);
 },
 {
 name = nukta;
-position = "{142, -161}";
+pos = (142,-161);
 },
 {
 name = top;
-position = "{644, 626}";
-}
-);
-components = (
-{
-name = "l_ra-deva";
-},
-{
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 396, 88}";
+pos = (644,626);
 }
 );
 layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
+shapes = (
+{
+ref = "l_ra-deva";
+},
+{
+pos = (396,88);
+ref = "nukta-deva";
+}
+);
 width = 714;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{691, 20}";
+pos = (691,20);
 },
 {
 name = bottom_right;
-position = "{375, -111}";
+pos = (375,-111);
 },
 {
 name = candra;
-position = "{692, 627}";
+pos = (672,627);
 },
 {
 name = nukta;
-position = "{144, -171}";
+pos = (144,-171);
 },
 {
 name = top;
-position = "{692, 627}";
-}
-);
-components = (
-{
-name = "l_ra-deva";
-},
-{
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 397, 89}";
+pos = (692,627);
 }
 );
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
+shapes = (
+{
+ref = "l_ra-deva";
+},
+{
+pos = (397,89);
+ref = "nukta-deva";
+}
+);
 width = 751;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{423, 0}";
+pos = (423,0);
 },
 {
 name = bottom_right;
-position = "{247, -71}";
+pos = (247,-71);
 },
 {
 name = candra;
-position = "{423, 622}";
+pos = (403,622);
 },
 {
 name = nukta;
-position = "{136, -131}";
+pos = (136,-131);
 },
 {
 name = top;
-position = "{423, 622}";
-}
-);
-components = (
-{
-name = "l_ra-deva";
-},
-{
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 389, 90}";
+pos = (423,622);
 }
 );
 layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
+shapes = (
+{
+ref = "l_ra-deva";
+},
+{
+pos = (389,90);
+ref = "nukta-deva";
+}
+);
 width = 495;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{448, 0}";
+pos = (448,0);
 },
 {
 name = bottom_right;
-position = "{255, -91}";
+pos = (255,-91);
 },
 {
 name = candra;
-position = "{448, 623}";
+pos = (428,623);
 },
 {
 name = nukta;
-position = "{116, -151}";
+pos = (116,-151);
 },
 {
 name = top;
-position = "{448, 623}";
-}
-);
-components = (
-{
-name = "l_ra-deva";
-},
-{
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 370, 93}";
+pos = (448,623);
 }
 );
 layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
+shapes = (
+{
+ref = "l_ra-deva";
+},
+{
+pos = (370,93);
+ref = "nukta-deva";
+}
+);
 width = 511;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{511, 10}";
+pos = (511,10);
 },
 {
 name = bottom_right;
-position = "{282, -102}";
+pos = (282,-102);
 },
 {
 name = candra;
-position = "{510, 625}";
+pos = (490,625);
 },
 {
 name = nukta;
-position = "{106, -162}";
+pos = (106,-162);
 },
 {
 name = top;
-position = "{510, 625}";
-}
-);
-components = (
-{
-name = "l_ra-deva";
-},
-{
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 360, 91}";
+pos = (510,625);
 }
 );
 layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
+shapes = (
+{
+ref = "l_ra-deva";
+},
+{
+pos = (360,91);
+ref = "nukta-deva";
+}
+);
 width = 565;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{543, 20}";
+pos = (543,20);
 },
 {
 name = bottom_right;
-position = "{294, -111}";
+pos = (294,-111);
 },
 {
 name = candra;
-position = "{543, 627}";
+pos = (523,627);
 },
 {
 name = nukta;
-position = "{98, -171}";
+pos = (98,-171);
 },
 {
 name = top;
-position = "{543, 627}";
-}
-);
-components = (
-{
-name = "l_ra-deva";
-},
-{
-name = "nukta-deva";
-transform = "{1, 0, 0, 1, 352, 89}";
+pos = (543,627);
 }
 );
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
+shapes = (
+{
+ref = "l_ra-deva";
+},
+{
+pos = (352,89);
+ref = "nukta-deva";
+}
+);
 width = 589;
 }
 );
-leftKerningGroup = "DEV_la-deva_L";
-rightKerningGroup = "DEV_a-deva_R";
 script = devanagari;
-category = Letter;
 subCategory = Other;
 }

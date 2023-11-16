@@ -1,0 +1,264 @@
+{
+category = Letter;
+glyphname = "iiMatra_reph_anusvara-deva";
+kernRight = "DEV_iiMatra_reph_anusvara-deva_R";
+layers = (
+{
+anchors = (
+{
+name = topVedic;
+pos = (344,622);
+}
+);
+layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(223,705,o),
+(236,717,o),
+(236,743,cs),
+(236,766,o),
+(225,781,o),
+(206,781,cs),
+(188,781,o),
+(175,767,o),
+(175,743,cs),
+(175,718,o),
+(190,705,o),
+(206,705,cs)
+);
+},
+{
+ref = "iiMatra_reph-deva";
+}
+);
+width = 225;
+},
+{
+anchors = (
+{
+name = topVedic;
+pos = (350,622);
+}
+);
+layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(258,675,o),
+(280,697,o),
+(280,724,cs),
+(280,751,o),
+(258,773,o),
+(232,773,cs),
+(205,773,o),
+(183,751,o),
+(183,724,cs),
+(183,697,o),
+(205,675,o),
+(232,675,cs)
+);
+},
+{
+ref = "iiMatra_reph-deva";
+}
+);
+width = 259;
+},
+{
+anchors = (
+{
+name = topVedic;
+pos = (366,622);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(298,652,o),
+(321,675,o),
+(321,704,cs),
+(321,733,o),
+(298,756,o),
+(269,756,cs),
+(240,756,o),
+(217,733,o),
+(217,704,cs),
+(217,675,o),
+(240,652,o),
+(269,652,cs)
+);
+},
+{
+ref = "iiMatra_reph-deva";
+}
+);
+width = 294;
+},
+{
+anchors = (
+{
+name = topVedic;
+pos = (413,622);
+}
+);
+layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
+shapes = (
+{
+closed = 1;
+nodes = (
+(328,644,o),
+(350,666,o),
+(350,698,cs),
+(350,727,o),
+(328,751,o),
+(297,751,cs),
+(265,751,o),
+(242,731,o),
+(242,698,cs),
+(242,668,o),
+(264,644,o),
+(297,644,cs)
+);
+},
+{
+ref = "iiMatra_reph-deva";
+}
+);
+width = 317;
+},
+{
+anchors = (
+{
+name = topVedic;
+pos = (296,622);
+}
+);
+layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(193,705,o),
+(205,715,o),
+(205,742,cs),
+(205,766,o),
+(194,779,o),
+(177,779,cs),
+(161,779,o),
+(148,767,o),
+(148,742,cs),
+(148,716,o),
+(162,705,o),
+(176,705,cs)
+);
+},
+{
+ref = "iiMatra_reph-deva";
+}
+);
+width = 179;
+},
+{
+anchors = (
+{
+name = topVedic;
+pos = (303,622);
+}
+);
+layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,677,o),
+(240,696,o),
+(240,725,cs),
+(240,755,o),
+(226,774,o),
+(198,774,cs),
+(170,774,o),
+(156,755,o),
+(156,725,cs),
+(156,696,o),
+(170,677,o),
+(198,677,cs)
+);
+},
+{
+ref = "iiMatra_reph-deva";
+}
+);
+width = 203;
+},
+{
+anchors = (
+{
+name = topVedic;
+pos = (313,622);
+}
+);
+layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(259,659,o),
+(275,679,o),
+(275,708,cs),
+(275,738,o),
+(259,759,o),
+(230,759,cs),
+(200,759,o),
+(184,739,o),
+(184,709,cs),
+(184,679,o),
+(200,659,o),
+(230,659,cs)
+);
+},
+{
+ref = "iiMatra_reph-deva";
+}
+);
+width = 237;
+},
+{
+anchors = (
+{
+name = topVedic;
+pos = (319,622);
+}
+);
+layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(275,647,o),
+(293,668,o),
+(293,698,cs),
+(293,728,o),
+(275,750,o),
+(245,750,cs),
+(215,750,o),
+(197,729,o),
+(197,699,cs),
+(197,669,o),
+(215,647,o),
+(245,647,cs)
+);
+},
+{
+ref = "iiMatra_reph-deva";
+}
+);
+width = 258;
+}
+);
+subCategory = Other;
+}

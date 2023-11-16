@@ -1,4 +1,5 @@
 {
+category = Separator;
 glyphname = CR;
 layers = (
 {
@@ -34,8 +35,7 @@ layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
 width = 237;
 }
 );
-unicode = 000D;
 script = "";
-category = Separator;
 subCategory = Other;
+unicode = 13;
 }

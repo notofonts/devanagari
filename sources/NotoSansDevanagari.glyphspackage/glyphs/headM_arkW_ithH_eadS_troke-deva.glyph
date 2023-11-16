@@ -1,0 +1,280 @@
+{
+category = Letter;
+glyphname = "headMarkWithHeadStroke-deva";
+layers = (
+{
+layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(384,596,l),
+(384,622,l),
+(115,622,l),
+(115,596,l)
+);
+},
+{
+ref = "headMark-deva";
+}
+);
+width = 508;
+},
+{
+layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(425,551,l),
+(425,622,l),
+(115,622,l),
+(115,551,l)
+);
+},
+{
+ref = "headMark-deva";
+}
+);
+width = 536;
+},
+{
+layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
+shapes = (
+{
+closed = 1;
+nodes = (
+(494,484,l),
+(494,622,l),
+(115,622,l),
+(115,484,l)
+);
+},
+{
+ref = "headMark-deva";
+}
+);
+width = 604;
+},
+{
+layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(376,514,l),
+(376,622,l),
+(92,622,l),
+(92,514,l)
+);
+},
+{
+ref = "headMark-deva";
+}
+);
+width = 457;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+closed = 1;
+nodes = (
+(463,512,l),
+(463,622,l),
+(115,622,l),
+(115,512,l)
+);
+},
+{
+ref = "headMark-deva";
+}
+);
+width = 557;
+},
+{
+layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(414,489,l),
+(414,622,l),
+(97,622,l),
+(97,489,l)
+);
+},
+{
+ref = "headMark-deva";
+}
+);
+width = 488;
+},
+{
+layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
+shapes = (
+{
+closed = 1;
+nodes = (
+(341,554,l),
+(341,622,l),
+(89,622,l),
+(89,554,l)
+);
+},
+{
+ref = "headMark-deva";
+}
+);
+width = 412;
+},
+{
+layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
+shapes = (
+{
+closed = 1;
+nodes = (
+(311,596,l),
+(311,622,l),
+(92,622,l),
+(92,596,l)
+);
+},
+{
+ref = "headMark-deva";
+}
+);
+width = 396;
+}
+);
+metricLeft = "uni11B00-deva";
+metricRight = "uni11B00-deva";
+script = devanagari;
+subCategory = Spacing;
+userData = {
+com.typemytype.robofont.layerData = {
+background = {
+anchors = (
+);
+components = (
+);
+contours = (
+{
+points = (
+{
+segmentType = line;
+smooth = 0;
+x = 153;
+y = 1204;
+},
+{
+segmentType = line;
+smooth = 1;
+x = 153;
+y = 793;
+},
+{
+smooth = 0;
+x = 153;
+y = 616;
+},
+{
+smooth = 0;
+x = 166;
+y = 561;
+},
+{
+segmentType = curve;
+smooth = 1;
+x = 281;
+y = 450;
+},
+{
+smooth = 0;
+x = 340;
+y = 393;
+},
+{
+smooth = 0;
+x = 419;
+y = 337;
+},
+{
+segmentType = curve;
+smooth = 1;
+x = 521;
+y = 337;
+},
+{
+smooth = 0;
+x = 605;
+y = 337;
+},
+{
+smooth = 0;
+x = 701;
+y = 383;
+},
+{
+segmentType = curve;
+smooth = 0;
+x = 751;
+y = 422;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 751;
+y = 606;
+},
+{
+smooth = 0;
+x = 657;
+y = 515;
+},
+{
+smooth = 0;
+x = 546;
+y = 463;
+},
+{
+segmentType = curve;
+smooth = 1;
+x = 437;
+y = 463;
+},
+{
+smooth = 0;
+x = 346;
+y = 463;
+},
+{
+smooth = 0;
+x = 300;
+y = 510;
+},
+{
+segmentType = curve;
+smooth = 1;
+x = 300;
+y = 644;
+},
+{
+segmentType = line;
+smooth = 0;
+x = 300;
+y = 1204;
+}
+);
+}
+);
+lib = {
+};
+name = dvPA;
+unicodes = (
+);
+width = 1057;
+};
+};
+};
+}

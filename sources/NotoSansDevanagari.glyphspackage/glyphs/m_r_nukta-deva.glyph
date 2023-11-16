@@ -1,0 +1,115 @@
+{
+category = Letter;
+glyphname = "m_r_nukta-deva";
+kernLeft = "DEV_ma-deva_L";
+kernRight = "DEV_m-deva_R";
+layers = (
+{
+layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
+shapes = (
+{
+ref = "m_r-deva";
+},
+{
+pos = (610,21);
+ref = "nukta-deva";
+}
+);
+width = 377;
+},
+{
+layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
+shapes = (
+{
+ref = "m_r-deva";
+},
+{
+pos = (624,0);
+ref = "nukta-deva";
+}
+);
+width = 428;
+},
+{
+layerId = UUID0;
+shapes = (
+{
+ref = "m_r-deva";
+},
+{
+pos = (644,0);
+ref = "nukta-deva";
+}
+);
+width = 432;
+},
+{
+layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
+shapes = (
+{
+ref = "m_r-deva";
+},
+{
+pos = (654,0);
+ref = "nukta-deva";
+}
+);
+width = 439;
+},
+{
+layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
+shapes = (
+{
+ref = "m_r-deva";
+},
+{
+pos = (443,21);
+ref = "nukta-deva";
+}
+);
+width = 279;
+},
+{
+layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
+shapes = (
+{
+ref = "m_r-deva";
+},
+{
+pos = (460,2);
+ref = "nukta-deva";
+}
+);
+width = 307;
+},
+{
+layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
+shapes = (
+{
+ref = "m_r-deva";
+},
+{
+pos = (468,1);
+ref = "nukta-deva";
+}
+);
+width = 322;
+},
+{
+layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
+shapes = (
+{
+ref = "m_r-deva";
+},
+{
+pos = (482,0);
+ref = "nukta-deva";
+}
+);
+width = 331;
+}
+);
+metricLeft = "ma-deva";
+script = devanagari;
+subCategory = Other;
+}

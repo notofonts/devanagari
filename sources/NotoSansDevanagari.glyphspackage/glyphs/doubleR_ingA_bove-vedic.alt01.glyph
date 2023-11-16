@@ -1,0 +1,199 @@
+{
+category = Mark;
+glyphname = "doubleRingAbove-vedic.alt01";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (-126,622);
+}
+);
+guides = (
+{
+pos = (-1578,689);
+}
+);
+layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
+shapes = (
+{
+pos = (55,-1);
+ref = "ringAbove-vedic";
+},
+{
+pos = (247,-1);
+ref = "ringAbove-vedic";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (-170,622);
+}
+);
+guides = (
+{
+pos = (-110,685);
+},
+{
+pos = (-110,871);
+}
+);
+layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
+shapes = (
+{
+pos = (77,2);
+ref = "ringAbove-vedic";
+},
+{
+pos = (301,2);
+ref = "ringAbove-vedic";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (-214,622);
+}
+);
+guides = (
+{
+pos = (-581,671);
+}
+);
+layerId = UUID0;
+shapes = (
+{
+pos = (101,-1);
+ref = "ringAbove-vedic";
+},
+{
+pos = (341,-1);
+ref = "ringAbove-vedic";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (-247,622);
+}
+);
+guides = (
+{
+pos = (-613,682);
+},
+{
+pos = (-613,894);
+}
+);
+layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
+shapes = (
+{
+pos = (107,-1);
+ref = "ringAbove-vedic";
+},
+{
+pos = (369,-1);
+ref = "ringAbove-vedic";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (-103,622);
+}
+);
+guides = (
+{
+pos = (-474,693);
+}
+);
+layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
+shapes = (
+{
+pos = (63,-1);
+ref = "ringAbove-vedic";
+},
+{
+pos = (241,-1);
+ref = "ringAbove-vedic";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (-139,622);
+}
+);
+layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
+shapes = (
+{
+pos = (82,-1);
+ref = "ringAbove-vedic";
+},
+{
+pos = (272,-1);
+ref = "ringAbove-vedic";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (-179,622);
+}
+);
+layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
+shapes = (
+{
+pos = (99,-1);
+ref = "ringAbove-vedic";
+},
+{
+pos = (317,-1);
+ref = "ringAbove-vedic";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (-204,622);
+}
+);
+layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
+shapes = (
+{
+pos = (116,-1);
+ref = "ringAbove-vedic";
+},
+{
+pos = (353,-1);
+ref = "ringAbove-vedic";
+}
+);
+width = 0;
+}
+);
+script = vedic;
+subCategory = Nonspacing;
+}
