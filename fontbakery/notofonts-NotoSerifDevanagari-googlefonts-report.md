@@ -1,19 +1,13 @@
 ## FontBakery report
 
-fontbakery version: 0.10.3
+fontbakery version: 0.10.8
 
-<details><summary><b>[1] Experimental checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+<details><summary><b>[12] NotoSerifDevanagari[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
 
 
-* 🔥 **FAIL** GF_Latin_Core/haw_Latn (Hawaiian): [FAIL: Some base glyphs were missing: ʻ, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/mh_Latn (Marshallese): [FAIL: Some base glyphs were missing: Ḷ, ḷ, Ṃ, ṃ, Ṇ, ṇ, Ọ, ọ, FAIL: Some mark glyphs were missing: ◌̣, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/scn_Latn (Sicilian): [FAIL: Some base glyphs were missing: Ḍ, ḍ, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
-* 🔥 **FAIL** GF_Latin_Core/teo_Latn (Teso): [FAIL: Some base glyphs were missing: Ɔ, Ɛ, Ɨ, Ʉ, ɔ, ɛ, ɨ, ʉ, ᵃ, ᵉ, ᵋ, ᵒ, ᵓ, ᵘ, ᶤ, ᶶ, ⁱ, FAIL: Shaper produced a .notdef] [code: failed-language-shaping]
-* ⚠ **WARN** GF_Latin_Core/lg_Latn (Ganda): [WARN: No variant glyphs were found for Eng] [code: warning-language-shaping]
-* ⚠ **WARN** GF_Latin_Core/dyo_Latn (Jola-Fonyi): [WARN: No variant glyphs were found for Eng] [code: warning-language-shaping]
-* ⚠ **WARN** GF_Latin_Core/ny_Latn (Nyanja): [WARN: No variant glyphs were found for Eng] [code: warning-language-shaping]
-* ⚠ **WARN** GF_Latin_Core/wo_Latn (Wolof): [WARN: No variant glyphs were found for Eng] [code: warning-language-shaping]
-</div></details><br></div></details><details><summary><b>[11] NotoSerifDevanagari[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+* 🔥 **FAIL** Version number 2.004 is equal to version on **Google Fonts**.
+* 🔥 **FAIL** Version number 2.004 is equal to version on google/fonts **GitHub repo**.
+</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
@@ -155,7 +149,7 @@ fontbakery version: 0.10.3
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
@@ -163,7 +157,7 @@ fontbakery version: 0.10.3
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
  * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, tai-le, syriac, canadian-aboriginal, tifinagh, coptic, math, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, tai-le, tifinagh, old-permic, malayalam, canadian-aboriginal, math, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -171,8 +165,18 @@ fontbakery version: 0.10.3
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+2010 HYPHEN: try adding one of: kharoshthi, kayah-li, cham, lisu, kaithi, coptic, sundanese, yi, sora-sompeng, syloti-nagri
+ * U+2010 HYPHEN: try adding one of: yi, cham, kharoshthi, syloti-nagri, kaithi, sundanese, coptic, lisu, sora-sompeng, kayah-li
  * U+20F0 COMBINING ASTERISK ABOVE: try adding grantha
+ * U+11B00 DEVANAGARI HEAD MARK: not included in any glyphset definition
+ * U+11B01 DEVANAGARI HEAD MARK WITH HEADSTROKE: not included in any glyphset definition
+ * U+11B02 DEVANAGARI SIGN BHALE: not included in any glyphset definition
+ * U+11B03 DEVANAGARI SIGN BHALE WITH HOOK: not included in any glyphset definition
+ * U+11B04 DEVANAGARI SIGN EXTENDED BHALE: not included in any glyphset definition
+ * U+11B05 DEVANAGARI SIGN EXTENDED BHALE WITH HOOK: not included in any glyphset definition
+ * U+11B06 DEVANAGARI SIGN WESTERN FIVE-LIKE BHALE: not included in any glyphset definition
+ * U+11B07 DEVANAGARI SIGN WESTERN NINE-LIKE BHALE: not included in any glyphset definition
+ * U+11B08 DEVANAGARI SIGN REVERSED NINE-LIKE BHALE: not included in any glyphset definition
+ * U+11B09 DEVANAGARI SIGN MINDU: not included in any glyphset definition
 
 Or you can add the above codepoints to one of the subsets supported by the font: `devanagari`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -217,13 +221,11 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 	* uni09460901
 	* uni09470901
 	* uni09470901.alt and uni09480901
-</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 31 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
-* ⚠ **WARN** The combined length of family and style exceeds 27 chars in the following 'WINDOWS' entries:
- FONT_FAMILY_NAME = 'Noto Serif Devanagari' / SUBFAMILY_NAME = 'Regular'
-
-Please take a look at the conversation at https://github.com/fonttools/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+* ⚠ **WARN** Variable font instance name ExtraLight Noto Serif Devanagari exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
+* ⚠ **WARN** Variable font instance name ExtraLight Noto Serif Devanagari exceeds 31 characters. This has been found to  cause problems in Microsoft Windows 11 [code: instance-too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -245,31 +247,11 @@ Please take a look at the conversation at https://github.com/fonttools/fontbaker
 
 	- ghh_nukadeva
 
-	- headMarkWithHeadStrokedeva
-
-	- headMarkdeva
-
 	- oeMatra_candrabindudeva
 
 	- oeMatra_rephanusvaradeva
 
 	- oeMatra_rephcandrabindudeva
-
-	- signBhaleWithHookdeva
-
-	- signBhaledeva
-
-	- signExtendedBhaleWithHookdeva
-
-	- signExtendedBhaledeva
-
-	- signMindudeva
-
-	- signReversedNineLikeBhaledeva
-
-	- signWesternFiveLikeBhaledeva
-
-	- signWesternNineLikeBhaledeva
 
 	- two_karshana
 
@@ -634,7 +616,13 @@ Please take a look at the conversation at https://github.com/fonttools/fontbaker
 
 * ⚠ **WARN** Interpolation issues were found in the font:
 
-	- Contour order differs in glyph 'zhdeva': [0, 1, 2, 3, 4] in <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f60b459d650>, [0, 1, 2, 4, 3] in <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f60b657dc10>. [code: interpolation-issues]
+	- Contour order differs in glyph 'zhdeva': [0, 1, 2, 3, 4] in wght=100,wdth=100, [0, 1, 2, 4, 3] in wght=690,wdth=100.
+
+	- Contour order differs in glyph 'zhdeva': [0, 1, 2, 3, 4] in wght=690,wdth=100, [0, 1, 2, 4, 3] in wght=900,wdth=100.
+
+	- Contour order differs in glyph 'zhdeva': [0, 1, 2, 3, 4] in wght=900,wdth=100, [0, 1, 3, 4, 2] in wght=100,wdth=62.
+
+	- Contour order differs in glyph 'zhdeva': [0, 1, 2, 3, 4] in wght=100,wdth=62, [0, 1, 4, 2, 3] in wght=690,wdth=62. [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -647,17 +635,17 @@ Please take a look at the conversation at https://github.com/fonttools/fontbaker
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į⃰ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̦⃰
 
-Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Kom (Latn, 360,685 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Ma’di (Latn, 584,000 speakers), Ejagham (Latn, 120,000 speakers), Dan (Latn, 1,099,244 speakers), Nateni (Latn, 100,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Igbo (Latn, 27,823,640 speakers), Lugbara (Latn, 2,200,000 speakers), Ebira (Latn, 2,200,000 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Igbo (Latn, 27,823,640 speakers), South Central Banda (Latn, 244,000 speakers), Nateni (Latn, 100,000 speakers), Avokaya (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Bafut (Latn, 158,146 speakers), Fur (Latn, 1,230,163 speakers), Ma’di (Latn, 584,000 speakers), Basaa (Latn, 332,940 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Mundani (Latn, 34,000 speakers), Mango (Latn, 77,000 speakers), Kom (Latn, 360,685 speakers), Mfumte (Latn, 79,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Nzakara (Latn, 50,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), Southern Kisi (Latn, 360,000 speakers), Zapotec (Latn, 490,000 speakers), Gulay (Latn, 250,478 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Dan (Latn, 1,099,244 speakers), Sar (Latn, 500,000 speakers), Lugbara (Latn, 2,200,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
-| 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
+| 💔 ERROR | ☠ FATAL | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 3 | 9 | 99 | 8 | 136 | 0 |
-| 0% | 1% | 4% | 39% | 3% | 53% | 0% |
+| 0 | 0 | 3 | 9 | 99 | 8 | 136 |
+| 0% | 0% | 1% | 4% | 39% | 3% | 53% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
