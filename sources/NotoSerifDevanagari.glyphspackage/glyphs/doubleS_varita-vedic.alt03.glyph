@@ -243,9 +243,7 @@ nodes = (
 width = 0;
 }
 );
-note = "
-    uni1CDA
-  ";
+note = "\012    uni1CDA\012  ";
 script = vedic;
 subCategory = Nonspacing;
 userData = {

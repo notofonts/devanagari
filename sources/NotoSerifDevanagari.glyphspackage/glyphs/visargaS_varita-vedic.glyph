@@ -87,9 +87,7 @@ ref = "yajurvedicSvarita-vedic";
 width = 0;
 }
 );
-note = "
-    uni1CE2
-  ";
+note = "\012    uni1CE2\012  ";
 production = uni1CE2;
 script = vedic;
 subCategory = Spacing;

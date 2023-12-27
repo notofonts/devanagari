@@ -1,5 +1,5 @@
 {
-.appVersion = "3225";
+.appVersion = "3151";
 .formatVersion = 3;
 axes = (
 {
@@ -6842,7 +6842,7 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.20313;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.20312;
 "B871EA9A-50AC-43A6-961C-B7EB8764AD7C" = 0.79688;
 };
 name = ExtraLight;
@@ -7880,7 +7880,7 @@ value = "536";
 );
 instanceInterpolations = {
 "5CC745D4-D12D-435B-A472-7D28876E43BC" = 0.79688;
-"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.20313;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.20312;
 };
 name = "ExtraCondensed ExtraLight";
 weightClass = 200;
@@ -8357,7 +8357,7 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.20313;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.20312;
 "B871EA9A-50AC-43A6-961C-B7EB8764AD7C" = 0.79688;
 };
 name = ExtraLight;
@@ -11447,7 +11447,7 @@ value = (
 exports = 0;
 instanceInterpolations = {
 "5CC745D4-D12D-435B-A472-7D28876E43BC" = 0.79688;
-"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.20313;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.20312;
 };
 name = "ExtraCondensed ExtraLight";
 properties = (

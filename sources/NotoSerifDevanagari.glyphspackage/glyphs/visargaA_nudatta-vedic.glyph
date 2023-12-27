@@ -227,9 +227,7 @@ nodes = (
 width = 204;
 }
 );
-note = "
-    uni1CE5
-  ";
+note = "\012    uni1CE5\012  ";
 production = uni1CE5;
 script = vedic;
 subCategory = Spacing;

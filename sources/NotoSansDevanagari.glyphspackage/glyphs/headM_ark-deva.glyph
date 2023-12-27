@@ -356,6 +356,7 @@ width = 488;
 );
 script = devanagari;
 subCategory = Spacing;
+unicode = 72448;
 userData = {
 com.typemytype.robofont.layerData = {
 background = {

@@ -131,9 +131,7 @@ ref = "doubleSvarita-vedic";
 width = 0;
 }
 );
-note = "
-    uni1CDA
-  ";
+note = "\012    uni1CDA\012  ";
 production = uni1CDA.alt;
 script = vedic;
 subCategory = Nonspacing;

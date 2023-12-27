@@ -147,9 +147,7 @@ nodes = (
 width = 406;
 }
 );
-note = "
-    uniA8FA
-  ";
+note = "\012    uniA8FA\012  ";
 production = uniA8FA;
 script = devanagari;
 subCategory = Other;

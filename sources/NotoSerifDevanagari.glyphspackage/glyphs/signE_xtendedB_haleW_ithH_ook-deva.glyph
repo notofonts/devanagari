@@ -295,10 +295,11 @@ ref = "signExtendedBhale-deva";
 width = 520;
 }
 );
-metricLeft = "uni11B00-deva";
-metricRight = "uni11B02-deva";
+metricLeft = "headMark-deva";
+metricRight = "signBhale-deva";
 script = devanagari;
 subCategory = Spacing;
+unicode = 72453;
 userData = {
 com.typemytype.robofont.layerData = {
 background = {

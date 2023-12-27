@@ -515,9 +515,7 @@ nodes = (
 width = 0;
 }
 );
-note = "
-    uni1CD5
-  ";
+note = "\012    uni1CD5\012  ";
 production = uni1CD5.alt1;
 script = vedic;
 subCategory = Nonspacing;
