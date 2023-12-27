@@ -139,9 +139,7 @@ nodes = (
 width = 231;
 }
 );
-note = "
-    uniA8FB
-  ";
+note = "\012    uniA8FB\012  ";
 production = uniA8FB;
 script = devanagari;
 subCategory = Other;

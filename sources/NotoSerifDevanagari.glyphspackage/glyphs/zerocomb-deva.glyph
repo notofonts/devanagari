@@ -371,9 +371,7 @@ nodes = (
 width = 0;
 }
 );
-note = "
-    uniA8E0
-  ";
+note = "\012    uniA8E0\012  ";
 production = uniA8E0;
 script = devanagari;
 subCategory = Nonspacing;

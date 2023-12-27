@@ -418,9 +418,7 @@ nodes = (
 width = 0;
 }
 );
-note = "
-    uniA8EE
-  ";
+note = "\012    uniA8EE\012  ";
 production = uniA8EE;
 script = devanagari;
 subCategory = Nonspacing;

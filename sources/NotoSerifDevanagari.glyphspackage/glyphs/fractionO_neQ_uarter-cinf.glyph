@@ -139,9 +139,7 @@ nodes = (
 width = 222;
 }
 );
-note = "
-    uniA830
-  ";
+note = "\012    uniA830\012  ";
 production = uniA830;
 script = cinf;
 subCategory = Other;

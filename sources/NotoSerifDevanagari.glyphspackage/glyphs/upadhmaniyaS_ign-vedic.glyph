@@ -467,9 +467,7 @@ nodes = (
 width = 467;
 }
 );
-note = "
-    uni1CF6
-  ";
+note = "\012    uni1CF6\012  ";
 production = uni1CF6;
 script = vedic;
 subCategory = Other;

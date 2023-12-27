@@ -699,9 +699,7 @@ nodes = (
 width = 734;
 }
 );
-note = "
-    uni1CEA
-  ";
+note = "\012    uni1CEA\012  ";
 production = uni1CEA;
 script = vedic;
 subCategory = Other;

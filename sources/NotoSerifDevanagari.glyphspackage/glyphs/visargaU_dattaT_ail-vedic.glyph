@@ -99,9 +99,7 @@ ref = "visargaAnudattaTail-vedic";
 width = 298;
 }
 );
-note = "
-    uni1CE7
-  ";
+note = "\012    uni1CE7\012  ";
 production = uni1CE7;
 script = vedic;
 subCategory = Spacing;

@@ -207,9 +207,7 @@ ref = "dotBelow-vedic";
 width = 0;
 }
 );
-note = "
-    uni1CDF
-  ";
+note = "\012    uni1CDF\012  ";
 production = uni1CDF.001.001;
 script = vedic;
 subCategory = Nonspacing;

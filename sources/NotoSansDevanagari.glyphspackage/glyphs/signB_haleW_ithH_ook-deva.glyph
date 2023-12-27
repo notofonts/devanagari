@@ -291,9 +291,10 @@ nodes = (
 width = 384;
 }
 );
-metricLeft = "uni11B00-deva";
+metricLeft = "headMark-deva";
 script = devanagari;
 subCategory = Spacing;
+unicode = 72451;
 userData = {
 com.typemytype.robofont.layerData = {
 background = {
