@@ -1,12 +1,12 @@
 ## FontBakery report
 
-fontbakery version: 0.10.8
+fontbakery version: 0.10.9
 
 <details><summary><b>[1] Experimental checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** No GF glyphset was found to be supported >80%, so language shaping support couldn't get checked. [code: no-glyphset-supported]
-</div></details><br></div></details><details><summary><b>[14] NotoSansDevanagariUI[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[15] NotoSansDevanagariUI[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -842,10 +842,14 @@ fontbakery version: 0.10.8
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+2010 HYPHEN: try adding one of: kharoshthi, kayah-li, yi, lisu, syloti-nagri, coptic, sundanese, cham, sora-sompeng, kaithi
+ * U+2010 HYPHEN: try adding one of: syloti-nagri, sora-sompeng, sundanese, kharoshthi, kaithi, kayah-li, yi, lisu, cham, coptic
  * U+20F0 COMBINING ASTERISK ABOVE: try adding grantha
 
 Or you can add the above codepoints to one of the subsets supported by the font: `devanagari`, `latin-ext` [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+
+
+* ⚠ **WARN** OFL url is no longer "https://scripts.sil.org/OFL". Use 'https://openfontlicense.org' instead. [code: deprecated-ofl-url]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 31 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1045,9 +1049,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 ### Summary
 
 | 💔 ERROR | ☠ FATAL | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
-|:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 6 | 9 | 102 | 8 | 130 |
-| 0% | 0% | 2% | 4% | 40% | 3% | 51% |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| 0 | 0 | 6 | 10 | 103 | 8 | 129 | 0 |
+| 0% | 0% | 2% | 4% | 40% | 3% | 50% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

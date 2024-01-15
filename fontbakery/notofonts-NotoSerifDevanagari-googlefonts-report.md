@@ -1,8 +1,8 @@
 ## FontBakery report
 
-fontbakery version: 0.10.8
+fontbakery version: 0.10.9
 
-<details><summary><b>[12] NotoSerifDevanagari[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
+<details><summary><b>[13] NotoSerifDevanagari[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
 
 
 * 🔥 **FAIL** Version number 2.004 is equal to version on **Google Fonts**.
@@ -149,15 +149,15 @@ fontbakery version: 0.10.8
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
  * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, tai-le, tifinagh, old-permic, malayalam, canadian-aboriginal, math, coptic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, math, tai-le, tifinagh, syriac, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -165,7 +165,7 @@ fontbakery version: 0.10.8
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
- * U+2010 HYPHEN: try adding one of: yi, cham, kharoshthi, syloti-nagri, kaithi, sundanese, coptic, lisu, sora-sompeng, kayah-li
+ * U+2010 HYPHEN: try adding one of: sundanese, kaithi, syloti-nagri, sora-sompeng, kayah-li, coptic, yi, lisu, kharoshthi, cham
  * U+20F0 COMBINING ASTERISK ABOVE: try adding grantha
  * U+11B00 DEVANAGARI HEAD MARK: not included in any glyphset definition
  * U+11B01 DEVANAGARI HEAD MARK WITH HEADSTROKE: not included in any glyphset definition
@@ -179,6 +179,10 @@ fontbakery version: 0.10.8
  * U+11B09 DEVANAGARI SIGN MINDU: not included in any glyphset definition
 
 Or you can add the above codepoints to one of the subsets supported by the font: `devanagari`, `latin`, `latin-ext` [code: unreachable-subsetting]
+</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+
+
+* ⚠ **WARN** OFL url is no longer "https://scripts.sil.org/OFL". Use 'https://openfontlicense.org' instead. [code: deprecated-ofl-url]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -616,13 +620,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** Interpolation issues were found in the font:
 
-	- Contour order differs in glyph 'zhdeva': [0, 1, 2, 3, 4] in wght=100,wdth=100, [0, 1, 2, 4, 3] in wght=690,wdth=100.
-
-	- Contour order differs in glyph 'zhdeva': [0, 1, 2, 3, 4] in wght=690,wdth=100, [0, 1, 2, 4, 3] in wght=900,wdth=100.
-
 	- Contour order differs in glyph 'zhdeva': [0, 1, 2, 3, 4] in wght=900,wdth=100, [0, 1, 3, 4, 2] in wght=100,wdth=62.
 
-	- Contour order differs in glyph 'zhdeva': [0, 1, 2, 3, 4] in wght=100,wdth=62, [0, 1, 4, 2, 3] in wght=690,wdth=62. [code: interpolation-issues]
+	- Contour order differs in glyph 'zhdeva': [0, 1, 2, 3, 4] in wght=100,wdth=62, [0, 1, 4, 2, 3] in wght=900,wdth=62. [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
@@ -635,17 +635,17 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į⃰ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̦⃰
 
-Your font fully covers the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Navajo (Latn, 166,319 speakers), Lithuanian (Latn, 2,357,094 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Aghem (Latn, 38,843 speakers), Igbo (Latn, 27,823,640 speakers), South Central Banda (Latn, 244,000 speakers), Nateni (Latn, 100,000 speakers), Avokaya (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Bafut (Latn, 158,146 speakers), Fur (Latn, 1,230,163 speakers), Ma’di (Latn, 584,000 speakers), Basaa (Latn, 332,940 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Mundani (Latn, 34,000 speakers), Mango (Latn, 77,000 speakers), Kom (Latn, 360,685 speakers), Mfumte (Latn, 79,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Nzakara (Latn, 50,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Ejagham (Latn, 120,000 speakers), Southern Kisi (Latn, 360,000 speakers), Zapotec (Latn, 490,000 speakers), Gulay (Latn, 250,478 speakers), Belarusian (Cyrl, 10,064,517 speakers), Koonzime (Latn, 40,000 speakers), Dan (Latn, 1,099,244 speakers), Sar (Latn, 500,000 speakers), Lugbara (Latn, 2,200,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Belarusian (Cyrl, 10,064,517 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Cicipu (Latn, 44,000 speakers), Southern Kisi (Latn, 360,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Nzakara (Latn, 50,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Ekpeye (Latn, 226,000 speakers), Avokaya (Latn, 100,000 speakers), Koonzime (Latn, 40,000 speakers), Mango (Latn, 77,000 speakers), Dii (Latn, 71,000 speakers), Basaa (Latn, 332,940 speakers), South Central Banda (Latn, 244,000 speakers), Gulay (Latn, 250,478 speakers), Lugbara (Latn, 2,200,000 speakers), Bafut (Latn, 158,146 speakers), Mundani (Latn, 34,000 speakers), Dan (Latn, 1,099,244 speakers), Zapotec (Latn, 490,000 speakers), Fur (Latn, 1,230,163 speakers), Igbo (Latn, 27,823,640 speakers), Mfumte (Latn, 79,000 speakers), Nateni (Latn, 100,000 speakers), Sar (Latn, 500,000 speakers), Ejagham (Latn, 120,000 speakers), Kom (Latn, 360,685 speakers), Makaa (Latn, 221,000 speakers), Ebira (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Yala (Latn, 200,000 speakers), Aghem (Latn, 38,843 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | ☠ FATAL | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
-|:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 3 | 9 | 99 | 8 | 136 |
-| 0% | 0% | 1% | 4% | 39% | 3% | 53% |
+|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| 0 | 0 | 3 | 10 | 100 | 8 | 135 | 0 |
+| 0% | 0% | 1% | 4% | 39% | 3% | 53% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
