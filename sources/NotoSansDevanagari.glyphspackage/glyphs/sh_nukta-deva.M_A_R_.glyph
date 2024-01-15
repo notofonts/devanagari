@@ -49,25 +49,6 @@ name = nukta;
 pos = (72,-39);
 }
 );
-layerId = UUID0;
-shapes = (
-{
-ref = "sh-deva.MAR";
-},
-{
-pos = (354,94);
-ref = "nukta-deva";
-}
-);
-width = 461;
-},
-{
-anchors = (
-{
-name = nukta;
-pos = (72,-39);
-}
-);
 layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
 shapes = (
 {
@@ -117,25 +98,6 @@ ref = "nukta-deva";
 }
 );
 width = 328;
-},
-{
-anchors = (
-{
-name = nukta;
-pos = (52,-9);
-}
-);
-layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
-shapes = (
-{
-ref = "sh-deva.MAR";
-},
-{
-pos = (255,125);
-ref = "nukta-deva";
-}
-);
-width = 355;
 },
 {
 anchors = (

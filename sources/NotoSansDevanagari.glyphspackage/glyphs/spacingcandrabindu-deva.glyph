@@ -38,22 +38,6 @@ width = 490;
 anchors = (
 {
 name = top;
-pos = (204,622);
-}
-);
-layerId = UUID0;
-shapes = (
-{
-pos = (437,-327);
-ref = "candraBindu-deva";
-}
-);
-width = 530;
-},
-{
-anchors = (
-{
-name = top;
 pos = (198,622);
 }
 );
@@ -97,22 +81,6 @@ ref = "candraBindu-deva";
 }
 );
 width = 415;
-},
-{
-anchors = (
-{
-name = top;
-pos = (164,622);
-}
-);
-layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
-shapes = (
-{
-pos = (355,-327);
-ref = "candraBindu-deva";
-}
-);
-width = 432;
 },
 {
 anchors = (

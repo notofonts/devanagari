@@ -56,30 +56,6 @@ width = 581;
 anchors = (
 {
 name = nukta;
-pos = (288,-112);
-}
-);
-layerId = UUID0;
-shapes = (
-{
-closed = 1;
-nodes = (
-(451,163,l),
-(311,187,l),
-(54,59,l),
-(122,-35,l)
-);
-},
-{
-ref = "yaheavy-deva";
-}
-);
-width = 634;
-},
-{
-anchors = (
-{
-name = nukta;
 pos = (298,-125);
 }
 );
@@ -147,30 +123,6 @@ ref = "yaheavy-deva";
 }
 );
 width = 439;
-},
-{
-anchors = (
-{
-name = nukta;
-pos = (233,-111);
-}
-);
-layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
-shapes = (
-{
-closed = 1;
-nodes = (
-(347,167,l),
-(218,179,l),
-(27,46,l),
-(98,-44,l)
-);
-},
-{
-ref = "yaheavy-deva";
-}
-);
-width = 490;
 },
 {
 anchors = (

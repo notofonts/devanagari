@@ -44,25 +44,6 @@ width = 0;
 anchors = (
 {
 name = _top;
-pos = (-214,622);
-}
-);
-layerId = UUID0;
-shapes = (
-{
-ref = "eShortMatra-deva";
-},
-{
-pos = (71,0);
-ref = "_Comp_candraBindu-deva.01";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (-239,622);
 }
 );
@@ -112,25 +93,6 @@ ref = "eShortMatra-deva";
 },
 {
 pos = (56,0);
-ref = "_Comp_candraBindu-deva.01";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (-177,622);
-}
-);
-layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
-shapes = (
-{
-ref = "eShortMatra-deva";
-},
-{
-pos = (63,0);
 ref = "_Comp_candraBindu-deva.01";
 }
 );

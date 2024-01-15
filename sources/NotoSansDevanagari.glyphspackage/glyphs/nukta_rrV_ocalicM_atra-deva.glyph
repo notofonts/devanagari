@@ -44,25 +44,6 @@ width = 0;
 anchors = (
 {
 name = _bottom;
-pos = (-214,0);
-}
-);
-layerId = UUID0;
-shapes = (
-{
-ref = "rrVocalicMatra-deva";
-},
-{
-pos = (-102,0);
-ref = "nukta-deva";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _bottom;
 pos = (-247,0);
 }
 );
@@ -112,26 +93,6 @@ ref = "rrVocalicMatra-deva";
 },
 {
 pos = (-94,0);
-ref = "nukta-deva";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _bottom;
-pos = (-179,0);
-}
-);
-layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
-shapes = (
-{
-pos = (1,0);
-ref = "rrVocalicMatra-deva";
-},
-{
-pos = (-122,0);
 ref = "nukta-deva";
 }
 );

@@ -31,19 +31,6 @@ ref = "nukta-deva";
 width = 609;
 },
 {
-layerId = UUID0;
-shapes = (
-{
-ref = "k_r-deva";
-},
-{
-pos = (536,27);
-ref = "nukta-deva";
-}
-);
-width = 657;
-},
-{
 layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
 shapes = (
 {
@@ -81,19 +68,6 @@ ref = "nukta-deva";
 }
 );
 width = 447;
-},
-{
-layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
-shapes = (
-{
-ref = "k_r-deva";
-},
-{
-pos = (396,29);
-ref = "nukta-deva";
-}
-);
-width = 496;
 },
 {
 layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";

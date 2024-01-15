@@ -44,25 +44,6 @@ width = 0;
 anchors = (
 {
 name = _top;
-pos = (-214,622);
-}
-);
-layerId = UUID0;
-shapes = (
-{
-ref = "eShortMatra-deva";
-},
-{
-pos = (98,0);
-ref = "_Comp_anusvara-deva";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (-239,622);
 }
 );
@@ -112,25 +93,6 @@ ref = "eShortMatra-deva";
 },
 {
 pos = (68,10);
-ref = "_Comp_anusvara-deva";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (-177,622);
-}
-);
-layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
-shapes = (
-{
-ref = "eShortMatra-deva";
-},
-{
-pos = (90,10);
 ref = "_Comp_anusvara-deva";
 }
 );

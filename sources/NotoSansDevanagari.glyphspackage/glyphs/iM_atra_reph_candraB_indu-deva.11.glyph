@@ -30,19 +30,6 @@ ref = "_Comp_reph_candraBindu-deva";
 width = 259;
 },
 {
-layerId = UUID0;
-shapes = (
-{
-ref = "iMatra-deva.11";
-},
-{
-pos = (892,0);
-ref = "_Comp_reph_candraBindu-deva";
-}
-);
-width = 294;
-},
-{
 layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
 shapes = (
 {
@@ -80,19 +67,6 @@ ref = "_Comp_reph_candraBindu-deva";
 }
 );
 width = 203;
-},
-{
-layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
-shapes = (
-{
-ref = "iMatra-deva.11";
-},
-{
-pos = (682,0);
-ref = "_Comp_reph_candraBindu-deva";
-}
-);
-width = 237;
 },
 {
 layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";

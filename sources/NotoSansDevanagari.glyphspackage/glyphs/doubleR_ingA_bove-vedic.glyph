@@ -67,35 +67,6 @@ width = 0;
 anchors = (
 {
 name = _top;
-pos = (-214,622);
-},
-{
-name = _topVedic;
-pos = (-362,622);
-}
-);
-guides = (
-{
-pos = (-581,671);
-}
-);
-layerId = UUID0;
-shapes = (
-{
-pos = (-123,-1);
-ref = "ringAbove-vedic";
-},
-{
-pos = (117,-1);
-ref = "ringAbove-vedic";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (-247,622);
 },
 {
@@ -172,30 +143,6 @@ ref = "ringAbove-vedic";
 },
 {
 pos = (80,-1);
-ref = "ringAbove-vedic";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (-179,622);
-},
-{
-name = _topVedic;
-pos = (-324,622);
-}
-);
-layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
-shapes = (
-{
-pos = (-119,-1);
-ref = "ringAbove-vedic";
-},
-{
-pos = (99,-1);
 ref = "ringAbove-vedic";
 }
 );

@@ -71,38 +71,6 @@ width = 259;
 anchors = (
 {
 name = topVedic;
-pos = (366,622);
-}
-);
-layerId = UUID0;
-shapes = (
-{
-closed = 1;
-nodes = (
-(299,652,o),
-(322,675,o),
-(322,704,cs),
-(322,733,o),
-(299,756,o),
-(270,756,cs),
-(241,756,o),
-(218,733,o),
-(218,704,cs),
-(218,675,o),
-(241,652,o),
-(270,652,cs)
-);
-},
-{
-ref = "iiMatra_reph-deva.01";
-}
-);
-width = 294;
-},
-{
-anchors = (
-{
-name = topVedic;
 pos = (413,622);
 }
 );
@@ -194,38 +162,6 @@ ref = "iiMatra_reph-deva.01";
 }
 );
 width = 203;
-},
-{
-anchors = (
-{
-name = topVedic;
-pos = (313,622);
-}
-);
-layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
-shapes = (
-{
-closed = 1;
-nodes = (
-(256,659,o),
-(272,679,o),
-(272,708,cs),
-(272,738,o),
-(256,759,o),
-(227,759,cs),
-(197,759,o),
-(181,739,o),
-(181,709,cs),
-(181,679,o),
-(197,659,o),
-(227,659,cs)
-);
-},
-{
-ref = "iiMatra_reph-deva.01";
-}
-);
-width = 237;
 },
 {
 anchors = (

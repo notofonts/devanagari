@@ -41,24 +41,6 @@ ref = "p-deva";
 width = 308;
 },
 {
-layerId = UUID0;
-shapes = (
-{
-closed = 1;
-nodes = (
-(120,-17,l),
-(482,217,l),
-(444,276,l),
-(52,76,l)
-);
-},
-{
-ref = "p-deva";
-}
-);
-width = 344;
-},
-{
 layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
 shapes = (
 {
@@ -111,24 +93,6 @@ ref = "p-deva";
 }
 );
 width = 230;
-},
-{
-layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
-shapes = (
-{
-closed = 1;
-nodes = (
-(93,-22,l),
-(350,205,l),
-(319,260,l),
-(22,68,l)
-);
-},
-{
-ref = "p-deva";
-}
-);
-width = 260;
 },
 {
 layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";

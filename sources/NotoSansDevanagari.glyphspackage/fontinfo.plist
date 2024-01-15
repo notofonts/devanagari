@@ -1,5 +1,5 @@
 {
-.appVersion = "3151";
+.appVersion = "3227";
 .formatVersion = 3;
 axes = (
 {
@@ -6372,73 +6372,6 @@ stemValues = (
 },
 {
 axesValues = (
-151,
-100
-);
-customParameters = (
-{
-name = winAscent;
-value = 1347;
-}
-);
-guides = (
-{
-pos = (216,-160);
-},
-{
-pos = (142,-389);
-},
-{
-pos = (-30,134);
-},
-{
-pos = (120,-408);
-},
-{
-angle = 180;
-pos = (10,426);
-},
-{
-pos = (196,-184);
-},
-{
-pos = (-36,-233);
-}
-);
-iconName = SemiBold;
-id = UUID0;
-metricValues = (
-{
-pos = 896;
-},
-{
-over = 10;
-pos = 622;
-},
-{
-pos = 536;
-},
-{
-over = -10;
-},
-{
-pos = -408;
-},
-{
-},
-{
-over = 10;
-pos = 713;
-}
-);
-name = SemiBold;
-stemValues = (
-110,
-134
-);
-},
-{
-axesValues = (
 190,
 100
 );
@@ -6636,74 +6569,6 @@ stemValues = (
 },
 {
 axesValues = (
-151,
-70
-);
-customParameters = (
-{
-name = winAscent;
-value = 1347;
-}
-);
-guides = (
-{
-lockAngle = 1;
-pos = (68,130);
-},
-{
-angle = 180;
-pos = (40,469);
-},
-{
-lockAngle = 1;
-pos = (509,-383);
-},
-{
-lockAngle = 1;
-pos = (55,-200);
-},
-{
-pos = (105,-408);
-}
-);
-iconName = SemiBold_Condensed;
-id = "9A082071-1CDF-4F9E-B116-82A287035C9D";
-metricValues = (
-{
-pos = 896;
-},
-{
-over = 10;
-pos = 622;
-},
-{
-pos = 536;
-},
-{
-over = -10;
-},
-{
-pos = -408;
-},
-{
-},
-{
-over = 10;
-pos = 713;
-}
-);
-name = "SemiBold Condensed";
-stemValues = (
-108,
-121
-);
-userData = {
-GSExtrudeAngle = 30;
-GSExtrudeOffset = 15;
-};
-},
-{
-axesValues = (
 190,
 70
 );
@@ -6842,7 +6707,7 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.20312;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.20313;
 "B871EA9A-50AC-43A6-961C-B7EB8764AD7C" = 0.79688;
 };
 name = ExtraLight;
@@ -6951,8 +6816,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.70492;
-UUID0 = 0.29508;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.82;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.18;
 };
 name = Medium;
 weightClass = 500;
@@ -6988,8 +6853,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.37705;
-UUID0 = 0.62295;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.62;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.38;
 };
 name = SemiBold;
 weightClass = 600;
@@ -7025,7 +6890,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-UUID0 = 1;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.39;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.61;
 };
 isBold = 1;
 linkStyle = Regular;
@@ -7063,8 +6929,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.46154;
-UUID0 = 0.53846;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.21;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.79;
 };
 name = ExtraBold;
 weightClass = 800;
@@ -7291,10 +7157,10 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.44645;
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.1082;
-"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.25847;
-UUID0 = 0.18689;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.51933;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.066;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.30067;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.114;
 };
 name = "SemiCondensed Medium";
 weightClass = 500;
@@ -7331,10 +7197,10 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.2388;
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.22842;
-"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.13825;
-UUID0 = 0.39454;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.39267;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.13933;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.22733;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.24067;
 };
 name = "SemiCondensed SemiBold";
 weightClass = 600;
@@ -7371,8 +7237,10 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.36667;
-UUID0 = 0.63333;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.247;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.22367;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.143;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.38633;
 };
 isBold = 1;
 linkStyle = SemiCondensed;
@@ -7411,10 +7279,10 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.16923;
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.19744;
-"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.29231;
-UUID0 = 0.34103;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.133;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.28967;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.077;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.50033;
 };
 name = "SemiCondensed ExtraBold";
 weightClass = 800;
@@ -7644,10 +7512,10 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.21148;
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.20656;
-"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.49344;
-UUID0 = 0.08852;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.246;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.126;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.574;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.054;
 };
 name = "Condensed Medium";
 weightClass = 500;
@@ -7684,10 +7552,10 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.11311;
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.43607;
-"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.26393;
-UUID0 = 0.18689;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.186;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.266;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.434;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.114;
 };
 name = "Condensed SemiBold";
 weightClass = 600;
@@ -7724,8 +7592,10 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.7;
-UUID0 = 0.3;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.117;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.427;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.273;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.183;
 };
 isBold = 1;
 linkStyle = Condensed;
@@ -7764,10 +7634,10 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.32308;
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.37692;
-"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.13846;
-UUID0 = 0.16154;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.063;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.553;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.147;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.237;
 };
 name = "Condensed ExtraBold";
 weightClass = 800;
@@ -7880,7 +7750,7 @@ value = "536";
 );
 instanceInterpolations = {
 "5CC745D4-D12D-435B-A472-7D28876E43BC" = 0.79688;
-"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.20312;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.20313;
 };
 name = "ExtraCondensed ExtraLight";
 weightClass = 200;
@@ -7991,8 +7861,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.29508;
-"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.70492;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.18;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.82;
 };
 name = "ExtraCondensed Medium";
 weightClass = 500;
@@ -8029,8 +7899,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.62295;
-"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.37705;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.38;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.62;
 };
 name = "ExtraCondensed SemiBold";
 weightClass = 600;
@@ -8067,7 +7937,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 1;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.61;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.39;
 };
 isBold = 1;
 linkStyle = ExtraCondensed;
@@ -8106,8 +7977,8 @@ value = "536";
 }
 );
 instanceInterpolations = {
-"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.46154;
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.53846;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.79;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.21;
 };
 name = "ExtraCondensed ExtraBold";
 weightClass = 800;
@@ -8357,7 +8228,7 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.20312;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.20313;
 "B871EA9A-50AC-43A6-961C-B7EB8764AD7C" = 0.79688;
 };
 name = ExtraLight;
@@ -8694,8 +8565,8 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.70492;
-UUID0 = 0.29508;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.82;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.18;
 };
 name = Medium;
 properties = (
@@ -8807,8 +8678,8 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.37705;
-UUID0 = 0.62295;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.62;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.38;
 };
 name = SemiBold;
 properties = (
@@ -8920,7 +8791,8 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-UUID0 = 1;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.39;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.61;
 };
 isBold = 1;
 linkStyle = Regular;
@@ -9034,8 +8906,8 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.46154;
-UUID0 = 0.53846;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.21;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.79;
 };
 name = ExtraBold;
 properties = (
@@ -9718,10 +9590,10 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.44645;
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.1082;
-"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.25847;
-UUID0 = 0.18689;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.51933;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.066;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.30067;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.114;
 };
 name = "SemiCondensed Medium";
 properties = (
@@ -9834,10 +9706,10 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.2388;
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.22842;
-"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.13825;
-UUID0 = 0.39454;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.39267;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.13933;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.22733;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.24067;
 };
 name = "SemiCondensed SemiBold";
 properties = (
@@ -9950,8 +9822,10 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.36667;
-UUID0 = 0.63333;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.247;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.22367;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.143;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.38633;
 };
 isBold = 1;
 linkStyle = SemiCondensed;
@@ -10066,10 +9940,10 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.16923;
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.19744;
-"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.29231;
-UUID0 = 0.34103;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.133;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.28967;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.077;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.50033;
 };
 name = "SemiCondensed ExtraBold";
 properties = (
@@ -10755,10 +10629,10 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.21148;
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.20656;
-"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.49344;
-UUID0 = 0.08852;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.246;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.126;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.574;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.054;
 };
 name = "Condensed Medium";
 properties = (
@@ -10871,10 +10745,10 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.11311;
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.43607;
-"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.26393;
-UUID0 = 0.18689;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.186;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.266;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.434;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.114;
 };
 name = "Condensed SemiBold";
 properties = (
@@ -10987,8 +10861,10 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.7;
-UUID0 = 0.3;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.117;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.427;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.273;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.183;
 };
 isBold = 1;
 linkStyle = Condensed;
@@ -11103,10 +10979,10 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.32308;
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.37692;
-"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.13846;
-UUID0 = 0.16154;
+"6C7CC43D-04A1-4971-B3B5-A41D54964AD2" = 0.063;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.553;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.147;
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = 0.237;
 };
 name = "Condensed ExtraBold";
 properties = (
@@ -11447,7 +11323,7 @@ value = (
 exports = 0;
 instanceInterpolations = {
 "5CC745D4-D12D-435B-A472-7D28876E43BC" = 0.79688;
-"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.20312;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.20313;
 };
 name = "ExtraCondensed ExtraLight";
 properties = (
@@ -11786,8 +11662,8 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.29508;
-"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.70492;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.18;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.82;
 };
 name = "ExtraCondensed Medium";
 properties = (
@@ -11900,8 +11776,8 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.62295;
-"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.37705;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.38;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.62;
 };
 name = "ExtraCondensed SemiBold";
 properties = (
@@ -12014,7 +11890,8 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 1;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.61;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.39;
 };
 isBold = 1;
 linkStyle = ExtraCondensed;
@@ -12129,8 +12006,8 @@ value = (
 );
 exports = 0;
 instanceInterpolations = {
-"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.46154;
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = 0.53846;
+"6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = 0.79;
+"AA2163BC-B14D-4D16-A884-99BB623F1DBF" = 0.21;
 };
 name = "ExtraCondensed ExtraBold";
 properties = (
@@ -13049,423 +12926,6 @@ kerningLTR = {
 "@MMK_L_DEV_y-deva_R" = {
 "@MMK_R_DEV_ka-deva_L" = 11;
 "@MMK_R_DEV_va-deva_L" = 10;
-};
-};
-UUID0 = {
-"@MMK_L_DEVA_v-deva_R" = {
-"@MMK_R_DEV_ha-deva_L" = -43;
-"@MMK_R_DEV_ja-deva_L" = -29;
-"@MMK_R_DEV_ka-deva_L" = -44;
-"@MMK_R_DEV_la-deva_L" = -44;
-"@MMK_R_DEV_ma-deva_L" = -49;
-"@MMK_R_DEV_na-deva_L" = -33;
-"@MMK_R_DEV_nga-deva_L" = -128;
-"@MMK_R_DEV_ra-deva_L" = -34;
-"@MMK_R_DEV_va-deva_L" = -44;
-"la-deva.MAR" = -44;
-"s-deva" = -34;
-};
-"@MMK_L_DEV_b-deva_R" = {
-"@MMK_R_DEV_ba-deva_L" = -44;
-"@MMK_R_DEV_da-deva_L" = -64;
-"@MMK_R_DEV_i-deva_L" = -40;
-"@MMK_R_DEV_ja-deva_L" = -30;
-"@MMK_R_DEV_ka-deva_L" = -34;
-"@MMK_R_DEV_kha-deva_L" = -60;
-"@MMK_R_DEV_la-deva_L" = -44;
-"@MMK_R_DEV_ma-deva_L" = -49;
-"@MMK_R_DEV_na-deva_L" = -29;
-"@MMK_R_DEV_nga-deva_L" = -65;
-"@MMK_R_DEV_ra-deva_L" = -34;
-"@MMK_R_DEV_sha-deva_L" = -39;
-"@MMK_R_DEV_ta-deva_L" = -54;
-"@MMK_R_DEV_va-deva_L" = -44;
-"@MMK_R_DEV_ya-deva_L" = -26;
-"da_uMatra-deva" = -44;
-"l-deva" = -44;
-"la-deva.MAR" = -37;
-"s-deva" = -34;
-};
-"@MMK_L_DEV_bh-deva_R" = {
-"@MMK_R_DEV_la-deva_L" = -56;
-"@MMK_R_DEV_ma-deva_L" = -30;
-"@MMK_R_DEV_va-deva_L" = -44;
-"@MMK_R_DEV_ya-deva_L" = -24;
-"la-deva.MAR" = -56;
-};
-"@MMK_L_DEV_c-deva_R" = {
-"@MMK_R_DEV_ca-deva_L" = -40;
-"@MMK_R_DEV_ka-deva_L" = -27;
-"@MMK_R_DEV_ma-deva_L" = -34;
-"@MMK_R_DEV_na-deva_L" = -12;
-"@MMK_R_DEV_nga-deva_L" = -72;
-"@MMK_R_DEV_ra-deva_L" = -15;
-"@MMK_R_DEV_ya-deva_L" = -19;
-"ddha-deva" = -3;
-};
-"@MMK_L_DEV_d_y-deva_R" = {
-"@MMK_R_DEV_la-deva_L" = -24;
-"@MMK_R_DEV_ma-deva_L" = -59;
-"@MMK_R_DEV_ya-deva_L" = -68;
-};
-"@MMK_L_DEV_eyelashReph-deva_R" = {
-"@MMK_R_DEV_ha-deva_L" = -60;
-"@MMK_R_DEV_ma-deva_L" = -100;
-"@MMK_R_DEV_nga-deva_L" = -120;
-"@MMK_R_DEV_ya-deva_L" = -48;
-"la-deva.MAR" = -50;
-};
-"@MMK_L_DEV_g-deva_R" = {
-"@MMK_R_DEV_ja-deva_L" = -10;
-"@MMK_R_DEV_nga-deva_L" = -50;
-};
-"@MMK_L_DEV_gh-deva_R" = {
-"@MMK_R_DEV_la-deva_L" = -30;
-"@MMK_R_DEV_ma-deva_L" = -62;
-"@MMK_R_DEV_na-deva_L" = -35;
-"@MMK_R_DEV_ya-deva_L" = -36;
-};
-"@MMK_L_DEV_h-deva_R" = {
-"@MMK_R_DEV_ha-deva_L" = -57;
-"@MMK_R_DEV_ja-deva_L" = -51;
-"@MMK_R_DEV_ka-deva_L" = -54;
-"@MMK_R_DEV_la-deva_L" = -62;
-"@MMK_R_DEV_ma-deva_L" = -34;
-"@MMK_R_DEV_na-deva_L" = -48;
-"@MMK_R_DEV_nna-deva_L" = -26;
-"@MMK_R_DEV_ra-deva_L" = -41;
-"@MMK_R_DEV_ta-deva_L" = -79;
-"@MMK_R_DEV_va-deva_L" = -24;
-"@MMK_R_DEV_ya-deva_L" = -39;
-"la-deva.MAR" = -62;
-};
-"@MMK_L_DEV_j-deva_R" = {
-"@MMK_R_DEV_ba-deva_L" = -55;
-"@MMK_R_DEV_da-deva_L" = -49;
-"@MMK_R_DEV_ha-deva_L" = -75;
-"@MMK_R_DEV_i-deva_L" = -78;
-"@MMK_R_DEV_j_nya-deva_L" = -71;
-"@MMK_R_DEV_ja-deva_L" = -104;
-"@MMK_R_DEV_ka-deva_L" = -55;
-"@MMK_R_DEV_la-deva_L" = -60;
-"@MMK_R_DEV_ma-deva_L" = -54;
-"@MMK_R_DEV_na-deva_L" = -61;
-"@MMK_R_DEV_nga-deva_L" = -71;
-"@MMK_R_DEV_ra-deva_L" = -60;
-"@MMK_R_DEV_ta-deva_L" = -72;
-"@MMK_R_DEV_tta-deva_L" = -61;
-"@MMK_R_DEV_va-deva_L" = -55;
-"@MMK_R_DEV_ya-deva_L" = -59;
-"@MMK_R_japrehalfdeva" = -94;
-};
-"@MMK_L_DEV_j_ny-deva_R" = {
-"@MMK_R_DEV_va-deva_L" = -50;
-"@MMK_R_DEV_ya-deva_L" = -50;
-};
-"@MMK_L_DEV_jh-deva_N_R" = {
-"@MMK_R_DEV_ja-deva_L" = -74;
-"@MMK_R_DEV_la-deva_L" = -64;
-"@MMK_R_DEV_pa-deva_L" = -59;
-"@MMK_R_DEV_pha-deva_L" = -59;
-"@MMK_R_DEV_ra-deva_L" = -72;
-"@MMK_R_DEV_ta-deva_L" = -74;
-"@MMK_R_DEV_tta-deva_L" = -64;
-"@MMK_R_DEV_va-deva_L" = -64;
-"@MMK_R_DEV_ya-deva_L" = -74;
-};
-"@MMK_L_DEV_jh-deva_R" = {
-"@MMK_R_DEV_ya-deva_L" = 20;
-};
-"@MMK_L_DEV_k-deva_R" = {
-"@MMK_R_DEV_ca-deva_L" = -42;
-"@MMK_R_DEV_da-deva_L" = -49;
-"@MMK_R_DEV_i-deva_L" = -60;
-"@MMK_R_DEV_ja-deva_L" = -74;
-"@MMK_R_DEV_ka-deva_L" = -64;
-"@MMK_R_DEV_kha-deva_L" = -72;
-"@MMK_R_DEV_la-deva_L" = -64;
-"@MMK_R_DEV_ma-deva_L" = -28;
-"@MMK_R_DEV_na-deva_L" = -54;
-"@MMK_R_DEV_nga-deva_L" = -90;
-"@MMK_R_DEV_nna-deva_L" = -59;
-"@MMK_R_DEV_pa-deva_L" = -59;
-"@MMK_R_DEV_pha-deva_L" = -59;
-"@MMK_R_DEV_ra-deva_L" = -72;
-"@MMK_R_DEV_sha-deva_L" = -32;
-"@MMK_R_DEV_ta-deva_L" = -74;
-"@MMK_R_DEV_tta-deva_L" = -64;
-"@MMK_R_DEV_va-deva_L" = -64;
-"@MMK_R_DEV_ya-deva_L" = -67;
-"la-deva.MAR" = -52;
-"p_ra-deva" = -59;
-"s-deva" = -72;
-"t-deva" = -74;
-};
-"@MMK_L_DEV_k_ss-deva_R" = {
-"@MMK_R_DEV_bha-deva_L" = -44;
-"@MMK_R_DEV_dha-deva_L" = -34;
-"@MMK_R_DEV_ma-deva_L" = -38;
-"@MMK_R_DEV_nna-deva_L" = -31;
-"@MMK_R_DEV_tha-deva_L" = -34;
-"@MMK_R_DEV_va-deva_L" = -30;
-"@MMK_R_DEV_ya-deva_L" = -30;
-};
-"@MMK_L_DEV_kh-deva_R" = {
-"@MMK_R_DEV_kha-deva_L" = -59;
-"@MMK_R_DEV_ma-deva_L" = -54;
-"@MMK_R_DEV_na-deva_L" = -62;
-"@MMK_R_DEV_ra-deva_L" = -59;
-"@MMK_R_DEV_sha-deva_L" = -48;
-"@MMK_R_DEV_ta-deva_L" = -83;
-"@MMK_R_DEV_va-deva_L" = -59;
-"@MMK_R_DEV_ya-deva_L" = -59;
-};
-"@MMK_L_DEV_l-deva_R" = {
-"@MMK_R_DEV_ba-deva_L" = -68;
-"@MMK_R_DEV_da-deva_L" = -64;
-"@MMK_R_DEV_ga-deva_L" = -15;
-"@MMK_R_DEV_ha-deva_L" = -93;
-"@MMK_R_DEV_ja-deva_L" = -77;
-"@MMK_R_DEV_ka-deva_L" = -68;
-"@MMK_R_DEV_kha-deva_L" = -82;
-"@MMK_R_DEV_la-deva_L" = -68;
-"@MMK_R_DEV_ma-deva_L" = -28;
-"@MMK_R_DEV_nga-deva_L" = -90;
-"@MMK_R_DEV_pa-deva_L" = -98;
-"@MMK_R_DEV_pha-deva_L" = -98;
-"@MMK_R_DEV_ra-deva_L" = -82;
-"@MMK_R_DEV_sha-deva_L" = -20;
-"@MMK_R_DEV_ta-deva_L" = -54;
-"@MMK_R_DEV_tha-deva_L" = -20;
-"@MMK_R_DEV_tta-deva_L" = -49;
-"@MMK_R_DEV_ttha-deva_L" = -59;
-"@MMK_R_DEV_va-deva_L" = -68;
-"@MMK_R_DEV_ya-deva_L" = -47;
-"b-deva" = -68;
-"d_va-deva" = -172;
-"da_uuMatra-deva" = -64;
-"ddha-deva" = -59;
-"fa-deva" = -98;
-"ha_uMatra-deva" = -93;
-"ha_uMatra_UI-deva" = -93;
-"ha_uuMatra-deva" = -93;
-"ha_uuMatra_UI-deva" = -93;
-"k-deva" = -68;
-"k_ra-deva" = -84;
-"la-deva.MAR" = -68;
-"m-deva" = -28;
-"p-deva" = -98;
-"ph-deva" = -98;
-"ph_ra-deva" = -98;
-};
-"@MMK_L_DEV_ll-deva_R" = {
-"@MMK_R_DEV_lla-deva_L" = -171;
-"@MMK_R_DEV_ya-deva_L" = -154;
-};
-"@MMK_L_DEV_m-deva_R" = {
-"@MMK_R_DEV_ba-deva_L" = -54;
-"@MMK_R_DEV_bha-deva_L" = -99;
-"@MMK_R_DEV_da-deva_L" = -54;
-"@MMK_R_DEV_ha-deva_L" = -83;
-"@MMK_R_DEV_ja-deva_L" = -50;
-"@MMK_R_DEV_ka-deva_L" = -70;
-"@MMK_R_DEV_la-deva_L" = -49;
-"@MMK_R_DEV_ma-deva_L" = -82;
-"@MMK_R_DEV_na-deva_L" = -54;
-"@MMK_R_DEV_nga-deva_L" = -104;
-"@MMK_R_DEV_pa-deva_L" = -71;
-"@MMK_R_DEV_pha-deva_L" = -69;
-"@MMK_R_DEV_ra-deva_L" = -63;
-"@MMK_R_DEV_sha-deva_L" = -54;
-"@MMK_R_DEV_ta-deva_L" = -59;
-"@MMK_R_DEV_tta-deva_L" = -40;
-"@MMK_R_DEV_ttha-deva_L" = -50;
-"@MMK_R_DEV_va-deva_L" = -54;
-"@MMK_R_DEV_ya-deva_L" = -63;
-"b_ra-deva" = -69;
-"la-deva.MAR" = -49;
-};
-"@MMK_L_DEV_n-deva_R" = {
-"@MMK_R_DEV_ba-deva_L" = -59;
-"@MMK_R_DEV_bha-deva_L" = -119;
-"@MMK_R_DEV_ca-deva_L" = -47;
-"@MMK_R_DEV_cha-deva_L" = -78;
-"@MMK_R_DEV_d_dha-deva_L" = -41;
-"@MMK_R_DEV_da-deva_L" = -59;
-"@MMK_R_DEV_ga-deva_L" = -60;
-"@MMK_R_DEV_ha-deva_L" = -73;
-"@MMK_R_DEV_i-deva_L" = -30;
-"@MMK_R_DEV_ja-deva_L" = -82;
-"@MMK_R_DEV_ka-deva_L" = -50;
-"@MMK_R_DEV_kha-deva_L" = -60;
-"@MMK_R_DEV_la-deva_L" = -59;
-"@MMK_R_DEV_ma-deva_L" = -51;
-"@MMK_R_DEV_nga-deva_L" = -107;
-"@MMK_R_DEV_pa-deva_L" = -63;
-"@MMK_R_DEV_pha-deva_L" = -63;
-"@MMK_R_DEV_ra-deva_L" = -54;
-"@MMK_R_DEV_sha-deva_L" = -58;
-"@MMK_R_DEV_t_ra-deva_L" = -36;
-"@MMK_R_DEV_ta-deva_L" = -66;
-"@MMK_R_DEV_tta-deva_L" = -46;
-"@MMK_R_DEV_va-deva_L" = -50;
-"@MMK_R_DEV_ya-deva_L" = -83;
-"d_ra-deva" = -59;
-"d_va-deva" = -155;
-"da_uMatra-deva" = -59;
-"da_uuMatra-deva" = -59;
-"f-deva" = -63;
-"fa-deva" = -63;
-"gha-deva" = -91;
-"ha_uMatra-deva" = -73;
-"ha_uMatra_UI-deva" = -73;
-"k-deva" = -60;
-"k_ra-deva" = -76;
-"la-deva.MAR" = -59;
-"ph-deva" = -63;
-"ph_ra-deva" = -63;
-"s-deva" = -54;
-"ssa-deva" = -63;
-"t-deva" = -59;
-};
-"@MMK_L_DEV_nn-deva_R" = {
-"@MMK_R_DEV_nga-deva_L" = -41;
-};
-"@MMK_L_DEV_ny-deva_R" = {
-"@MMK_R_DEV_ca-deva_L" = -32;
-"@MMK_R_DEV_cha-deva_L" = -42;
-"@MMK_R_DEV_ja-deva_L" = -20;
-"@MMK_R_DEV_nya-deva_L" = -73;
-};
-"@MMK_L_DEV_p-deva_R" = {
-"@MMK_R_DEV_ha-deva_L" = -10;
-"@MMK_R_DEV_la-deva_L" = -7;
-"@MMK_R_DEV_ma-deva_L" = -24;
-"@MMK_R_DEV_nga-deva_L" = -31;
-"@MMK_R_DEV_pa-deva_L" = -20;
-"@MMK_R_DEV_pha-deva_L" = -20;
-"@MMK_R_DEV_ra-deva_L" = -20;
-"@MMK_R_DEV_sha-deva_L" = -1;
-"@MMK_R_DEV_ta-deva_L" = -30;
-"@MMK_R_DEV_tta-deva_L" = -8;
-"@MMK_R_DEV_va-deva_L" = -9;
-"@MMK_R_DEV_ya-deva_L" = -25;
-"la-deva.MAR" = 3;
-"ssa-deva" = -20;
-};
-"@MMK_L_DEV_ph-deva_R" = {
-"@MMK_R_DEV_ja-deva_L" = -74;
-"@MMK_R_DEV_kha-deva_L" = -60;
-"@MMK_R_DEV_la-deva_L" = -64;
-"@MMK_R_DEV_pa-deva_L" = -59;
-"@MMK_R_DEV_pha-deva_L" = -59;
-"@MMK_R_DEV_ra-deva_L" = -72;
-"@MMK_R_DEV_sha-deva_L" = -34;
-"@MMK_R_DEV_ta-deva_L" = -74;
-"@MMK_R_DEV_tha-deva_L" = -40;
-"@MMK_R_DEV_tta-deva_L" = -49;
-"@MMK_R_DEV_va-deva_L" = -64;
-"@MMK_R_DEV_ya-deva_L" = -74;
-"fa-deva" = -59;
-"la-deva.MAR" = -49;
-};
-"@MMK_L_DEV_s-deva_R" = {
-"@MMK_R_DEV_ba-deva_L" = -64;
-"@MMK_R_DEV_ca-deva_L" = -40;
-"@MMK_R_DEV_da-deva_L" = -73;
-"@MMK_R_DEV_ja-deva_L" = -68;
-"@MMK_R_DEV_ka-deva_L" = -64;
-"@MMK_R_DEV_kha-deva_L" = -83;
-"@MMK_R_DEV_la-deva_L" = -78;
-"@MMK_R_DEV_ma-deva_L" = -91;
-"@MMK_R_DEV_na-deva_L" = -72;
-"@MMK_R_DEV_nga-deva_L" = -99;
-"@MMK_R_DEV_pa-deva_L" = -70;
-"@MMK_R_DEV_pha-deva_L" = -59;
-"@MMK_R_DEV_ra-deva_L" = -83;
-"@MMK_R_DEV_t_ra-deva_L" = -25;
-"@MMK_R_DEV_ta-deva_L" = -63;
-"@MMK_R_DEV_tha-deva_L" = -131;
-"@MMK_R_DEV_tta-deva_L" = -63;
-"@MMK_R_DEV_va-deva_L" = -64;
-"@MMK_R_DEV_ya-deva_L" = -77;
-"k-deva" = -64;
-"k_ra-deva" = -64;
-"la-deva.MAR" = -64;
-"t-deva" = -63;
-"tt_ya-deva" = -63;
-};
-"@MMK_L_DEV_sh-deva_R" = {
-"@MMK_R_DEV_sha-deva_L" = -22;
-};
-"@MMK_L_DEV_sh_c-deva_R" = {
-"@MMK_R_DEV_ya-deva_L" = -70;
-};
-"@MMK_L_DEV_sh_v-deva_R" = {
-"@MMK_R_DEV_ya-deva_L" = -66;
-};
-"@MMK_L_DEV_ss-deva_R" = {
-"@MMK_R_DEV_ka-deva_L" = -44;
-"@MMK_R_DEV_ma-deva_L" = -65;
-"@MMK_R_DEV_nna-deva_L" = -68;
-"@MMK_R_DEV_pa-deva_L" = -68;
-"@MMK_R_DEV_pha-deva_L" = -68;
-"@MMK_R_DEV_ta-deva_L" = -50;
-"@MMK_R_DEV_tta-deva_L" = -57;
-"@MMK_R_DEV_ttha-deva_L" = -58;
-"@MMK_R_DEV_va-deva_L" = -44;
-"@MMK_R_DEV_ya-deva_L" = -54;
-"k_ra-deva" = -58;
-"p_ra-deva" = -68;
-"ssa-deva" = -68;
-};
-"@MMK_L_DEV_t-deva_R" = {
-"@MMK_R_DEV_ba-deva_L" = -66;
-"@MMK_R_DEV_ca-deva_L" = -40;
-"@MMK_R_DEV_da-deva_L" = -57;
-"@MMK_R_DEV_ja-deva_L" = -92;
-"@MMK_R_DEV_ka-deva_L" = -77;
-"@MMK_R_DEV_kha-deva_L" = -73;
-"@MMK_R_DEV_la-deva_L" = -69;
-"@MMK_R_DEV_ma-deva_L" = -46;
-"@MMK_R_DEV_na-deva_L" = -16;
-"@MMK_R_DEV_pa-deva_L" = -100;
-"@MMK_R_DEV_pha-deva_L" = -99;
-"@MMK_R_DEV_ra-deva_L" = -73;
-"@MMK_R_DEV_tha-deva_L" = -9;
-"@MMK_R_DEV_va-deva_L" = -66;
-"@MMK_R_DEV_ya-deva_L" = -52;
-"k_ra-deva" = -75;
-"la-deva.MAR" = -69;
-"m-deva" = -36;
-"p_ra-deva" = -59;
-"s-deva" = -53;
-};
-"@MMK_L_DEV_t_r-deva_R" = {
-"@MMK_R_DEV_ya-deva_L" = -66;
-};
-"@MMK_L_DEV_th-deva_R" = {
-"@MMK_R_DEV_va-deva_L" = -19;
-"@MMK_R_DEV_ya-deva_L" = -19;
-};
-"@MMK_L_DEV_v-deva_R" = {
-"@MMK_R_DEV_ha-deva_L" = -90;
-"@MMK_R_DEV_ja-deva_L" = -49;
-"@MMK_R_DEV_la-deva_L" = -70;
-"@MMK_R_DEV_nga-deva_L" = -57;
-"@MMK_R_DEV_ttha-deva_L" = -50;
-"@MMK_R_DEV_va-deva_L" = -60;
-"la-deva.MAR" = -50;
-};
-"@MMK_L_DEV_v_r-deva_R" = {
-"@MMK_R_DEV_ka-deva_L" = -80;
-"@MMK_R_DEV_ma-deva_L" = -60;
-"@MMK_R_DEV_va-deva_L" = -72;
-"@MMK_R_DEV_ya-deva_L" = -60;
-};
-"@MMK_L_DEV_y-deva_R" = {
-"@MMK_R_DEV_nga-deva_L" = -32;
-"@MMK_R_DEV_ya-deva_L" = -24;
 };
 };
 "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = {
@@ -14688,420 +14148,6 @@ UUID0 = {
 };
 "iMatra-deva.13" = {
 "@MMK_R_DEV_sha-deva_L" = -2;
-};
-};
-"9A082071-1CDF-4F9E-B116-82A287035C9D" = {
-"@MMK_L_DEV_b-deva_R" = {
-"@MMK_R_DEV_ba-deva_L" = -34;
-"@MMK_R_DEV_da-deva_L" = -34;
-"@MMK_R_DEV_i-deva_L" = -30;
-"@MMK_R_DEV_ja-deva_L" = -27;
-"@MMK_R_DEV_ka-deva_L" = -34;
-"@MMK_R_DEV_kha-deva_L" = -40;
-"@MMK_R_DEV_la-deva_L" = -34;
-"@MMK_R_DEV_ma-deva_L" = -42;
-"@MMK_R_DEV_na-deva_L" = -23;
-"@MMK_R_DEV_nga-deva_L" = -20;
-"@MMK_R_DEV_ra-deva_L" = -25;
-"@MMK_R_DEV_sha-deva_L" = -17;
-"@MMK_R_DEV_ta-deva_L" = -42;
-"@MMK_R_DEV_va-deva_L" = -34;
-"@MMK_R_DEV_ya-deva_L" = -29;
-"da_uMatra-deva" = -34;
-"l-deva" = -34;
-"la-deva.MAR" = -16;
-"s-deva" = -25;
-};
-"@MMK_L_DEV_bh-deva_R" = {
-"@MMK_R_DEV_la-deva_L" = -35;
-"@MMK_R_DEV_ma-deva_L" = -40;
-"@MMK_R_DEV_va-deva_L" = -35;
-"@MMK_R_DEV_ya-deva_L" = -27;
-"la-deva.MAR" = -35;
-};
-"@MMK_L_DEV_c-deva_R" = {
-"@MMK_R_DEV_ca-deva_L" = -20;
-"@MMK_R_DEV_ka-deva_L" = -18;
-"@MMK_R_DEV_ma-deva_L" = -20;
-"@MMK_R_DEV_na-deva_L" = -11;
-"@MMK_R_DEV_nga-deva_L" = -61;
-"@MMK_R_DEV_ra-deva_L" = -10;
-"@MMK_R_DEV_ya-deva_L" = -12;
-};
-"@MMK_L_DEV_d_y-deva_R" = {
-"@MMK_R_DEV_la-deva_L" = -27;
-"@MMK_R_DEV_ma-deva_L" = -20;
-"@MMK_R_DEV_ya-deva_L" = -39;
-};
-"@MMK_L_DEV_eyelashReph-deva_R" = {
-"@MMK_R_DEV_ha-deva_L" = -43;
-"@MMK_R_DEV_ma-deva_L" = -87;
-"@MMK_R_DEV_nga-deva_L" = -76;
-"@MMK_R_DEV_ya-deva_L" = -52;
-"la-deva.MAR" = -38;
-};
-"@MMK_L_DEV_g-deva_R" = {
-"@MMK_R_DEV_ja-deva_L" = -8;
-"@MMK_R_DEV_nga-deva_L" = -27;
-};
-"@MMK_L_DEV_gh-deva_R" = {
-"@MMK_R_DEV_ma-deva_L" = -22;
-"@MMK_R_DEV_na-deva_L" = -19;
-"@MMK_R_DEV_ya-deva_L" = -23;
-};
-"@MMK_L_DEV_h-deva_R" = {
-"@MMK_R_DEV_ba-deva_L" = -2;
-"@MMK_R_DEV_ha-deva_L" = -36;
-"@MMK_R_DEV_ja-deva_L" = -32;
-"@MMK_R_DEV_ka-deva_L" = -37;
-"@MMK_R_DEV_la-deva_L" = -40;
-"@MMK_R_DEV_ma-deva_L" = -25;
-"@MMK_R_DEV_na-deva_L" = -30;
-"@MMK_R_DEV_nna-deva_L" = -17;
-"@MMK_R_DEV_ra-deva_L" = -30;
-"@MMK_R_DEV_ta-deva_L" = -48;
-"@MMK_R_DEV_va-deva_L" = -38;
-"@MMK_R_DEV_ya-deva_L" = -26;
-"la-deva.MAR" = -40;
-};
-"@MMK_L_DEV_j-deva_R" = {
-"@MMK_R_DEV_ba-deva_L" = -36;
-"@MMK_R_DEV_da-deva_L" = -34;
-"@MMK_R_DEV_ha-deva_L" = -52;
-"@MMK_R_DEV_i-deva_L" = -51;
-"@MMK_R_DEV_j_nya-deva_L" = -52;
-"@MMK_R_DEV_ja-deva_L" = -72;
-"@MMK_R_DEV_ka-deva_L" = -36;
-"@MMK_R_DEV_la-deva_L" = -40;
-"@MMK_R_DEV_ma-deva_L" = -39;
-"@MMK_R_DEV_na-deva_L" = -43;
-"@MMK_R_DEV_nga-deva_L" = -40;
-"@MMK_R_DEV_ra-deva_L" = -40;
-"@MMK_R_DEV_ta-deva_L" = -43;
-"@MMK_R_DEV_tta-deva_L" = -28;
-"@MMK_R_DEV_va-deva_L" = -36;
-"@MMK_R_DEV_ya-deva_L" = -46;
-"@MMK_R_japrehalfdeva" = -70;
-};
-"@MMK_L_DEV_j_ny-deva_R" = {
-"@MMK_R_DEV_va-deva_L" = -20;
-"@MMK_R_DEV_ya-deva_L" = -10;
-};
-"@MMK_L_DEV_jh-deva_N_R" = {
-"@MMK_R_DEV_ja-deva_L" = -54;
-"@MMK_R_DEV_la-deva_L" = -50;
-"@MMK_R_DEV_pa-deva_L" = -41;
-"@MMK_R_DEV_pha-deva_L" = -41;
-"@MMK_R_DEV_ra-deva_L" = -50;
-"@MMK_R_DEV_ta-deva_L" = -55;
-"@MMK_R_DEV_tta-deva_L" = -48;
-"@MMK_R_DEV_va-deva_L" = -48;
-"@MMK_R_DEV_ya-deva_L" = -52;
-};
-"@MMK_L_DEV_k-deva_R" = {
-"@MMK_R_DEV_ca-deva_L" = -11;
-"@MMK_R_DEV_da-deva_L" = -49;
-"@MMK_R_DEV_i-deva_L" = -44;
-"@MMK_R_DEV_ja-deva_L" = -54;
-"@MMK_R_DEV_ka-deva_L" = -48;
-"@MMK_R_DEV_kha-deva_L" = -50;
-"@MMK_R_DEV_la-deva_L" = -50;
-"@MMK_R_DEV_ma-deva_L" = -29;
-"@MMK_R_DEV_na-deva_L" = -44;
-"@MMK_R_DEV_nga-deva_L" = -62;
-"@MMK_R_DEV_nna-deva_L" = -41;
-"@MMK_R_DEV_pa-deva_L" = -41;
-"@MMK_R_DEV_pha-deva_L" = -41;
-"@MMK_R_DEV_ra-deva_L" = -50;
-"@MMK_R_DEV_sha-deva_L" = -13;
-"@MMK_R_DEV_ta-deva_L" = -55;
-"@MMK_R_DEV_tta-deva_L" = -48;
-"@MMK_R_DEV_va-deva_L" = -48;
-"@MMK_R_DEV_ya-deva_L" = -52;
-"la-deva.MAR" = -23;
-"p_ra-deva" = -41;
-"s-deva" = -50;
-"t-deva" = -55;
-};
-"@MMK_L_DEV_k_ss-deva_R" = {
-"@MMK_R_DEV_bha-deva_L" = -39;
-"@MMK_R_DEV_dha-deva_L" = -22;
-"@MMK_R_DEV_ma-deva_L" = -14;
-"@MMK_R_DEV_nna-deva_L" = -14;
-"@MMK_R_DEV_tha-deva_L" = -35;
-"@MMK_R_DEV_va-deva_L" = -17;
-"@MMK_R_DEV_ya-deva_L" = -14;
-};
-"@MMK_L_DEV_kh-deva_R" = {
-"@MMK_R_DEV_kha-deva_L" = -42;
-"@MMK_R_DEV_ma-deva_L" = -40;
-"@MMK_R_DEV_na-deva_L" = -38;
-"@MMK_R_DEV_ra-deva_L" = -38;
-"@MMK_R_DEV_sha-deva_L" = -20;
-"@MMK_R_DEV_ta-deva_L" = -56;
-"@MMK_R_DEV_va-deva_L" = -41;
-"@MMK_R_DEV_ya-deva_L" = -39;
-};
-"@MMK_L_DEV_l-deva_R" = {
-"@MMK_R_DEV_ba-deva_L" = -41;
-"@MMK_R_DEV_da-deva_L" = -44;
-"@MMK_R_DEV_ga-deva_L" = -20;
-"@MMK_R_DEV_ha-deva_L" = -67;
-"@MMK_R_DEV_ja-deva_L" = -76;
-"@MMK_R_DEV_ka-deva_L" = -41;
-"@MMK_R_DEV_kha-deva_L" = -49;
-"@MMK_R_DEV_la-deva_L" = -48;
-"@MMK_R_DEV_ma-deva_L" = -18;
-"@MMK_R_DEV_nga-deva_L" = -70;
-"@MMK_R_DEV_pa-deva_L" = -77;
-"@MMK_R_DEV_pha-deva_L" = -57;
-"@MMK_R_DEV_ra-deva_L" = -49;
-"@MMK_R_DEV_sha-deva_L" = -5;
-"@MMK_R_DEV_ta-deva_L" = -41;
-"@MMK_R_DEV_tta-deva_L" = -44;
-"@MMK_R_DEV_ttha-deva_L" = -42;
-"@MMK_R_DEV_va-deva_L" = -41;
-"@MMK_R_DEV_ya-deva_L" = -33;
-"b-deva" = -51;
-"d_va-deva" = -113;
-"da_uuMatra-deva" = -44;
-"ddha-deva" = -44;
-"fa-deva" = -77;
-"ha_uMatra-deva" = -67;
-"ha_uMatra_UI-deva" = -67;
-"ha_uuMatra-deva" = -67;
-"ha_uuMatra_UI-deva" = -67;
-"k-deva" = -51;
-"k_ra-deva" = -63;
-"la-deva.MAR" = -48;
-"m-deva" = -18;
-"p-deva" = -77;
-"ph-deva" = -77;
-"ph_ra-deva" = -77;
-};
-"@MMK_L_DEV_ll-deva_R" = {
-"@MMK_R_DEV_lla-deva_L" = -131;
-"@MMK_R_DEV_ya-deva_L" = -105;
-};
-"@MMK_L_DEV_m-deva_R" = {
-"@MMK_R_DEV_ba-deva_L" = -36;
-"@MMK_R_DEV_bha-deva_L" = -78;
-"@MMK_R_DEV_da-deva_L" = -45;
-"@MMK_R_DEV_ha-deva_L" = -58;
-"@MMK_R_DEV_ja-deva_L" = -42;
-"@MMK_R_DEV_ka-deva_L" = -50;
-"@MMK_R_DEV_la-deva_L" = -38;
-"@MMK_R_DEV_ma-deva_L" = -60;
-"@MMK_R_DEV_na-deva_L" = -40;
-"@MMK_R_DEV_nga-deva_L" = -77;
-"@MMK_R_DEV_pa-deva_L" = -49;
-"@MMK_R_DEV_pha-deva_L" = -40;
-"@MMK_R_DEV_ra-deva_L" = -42;
-"@MMK_R_DEV_sha-deva_L" = -22;
-"@MMK_R_DEV_ta-deva_L" = -39;
-"@MMK_R_DEV_tta-deva_L" = -30;
-"@MMK_R_DEV_ttha-deva_L" = -30;
-"@MMK_R_DEV_va-deva_L" = -36;
-"@MMK_R_DEV_ya-deva_L" = -42;
-"b_ra-deva" = -47;
-"la-deva.MAR" = -20;
-};
-"@MMK_L_DEV_n-deva_R" = {
-"@MMK_R_DEV_ba-deva_L" = -35;
-"@MMK_R_DEV_bha-deva_L" = -57;
-"@MMK_R_DEV_ca-deva_L" = -31;
-"@MMK_R_DEV_cha-deva_L" = -53;
-"@MMK_R_DEV_d_dha-deva_L" = -23;
-"@MMK_R_DEV_da-deva_L" = -40;
-"@MMK_R_DEV_ga-deva_L" = -30;
-"@MMK_R_DEV_ha-deva_L" = -46;
-"@MMK_R_DEV_i-deva_L" = -20;
-"@MMK_R_DEV_ja-deva_L" = -59;
-"@MMK_R_DEV_ka-deva_L" = -35;
-"@MMK_R_DEV_kha-deva_L" = -48;
-"@MMK_R_DEV_la-deva_L" = -40;
-"@MMK_R_DEV_ma-deva_L" = -20;
-"@MMK_R_DEV_nga-deva_L" = -60;
-"@MMK_R_DEV_pa-deva_L" = -47;
-"@MMK_R_DEV_pha-deva_L" = -47;
-"@MMK_R_DEV_ra-deva_L" = -25;
-"@MMK_R_DEV_sha-deva_L" = -21;
-"@MMK_R_DEV_t_ra-deva_L" = -30;
-"@MMK_R_DEV_ta-deva_L" = -39;
-"@MMK_R_DEV_tta-deva_L" = -33;
-"@MMK_R_DEV_va-deva_L" = -35;
-"@MMK_R_DEV_ya-deva_L" = -57;
-"d_ra-deva" = -40;
-"d_va-deva" = -110;
-"da_uMatra-deva" = -40;
-"da_uuMatra-deva" = -40;
-"f-deva" = -47;
-"fa-deva" = -47;
-"gha-deva" = -64;
-"ha_uMatra-deva" = -46;
-"ha_uMatra_UI-deva" = -46;
-"k-deva" = -35;
-"k_ra-deva" = -47;
-"la-deva.MAR" = -40;
-"ph-deva" = -47;
-"ph_ra-deva" = -47;
-"s-deva" = -39;
-"ssa-deva" = -47;
-"t-deva" = -39;
-};
-"@MMK_L_DEV_nn-deva_R" = {
-"@MMK_R_DEV_nga-deva_L" = -26;
-"@MMK_R_DEV_tta-deva_L" = -2;
-"@MMK_R_DEV_ttha-deva_L" = -2;
-"@MMK_R_DEV_ya-deva_L" = 10;
-"ddha-deva" = -2;
-};
-"@MMK_L_DEV_ny-deva_R" = {
-"@MMK_R_DEV_ca-deva_L" = -32;
-"@MMK_R_DEV_cha-deva_L" = -52;
-"@MMK_R_DEV_ja-deva_L" = -30;
-"@MMK_R_DEV_nya-deva_L" = -58;
-"@MMK_R_DEV_ya-deva_L" = -20;
-};
-"@MMK_L_DEV_p-deva_R" = {
-"@MMK_R_DEV_ha-deva_L" = -2;
-"@MMK_R_DEV_la-deva_L" = 8;
-"@MMK_R_DEV_ma-deva_L" = -16;
-"@MMK_R_DEV_na-deva_L" = -14;
-"@MMK_R_DEV_nga-deva_L" = -4;
-"@MMK_R_DEV_pa-deva_L" = -14;
-"@MMK_R_DEV_pha-deva_L" = -14;
-"@MMK_R_DEV_ra-deva_L" = -2;
-"@MMK_R_DEV_ta-deva_L" = -22;
-"@MMK_R_DEV_va-deva_L" = -5;
-"@MMK_R_DEV_ya-deva_L" = -14;
-"la-deva.MAR" = -2;
-"ssa-deva" = -2;
-};
-"@MMK_L_DEV_ph-deva_R" = {
-"@MMK_R_DEV_ja-deva_L" = -54;
-"@MMK_R_DEV_kha-deva_L" = -30;
-"@MMK_R_DEV_la-deva_L" = -30;
-"@MMK_R_DEV_pa-deva_L" = -41;
-"@MMK_R_DEV_pha-deva_L" = -41;
-"@MMK_R_DEV_ra-deva_L" = -20;
-"@MMK_R_DEV_ta-deva_L" = -55;
-"@MMK_R_DEV_tha-deva_L" = -20;
-"@MMK_R_DEV_tta-deva_L" = -47;
-"@MMK_R_DEV_va-deva_L" = -35;
-"@MMK_R_DEV_ya-deva_L" = -52;
-"fa-deva" = -41;
-"la-deva.MAR" = -7;
-};
-"@MMK_L_DEV_s-deva_R" = {
-"@MMK_R_DEV_ba-deva_L" = -38;
-"@MMK_R_DEV_ca-deva_L" = -24;
-"@MMK_R_DEV_da-deva_L" = -38;
-"@MMK_R_DEV_ja-deva_L" = -41;
-"@MMK_R_DEV_ka-deva_L" = -39;
-"@MMK_R_DEV_kha-deva_L" = -50;
-"@MMK_R_DEV_la-deva_L" = -38;
-"@MMK_R_DEV_ma-deva_L" = -52;
-"@MMK_R_DEV_na-deva_L" = -44;
-"@MMK_R_DEV_nga-deva_L" = -57;
-"@MMK_R_DEV_pa-deva_L" = -36;
-"@MMK_R_DEV_pha-deva_L" = -27;
-"@MMK_R_DEV_ra-deva_L" = -33;
-"@MMK_R_DEV_t_ra-deva_L" = -15;
-"@MMK_R_DEV_ta-deva_L" = -39;
-"@MMK_R_DEV_tha-deva_L" = -57;
-"@MMK_R_DEV_tta-deva_L" = -38;
-"@MMK_R_DEV_va-deva_L" = -39;
-"@MMK_R_DEV_ya-deva_L" = -34;
-"fa-deva" = -28;
-"k-deva" = -39;
-"k_ra-deva" = -46;
-"la-deva.MAR" = -8;
-"t-deva" = -8;
-"tt_ya-deva" = -38;
-};
-"@MMK_L_DEV_sh-deva_M_R" = {
-"@MMK_R_DEV_ka-deva_L" = 4;
-"@MMK_R_DEV_na-deva_L" = 0;
-};
-"@MMK_L_DEV_sh-deva_R" = {
-"@MMK_R_DEV_sha-deva_L" = -15;
-};
-"@MMK_L_DEV_sh_c-deva_R" = {
-"@MMK_R_DEV_ya-deva_L" = -70;
-};
-"@MMK_L_DEV_sh_v-deva_R" = {
-"@MMK_R_DEV_ya-deva_L" = -60;
-};
-"@MMK_L_DEV_ss-deva_R" = {
-"@MMK_R_DEV_ka-deva_L" = -44;
-"@MMK_R_DEV_ma-deva_L" = -52;
-"@MMK_R_DEV_nna-deva_L" = -46;
-"@MMK_R_DEV_pa-deva_L" = -48;
-"@MMK_R_DEV_pha-deva_L" = -48;
-"@MMK_R_DEV_ta-deva_L" = -42;
-"@MMK_R_DEV_tta-deva_L" = -39;
-"@MMK_R_DEV_ttha-deva_L" = -39;
-"@MMK_R_DEV_va-deva_L" = -41;
-"@MMK_R_DEV_ya-deva_L" = -38;
-"k_ra-deva" = -45;
-"p_ra-deva" = -39;
-"ssa-deva" = -48;
-};
-"@MMK_L_DEV_t-deva_R" = {
-"@MMK_R_DEV_ba-deva_L" = -46;
-"@MMK_R_DEV_ca-deva_L" = -22;
-"@MMK_R_DEV_da-deva_L" = -43;
-"@MMK_R_DEV_ja-deva_L" = -68;
-"@MMK_R_DEV_ka-deva_L" = -50;
-"@MMK_R_DEV_kha-deva_L" = -43;
-"@MMK_R_DEV_la-deva_L" = -45;
-"@MMK_R_DEV_ma-deva_L" = -36;
-"@MMK_R_DEV_na-deva_L" = -44;
-"@MMK_R_DEV_pa-deva_L" = -66;
-"@MMK_R_DEV_pha-deva_L" = -76;
-"@MMK_R_DEV_ra-deva_L" = -55;
-"@MMK_R_DEV_va-deva_L" = -54;
-"@MMK_R_DEV_ya-deva_L" = -38;
-"k_ra-deva" = -41;
-"la-deva.MAR" = -45;
-"m-deva" = -30;
-"p_ra-deva" = -46;
-"s-deva" = -43;
-"za-deva" = -20;
-};
-"@MMK_L_DEV_t_r-deva_R" = {
-"@MMK_R_DEV_pa-deva_L" = -64;
-"@MMK_R_DEV_ya-deva_L" = -64;
-};
-"@MMK_L_DEV_th-deva_R" = {
-"@MMK_R_DEV_va-deva_L" = -12;
-"@MMK_R_DEV_ya-deva_L" = -12;
-};
-"@MMK_L_DEV_v-deva_R" = {
-"@MMK_R_DEV_ha-deva_L" = -69;
-"@MMK_R_DEV_ja-deva_L" = -40;
-"@MMK_R_DEV_ka-deva_L" = -34;
-"@MMK_R_DEV_la-deva_L" = -34;
-"@MMK_R_DEV_ma-deva_L" = -42;
-"@MMK_R_DEV_na-deva_L" = -24;
-"@MMK_R_DEV_nga-deva_L" = -33;
-"@MMK_R_DEV_ra-deva_L" = -25;
-"@MMK_R_DEV_ttha-deva_L" = -30;
-"@MMK_R_DEV_va-deva_L" = -35;
-"la-deva.MAR" = -34;
-"s-deva" = -25;
-};
-"@MMK_L_DEV_v_r-deva_R" = {
-"@MMK_R_DEV_ka-deva_L" = -40;
-"@MMK_R_DEV_va-deva_L" = -38;
-"@MMK_R_DEV_ya-deva_L" = -38;
-};
-"@MMK_L_DEV_y-deva_R" = {
-"@MMK_R_DEV_ka-deva_L" = -20;
-"@MMK_R_DEV_nga-deva_L" = -37;
-"@MMK_R_DEV_va-deva_L" = -19;
-"@MMK_R_DEV_ya-deva_L" = -15;
 };
 };
 "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7" = {

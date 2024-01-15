@@ -62,34 +62,6 @@ width = 0;
 anchors = (
 {
 name = _bottom;
-pos = (-234,0);
-}
-);
-layerId = UUID0;
-shapes = (
-{
-pos = (-71,-132);
-ref = "rrVocalicMatra-deva.alt";
-},
-{
-closed = 1;
-nodes = (
-(-345,-153,l),
-(-216,-59,l),
-(-83,-150,l),
-(-21,-76,l),
-(-173,10,l),
-(-256,10,l),
-(-410,-78,l)
-);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _bottom;
 pos = (-257,0);
 }
 );
@@ -165,34 +137,6 @@ nodes = (
 (-133,6,l),
 (-169,6,l),
 (-304,-91,l)
-);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _bottom;
-pos = (-206,0);
-}
-);
-layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
-shapes = (
-{
-pos = (-49,-144);
-ref = "rrVocalicMatra-deva.alt";
-},
-{
-closed = 1;
-nodes = (
-(-284,-158,l),
-(-168,-59,l),
-(-59,-149,l),
-(9,-84,l),
-(-127,9,l),
-(-211,9,l),
-(-355,-84,l)
 );
 }
 );

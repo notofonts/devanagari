@@ -52,29 +52,6 @@ width = 0;
 anchors = (
 {
 name = _top;
-pos = (-214,622);
-},
-{
-name = topVedic;
-pos = (163,622);
-}
-);
-layerId = UUID0;
-shapes = (
-{
-ref = "aiMatra-deva";
-},
-{
-pos = (59,0);
-ref = "_Comp_candraBindu-deva.01";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (-247,622);
 },
 {
@@ -135,29 +112,6 @@ ref = "aiMatra-deva";
 },
 {
 pos = (56,0);
-ref = "_Comp_candraBindu-deva.01";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (-179,622);
-},
-{
-name = topVedic;
-pos = (162,622);
-}
-);
-layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
-shapes = (
-{
-ref = "aiMatra-deva";
-},
-{
-pos = (67,0);
 ref = "_Comp_candraBindu-deva.01";
 }
 );

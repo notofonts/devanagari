@@ -74,39 +74,6 @@ width = 259;
 anchors = (
 {
 name = bottom;
-pos = (80,0);
-},
-{
-name = bottom2;
-pos = (79,-40);
-},
-{
-name = halant;
-pos = (80,-20);
-}
-);
-layerId = UUID0;
-shapes = (
-{
-closed = 1;
-nodes = (
-(309,512,l),
-(309,622,l),
-(0,622,l),
-(0,512,l),
-(80,512,l),
-(80,0,l),
-(214,0,l),
-(214,512,l)
-);
-}
-);
-width = 294;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (70,0);
 },
 {
@@ -201,39 +168,6 @@ nodes = (
 }
 );
 width = 203;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (58,0);
-},
-{
-name = bottom2;
-pos = (58,-40);
-},
-{
-name = halant;
-pos = (58,-20);
-}
-);
-layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
-shapes = (
-{
-closed = 1;
-nodes = (
-(249,514,l),
-(249,622,l),
-(0,622,l),
-(0,514,l),
-(58,514,l),
-(58,0,l),
-(179,0,l),
-(179,514,l)
-);
-}
-);
-width = 237;
 },
 {
 anchors = (

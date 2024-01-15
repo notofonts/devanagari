@@ -29,19 +29,6 @@ ref = "threecomb-deva";
 width = 0;
 },
 {
-layerId = UUID0;
-shapes = (
-{
-ref = "kacomb-deva";
-},
-{
-pos = (-355,0);
-ref = "threecomb-deva";
-}
-);
-width = 0;
-},
-{
 layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
 shapes = (
 {
@@ -75,19 +62,6 @@ ref = "kacomb-deva";
 },
 {
 pos = (-290,0);
-ref = "threecomb-deva";
-}
-);
-width = 0;
-},
-{
-layerId = "9A082071-1CDF-4F9E-B116-82A287035C9D";
-shapes = (
-{
-ref = "kacomb-deva";
-},
-{
-pos = (-304,0);
 ref = "threecomb-deva";
 }
 );
