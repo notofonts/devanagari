@@ -11,10 +11,6 @@ layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
 width = 260;
 },
 {
-layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-width = 287;
-},
-{
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
 width = 237;
 },
@@ -29,10 +25,6 @@ width = 244;
 {
 layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
 width = 207;
-},
-{
-layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-width = 227;
 }
 );
 metricWidth = "=space";

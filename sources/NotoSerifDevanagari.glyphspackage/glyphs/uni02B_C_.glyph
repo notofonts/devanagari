@@ -22,15 +22,6 @@ ref = quoteright;
 width = 349;
 },
 {
-layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-shapes = (
-{
-ref = quoteright;
-}
-);
-width = 377;
-},
-{
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
 shapes = (
 {
@@ -66,15 +57,6 @@ ref = quoteright;
 }
 );
 width = 298;
-},
-{
-layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-shapes = (
-{
-ref = quoteright;
-}
-);
-width = 325;
 }
 );
 metricLeft = quoteright;

@@ -66,36 +66,6 @@ width = 0;
 anchors = (
 {
 name = _top;
-pos = (-74,626);
-}
-);
-layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-shapes = (
-{
-closed = 1;
-nodes = (
-(138,673,l),
-(138,875,l),
-(50,875,l),
-(50,673,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(276,673,l),
-(276,875,l),
-(188,875,l),
-(188,673,l)
-);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (-70,627);
 }
 );
@@ -186,36 +156,6 @@ width = 0;
 anchors = (
 {
 name = _top;
-pos = (-58,625);
-}
-);
-layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-shapes = (
-{
-closed = 1;
-nodes = (
-(144,676,l),
-(144,876,l),
-(58,876,l),
-(58,676,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(270,676,l),
-(270,876,l),
-(184,876,l),
-(184,676,l)
-);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (-45,627);
 }
 );
@@ -243,7 +183,9 @@ nodes = (
 width = 0;
 }
 );
-note = "\012    uni1CDA\012  ";
+note = "
+    uni1CDA
+  ";
 script = vedic;
 subCategory = Nonspacing;
 userData = {

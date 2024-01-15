@@ -84,45 +84,6 @@ width = 0;
 anchors = (
 {
 name = _top;
-pos = (-65,626);
-}
-);
-layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-shapes = (
-{
-closed = 1;
-nodes = (
-(-223,673,l),
-(-223,875,l),
-(-311,875,l),
-(-311,673,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(-91,673,l),
-(-91,875,l),
-(-179,875,l),
-(-179,673,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(41,673,l),
-(41,875,l),
-(-47,875,l),
-(-47,673,l)
-);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (-50,627);
 }
 );
@@ -240,45 +201,6 @@ width = 0;
 anchors = (
 {
 name = _top;
-pos = (-57,625);
-}
-);
-layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-shapes = (
-{
-closed = 1;
-nodes = (
-(-186,676,l),
-(-186,876,l),
-(-272,876,l),
-(-272,676,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(-68,676,l),
-(-68,876,l),
-(-154,876,l),
-(-154,676,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(50,676,l),
-(50,876,l),
-(-36,876,l),
-(-36,676,l)
-);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (-41,627);
 }
 );
@@ -315,7 +237,9 @@ nodes = (
 width = 0;
 }
 );
-note = "\012    uni1CDB\012  ";
+note = "
+    uni1CDB
+  ";
 production = uni1CDB;
 script = vedic;
 subCategory = Nonspacing;

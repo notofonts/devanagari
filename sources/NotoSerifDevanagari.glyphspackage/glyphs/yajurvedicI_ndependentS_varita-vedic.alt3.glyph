@@ -58,32 +58,6 @@ width = 0;
 anchors = (
 {
 name = _bottom_right;
-pos = (-260,0);
-}
-);
-layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-shapes = (
-{
-closed = 1;
-nodes = (
-(-49,-621,l),
-(-49,-607,l),
-(-105,-525,l),
-(-372,-525,l),
-(-372,-435,l),
-(-459,-387,l),
-(-472,-387,l),
-(-472,-533,l),
-(-415,-621,l)
-);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _bottom_right;
 pos = (-269,0);
 }
 );
@@ -162,32 +136,6 @@ width = 0;
 anchors = (
 {
 name = _bottom_right;
-pos = (-206,0);
-}
-);
-layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-shapes = (
-{
-closed = 1;
-nodes = (
-(-32,-603,l),
-(-32,-590,l),
-(-82,-510,l),
-(-290,-510,l),
-(-290,-426,l),
-(-368,-379,l),
-(-380,-379,l),
-(-380,-519,l),
-(-328,-603,l)
-);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _bottom_right;
 pos = (-207,0);
 }
 );
@@ -211,7 +159,9 @@ nodes = (
 width = 0;
 }
 );
-note = "\012    uni1CD6\012  ";
+note = "
+    uni1CD6
+  ";
 production = uni1CD6.alt3;
 script = vedic;
 subCategory = Nonspacing;

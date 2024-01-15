@@ -48,27 +48,6 @@ width = 0;
 anchors = (
 {
 name = _top;
-pos = (30,626);
-}
-);
-layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-shapes = (
-{
-alignment = -1;
-ref = "oeMatra-deva";
-},
-{
-alignment = -1;
-pos = (150,5);
-ref = "reph_anusvara-deva";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (64,627);
 }
 );
@@ -123,27 +102,6 @@ ref = "oeMatra-deva";
 {
 alignment = -1;
 pos = (103,6);
-ref = "reph_anusvara-deva";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (22,625);
-}
-);
-layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-shapes = (
-{
-alignment = -1;
-ref = "oeMatra-deva";
-},
-{
-alignment = -1;
-pos = (129,-2);
 ref = "reph_anusvara-deva";
 }
 );

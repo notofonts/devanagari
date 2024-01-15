@@ -78,41 +78,6 @@ width = 506;
 anchors = (
 {
 name = bottom;
-pos = (449,-293);
-},
-{
-name = bottom_right;
-pos = (317,-221);
-},
-{
-name = candra;
-pos = (426,626);
-},
-{
-name = nukta;
-pos = (304,-114);
-},
-{
-name = top;
-pos = (426,626);
-}
-);
-layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-shapes = (
-{
-ref = "dda-deva";
-},
-{
-pos = (363,-11);
-ref = "rakar_nukta-deva";
-}
-);
-width = 537;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (476,-305);
 },
 {
@@ -213,41 +178,6 @@ ref = "rakar_nukta-deva";
 }
 );
 width = 398;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (362,-303);
-},
-{
-name = bottom_right;
-pos = (262,-232);
-},
-{
-name = candra;
-pos = (346,625);
-},
-{
-name = nukta;
-pos = (250,-107);
-},
-{
-name = top;
-pos = (346,625);
-}
-);
-layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-shapes = (
-{
-ref = "dda-deva";
-},
-{
-pos = (286,-27);
-ref = "rakar_nukta-deva";
-}
-);
-width = 431;
 },
 {
 anchors = (

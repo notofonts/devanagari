@@ -21,15 +21,6 @@ ref = hyphen;
 width = 310;
 },
 {
-layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-shapes = (
-{
-ref = hyphen;
-}
-);
-width = 310;
-},
-{
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
 shapes = (
 {
@@ -65,15 +56,6 @@ ref = hyphen;
 }
 );
 width = 246;
-},
-{
-layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-shapes = (
-{
-ref = hyphen;
-}
-);
-width = 253;
 }
 );
 production = uni00AD;

@@ -51,30 +51,6 @@ nodes = (
 width = 272;
 },
 {
-layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-shapes = (
-{
-closed = 1;
-nodes = (
-(276,659,l),
-(306,896,l),
-(223,896,l),
-(193,659,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(139,659,l),
-(170,896,l),
-(86,896,l),
-(56,659,l)
-);
-}
-);
-width = 362;
-},
-{
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
 shapes = (
 {
@@ -147,30 +123,6 @@ nodes = (
 width = 249;
 },
 {
-layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-shapes = (
-{
-closed = 1;
-nodes = (
-(241,659,l),
-(262,896,l),
-(186,896,l),
-(164,659,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(125,659,l),
-(146,896,l),
-(70,896,l),
-(48,659,l)
-);
-}
-);
-width = 310;
-},
-{
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
 shapes = (
 {
@@ -195,7 +147,9 @@ nodes = (
 width = 359;
 }
 );
-note = "\012    uni1CD3\012  ";
+note = "
+    uni1CD3
+  ";
 production = uni1CD3;
 script = devanagari;
 subCategory = Spacing;

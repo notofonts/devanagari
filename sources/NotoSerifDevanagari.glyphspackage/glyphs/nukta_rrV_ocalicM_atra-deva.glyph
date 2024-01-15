@@ -54,32 +54,6 @@ width = 0;
 anchors = (
 {
 name = _bottom;
-pos = (50,0);
-},
-{
-name = bottom_right;
-pos = (-59,-381);
-}
-);
-layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-shapes = (
-{
-alignment = -1;
-pos = (120,0);
-ref = "rrVocalicMatra-deva";
-},
-{
-alignment = -1;
-pos = (11,-53);
-ref = "nukta-deva";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _bottom;
 pos = (62,0);
 },
 {
@@ -145,32 +119,6 @@ ref = "rrVocalicMatra-deva";
 },
 {
 pos = (78,-53);
-ref = "nukta-deva";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _bottom;
-pos = (76,0);
-},
-{
-name = bottom_right;
-pos = (-7,-361);
-}
-);
-layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-shapes = (
-{
-alignment = -1;
-pos = (114,0);
-ref = "rrVocalicMatra-deva";
-},
-{
-alignment = -1;
-pos = (75,-53);
 ref = "nukta-deva";
 }
 );

@@ -38,22 +38,6 @@ width = 0;
 anchors = (
 {
 name = _top;
-pos = (-83,626);
-}
-);
-layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-shapes = (
-{
-pos = (313,0);
-ref = "doubleSvarita-vedic";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (-83,627);
 }
 );
@@ -102,22 +86,6 @@ width = 0;
 anchors = (
 {
 name = _top;
-pos = (-83,625);
-}
-);
-layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-shapes = (
-{
-pos = (256,0);
-ref = "doubleSvarita-vedic";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (-83,627);
 }
 );
@@ -131,7 +99,9 @@ ref = "doubleSvarita-vedic";
 width = 0;
 }
 );
-note = "\012    uni1CDA\012  ";
+note = "
+    uni1CDA
+  ";
 production = uni1CDA.alt2;
 script = vedic;
 subCategory = Nonspacing;

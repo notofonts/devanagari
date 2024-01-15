@@ -45,25 +45,6 @@ width = 230;
 anchors = (
 {
 name = topVedic;
-pos = (374,626);
-}
-);
-layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-shapes = (
-{
-ref = "iiMatra-deva.02";
-},
-{
-pos = (292,0);
-ref = "_Comp_candraBindu-deva.01";
-}
-);
-width = 266;
-},
-{
-anchors = (
-{
-name = topVedic;
 pos = (397,627);
 }
 );
@@ -116,25 +97,6 @@ ref = "_Comp_candraBindu-deva.01";
 }
 );
 width = 197;
-},
-{
-anchors = (
-{
-name = topVedic;
-pos = (308,625);
-}
-);
-layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-shapes = (
-{
-ref = "iiMatra-deva.02";
-},
-{
-pos = (245,0);
-ref = "_Comp_candraBindu-deva.01";
-}
-);
-width = 217;
 },
 {
 anchors = (

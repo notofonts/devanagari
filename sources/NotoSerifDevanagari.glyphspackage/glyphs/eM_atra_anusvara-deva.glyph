@@ -53,29 +53,6 @@ width = 0;
 anchors = (
 {
 name = _top;
-pos = (20,626);
-},
-{
-name = topVedic;
-pos = (108,626);
-}
-);
-layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-shapes = (
-{
-ref = "eMatra-deva";
-},
-{
-pos = (80,25);
-ref = "anusvara-deva";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (20,628);
 },
 {
@@ -136,29 +113,6 @@ ref = "eMatra-deva";
 },
 {
 pos = (42,29);
-ref = "anusvara-deva";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (20,625);
-},
-{
-name = topVedic;
-pos = (118,625);
-}
-);
-layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-shapes = (
-{
-ref = "eMatra-deva";
-},
-{
-pos = (63,25);
 ref = "anusvara-deva";
 }
 );

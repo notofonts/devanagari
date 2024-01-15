@@ -44,25 +44,6 @@ width = 0;
 anchors = (
 {
 name = _top;
-pos = (0,626);
-}
-);
-layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-shapes = (
-{
-ref = "eShortMatra-deva";
-},
-{
-pos = (160,0);
-ref = "_Comp_candraBindu-deva.01";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
 pos = (0,627);
 }
 );
@@ -111,25 +92,6 @@ ref = "eShortMatra-deva";
 },
 {
 pos = (99,0);
-ref = "_Comp_candraBindu-deva.01";
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-pos = (0,625);
-}
-);
-layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-shapes = (
-{
-ref = "eShortMatra-deva";
-},
-{
-pos = (139,0);
 ref = "_Comp_candraBindu-deva.01";
 }
 );

@@ -29,21 +29,6 @@ ref = "fractionOneSixteenth-cinf";
 width = 582;
 },
 {
-layerId = "26889610-2B6B-400B-B1BB-1A42565FFDAF";
-shapes = (
-{
-alignment = -1;
-ref = "fractionOneSixteenth-cinf";
-},
-{
-alignment = -1;
-pos = (0,-210);
-ref = "fractionOneSixteenth-cinf";
-}
-);
-width = 723;
-},
-{
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
 shapes = (
 {
@@ -85,21 +70,6 @@ ref = "fractionOneSixteenth-cinf";
 width = 516;
 },
 {
-layerId = "48B0D659-D2E4-4014-AFB5-7353283B7180";
-shapes = (
-{
-alignment = -1;
-ref = "fractionOneSixteenth-cinf";
-},
-{
-alignment = -1;
-pos = (0,-210);
-ref = "fractionOneSixteenth-cinf";
-}
-);
-width = 585;
-},
-{
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
 shapes = (
 {
@@ -115,7 +85,9 @@ ref = "fractionOneSixteenth-cinf";
 width = 625;
 }
 );
-note = "\012    uniA834\012  ";
+note = "
+    uniA834
+  ";
 production = uniA834;
 script = cinf;
 subCategory = Other;
