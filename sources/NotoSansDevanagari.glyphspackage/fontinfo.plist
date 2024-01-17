@@ -14561,6 +14561,13 @@ kerningLTR = {
 };
 };
 };
+kerningRTL = {
+"C05809E0-FD9D-43C4-90EB-E9E886B1ADAB" = {
+"@MMK_R_DEV_nga-deva_L" = {
+"@MMK_L_DEV_j-deva_R" = -80;
+};
+};
+};
 metrics = (
 {
 type = ascender;
