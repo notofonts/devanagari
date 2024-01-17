@@ -99,7 +99,7 @@ pos = (384,-40);
 },
 {
 name = bottom2;
-pos = (392,-49);
+pos = (392,-98);
 },
 {
 name = candra;
@@ -182,11 +182,11 @@ width = 531;
 anchors = (
 {
 name = bottom;
-pos = (388,-50);
+pos = (396,-127);
 },
 {
 name = bottom2;
-pos = (357,-50);
+pos = (357,-105);
 },
 {
 name = candra;
@@ -360,7 +360,7 @@ pos = (286,-29);
 },
 {
 name = bottom2;
-pos = (281,-49);
+pos = (281,-91);
 },
 {
 name = candra;
@@ -443,11 +443,11 @@ width = 405;
 anchors = (
 {
 name = bottom;
-pos = (288,-53);
+pos = (278,-107);
 },
 {
 name = bottom2;
-pos = (273,-49);
+pos = (265,-128);
 },
 {
 name = candra;
