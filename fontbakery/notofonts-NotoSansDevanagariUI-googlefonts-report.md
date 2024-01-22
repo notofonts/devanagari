@@ -842,7 +842,7 @@ fontbakery version: 0.10.9
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+2010 HYPHEN: try adding one of: syloti-nagri, coptic, kharoshthi, kaithi, sundanese, yi, cham, sora-sompeng, kayah-li, lisu
+ * U+2010 HYPHEN: try adding one of: kaithi, coptic, cham, kayah-li, lisu, syloti-nagri, sora-sompeng, kharoshthi, sundanese, yi
  * U+20F0 COMBINING ASTERISK ABOVE: try adding grantha
 
 Or you can add the above codepoints to one of the subsets supported by the font: `devanagari`, `latin-ext` [code: unreachable-subsetting]
