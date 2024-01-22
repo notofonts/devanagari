@@ -6,6 +6,18 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+pos = (161,0);
+},
+{
+name = bottom_right;
+pos = (-30,-6);
+},
+{
+name = nukta;
+pos = (121,-125);
+},
+{
 name = topVedic;
 pos = (306,623);
 }
@@ -24,6 +36,18 @@ width = 246;
 },
 {
 anchors = (
+{
+name = bottom;
+pos = (130,0);
+},
+{
+name = bottom_right;
+pos = (-30,-5);
+},
+{
+name = nukta;
+pos = (121,-125);
+},
 {
 name = topVedic;
 pos = (235,622);
@@ -45,6 +69,18 @@ width = 230;
 {
 anchors = (
 {
+name = bottom;
+pos = (220,20);
+},
+{
+name = bottom_right;
+pos = (-32,-10);
+},
+{
+name = nukta;
+pos = (121,-145);
+},
+{
 name = topVedic;
 pos = (351,627);
 }
@@ -63,6 +99,18 @@ width = 280;
 },
 {
 anchors = (
+{
+name = bottom;
+pos = (101,0);
+},
+{
+name = bottom_right;
+pos = (-34,-5);
+},
+{
+name = nukta;
+pos = (84,-125);
+},
 {
 name = topVedic;
 pos = (239,622);
@@ -83,6 +131,18 @@ width = 173;
 {
 anchors = (
 {
+name = bottom;
+pos = (134,0);
+},
+{
+name = bottom_right;
+pos = (-32,-6);
+},
+{
+name = nukta;
+pos = (91,-145);
+},
+{
 name = topVedic;
 pos = (262,623);
 }
@@ -101,6 +161,18 @@ width = 197;
 },
 {
 anchors = (
+{
+name = bottom;
+pos = (182,20);
+},
+{
+name = bottom_right;
+pos = (-32,-9);
+},
+{
+name = nukta;
+pos = (111,-165);
+},
 {
 name = topVedic;
 pos = (303,627);

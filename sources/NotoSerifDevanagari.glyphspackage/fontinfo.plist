@@ -1887,9 +1887,11 @@ languagesystem deva NEP;
 languagesystem dev2 NEP;
 languagesystem deva SAN;
 languagesystem dev2 SAN;
+languagesystem dev2 SAT;
 
 
-#//////////////////////////////////////////////////////////////////////////////////";
+#//////////////////////////////////////////////////////////////////////////////////
+";
 name = LanguageSystem;
 },
 {
@@ -5643,6 +5645,9 @@ language NEP ;
 language SAN ;
 	lookup prebase_forms_SAN ;
 	lookup blwf_rakar_forms_SAN;
+
+language SAT;
+    sub [a-deva aa-deva] nukta-deva' by nukta-deva.sat;
 
 #//////////////////////////////////////////////////////////////////////////////////
 ";

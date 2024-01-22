@@ -17,6 +17,10 @@ pos = (99,-40);
 {
 name = halant;
 pos = (99,-20);
+},
+{
+name = nukta;
+pos = (112,-135);
 }
 );
 layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
@@ -50,6 +54,10 @@ pos = (89,-40);
 {
 name = halant;
 pos = (89,-20);
+},
+{
+name = nukta;
+pos = (129,-150);
 }
 );
 layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
@@ -83,6 +91,10 @@ pos = (70,-40);
 {
 name = halant;
 pos = (70,-20);
+},
+{
+name = nukta;
+pos = (158,-157);
 }
 );
 layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
@@ -116,6 +128,10 @@ pos = (76,-40);
 {
 name = halant;
 pos = (76,-20);
+},
+{
+name = nukta;
+pos = (89,-156);
 }
 );
 layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
@@ -149,6 +165,10 @@ pos = (64,-40);
 {
 name = halant;
 pos = (64,-20);
+},
+{
+name = nukta;
+pos = (101,-127);
 }
 );
 layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
@@ -182,6 +202,10 @@ pos = (54,-40);
 {
 name = halant;
 pos = (54,-20);
+},
+{
+name = nukta;
+pos = (130,-148);
 }
 );
 layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";

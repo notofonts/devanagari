@@ -4,6 +4,20 @@ glyphname = "iMatra-deva.12";
 kernLeft = "DEV_aaMatra-deva_L";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (161,0);
+},
+{
+name = bottom_right;
+pos = (-30,-6);
+},
+{
+name = nukta;
+pos = (121,-125);
+}
+);
 layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
 shapes = (
 {
@@ -32,30 +46,26 @@ nodes = (
 );
 },
 {
-closed = 1;
-nodes = (
-(161,-6,l),
-(161,582,l),
-(86,582,l),
-(86,42,l),
-(151,-6,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(286,555,l),
-(286,564,l),
-(246,623,l),
-(-40,623,l),
-(-40,613,l),
-(0,555,l)
-);
+ref = "_Comp_aaMatra-deva";
 }
 );
 width = 246;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (130,0);
+},
+{
+name = bottom_right;
+pos = (-30,-5);
+},
+{
+name = nukta;
+pos = (121,-125);
+}
+);
 layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
 shapes = (
 {
@@ -84,30 +94,26 @@ nodes = (
 );
 },
 {
-closed = 1;
-nodes = (
-(130,-5,l),
-(130,604,l),
-(103,604,l),
-(103,12,l),
-(125,-5,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(254,598,l),
-(254,603,l),
-(241,622,l),
-(-24,622,l),
-(-24,617,l),
-(-11,598,l)
-);
+ref = "_Comp_aaMatra-deva";
 }
 );
 width = 230;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (220,20);
+},
+{
+name = bottom_right;
+pos = (-32,-10);
+},
+{
+name = nukta;
+pos = (121,-145);
+}
+);
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
 shapes = (
 {
@@ -136,30 +142,26 @@ nodes = (
 );
 },
 {
-closed = 1;
-nodes = (
-(220,-10,l),
-(220,544,l),
-(60,544,l),
-(60,82,l),
-(203,-10,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(354,502,l),
-(354,518,l),
-(288,627,l),
-(-74,627,l),
-(-74,612,l),
-(-8,502,l)
-);
+ref = "_Comp_aaMatra-deva";
 }
 );
 width = 280;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (101,0);
+},
+{
+name = bottom_right;
+pos = (-34,-5);
+},
+{
+name = nukta;
+pos = (84,-125);
+}
+);
 layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
 shapes = (
 {
@@ -188,30 +190,26 @@ nodes = (
 );
 },
 {
-closed = 1;
-nodes = (
-(101,-5,l),
-(101,608,l),
-(72,608,l),
-(72,10,l),
-(95,-5,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(191,598,l),
-(191,603,l),
-(182,622,l),
-(-19,622,l),
-(-19,617,l),
-(-9,598,l)
-);
+ref = "_Comp_aaMatra-deva";
 }
 );
 width = 173;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (134,0);
+},
+{
+name = bottom_right;
+pos = (-32,-6);
+},
+{
+name = nukta;
+pos = (91,-145);
+}
+);
 layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
 shapes = (
 {
@@ -240,30 +238,26 @@ nodes = (
 );
 },
 {
-closed = 1;
-nodes = (
-(134,-6,l),
-(134,582,l),
-(63,582,l),
-(63,28,l),
-(125,-6,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(233,555,l),
-(233,564,l),
-(204,623,l),
-(-36,623,l),
-(-36,613,l),
-(-7,555,l)
-);
+ref = "_Comp_aaMatra-deva";
 }
 );
 width = 197;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (182,20);
+},
+{
+name = bottom_right;
+pos = (-32,-9);
+},
+{
+name = nukta;
+pos = (111,-165);
+}
+);
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
 shapes = (
 {
@@ -292,25 +286,7 @@ nodes = (
 );
 },
 {
-closed = 1;
-nodes = (
-(182,-9,l),
-(182,558,l),
-(46,558,l),
-(46,60,l),
-(167,-9,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(295,516,l),
-(295,531,l),
-(243,627,l),
-(-68,627,l),
-(-68,613,l),
-(-16,516,l)
-);
+ref = "_Comp_aaMatra-deva";
 }
 );
 width = 227;

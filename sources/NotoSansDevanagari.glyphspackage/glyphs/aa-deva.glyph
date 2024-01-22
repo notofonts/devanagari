@@ -9,18 +9,34 @@ anchors = (
 {
 name = bottom2;
 pos = (769,-40);
+userData = {
+GPOS_Context = "<null>";
+};
 },
 {
 name = candra;
 pos = (779,622);
+userData = {
+GPOS_Context = "<null>";
+};
 },
 {
 name = nukta;
 pos = (254,-31);
+userData = {
+GPOS_Context = "<null>";
+};
+},
+{
+name = nukta.sat;
+pos = (782,-135);
 },
 {
 name = top;
 pos = (769,622);
+userData = {
+GPOS_Context = "<null>";
+};
 }
 );
 layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
@@ -40,18 +56,34 @@ anchors = (
 {
 name = bottom2;
 pos = (853,-40);
+userData = {
+GPOS_Context = "<null>";
+};
 },
 {
 name = candra;
 pos = (892,622);
+userData = {
+GPOS_Context = "<null>";
+};
 },
 {
 name = nukta;
 pos = (282,-40);
+userData = {
+GPOS_Context = "<null>";
+};
+},
+{
+name = nukta.sat;
+pos = (893,-150);
 },
 {
 name = top;
 pos = (852,622);
+userData = {
+GPOS_Context = "<null>";
+};
 }
 );
 layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
@@ -71,18 +103,34 @@ anchors = (
 {
 name = bottom2;
 pos = (979,-40);
+userData = {
+GPOS_Context = "<null>";
+};
 },
 {
 name = candra;
 pos = (1068,622);
+userData = {
+GPOS_Context = "<null>";
+};
 },
 {
 name = nukta;
 pos = (318,-79);
+userData = {
+GPOS_Context = "<null>";
+};
+},
+{
+name = nukta.sat;
+pos = (1066,-157);
 },
 {
 name = top;
 pos = (978,622);
+userData = {
+GPOS_Context = "<null>";
+};
 }
 );
 layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
@@ -102,18 +150,34 @@ anchors = (
 {
 name = bottom2;
 pos = (574,-40);
+userData = {
+GPOS_Context = "<null>";
+};
 },
 {
 name = candra;
 pos = (588,622);
+userData = {
+GPOS_Context = "<null>";
+};
 },
 {
 name = nukta;
 pos = (192,-29);
+userData = {
+GPOS_Context = "<null>";
+};
+},
+{
+name = nukta.sat;
+pos = (587,-156);
 },
 {
 name = top;
 pos = (574,622);
+userData = {
+GPOS_Context = "<null>";
+};
 }
 );
 layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
@@ -133,18 +197,34 @@ anchors = (
 {
 name = bottom2;
 pos = (637,-40);
+userData = {
+GPOS_Context = "<null>";
+};
 },
 {
 name = candra;
 pos = (677,622);
+userData = {
+GPOS_Context = "<null>";
+};
 },
 {
 name = nukta;
 pos = (211,-39);
+userData = {
+GPOS_Context = "<null>";
+};
+},
+{
+name = nukta.sat;
+pos = (674,-127);
 },
 {
 name = top;
 pos = (637,622);
+userData = {
+GPOS_Context = "<null>";
+};
 }
 );
 layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
@@ -164,18 +244,34 @@ anchors = (
 {
 name = bottom2;
 pos = (748,-40);
+userData = {
+GPOS_Context = "<null>";
+};
 },
 {
 name = candra;
 pos = (817,622);
+userData = {
+GPOS_Context = "<null>";
+};
 },
 {
 name = nukta;
 pos = (249,-77);
+userData = {
+GPOS_Context = "<null>";
+};
+},
+{
+name = nukta.sat;
+pos = (823,-148);
 },
 {
 name = top;
 pos = (747,622);
+userData = {
+GPOS_Context = "<null>";
+};
 }
 );
 layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";

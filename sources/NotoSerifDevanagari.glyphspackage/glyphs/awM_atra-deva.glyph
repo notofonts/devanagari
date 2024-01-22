@@ -14,6 +14,14 @@ name = bottom_right;
 pos = (-30,-6);
 },
 {
+name = candra;
+pos = (302,659);
+},
+{
+name = nukta;
+pos = (121,-125);
+},
+{
 name = topVedic;
 pos = (227,623);
 }
@@ -39,6 +47,14 @@ pos = (130,0);
 {
 name = bottom_right;
 pos = (-30,-5);
+},
+{
+name = candra;
+pos = (258,662);
+},
+{
+name = nukta;
+pos = (121,-125);
 },
 {
 name = topVedic;
@@ -68,6 +84,14 @@ name = bottom_right;
 pos = (-32,-10);
 },
 {
+name = candra;
+pos = (447,621);
+},
+{
+name = nukta;
+pos = (121,-145);
+},
+{
 name = topVedic;
 pos = (273,627);
 }
@@ -93,6 +117,14 @@ pos = (101,0);
 {
 name = bottom_right;
 pos = (-34,-5);
+},
+{
+name = candra;
+pos = (218,649);
+},
+{
+name = nukta;
+pos = (84,-125);
 },
 {
 name = topVedic;
@@ -122,6 +154,14 @@ name = bottom_right;
 pos = (-32,-6);
 },
 {
+name = candra;
+pos = (230,657);
+},
+{
+name = nukta;
+pos = (91,-145);
+},
+{
 name = topVedic;
 pos = (179,623);
 }
@@ -147,6 +187,14 @@ pos = (182,20);
 {
 name = bottom_right;
 pos = (-32,-9);
+},
+{
+name = candra;
+pos = (372,624);
+},
+{
+name = nukta;
+pos = (111,-165);
 },
 {
 name = topVedic;

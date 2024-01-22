@@ -4,6 +4,20 @@ glyphname = "iMatra_candraBindu-deva.02";
 kernLeft = "DEV_aaMatra-deva_L";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (161,0);
+},
+{
+name = bottom_right;
+pos = (-30,-6);
+},
+{
+name = nukta;
+pos = (121,-125);
+}
+);
 layerId = "E22305A4-B0AF-4429-B69B-D5D74FEEE350";
 shapes = (
 {
@@ -18,6 +32,20 @@ ref = "_Comp_candraBindu-deva.01";
 width = 246;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (130,0);
+},
+{
+name = bottom_right;
+pos = (-30,-5);
+},
+{
+name = nukta;
+pos = (121,-125);
+}
+);
 layerId = "92BDF110-6149-41B0-AB08-5310EECFA1B7";
 shapes = (
 {
@@ -32,6 +60,20 @@ ref = "_Comp_candraBindu-deva.01";
 width = 230;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (220,20);
+},
+{
+name = bottom_right;
+pos = (-32,-10);
+},
+{
+name = nukta;
+pos = (121,-145);
+}
+);
 layerId = "3E60C6C7-DFFD-4AAE-9DD7-DF994DEB26A2";
 shapes = (
 {
@@ -46,6 +88,20 @@ ref = "_Comp_candraBindu-deva.01";
 width = 280;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (101,0);
+},
+{
+name = bottom_right;
+pos = (-34,-5);
+},
+{
+name = nukta;
+pos = (84,-125);
+}
+);
 layerId = "B188D42B-E0C1-4C36-A461-FECF08FB9142";
 shapes = (
 {
@@ -60,6 +116,20 @@ ref = "_Comp_candraBindu-deva.01";
 width = 173;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (134,0);
+},
+{
+name = bottom_right;
+pos = (-32,-6);
+},
+{
+name = nukta;
+pos = (91,-145);
+}
+);
 layerId = "1C76EA3D-1F01-478B-AF6D-23469B2400A3";
 shapes = (
 {
@@ -74,6 +144,20 @@ ref = "_Comp_candraBindu-deva.01";
 width = 197;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (182,20);
+},
+{
+name = bottom_right;
+pos = (-32,-9);
+},
+{
+name = nukta;
+pos = (111,-165);
+}
+);
 layerId = "E10056C4-06A7-4834-9783-123B62B78F3D";
 shapes = (
 {

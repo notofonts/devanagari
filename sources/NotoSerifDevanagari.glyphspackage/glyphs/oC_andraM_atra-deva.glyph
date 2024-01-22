@@ -18,6 +18,10 @@ name = candra;
 pos = (141,623);
 },
 {
+name = nukta;
+pos = (116,-89);
+},
+{
 name = top;
 pos = (161,623);
 }
@@ -49,6 +53,10 @@ pos = (-30,-5);
 {
 name = candra;
 pos = (110,622);
+},
+{
+name = nukta;
+pos = (116,-89);
 },
 {
 name = top;
@@ -84,6 +92,10 @@ name = candra;
 pos = (200,627);
 },
 {
+name = nukta;
+pos = (116,-139);
+},
+{
 name = top;
 pos = (220,627);
 }
@@ -115,6 +127,10 @@ pos = (-34,-5);
 {
 name = candra;
 pos = (81,622);
+},
+{
+name = nukta;
+pos = (85,-98);
 },
 {
 name = top;
@@ -150,6 +166,10 @@ name = candra;
 pos = (114,623);
 },
 {
+name = nukta;
+pos = (93,-99);
+},
+{
 name = top;
 pos = (134,623);
 }
@@ -181,6 +201,10 @@ pos = (-32,-9);
 {
 name = candra;
 pos = (163,627);
+},
+{
+name = nukta;
+pos = (105,-108);
 },
 {
 name = top;

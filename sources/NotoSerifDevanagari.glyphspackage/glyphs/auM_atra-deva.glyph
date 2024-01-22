@@ -14,6 +14,10 @@ name = bottom_right;
 pos = (-30,-6);
 },
 {
+name = nukta;
+pos = (121,-125);
+},
+{
 name = topVedic;
 pos = (167,623);
 }
@@ -39,6 +43,10 @@ pos = (130,0);
 {
 name = bottom_right;
 pos = (-30,-5);
+},
+{
+name = nukta;
+pos = (121,-125);
 },
 {
 name = topVedic;
@@ -68,6 +76,10 @@ name = bottom_right;
 pos = (-32,-10);
 },
 {
+name = nukta;
+pos = (121,-145);
+},
+{
 name = topVedic;
 pos = (221,627);
 }
@@ -93,6 +105,10 @@ pos = (101,0);
 {
 name = bottom_right;
 pos = (-34,-5);
+},
+{
+name = nukta;
+pos = (84,-125);
 },
 {
 name = topVedic;
@@ -122,6 +138,10 @@ name = bottom_right;
 pos = (-32,-6);
 },
 {
+name = nukta;
+pos = (91,-145);
+},
+{
 name = topVedic;
 pos = (150,623);
 }
@@ -147,6 +167,10 @@ pos = (182,20);
 {
 name = bottom_right;
 pos = (-32,-9);
+},
+{
+name = nukta;
+pos = (111,-165);
 },
 {
 name = topVedic;
