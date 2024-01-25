@@ -5045,30 +5045,12 @@ language dflt;
 		sub ra-deva halant-deva by rakar-deva;
 	} belowBase_forms;
 
-language MAR ;
-	lookup belowBase_forms ;
-
-language NEP ;
-	lookup belowBase_forms ;
-
-language SAN ;
-	lookup belowBase_forms ;
-
 
 script dev2 ;
 language dflt ;
 	lookup belowBase_forms_dev2 {
 		sub halant-deva ra-deva by rakar-deva;
 	} belowBase_forms_dev2;
-
-language MAR ;
-	lookup belowBase_forms_dev2 ;
-
-language NEP ;
-	lookup belowBase_forms_dev2 ;
-
-language SAN ;
-	lookup belowBase_forms_dev2 ;
 
 
 
@@ -5288,7 +5270,11 @@ lookup rakar_half_forms ;
 lookup nukta_half_forms ;
 lookup nuktaRakar_half_forms ;
 
-
+language SAT ;
+lookup half_forms ;
+lookup rakar_half_forms ;
+lookup nukta_half_forms ;
+lookup nuktaRakar_half_forms ;
 
 #//////////////////////////////////////////////////////////////////////////////////
 ";
@@ -5473,7 +5459,8 @@ lookup conjunct_forms ;
 language SAN ;
 lookup conjunct_forms ;
 
-
+language SAT ;
+lookup conjunct_forms ;
 
 #//////////////////////////////////////////////////////////////////////////////////
 ";
@@ -5572,6 +5559,14 @@ lookup reph_ligature ;
 lookup iMatra ;
 lookup iMatra_HalfFormConjuncts ;
 
+language SAT ;
+lookup blwf_rakar_forms ;
+lookup HalfForm_alternates ;
+lookup conjunct_forms ;
+lookup prebase_forms ;
+lookup reph_ligature ;
+lookup iMatra ;
+lookup iMatra_HalfFormConjuncts ;
 
 
 #//////////////////////////////////////////////////////////////////////////////////
