@@ -1386,7 +1386,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: armenian, kharoshthi, cham, hebrew, syloti-nagri, yi, sundanese, sora-sompeng, lisu, kaithi, coptic, arabic, kayah-li</li>
+<li>U+2010 HYPHEN: try adding one of: sundanese, kharoshthi, armenian, syloti-nagri, arabic, kayah-li, hebrew, yi, cham, lisu, coptic, sora-sompeng, kaithi</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -2608,7 +2608,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: armenian, kharoshthi, cham, hebrew, syloti-nagri, yi, sundanese, sora-sompeng, lisu, kaithi, coptic, arabic, kayah-li</li>
+<li>U+2010 HYPHEN: try adding one of: sundanese, kharoshthi, armenian, syloti-nagri, arabic, kayah-li, hebrew, yi, cham, lisu, coptic, sora-sompeng, kaithi</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -3874,7 +3874,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: armenian, kharoshthi, cham, hebrew, syloti-nagri, yi, sundanese, sora-sompeng, lisu, kaithi, coptic, arabic, kayah-li</li>
+<li>U+2010 HYPHEN: try adding one of: sundanese, kharoshthi, armenian, syloti-nagri, arabic, kayah-li, hebrew, yi, cham, lisu, coptic, sora-sompeng, kaithi</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -5078,7 +5078,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: armenian, kharoshthi, cham, hebrew, syloti-nagri, yi, sundanese, sora-sompeng, lisu, kaithi, coptic, arabic, kayah-li</li>
+<li>U+2010 HYPHEN: try adding one of: sundanese, kharoshthi, armenian, syloti-nagri, arabic, kayah-li, hebrew, yi, cham, lisu, coptic, sora-sompeng, kaithi</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -6340,7 +6340,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: armenian, kharoshthi, cham, hebrew, syloti-nagri, yi, sundanese, sora-sompeng, lisu, kaithi, coptic, arabic, kayah-li</li>
+<li>U+2010 HYPHEN: try adding one of: sundanese, kharoshthi, armenian, syloti-nagri, arabic, kayah-li, hebrew, yi, cham, lisu, coptic, sora-sompeng, kaithi</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -7540,7 +7540,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: armenian, kharoshthi, cham, hebrew, syloti-nagri, yi, sundanese, sora-sompeng, lisu, kaithi, coptic, arabic, kayah-li</li>
+<li>U+2010 HYPHEN: try adding one of: sundanese, kharoshthi, armenian, syloti-nagri, arabic, kayah-li, hebrew, yi, cham, lisu, coptic, sora-sompeng, kaithi</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -8833,7 +8833,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: armenian, kharoshthi, cham, hebrew, syloti-nagri, yi, sundanese, sora-sompeng, lisu, kaithi, coptic, arabic, kayah-li</li>
+<li>U+2010 HYPHEN: try adding one of: sundanese, kharoshthi, armenian, syloti-nagri, arabic, kayah-li, hebrew, yi, cham, lisu, coptic, sora-sompeng, kaithi</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -10039,7 +10039,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: armenian, kharoshthi, cham, hebrew, syloti-nagri, yi, sundanese, sora-sompeng, lisu, kaithi, coptic, arabic, kayah-li</li>
+<li>U+2010 HYPHEN: try adding one of: sundanese, kharoshthi, armenian, syloti-nagri, arabic, kayah-li, hebrew, yi, cham, lisu, coptic, sora-sompeng, kaithi</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -11382,7 +11382,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: armenian, kharoshthi, cham, hebrew, syloti-nagri, yi, sundanese, sora-sompeng, lisu, kaithi, coptic, arabic, kayah-li</li>
+<li>U+2010 HYPHEN: try adding one of: sundanese, kharoshthi, armenian, syloti-nagri, arabic, kayah-li, hebrew, yi, cham, lisu, coptic, sora-sompeng, kaithi</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
