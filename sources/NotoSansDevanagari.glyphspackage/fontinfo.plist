@@ -1,5 +1,5 @@
 {
-.appVersion = "3227";
+.appVersion = "3243";
 .formatVersion = 3;
 axes = (
 {
@@ -6243,7 +6243,11 @@ axesValues = (
 customParameters = (
 {
 name = winAscent;
-value = 1347;
+value = 1348;
+},
+{
+name = winDescent;
+value = 558;
 }
 );
 guides = (
@@ -6314,7 +6318,11 @@ axesValues = (
 customParameters = (
 {
 name = winAscent;
-value = 1347;
+value = 1348;
+},
+{
+name = winDescent;
+value = 558;
 }
 );
 guides = (
@@ -6377,7 +6385,11 @@ axesValues = (
 customParameters = (
 {
 name = winAscent;
-value = 1347;
+value = 1348;
+},
+{
+name = winDescent;
+value = 558;
 }
 );
 guides = (
@@ -6448,7 +6460,11 @@ axesValues = (
 customParameters = (
 {
 name = winAscent;
-value = 1347;
+value = 1348;
+},
+{
+name = winDescent;
+value = 558;
 }
 );
 guides = (
@@ -6512,7 +6528,11 @@ axesValues = (
 customParameters = (
 {
 name = winAscent;
-value = 1347;
+value = 1348;
+},
+{
+name = winDescent;
+value = 558;
 }
 );
 guides = (
@@ -6574,7 +6594,11 @@ axesValues = (
 customParameters = (
 {
 name = winAscent;
-value = 1347;
+value = 1348;
+},
+{
+name = winDescent;
+value = 558;
 }
 );
 guides = (

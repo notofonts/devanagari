@@ -1,8 +1,41 @@
 {
-category = Letter;
 glyphname = dottedCircle;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (347,-18);
+},
+{
+name = bottom2;
+pos = (390,-69);
+},
+{
+name = candra;
+pos = (377,622);
+},
+{
+name = halant;
+pos = (357,-40);
+},
+{
+name = nukta;
+pos = (166,-49);
+},
+{
+name = nukta.sat;
+pos = (440,-135);
+},
+{
+name = top;
+pos = (372,622);
+},
+{
+name = topVedic;
+pos = (225,622);
+}
+);
 layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
 shapes = (
 {
@@ -142,9 +175,47 @@ nodes = (
 );
 }
 );
+userData = {
+com.schriftgestaltung.Glyphs.category = Letter;
+com.schriftgestaltung.Glyphs.subCategory = Other;
+};
 width = 510;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (331,-18);
+},
+{
+name = bottom2;
+pos = (360,-73);
+},
+{
+name = candra;
+pos = (377,622);
+},
+{
+name = halant;
+pos = (335,-41);
+},
+{
+name = nukta;
+pos = (161,-54);
+},
+{
+name = nukta.sat;
+pos = (443,-150);
+},
+{
+name = top;
+pos = (346,622);
+},
+{
+name = topVedic;
+pos = (190,622);
+}
+);
 layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
 shapes = (
 {
@@ -284,9 +355,47 @@ nodes = (
 );
 }
 );
+userData = {
+com.schriftgestaltung.Glyphs.category = Letter;
+com.schriftgestaltung.Glyphs.subCategory = Other;
+};
 width = 510;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (298,-25);
+},
+{
+name = bottom2;
+pos = (317,-80);
+},
+{
+name = candra;
+pos = (371,622);
+},
+{
+name = halant;
+pos = (304,-47);
+},
+{
+name = nukta;
+pos = (152,-72);
+},
+{
+name = nukta.sat;
+pos = (436,-157);
+},
+{
+name = top;
+pos = (309,622);
+},
+{
+name = topVedic;
+pos = (169,622);
+}
+);
 layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
 shapes = (
 {
@@ -426,9 +535,47 @@ nodes = (
 );
 }
 );
+userData = {
+com.schriftgestaltung.Glyphs.category = Letter;
+com.schriftgestaltung.Glyphs.subCategory = Other;
+};
 width = 510;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (341,-16);
+},
+{
+name = bottom2;
+pos = (379,-67);
+},
+{
+name = candra;
+pos = (376,622);
+},
+{
+name = halant;
+pos = (346,-36);
+},
+{
+name = nukta;
+pos = (166,-47);
+},
+{
+name = nukta.sat;
+pos = (440,-156);
+},
+{
+name = top;
+pos = (365,622);
+},
+{
+name = topVedic;
+pos = (248,622);
+}
+);
 layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
 shapes = (
 {
@@ -568,9 +715,47 @@ nodes = (
 );
 }
 );
+userData = {
+com.schriftgestaltung.Glyphs.category = Letter;
+com.schriftgestaltung.Glyphs.subCategory = Other;
+};
 width = 510;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (321,-17);
+},
+{
+name = bottom2;
+pos = (345,-68);
+},
+{
+name = candra;
+pos = (373,622);
+},
+{
+name = halant;
+pos = (325,-38);
+},
+{
+name = nukta;
+pos = (159,-49);
+},
+{
+name = nukta.sat;
+pos = (437,-127);
+},
+{
+name = top;
+pos = (334,622);
+},
+{
+name = topVedic;
+pos = (207,622);
+}
+);
 layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
 shapes = (
 {
@@ -710,9 +895,47 @@ nodes = (
 );
 }
 );
+userData = {
+com.schriftgestaltung.Glyphs.category = Letter;
+com.schriftgestaltung.Glyphs.subCategory = Other;
+};
 width = 510;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (291,-23);
+},
+{
+name = bottom2;
+pos = (307,-75);
+},
+{
+name = candra;
+pos = (354,622);
+},
+{
+name = halant;
+pos = (297,-44);
+},
+{
+name = nukta;
+pos = (154,-65);
+},
+{
+name = nukta.sat;
+pos = (431,-148);
+},
+{
+name = top;
+pos = (301,622);
+},
+{
+name = topVedic;
+pos = (176,622);
+}
+);
 layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
 shapes = (
 {
@@ -852,9 +1075,12 @@ nodes = (
 );
 }
 );
+userData = {
+com.schriftgestaltung.Glyphs.category = Letter;
+com.schriftgestaltung.Glyphs.subCategory = Other;
+};
 width = 510;
 }
 );
-subCategory = Other;
 unicode = 9676;
 }
