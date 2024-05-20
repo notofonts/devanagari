@@ -7,12 +7,28 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+pos = (769,0);
+},
+{
 name = bottom2;
 pos = (769,-40);
 },
 {
+name = candra;
+pos = (723,839);
+},
+{
+name = halant;
+pos = (769,-20);
+},
+{
 name = nukta;
 pos = (254,-31);
+},
+{
+name = nukta.sat;
+pos = (782,-135);
 }
 );
 layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
@@ -30,12 +46,28 @@ width = 895;
 {
 anchors = (
 {
+name = bottom;
+pos = (853,0);
+},
+{
 name = bottom2;
 pos = (853,-40);
 },
 {
+name = candra;
+pos = (749,869);
+},
+{
+name = halant;
+pos = (853,-20);
+},
+{
 name = nukta;
 pos = (282,-40);
+},
+{
+name = nukta.sat;
+pos = (893,-150);
 }
 );
 layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
@@ -53,12 +85,28 @@ width = 1023;
 {
 anchors = (
 {
+name = bottom;
+pos = (978,0);
+},
+{
 name = bottom2;
 pos = (979,-40);
 },
 {
+name = candra;
+pos = (910,899);
+},
+{
+name = halant;
+pos = (978,-20);
+},
+{
 name = nukta;
 pos = (318,-79);
+},
+{
+name = nukta.sat;
+pos = (1066,-157);
 }
 );
 layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
@@ -76,12 +124,28 @@ width = 1225;
 {
 anchors = (
 {
+name = bottom;
+pos = (574,0);
+},
+{
 name = bottom2;
 pos = (574,-40);
 },
 {
+name = candra;
+pos = (565,829);
+},
+{
+name = halant;
+pos = (574,-20);
+},
+{
 name = nukta;
 pos = (192,-29);
+},
+{
+name = nukta.sat;
+pos = (587,-156);
 }
 );
 layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
@@ -99,12 +163,28 @@ width = 677;
 {
 anchors = (
 {
+name = bottom;
+pos = (637,0);
+},
+{
 name = bottom2;
 pos = (637,-40);
 },
 {
+name = candra;
+pos = (641,859);
+},
+{
+name = halant;
+pos = (637,-20);
+},
+{
 name = nukta;
 pos = (211,-39);
+},
+{
+name = nukta.sat;
+pos = (674,-127);
 }
 );
 layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
@@ -122,12 +202,28 @@ width = 776;
 {
 anchors = (
 {
+name = bottom;
+pos = (747,0);
+},
+{
 name = bottom2;
 pos = (748,-40);
 },
 {
+name = candra;
+pos = (788,889);
+},
+{
+name = halant;
+pos = (747,-20);
+},
+{
 name = nukta;
 pos = (249,-77);
+},
+{
+name = nukta.sat;
+pos = (823,-148);
 }
 );
 layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
