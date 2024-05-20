@@ -9,6 +9,10 @@ name = _bottom;
 pos = (-83,0);
 },
 {
+name = bottom;
+pos = (-82,40);
+},
+{
 name = bottom_right;
 pos = (-151,-276);
 }
@@ -57,6 +61,10 @@ anchors = (
 {
 name = _bottom;
 pos = (-83,0);
+},
+{
+name = bottom;
+pos = (-92,48);
 },
 {
 name = bottom_right;
@@ -109,6 +117,10 @@ name = _bottom;
 pos = (-80,0);
 },
 {
+name = bottom;
+pos = (-67,28);
+},
+{
 name = bottom_right;
 pos = (-194,-298);
 }
@@ -157,6 +169,10 @@ anchors = (
 {
 name = _bottom;
 pos = (-76,0);
+},
+{
+name = bottom;
+pos = (-60,49);
 },
 {
 name = bottom_right;
@@ -209,6 +225,10 @@ name = _bottom;
 pos = (-76,0);
 },
 {
+name = bottom;
+pos = (-54,42);
+},
+{
 name = bottom_right;
 pos = (-141,-251);
 }
@@ -257,6 +277,10 @@ anchors = (
 {
 name = _bottom;
 pos = (-83,0);
+},
+{
+name = bottom;
+pos = (-69,36);
 },
 {
 name = bottom_right;
