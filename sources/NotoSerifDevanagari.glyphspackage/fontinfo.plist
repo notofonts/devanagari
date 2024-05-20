@@ -6345,6 +6345,12 @@ lookup reph_rVocalic_03 {
 	sub [rVocalic-deva rrVocalic-deva lVocalic-deva llVocalic-deva] reph-deva' lookup reph_ligature candraBindu-deva' ;
 } reph_rVocalic_03 ;
 
+lookup decompose_long_vowels {
+	sub ii-deva by i-deva reph-deva;
+	sub ai-deva by e-deva eMatra-deva;
+} decompose_long_vowels;
+
+
 
 #----------------------------------------------------------------------------------
 # 		Lookups for Composite Above-base Marks
@@ -6394,6 +6400,8 @@ lookup abvs_01 {
 	sub iiMatra-deva reph_anusvara-deva by iiMatra_reph_anusvara-deva;
 	sub iiMatra-deva reph_candraBindu-deva by iiMatra_reph_candraBindu-deva;
 	
+	# a common misspelling
+	sub au-deva aiMatra-deva by au-deva;
 } abvs_01 ;
 
 
