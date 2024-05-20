@@ -1386,7 +1386,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: sundanese, sora-sompeng, kaithi, arabic, kayah-li, hebrew, lisu, coptic, armenian, kharoshthi, syloti-nagri, yi, cham</li>
+<li>U+2010 HYPHEN: try adding one of: kharoshthi, armenian, cham, hebrew, kaithi, kayah-li, syloti-nagri, sora-sompeng, sundanese, yi, lisu, arabic, coptic</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -2608,7 +2608,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: sundanese, sora-sompeng, kaithi, arabic, kayah-li, hebrew, lisu, coptic, armenian, kharoshthi, syloti-nagri, yi, cham</li>
+<li>U+2010 HYPHEN: try adding one of: kharoshthi, armenian, cham, hebrew, kaithi, kayah-li, syloti-nagri, sora-sompeng, sundanese, yi, lisu, arabic, coptic</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -3874,7 +3874,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: sundanese, sora-sompeng, kaithi, arabic, kayah-li, hebrew, lisu, coptic, armenian, kharoshthi, syloti-nagri, yi, cham</li>
+<li>U+2010 HYPHEN: try adding one of: kharoshthi, armenian, cham, hebrew, kaithi, kayah-li, syloti-nagri, sora-sompeng, sundanese, yi, lisu, arabic, coptic</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -5078,7 +5078,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: sundanese, sora-sompeng, kaithi, arabic, kayah-li, hebrew, lisu, coptic, armenian, kharoshthi, syloti-nagri, yi, cham</li>
+<li>U+2010 HYPHEN: try adding one of: kharoshthi, armenian, cham, hebrew, kaithi, kayah-li, syloti-nagri, sora-sompeng, sundanese, yi, lisu, arabic, coptic</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -6340,7 +6340,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: sundanese, sora-sompeng, kaithi, arabic, kayah-li, hebrew, lisu, coptic, armenian, kharoshthi, syloti-nagri, yi, cham</li>
+<li>U+2010 HYPHEN: try adding one of: kharoshthi, armenian, cham, hebrew, kaithi, kayah-li, syloti-nagri, sora-sompeng, sundanese, yi, lisu, arabic, coptic</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -6370,8 +6370,36 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[17] NotoSansDevanagariUI-Regular.ttf</summary>
+<details><summary>[18] NotoSansDevanagariUI-Regular.ttf</summary>
 <div>
+<details>
+    <summary>💥 <b>ERROR</b> Familyname must be unique according to namecheck.fontdata.com <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Failed to access: <a href="http://namecheck.fontdata.com">http://namecheck.fontdata.com</a>.
+This check relies on the external service <a href="http://namecheck.fontdata.com">http://namecheck.fontdata.com</a> via the internet. While the service cannot be reached or does not respond this check is broken.</p>
+<pre><code>	You can exclude this check with the command line option:
+	-x com.google.fonts/check/fontdata_namecheck
+
+	Or you can wait until the service is available again.
+	If the problem persists please report this issue at: https://github.com/fonttools/fontbakery/issues
+
+	Original error message:
+	&lt;class 'requests.exceptions.ReadTimeout'&gt;
+</code></pre>
+ [code: namecheck-service]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
     <div>
@@ -7540,7 +7568,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: sundanese, sora-sompeng, kaithi, arabic, kayah-li, hebrew, lisu, coptic, armenian, kharoshthi, syloti-nagri, yi, cham</li>
+<li>U+2010 HYPHEN: try adding one of: kharoshthi, armenian, cham, hebrew, kaithi, kayah-li, syloti-nagri, sora-sompeng, sundanese, yi, lisu, arabic, coptic</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -8833,7 +8861,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: sundanese, sora-sompeng, kaithi, arabic, kayah-li, hebrew, lisu, coptic, armenian, kharoshthi, syloti-nagri, yi, cham</li>
+<li>U+2010 HYPHEN: try adding one of: kharoshthi, armenian, cham, hebrew, kaithi, kayah-li, syloti-nagri, sora-sompeng, sundanese, yi, lisu, arabic, coptic</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -10039,7 +10067,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: sundanese, sora-sompeng, kaithi, arabic, kayah-li, hebrew, lisu, coptic, armenian, kharoshthi, syloti-nagri, yi, cham</li>
+<li>U+2010 HYPHEN: try adding one of: kharoshthi, armenian, cham, hebrew, kaithi, kayah-li, syloti-nagri, sora-sompeng, sundanese, yi, lisu, arabic, coptic</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -11382,7 +11410,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: sundanese, sora-sompeng, kaithi, arabic, kayah-li, hebrew, lisu, coptic, armenian, kharoshthi, syloti-nagri, yi, cham</li>
+<li>U+2010 HYPHEN: try adding one of: kharoshthi, armenian, cham, hebrew, kaithi, kayah-li, syloti-nagri, sora-sompeng, sundanese, yi, lisu, arabic, coptic</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
@@ -11419,7 +11447,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 56 | 107 | 1029 | 49 | 874 | 0 | 
+| 1 | 0 | 56 | 107 | 1029 | 49 | 873 | 0 | 
 | 0% | 0% | 3% | 5% | 49% | 2% | 41% | 0% | 
 
 
