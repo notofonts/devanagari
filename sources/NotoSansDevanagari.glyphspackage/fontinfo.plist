@@ -14690,10 +14690,6 @@ value = "Noto is a trademark of Google Inc.";
 {
 key = vendorID;
 value = GOOG;
-},
-{
-key = versionString;
-value = "Version 2.005";
 }
 );
 settings = {
@@ -14726,5 +14722,5 @@ nV = 89;
 GSDontShowVersionAlert = 1;
 };
 versionMajor = 2;
-versionMinor = 5;
+versionMinor = 6;
 }
