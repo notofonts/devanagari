@@ -4841,7 +4841,7 @@ language SAN ;
 	lookup blwf_rakar_forms_SAN;
 
 language SAT;
-    sub [a-deva aa-deva] nukta-deva' by nukta-deva.sat;
+    sub [aa-deva o-deva au-deva aaMatra-deva oMatra-deva auMatra-deva] nukta-deva' by nukta-deva.sat;
 
 #//////////////////////////////////////////////////////////////////////////////////
 ";

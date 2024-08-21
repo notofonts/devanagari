@@ -19,7 +19,7 @@ name = candra;
 pos = (15,623);
 },
 {
-name = nukta;
+name = nukta.sat;
 pos = (116,-134);
 },
 {
@@ -50,7 +50,7 @@ name = candra;
 pos = (-11,622);
 },
 {
-name = nukta;
+name = nukta.sat;
 pos = (116,-89);
 },
 {
@@ -81,7 +81,7 @@ name = candra;
 pos = (79,627);
 },
 {
-name = nukta;
+name = nukta.sat;
 pos = (116,-172);
 },
 {
@@ -112,7 +112,7 @@ name = candra;
 pos = (-10,622);
 },
 {
-name = nukta;
+name = nukta.sat;
 pos = (85,-98);
 },
 {
@@ -143,7 +143,7 @@ name = candra;
 pos = (29,623);
 },
 {
-name = nukta;
+name = nukta.sat;
 pos = (93,-153);
 },
 {
@@ -174,7 +174,7 @@ name = candra;
 pos = (88,627);
 },
 {
-name = nukta;
+name = nukta.sat;
 pos = (105,-108);
 },
 {
