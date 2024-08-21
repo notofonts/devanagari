@@ -15,6 +15,10 @@ name = nukta;
 pos = (254,-31);
 },
 {
+name = nukta.sat;
+pos = (782,-135);
+},
+{
 name = top;
 pos = (840,622);
 }
@@ -40,6 +44,10 @@ pos = (853,-40);
 {
 name = nukta;
 pos = (282,-40);
+},
+{
+name = nukta.sat;
+pos = (893,-150);
 },
 {
 name = top;
@@ -69,6 +77,10 @@ name = nukta;
 pos = (318,-79);
 },
 {
+name = nukta.sat;
+pos = (1066,-157);
+},
+{
 name = top;
 pos = (1110,622);
 }
@@ -94,6 +106,10 @@ pos = (574,-40);
 {
 name = nukta;
 pos = (192,-29);
+},
+{
+name = nukta.sat;
+pos = (587,-156);
 },
 {
 name = top;
@@ -123,6 +139,10 @@ name = nukta;
 pos = (211,-39);
 },
 {
+name = nukta.sat;
+pos = (674,-127);
+},
+{
 name = top;
 pos = (718,622);
 }
@@ -148,6 +168,10 @@ pos = (748,-40);
 {
 name = nukta;
 pos = (249,-77);
+},
+{
+name = nukta.sat;
+pos = (823,-148);
 },
 {
 name = top;

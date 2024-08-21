@@ -19,7 +19,7 @@ name = halant;
 pos = (99,-20);
 },
 {
-name = nukta;
+name = nukta.sat;
 pos = (112,-135);
 }
 );
@@ -56,7 +56,7 @@ name = halant;
 pos = (89,-20);
 },
 {
-name = nukta;
+name = nukta.sat;
 pos = (129,-150);
 }
 );
@@ -93,7 +93,7 @@ name = halant;
 pos = (70,-20);
 },
 {
-name = nukta;
+name = nukta.sat;
 pos = (158,-157);
 }
 );
@@ -130,7 +130,7 @@ name = halant;
 pos = (76,-20);
 },
 {
-name = nukta;
+name = nukta.sat;
 pos = (89,-156);
 }
 );
@@ -167,7 +167,7 @@ name = halant;
 pos = (64,-20);
 },
 {
-name = nukta;
+name = nukta.sat;
 pos = (101,-127);
 }
 );
@@ -204,7 +204,7 @@ name = halant;
 pos = (54,-20);
 },
 {
-name = nukta;
+name = nukta.sat;
 pos = (130,-148);
 }
 );
