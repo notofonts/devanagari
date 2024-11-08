@@ -1124,7 +1124,7 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+2010 HYPHEN: try adding one of: coptic, yi, arabic, hebrew, kayah-li, sundanese, cham, kharoshthi, armenian, lisu, sora-sompeng, syloti-nagri, kaithi</li>
+<li>U+2010 HYPHEN: try adding one of: kharoshthi, kaithi, sundanese, syloti-nagri, armenian, yi, coptic, hebrew, arabic, lisu, sora-sompeng, kayah-li, cham</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>devanagari</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]

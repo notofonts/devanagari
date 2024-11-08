@@ -146,6 +146,22 @@
 
 	  
 	    @font-face{
+    src: url("NotoSerifDevanagari-CondensedExtraBold.ttf");
+    font-family: "Noto Serif Devanagari";
+    font-weight: 800;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
+    src: url("NotoSerifDevanagari-CondensedBold.ttf");
+    font-family: "Noto Serif Devanagari";
+    font-weight: 700;
+    
+    font-style: normal;
+}
+	  
+	    @font-face{
     src: url("NotoSerifDevanagari-CondensedBlack.ttf");
     font-family: "Noto Serif Devanagari";
     font-weight: 900;
@@ -157,14 +173,6 @@
     src: url("NotoSerifDevanagari-CondensedSemiBold.ttf");
     font-family: "Noto Serif Devanagari";
     font-weight: 600;
-    
-    font-style: normal;
-}
-	  
-	    @font-face{
-    src: url("NotoSerifDevanagari-CondensedExtraBold.ttf");
-    font-family: "Noto Serif Devanagari";
-    font-weight: 800;
     
     font-style: normal;
 }
@@ -186,17 +194,17 @@
 }
 	  
 	    @font-face{
-    src: url("NotoSerifDevanagari-CondensedMedium.ttf");
+    src: url("NotoSerifDevanagari-CondensedLight.ttf");
     font-family: "Noto Serif Devanagari";
-    font-weight: 500;
+    font-weight: 300;
     
     font-style: normal;
 }
 	  
 	    @font-face{
-    src: url("NotoSerifDevanagari-CondensedLight.ttf");
+    src: url("NotoSerifDevanagari-CondensedMedium.ttf");
     font-family: "Noto Serif Devanagari";
-    font-weight: 300;
+    font-weight: 500;
     
     font-style: normal;
 }
@@ -209,26 +217,26 @@
     font-style: normal;
 }
 	  
-	    @font-face{
-    src: url("NotoSerifDevanagari-CondensedBold.ttf");
-    font-family: "Noto Serif Devanagari";
+
+	  
+
+	  
+
+	  
+	    .Condensed-Black{
+    font-family: "Noto Serif Devanagari", "Adobe NotDef";
+    font-weight: 900;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 900;
+}
+	  
+	    .Condensed-Bold{
+    font-family: "Noto Serif Devanagari", "Adobe NotDef";
     font-weight: 700;
     
     font-style: normal;
-}
-	  
-
-	  
-
-	  
-
-	  
-	    .Condensed-SemiBold{
-    font-family: "Noto Serif Devanagari", "Adobe NotDef";
-    font-weight: 600;
-    
-    font-style: normal;
-    font-variation-settings: "wght" 600;
+    font-variation-settings: "wght" 700;
 }
 	  
 	    .Condensed-ExtraBold{
@@ -239,12 +247,20 @@
     font-variation-settings: "wght" 800;
 }
 	  
-	    .Condensed{
+	    .Condensed-ExtraLight{
     font-family: "Noto Serif Devanagari", "Adobe NotDef";
-    font-weight: 400;
+    font-weight: 200;
     
     font-style: normal;
-    font-variation-settings: "wght" 400;
+    font-variation-settings: "wght" 200;
+}
+	  
+	    .Condensed-SemiBold{
+    font-family: "Noto Serif Devanagari", "Adobe NotDef";
+    font-weight: 600;
+    
+    font-style: normal;
+    font-variation-settings: "wght" 600;
 }
 	  
 	    .Condensed-Thin{
@@ -255,20 +271,12 @@
     font-variation-settings: "wght" 100;
 }
 	  
-	    .Condensed-Black{
+	    .Condensed{
     font-family: "Noto Serif Devanagari", "Adobe NotDef";
-    font-weight: 900;
+    font-weight: 400;
     
     font-style: normal;
-    font-variation-settings: "wght" 900;
-}
-	  
-	    .Condensed-Medium{
-    font-family: "Noto Serif Devanagari", "Adobe NotDef";
-    font-weight: 500;
-    
-    font-style: normal;
-    font-variation-settings: "wght" 500;
+    font-variation-settings: "wght" 400;
 }
 	  
 	    .Condensed-Light{
@@ -279,20 +287,12 @@
     font-variation-settings: "wght" 300;
 }
 	  
-	    .Condensed-ExtraLight{
+	    .Condensed-Medium{
     font-family: "Noto Serif Devanagari", "Adobe NotDef";
-    font-weight: 200;
+    font-weight: 500;
     
     font-style: normal;
-    font-variation-settings: "wght" 200;
-}
-	  
-	    .Condensed-Bold{
-    font-family: "Noto Serif Devanagari", "Adobe NotDef";
-    font-weight: 700;
-    
-    font-style: normal;
-    font-variation-settings: "wght" 700;
+    font-variation-settings: "wght" 500;
 }
 	  
 	
@@ -367,7 +367,11 @@
             <div class="box-title">Letter Groups</div>
             
             
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
+                    EFHIJLTU AVWXZ KMNY<br>
+                </div>
+            
+                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
                     EFHIJLTU AVWXZ KMNY<br>
                 </div>
             
@@ -375,7 +379,11 @@
                     EFHIJLTU AVWXZ KMNY<br>
                 </div>
             
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    EFHIJLTU AVWXZ KMNY<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
                     EFHIJLTU AVWXZ KMNY<br>
                 </div>
             
@@ -383,11 +391,7 @@
                     EFHIJLTU AVWXZ KMNY<br>
                 </div>
             
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    EFHIJLTU AVWXZ KMNY<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
                     EFHIJLTU AVWXZ KMNY<br>
                 </div>
             
@@ -395,18 +399,18 @@
                     EFHIJLTU AVWXZ KMNY<br>
                 </div>
             
-                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                    EFHIJLTU AVWXZ KMNY<br>
-                </div>
-            
-                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
                     EFHIJLTU AVWXZ KMNY<br>
                 </div>
             
             <br>
             
             
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
+                    COQS BPRDGÞẞ<br>
+                </div>
+            
+                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
                     COQS BPRDGÞẞ<br>
                 </div>
             
@@ -414,7 +418,11 @@
                     COQS BPRDGÞẞ<br>
                 </div>
             
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    COQS BPRDGÞẞ<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
                     COQS BPRDGÞẞ<br>
                 </div>
             
@@ -422,11 +430,7 @@
                     COQS BPRDGÞẞ<br>
                 </div>
             
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    COQS BPRDGÞẞ<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
                     COQS BPRDGÞẞ<br>
                 </div>
             
@@ -434,18 +438,18 @@
                     COQS BPRDGÞẞ<br>
                 </div>
             
-                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                    COQS BPRDGÞẞ<br>
-                </div>
-            
-                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
                     COQS BPRDGÞẞ<br>
                 </div>
             
             <br>
             
             
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
+                    hmnu ceogðsß abdpqþ<br>
+                </div>
+            
+                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
                     hmnu ceogðsß abdpqþ<br>
                 </div>
             
@@ -453,7 +457,11 @@
                     hmnu ceogðsß abdpqþ<br>
                 </div>
             
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    hmnu ceogðsß abdpqþ<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
                     hmnu ceogðsß abdpqþ<br>
                 </div>
             
@@ -461,11 +469,7 @@
                     hmnu ceogðsß abdpqþ<br>
                 </div>
             
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    hmnu ceogðsß abdpqþ<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
                     hmnu ceogðsß abdpqþ<br>
                 </div>
             
@@ -473,18 +477,18 @@
                     hmnu ceogðsß abdpqþ<br>
                 </div>
             
-                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                    hmnu ceogðsß abdpqþ<br>
-                </div>
-            
-                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
                     hmnu ceogðsß abdpqþ<br>
                 </div>
             
             <br>
             
             
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
+                    kvwxyz fijltr<br>
+                </div>
+            
+                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
                     kvwxyz fijltr<br>
                 </div>
             
@@ -492,7 +496,11 @@
                     kvwxyz fijltr<br>
                 </div>
             
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    kvwxyz fijltr<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
                     kvwxyz fijltr<br>
                 </div>
             
@@ -500,11 +508,7 @@
                     kvwxyz fijltr<br>
                 </div>
             
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    kvwxyz fijltr<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
                     kvwxyz fijltr<br>
                 </div>
             
@@ -512,18 +516,18 @@
                     kvwxyz fijltr<br>
                 </div>
             
-                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                    kvwxyz fijltr<br>
-                </div>
-            
-                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
                     kvwxyz fijltr<br>
                 </div>
             
             <br>
             
             
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
+                    0123456789<br>
+                </div>
+            
+                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
                     0123456789<br>
                 </div>
             
@@ -531,7 +535,11 @@
                     0123456789<br>
                 </div>
             
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    0123456789<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
                     0123456789<br>
                 </div>
             
@@ -539,11 +547,7 @@
                     0123456789<br>
                 </div>
             
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    0123456789<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
                     0123456789<br>
                 </div>
             
@@ -551,18 +555,18 @@
                     0123456789<br>
                 </div>
             
-                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                    0123456789<br>
-                </div>
-            
-                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
                     0123456789<br>
                 </div>
             
             <br>
             
             
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
+                    .,:;/|?!-–—&@%([{}])°<br>
+                </div>
+            
+                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
                     .,:;/|?!-–—&@%([{}])°<br>
                 </div>
             
@@ -570,7 +574,11 @@
                     .,:;/|?!-–—&@%([{}])°<br>
                 </div>
             
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    .,:;/|?!-–—&@%([{}])°<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
                     .,:;/|?!-–—&@%([{}])°<br>
                 </div>
             
@@ -578,11 +586,7 @@
                     .,:;/|?!-–—&@%([{}])°<br>
                 </div>
             
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    .,:;/|?!-–—&@%([{}])°<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
                     .,:;/|?!-–—&@%([{}])°<br>
                 </div>
             
@@ -590,18 +594,18 @@
                     .,:;/|?!-–—&@%([{}])°<br>
                 </div>
             
-                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                    .,:;/|?!-–—&@%([{}])°<br>
-                </div>
-            
-                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
                     .,:;/|?!-–—&@%([{}])°<br>
                 </div>
             
             <br>
             
             
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
+                    +−×÷=≠><≥≤±≈~¬∞<br>
+                </div>
+            
+                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
                     +−×÷=≠><≥≤±≈~¬∞<br>
                 </div>
             
@@ -609,7 +613,11 @@
                     +−×÷=≠><≥≤±≈~¬∞<br>
                 </div>
             
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    +−×÷=≠><≥≤±≈~¬∞<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
                     +−×÷=≠><≥≤±≈~¬∞<br>
                 </div>
             
@@ -617,11 +625,7 @@
                     +−×÷=≠><≥≤±≈~¬∞<br>
                 </div>
             
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    +−×÷=≠><≥≤±≈~¬∞<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
                     +−×÷=≠><≥≤±≈~¬∞<br>
                 </div>
             
@@ -629,11 +633,7 @@
                     +−×÷=≠><≥≤±≈~¬∞<br>
                 </div>
             
-                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                    +−×÷=≠><≥≤±≈~¬∞<br>
-                </div>
-            
-                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
                     +−×÷=≠><≥≤±≈~¬∞<br>
                 </div>
             
@@ -645,35 +645,7 @@
             <div class="box-title">Spacing</div>
             
             
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                    HHOHHOOHOO HIHOIO<br>
-                </div>
-            
-                <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                    HHOHHOOHOO HIHOIO<br>
-                </div>
-            
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                    HHOHHOOHOO HIHOIO<br>
-                </div>
-            
-                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                    HHOHHOOHOO HIHOIO<br>
-                </div>
-            
                 <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    HHOHHOOHOO HIHOIO<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                    HHOHHOOHOO HIHOIO<br>
-                </div>
-            
-                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                    HHOHHOOHOO HIHOIO<br>
-                </div>
-            
-                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
                     HHOHHOOHOO HIHOIO<br>
                 </div>
             
@@ -681,38 +653,38 @@
                     HHOHHOOHOO HIHOIO<br>
                 </div>
             
-            <br>
-            
-            
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                    uuonouonoo ninoioolonlniuo<br>
-                </div>
-            
                 <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                    uuonouonoo ninoioolonlniuo<br>
-                </div>
-            
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                    uuonouonoo ninoioolonlniuo<br>
-                </div>
-            
-                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                    uuonouonoo ninoioolonlniuo<br>
-                </div>
-            
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    uuonouonoo ninoioolonlniuo<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                    uuonouonoo ninoioolonlniuo<br>
-                </div>
-            
-                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                    uuonouonoo ninoioolonlniuo<br>
+                    HHOHHOOHOO HIHOIO<br>
                 </div>
             
                 <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    HHOHHOOHOO HIHOIO<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                    HHOHHOOHOO HIHOIO<br>
+                </div>
+            
+                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                    HHOHHOOHOO HIHOIO<br>
+                </div>
+            
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                    HHOHHOOHOO HIHOIO<br>
+                </div>
+            
+                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                    HHOHHOOHOO HIHOIO<br>
+                </div>
+            
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                    HHOHHOOHOO HIHOIO<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
                     uuonouonoo ninoioolonlniuo<br>
                 </div>
             
@@ -720,38 +692,38 @@
                     uuonouonoo ninoioolonlniuo<br>
                 </div>
             
-            <br>
-            
-            
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                    010 080 030 020 050 060 070<br>
-                </div>
-            
                 <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                    010 080 030 020 050 060 070<br>
-                </div>
-            
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                    010 080 030 020 050 060 070<br>
-                </div>
-            
-                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                    010 080 030 020 050 060 070<br>
-                </div>
-            
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    010 080 030 020 050 060 070<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                    010 080 030 020 050 060 070<br>
-                </div>
-            
-                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                    010 080 030 020 050 060 070<br>
+                    uuonouonoo ninoioolonlniuo<br>
                 </div>
             
                 <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    uuonouonoo ninoioolonlniuo<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                    uuonouonoo ninoioolonlniuo<br>
+                </div>
+            
+                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                    uuonouonoo ninoioolonlniuo<br>
+                </div>
+            
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                    uuonouonoo ninoioolonlniuo<br>
+                </div>
+            
+                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                    uuonouonoo ninoioolonlniuo<br>
+                </div>
+            
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                    uuonouonoo ninoioolonlniuo<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
                     010 080 030 020 050 060 070<br>
                 </div>
             
@@ -759,38 +731,38 @@
                     010 080 030 020 050 060 070<br>
                 </div>
             
-            <br>
-            
-            
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                    3+4=7 5>2 2x²−(8×7)÷9≈1<br>
-                </div>
-            
                 <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                    3+4=7 5>2 2x²−(8×7)÷9≈1<br>
-                </div>
-            
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                    3+4=7 5>2 2x²−(8×7)÷9≈1<br>
-                </div>
-            
-                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                    3+4=7 5>2 2x²−(8×7)÷9≈1<br>
-                </div>
-            
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    3+4=7 5>2 2x²−(8×7)÷9≈1<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                    3+4=7 5>2 2x²−(8×7)÷9≈1<br>
-                </div>
-            
-                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                    3+4=7 5>2 2x²−(8×7)÷9≈1<br>
+                    010 080 030 020 050 060 070<br>
                 </div>
             
                 <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    010 080 030 020 050 060 070<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                    010 080 030 020 050 060 070<br>
+                </div>
+            
+                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                    010 080 030 020 050 060 070<br>
+                </div>
+            
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                    010 080 030 020 050 060 070<br>
+                </div>
+            
+                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                    010 080 030 020 050 060 070<br>
+                </div>
+            
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                    010 080 030 020 050 060 070<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
                     3+4=7 5>2 2x²−(8×7)÷9≈1<br>
                 </div>
             
@@ -798,10 +770,42 @@
                     3+4=7 5>2 2x²−(8×7)÷9≈1<br>
                 </div>
             
+                <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                    3+4=7 5>2 2x²−(8×7)÷9≈1<br>
+                </div>
+            
+                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    3+4=7 5>2 2x²−(8×7)÷9≈1<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                    3+4=7 5>2 2x²−(8×7)÷9≈1<br>
+                </div>
+            
+                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                    3+4=7 5>2 2x²−(8×7)÷9≈1<br>
+                </div>
+            
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                    3+4=7 5>2 2x²−(8×7)÷9≈1<br>
+                </div>
+            
+                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                    3+4=7 5>2 2x²−(8×7)÷9≈1<br>
+                </div>
+            
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                    3+4=7 5>2 2x²−(8×7)÷9≈1<br>
+                </div>
+            
             <br>
             
             
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="ca">
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="ca">
+                    L·L l·l<br>
+                </div>
+            
+                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="ca">
                     L·L l·l<br>
                 </div>
             
@@ -809,7 +813,11 @@
                     L·L l·l<br>
                 </div>
             
-                <div class="box-text Condensed" style="font-size: 20pt" lang="ca">
+                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="ca">
+                    L·L l·l<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="ca">
                     L·L l·l<br>
                 </div>
             
@@ -817,11 +825,7 @@
                     L·L l·l<br>
                 </div>
             
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="ca">
-                    L·L l·l<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="ca">
+                <div class="box-text Condensed" style="font-size: 20pt" lang="ca">
                     L·L l·l<br>
                 </div>
             
@@ -829,11 +833,7 @@
                     L·L l·l<br>
                 </div>
             
-                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="ca">
-                    L·L l·l<br>
-                </div>
-            
-                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="ca">
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="ca">
                     L·L l·l<br>
                 </div>
             
@@ -845,7 +845,11 @@
             <div class="box-title">Kerning</div>
             
             
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
+                    HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH<br>
+                </div>
+            
+                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
                     HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH<br>
                 </div>
             
@@ -853,7 +857,11 @@
                     HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH<br>
                 </div>
             
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
                     HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH<br>
                 </div>
             
@@ -861,11 +869,7 @@
                     HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH<br>
                 </div>
             
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
                     HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH<br>
                 </div>
             
@@ -873,18 +877,18 @@
                     HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH<br>
                 </div>
             
-                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                    HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH<br>
-                </div>
-            
-                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
                     HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH<br>
                 </div>
             
             <br>
             
             
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
+                    Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř<br>
+                </div>
+            
+                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
                     Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř<br>
                 </div>
             
@@ -892,7 +896,11 @@
                     Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř<br>
                 </div>
             
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
                     Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř<br>
                 </div>
             
@@ -900,11 +908,7 @@
                     Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř<br>
                 </div>
             
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
                     Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř<br>
                 </div>
             
@@ -912,18 +916,18 @@
                     Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř<br>
                 </div>
             
-                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                    Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř<br>
-                </div>
-            
-                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
                     Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř<br>
                 </div>
             
             <br>
             
             
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
+                    HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj<br>
+                </div>
+            
+                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
                     HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj<br>
                 </div>
             
@@ -931,7 +935,11 @@
                     HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj<br>
                 </div>
             
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
                     HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj<br>
                 </div>
             
@@ -939,11 +947,7 @@
                     HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj<br>
                 </div>
             
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
                     HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj<br>
                 </div>
             
@@ -951,46 +955,14 @@
                     HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj<br>
                 </div>
             
-                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                    HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj<br>
-                </div>
-            
-                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
                     HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj<br>
                 </div>
             
             <br>
             
             
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                    nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
-                </div>
-            
-                <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                    nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
-                </div>
-            
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                    nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
-                </div>
-            
-                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                    nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
-                </div>
-            
                 <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                    nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
-                </div>
-            
-                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                    nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
-                </div>
-            
-                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
                     nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
                 </div>
             
@@ -998,38 +970,38 @@
                     nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
                 </div>
             
-            <br>
-            
-            
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                    ďá ďu gj ľk włw yły ółr fħ ílïlîl<br>
-                </div>
-            
                 <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                    ďá ďu gj ľk włw yły ółr fħ ílïlîl<br>
-                </div>
-            
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                    ďá ďu gj ľk włw yły ółr fħ ílïlîl<br>
-                </div>
-            
-                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                    ďá ďu gj ľk włw yły ółr fħ ílïlîl<br>
-                </div>
-            
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    ďá ďu gj ľk włw yły ółr fħ ílïlîl<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                    ďá ďu gj ľk włw yły ółr fħ ílïlîl<br>
-                </div>
-            
-                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                    ďá ďu gj ľk włw yły ółr fħ ílïlîl<br>
+                    nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
                 </div>
             
                 <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                    nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
+                </div>
+            
+                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                    nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
+                </div>
+            
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                    nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
+                </div>
+            
+                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                    nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
+                </div>
+            
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                    nin non nvn ovo oxo ayn fl fi fj ft gj ko rento<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
                     ďá ďu gj ľk włw yły ółr fħ ílïlîl<br>
                 </div>
             
@@ -1037,38 +1009,38 @@
                     ďá ďu gj ľk włw yły ółr fħ ílïlîl<br>
                 </div>
             
-            <br>
-            
-            
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                    H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
-                </div>
-            
                 <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                    H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
-                </div>
-            
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                    H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
-                </div>
-            
-                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                    H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
-                </div>
-            
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                    H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
-                </div>
-            
-                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                    H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
+                    ďá ďu gj ľk włw yły ółr fħ ílïlîl<br>
                 </div>
             
                 <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    ďá ďu gj ľk włw yły ółr fħ ílïlîl<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                    ďá ďu gj ľk włw yły ółr fħ ílïlîl<br>
+                </div>
+            
+                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                    ďá ďu gj ľk włw yły ółr fħ ílïlîl<br>
+                </div>
+            
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                    ďá ďu gj ľk włw yły ółr fħ ílïlîl<br>
+                </div>
+            
+                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                    ďá ďu gj ľk włw yły ółr fħ ílïlîl<br>
+                </div>
+            
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                    ďá ďu gj ľk włw yły ółr fħ ílïlîl<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
                     H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
                 </div>
             
@@ -1076,38 +1048,38 @@
                     H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
                 </div>
             
-            <br>
-            
-            
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                    n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
-                </div>
-            
                 <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                    n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
-                </div>
-            
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                    n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
-                </div>
-            
-                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                    n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
-                </div>
-            
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                    n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
-                </div>
-            
-                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                    n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
+                    H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
                 </div>
             
                 <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                    H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
+                </div>
+            
+                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                    H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
+                </div>
+            
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                    H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
+                </div>
+            
+                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                    H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
+                </div>
+            
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                    H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
                     n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
                 </div>
             
@@ -1115,38 +1087,38 @@
                     n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
                 </div>
             
-            <br>
-            
-            
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                    ¿o,O? w@y «n•n» n*<br>
-                </div>
-            
                 <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                    ¿o,O? w@y «n•n» n*<br>
-                </div>
-            
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                    ¿o,O? w@y «n•n» n*<br>
-                </div>
-            
-                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                    ¿o,O? w@y «n•n» n*<br>
-                </div>
-            
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    ¿o,O? w@y «n•n» n*<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                    ¿o,O? w@y «n•n» n*<br>
-                </div>
-            
-                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                    ¿o,O? w@y «n•n» n*<br>
+                    n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
                 </div>
             
                 <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                    n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
+                </div>
+            
+                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                    n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
+                </div>
+            
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                    n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
+                </div>
+            
+                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                    n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
+                </div>
+            
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                    n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
                     ¿o,O? w@y «n•n» n*<br>
                 </div>
             
@@ -1154,38 +1126,38 @@
                     ¿o,O? w@y «n•n» n*<br>
                 </div>
             
-            <br>
-            
-            
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                    080 076 474 973 94 7078 54 24 272 679<br>
-                </div>
-            
                 <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                    080 076 474 973 94 7078 54 24 272 679<br>
-                </div>
-            
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                    080 076 474 973 94 7078 54 24 272 679<br>
-                </div>
-            
-                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                    080 076 474 973 94 7078 54 24 272 679<br>
-                </div>
-            
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    080 076 474 973 94 7078 54 24 272 679<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                    080 076 474 973 94 7078 54 24 272 679<br>
-                </div>
-            
-                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                    080 076 474 973 94 7078 54 24 272 679<br>
+                    ¿o,O? w@y «n•n» n*<br>
                 </div>
             
                 <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    ¿o,O? w@y «n•n» n*<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                    ¿o,O? w@y «n•n» n*<br>
+                </div>
+            
+                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                    ¿o,O? w@y «n•n» n*<br>
+                </div>
+            
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                    ¿o,O? w@y «n•n» n*<br>
+                </div>
+            
+                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                    ¿o,O? w@y «n•n» n*<br>
+                </div>
+            
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                    ¿o,O? w@y «n•n» n*<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
                     080 076 474 973 94 7078 54 24 272 679<br>
                 </div>
             
@@ -1193,38 +1165,38 @@
                     080 076 474 973 94 7078 54 24 272 679<br>
                 </div>
             
-            <br>
-            
-            
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                    P4T47A .47,9.7-»4<br>
-                </div>
-            
                 <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                    P4T47A .47,9.7-»4<br>
-                </div>
-            
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                    P4T47A .47,9.7-»4<br>
-                </div>
-            
-                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                    P4T47A .47,9.7-»4<br>
-                </div>
-            
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    P4T47A .47,9.7-»4<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                    P4T47A .47,9.7-»4<br>
-                </div>
-            
-                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                    P4T47A .47,9.7-»4<br>
+                    080 076 474 973 94 7078 54 24 272 679<br>
                 </div>
             
                 <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    080 076 474 973 94 7078 54 24 272 679<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                    080 076 474 973 94 7078 54 24 272 679<br>
+                </div>
+            
+                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                    080 076 474 973 94 7078 54 24 272 679<br>
+                </div>
+            
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                    080 076 474 973 94 7078 54 24 272 679<br>
+                </div>
+            
+                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                    080 076 474 973 94 7078 54 24 272 679<br>
+                </div>
+            
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                    080 076 474 973 94 7078 54 24 272 679<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
                     P4T47A .47,9.7-»4<br>
                 </div>
             
@@ -1232,38 +1204,38 @@
                     P4T47A .47,9.7-»4<br>
                 </div>
             
-            <br>
-            
-            
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                    42°21′29″N 71°03′49″W<br>
-                </div>
-            
                 <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                    42°21′29″N 71°03′49″W<br>
-                </div>
-            
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                    42°21′29″N 71°03′49″W<br>
-                </div>
-            
-                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                    42°21′29″N 71°03′49″W<br>
-                </div>
-            
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    42°21′29″N 71°03′49″W<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                    42°21′29″N 71°03′49″W<br>
-                </div>
-            
-                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                    42°21′29″N 71°03′49″W<br>
+                    P4T47A .47,9.7-»4<br>
                 </div>
             
                 <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    P4T47A .47,9.7-»4<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                    P4T47A .47,9.7-»4<br>
+                </div>
+            
+                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                    P4T47A .47,9.7-»4<br>
+                </div>
+            
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                    P4T47A .47,9.7-»4<br>
+                </div>
+            
+                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                    P4T47A .47,9.7-»4<br>
+                </div>
+            
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                    P4T47A .47,9.7-»4<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
                     42°21′29″N 71°03′49″W<br>
                 </div>
             
@@ -1271,38 +1243,38 @@
                     42°21′29″N 71°03′49″W<br>
                 </div>
             
-            <br>
-            
-            
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                    d² m³ 15°C/26°F<br>
-                </div>
-            
                 <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                    d² m³ 15°C/26°F<br>
-                </div>
-            
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                    d² m³ 15°C/26°F<br>
-                </div>
-            
-                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                    d² m³ 15°C/26°F<br>
-                </div>
-            
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    d² m³ 15°C/26°F<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                    d² m³ 15°C/26°F<br>
-                </div>
-            
-                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                    d² m³ 15°C/26°F<br>
+                    42°21′29″N 71°03′49″W<br>
                 </div>
             
                 <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    42°21′29″N 71°03′49″W<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                    42°21′29″N 71°03′49″W<br>
+                </div>
+            
+                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                    42°21′29″N 71°03′49″W<br>
+                </div>
+            
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                    42°21′29″N 71°03′49″W<br>
+                </div>
+            
+                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                    42°21′29″N 71°03′49″W<br>
+                </div>
+            
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                    42°21′29″N 71°03′49″W<br>
+                </div>
+            
+            <br>
+            
+            
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
                     d² m³ 15°C/26°F<br>
                 </div>
             
@@ -1310,10 +1282,42 @@
                     d² m³ 15°C/26°F<br>
                 </div>
             
+                <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                    d² m³ 15°C/26°F<br>
+                </div>
+            
+                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    d² m³ 15°C/26°F<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                    d² m³ 15°C/26°F<br>
+                </div>
+            
+                <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                    d² m³ 15°C/26°F<br>
+                </div>
+            
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                    d² m³ 15°C/26°F<br>
+                </div>
+            
+                <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                    d² m³ 15°C/26°F<br>
+                </div>
+            
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                    d² m³ 15°C/26°F<br>
+                </div>
+            
             <br>
             
             
-                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
+                    0/0\0<br>
+                </div>
+            
+                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
                     0/0\0<br>
                 </div>
             
@@ -1321,7 +1325,11 @@
                     0/0\0<br>
                 </div>
             
-                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                    0/0\0<br>
+                </div>
+            
+                <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
                     0/0\0<br>
                 </div>
             
@@ -1329,11 +1337,7 @@
                     0/0\0<br>
                 </div>
             
-                <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                    0/0\0<br>
-                </div>
-            
-                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed" style="font-size: 20pt" lang="en">
                     0/0\0<br>
                 </div>
             
@@ -1341,11 +1345,7 @@
                     0/0\0<br>
                 </div>
             
-                <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                    0/0\0<br>
-                </div>
-            
-                <div class="box-text Condensed-Bold" style="font-size: 20pt" lang="en">
+                <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
                     0/0\0<br>
                 </div>
             
@@ -1361,378 +1361,6 @@
 <div id="font-by-font" style="display: none;">
 
     <h3>Glyphset: GF_Latin_Core</h3>
-    
-        <div class="box-title">Condensed-SemiBold 20pt</div>
-        
-            <div class="box">
-                <div class="box-title">Letter Groups</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        EFHIJLTU AVWXZ KMNY</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        COQS BPRDGÞẞ</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        hmnu ceogðsß abdpqþ</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        kvwxyz fijltr</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        0123456789</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        .,:;/|?!-–—&@%([{}])°</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        +−×÷=≠><≥≤±≈~¬∞</div>
-                
-            </div>
-        
-            <div class="box">
-                <div class="box-title">Spacing</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        HHOHHOOHOO HIHOIO</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        uuonouonoo ninoioolonlniuo</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        010 080 030 020 050 060 070</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        3+4=7 5>2 2x²−(8×7)÷9≈1</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="ca">
-                        L·L l·l</div>
-                
-            </div>
-        
-            <div class="box">
-                <div class="box-title">Kerning</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        ďá ďu gj ľk włw yły ółr fħ ílïlîl</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        ¿o,O? w@y «n•n» n*</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        080 076 474 973 94 7078 54 24 272 679</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        P4T47A .47,9.7-»4</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        42°21′29″N 71°03′49″W</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        d² m³ 15°C/26°F</div>
-                
-                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
-                        0/0\0</div>
-                
-            </div>
-        
-    
-        <div class="box-title">Condensed-ExtraBold 20pt</div>
-        
-            <div class="box">
-                <div class="box-title">Letter Groups</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        EFHIJLTU AVWXZ KMNY</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        COQS BPRDGÞẞ</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        hmnu ceogðsß abdpqþ</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        kvwxyz fijltr</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        0123456789</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        .,:;/|?!-–—&@%([{}])°</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        +−×÷=≠><≥≤±≈~¬∞</div>
-                
-            </div>
-        
-            <div class="box">
-                <div class="box-title">Spacing</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        HHOHHOOHOO HIHOIO</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        uuonouonoo ninoioolonlniuo</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        010 080 030 020 050 060 070</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        3+4=7 5>2 2x²−(8×7)÷9≈1</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="ca">
-                        L·L l·l</div>
-                
-            </div>
-        
-            <div class="box">
-                <div class="box-title">Kerning</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        ďá ďu gj ľk włw yły ółr fħ ílïlîl</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        ¿o,O? w@y «n•n» n*</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        080 076 474 973 94 7078 54 24 272 679</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        P4T47A .47,9.7-»4</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        42°21′29″N 71°03′49″W</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        d² m³ 15°C/26°F</div>
-                
-                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
-                        0/0\0</div>
-                
-            </div>
-        
-    
-        <div class="box-title">Condensed 20pt</div>
-        
-            <div class="box">
-                <div class="box-title">Letter Groups</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        EFHIJLTU AVWXZ KMNY</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        COQS BPRDGÞẞ</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        hmnu ceogðsß abdpqþ</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        kvwxyz fijltr</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        0123456789</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        .,:;/|?!-–—&@%([{}])°</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        +−×÷=≠><≥≤±≈~¬∞</div>
-                
-            </div>
-        
-            <div class="box">
-                <div class="box-title">Spacing</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        HHOHHOOHOO HIHOIO</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        uuonouonoo ninoioolonlniuo</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        010 080 030 020 050 060 070</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        3+4=7 5>2 2x²−(8×7)÷9≈1</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="ca">
-                        L·L l·l</div>
-                
-            </div>
-        
-            <div class="box">
-                <div class="box-title">Kerning</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        ďá ďu gj ľk włw yły ółr fħ ílïlîl</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        ¿o,O? w@y «n•n» n*</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        080 076 474 973 94 7078 54 24 272 679</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        P4T47A .47,9.7-»4</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        42°21′29″N 71°03′49″W</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        d² m³ 15°C/26°F</div>
-                
-                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
-                        0/0\0</div>
-                
-            </div>
-        
-    
-        <div class="box-title">Condensed-Thin 20pt</div>
-        
-            <div class="box">
-                <div class="box-title">Letter Groups</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        EFHIJLTU AVWXZ KMNY</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        COQS BPRDGÞẞ</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        hmnu ceogðsß abdpqþ</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        kvwxyz fijltr</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        0123456789</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        .,:;/|?!-–—&@%([{}])°</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        +−×÷=≠><≥≤±≈~¬∞</div>
-                
-            </div>
-        
-            <div class="box">
-                <div class="box-title">Spacing</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        HHOHHOOHOO HIHOIO</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        uuonouonoo ninoioolonlniuo</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        010 080 030 020 050 060 070</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        3+4=7 5>2 2x²−(8×7)÷9≈1</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="ca">
-                        L·L l·l</div>
-                
-            </div>
-        
-            <div class="box">
-                <div class="box-title">Kerning</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        ďá ďu gj ľk włw yły ółr fħ ílïlîl</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        ¿o,O? w@y «n•n» n*</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        080 076 474 973 94 7078 54 24 272 679</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        P4T47A .47,9.7-»4</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        42°21′29″N 71°03′49″W</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        d² m³ 15°C/26°F</div>
-                
-                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
-                        0/0\0</div>
-                
-            </div>
-        
     
         <div class="box-title">Condensed-Black 20pt</div>
         
@@ -1822,285 +1450,6 @@
                         d² m³ 15°C/26°F</div>
                 
                     <div class="box-text Condensed-Black" style="font-size: 20pt" lang="en">
-                        0/0\0</div>
-                
-            </div>
-        
-    
-        <div class="box-title">Condensed-Medium 20pt</div>
-        
-            <div class="box">
-                <div class="box-title">Letter Groups</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        EFHIJLTU AVWXZ KMNY</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        COQS BPRDGÞẞ</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        hmnu ceogðsß abdpqþ</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        kvwxyz fijltr</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        0123456789</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        .,:;/|?!-–—&@%([{}])°</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        +−×÷=≠><≥≤±≈~¬∞</div>
-                
-            </div>
-        
-            <div class="box">
-                <div class="box-title">Spacing</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        HHOHHOOHOO HIHOIO</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        uuonouonoo ninoioolonlniuo</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        010 080 030 020 050 060 070</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        3+4=7 5>2 2x²−(8×7)÷9≈1</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="ca">
-                        L·L l·l</div>
-                
-            </div>
-        
-            <div class="box">
-                <div class="box-title">Kerning</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        ďá ďu gj ľk włw yły ółr fħ ílïlîl</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        ¿o,O? w@y «n•n» n*</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        080 076 474 973 94 7078 54 24 272 679</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        P4T47A .47,9.7-»4</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        42°21′29″N 71°03′49″W</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        d² m³ 15°C/26°F</div>
-                
-                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
-                        0/0\0</div>
-                
-            </div>
-        
-    
-        <div class="box-title">Condensed-Light 20pt</div>
-        
-            <div class="box">
-                <div class="box-title">Letter Groups</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        EFHIJLTU AVWXZ KMNY</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        COQS BPRDGÞẞ</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        hmnu ceogðsß abdpqþ</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        kvwxyz fijltr</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        0123456789</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        .,:;/|?!-–—&@%([{}])°</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        +−×÷=≠><≥≤±≈~¬∞</div>
-                
-            </div>
-        
-            <div class="box">
-                <div class="box-title">Spacing</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        HHOHHOOHOO HIHOIO</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        uuonouonoo ninoioolonlniuo</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        010 080 030 020 050 060 070</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        3+4=7 5>2 2x²−(8×7)÷9≈1</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="ca">
-                        L·L l·l</div>
-                
-            </div>
-        
-            <div class="box">
-                <div class="box-title">Kerning</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        ďá ďu gj ľk włw yły ółr fħ ílïlîl</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        ¿o,O? w@y «n•n» n*</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        080 076 474 973 94 7078 54 24 272 679</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        P4T47A .47,9.7-»4</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        42°21′29″N 71°03′49″W</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        d² m³ 15°C/26°F</div>
-                
-                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
-                        0/0\0</div>
-                
-            </div>
-        
-    
-        <div class="box-title">Condensed-ExtraLight 20pt</div>
-        
-            <div class="box">
-                <div class="box-title">Letter Groups</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        EFHIJLTU AVWXZ KMNY</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        COQS BPRDGÞẞ</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        hmnu ceogðsß abdpqþ</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        kvwxyz fijltr</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        0123456789</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        .,:;/|?!-–—&@%([{}])°</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        +−×÷=≠><≥≤±≈~¬∞</div>
-                
-            </div>
-        
-            <div class="box">
-                <div class="box-title">Spacing</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        HHOHHOOHOO HIHOIO</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        uuonouonoo ninoioolonlniuo</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        010 080 030 020 050 060 070</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        3+4=7 5>2 2x²−(8×7)÷9≈1</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="ca">
-                        L·L l·l</div>
-                
-            </div>
-        
-            <div class="box">
-                <div class="box-title">Kerning</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        ďá ďu gj ľk włw yły ółr fħ ílïlîl</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        ¿o,O? w@y «n•n» n*</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        080 076 474 973 94 7078 54 24 272 679</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        P4T47A .47,9.7-»4</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        42°21′29″N 71°03′49″W</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
-                        d² m³ 15°C/26°F</div>
-                
-                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
                         0/0\0</div>
                 
             </div>
@@ -2199,6 +1548,657 @@
             </div>
         
     
+        <div class="box-title">Condensed-ExtraBold 20pt</div>
+        
+            <div class="box">
+                <div class="box-title">Letter Groups</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        EFHIJLTU AVWXZ KMNY</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        COQS BPRDGÞẞ</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        hmnu ceogðsß abdpqþ</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        kvwxyz fijltr</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        0123456789</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        .,:;/|?!-–—&@%([{}])°</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        +−×÷=≠><≥≤±≈~¬∞</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Spacing</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        HHOHHOOHOO HIHOIO</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        uuonouonoo ninoioolonlniuo</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        010 080 030 020 050 060 070</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        3+4=7 5>2 2x²−(8×7)÷9≈1</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="ca">
+                        L·L l·l</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Kerning</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        ďá ďu gj ľk włw yły ółr fħ ílïlîl</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        ¿o,O? w@y «n•n» n*</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        080 076 474 973 94 7078 54 24 272 679</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        P4T47A .47,9.7-»4</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        42°21′29″N 71°03′49″W</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        d² m³ 15°C/26°F</div>
+                
+                    <div class="box-text Condensed-ExtraBold" style="font-size: 20pt" lang="en">
+                        0/0\0</div>
+                
+            </div>
+        
+    
+        <div class="box-title">Condensed-ExtraLight 20pt</div>
+        
+            <div class="box">
+                <div class="box-title">Letter Groups</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        EFHIJLTU AVWXZ KMNY</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        COQS BPRDGÞẞ</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        hmnu ceogðsß abdpqþ</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        kvwxyz fijltr</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        0123456789</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        .,:;/|?!-–—&@%([{}])°</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        +−×÷=≠><≥≤±≈~¬∞</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Spacing</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        HHOHHOOHOO HIHOIO</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        uuonouonoo ninoioolonlniuo</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        010 080 030 020 050 060 070</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        3+4=7 5>2 2x²−(8×7)÷9≈1</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="ca">
+                        L·L l·l</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Kerning</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        ďá ďu gj ľk włw yły ółr fħ ílïlîl</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        ¿o,O? w@y «n•n» n*</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        080 076 474 973 94 7078 54 24 272 679</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        P4T47A .47,9.7-»4</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        42°21′29″N 71°03′49″W</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        d² m³ 15°C/26°F</div>
+                
+                    <div class="box-text Condensed-ExtraLight" style="font-size: 20pt" lang="en">
+                        0/0\0</div>
+                
+            </div>
+        
+    
+        <div class="box-title">Condensed-SemiBold 20pt</div>
+        
+            <div class="box">
+                <div class="box-title">Letter Groups</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        EFHIJLTU AVWXZ KMNY</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        COQS BPRDGÞẞ</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        hmnu ceogðsß abdpqþ</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        kvwxyz fijltr</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        0123456789</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        .,:;/|?!-–—&@%([{}])°</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        +−×÷=≠><≥≤±≈~¬∞</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Spacing</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        HHOHHOOHOO HIHOIO</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        uuonouonoo ninoioolonlniuo</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        010 080 030 020 050 060 070</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        3+4=7 5>2 2x²−(8×7)÷9≈1</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="ca">
+                        L·L l·l</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Kerning</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        ďá ďu gj ľk włw yły ółr fħ ílïlîl</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        ¿o,O? w@y «n•n» n*</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        080 076 474 973 94 7078 54 24 272 679</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        P4T47A .47,9.7-»4</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        42°21′29″N 71°03′49″W</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        d² m³ 15°C/26°F</div>
+                
+                    <div class="box-text Condensed-SemiBold" style="font-size: 20pt" lang="en">
+                        0/0\0</div>
+                
+            </div>
+        
+    
+        <div class="box-title">Condensed-Thin 20pt</div>
+        
+            <div class="box">
+                <div class="box-title">Letter Groups</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        EFHIJLTU AVWXZ KMNY</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        COQS BPRDGÞẞ</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        hmnu ceogðsß abdpqþ</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        kvwxyz fijltr</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        0123456789</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        .,:;/|?!-–—&@%([{}])°</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        +−×÷=≠><≥≤±≈~¬∞</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Spacing</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        HHOHHOOHOO HIHOIO</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        uuonouonoo ninoioolonlniuo</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        010 080 030 020 050 060 070</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        3+4=7 5>2 2x²−(8×7)÷9≈1</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="ca">
+                        L·L l·l</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Kerning</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        ďá ďu gj ľk włw yły ółr fħ ílïlîl</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        ¿o,O? w@y «n•n» n*</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        080 076 474 973 94 7078 54 24 272 679</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        P4T47A .47,9.7-»4</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        42°21′29″N 71°03′49″W</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        d² m³ 15°C/26°F</div>
+                
+                    <div class="box-text Condensed-Thin" style="font-size: 20pt" lang="en">
+                        0/0\0</div>
+                
+            </div>
+        
+    
+        <div class="box-title">Condensed 20pt</div>
+        
+            <div class="box">
+                <div class="box-title">Letter Groups</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        EFHIJLTU AVWXZ KMNY</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        COQS BPRDGÞẞ</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        hmnu ceogðsß abdpqþ</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        kvwxyz fijltr</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        0123456789</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        .,:;/|?!-–—&@%([{}])°</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        +−×÷=≠><≥≤±≈~¬∞</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Spacing</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        HHOHHOOHOO HIHOIO</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        uuonouonoo ninoioolonlniuo</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        010 080 030 020 050 060 070</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        3+4=7 5>2 2x²−(8×7)÷9≈1</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="ca">
+                        L·L l·l</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Kerning</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        ďá ďu gj ľk włw yły ółr fħ ílïlîl</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        ¿o,O? w@y «n•n» n*</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        080 076 474 973 94 7078 54 24 272 679</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        P4T47A .47,9.7-»4</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        42°21′29″N 71°03′49″W</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        d² m³ 15°C/26°F</div>
+                
+                    <div class="box-text Condensed" style="font-size: 20pt" lang="en">
+                        0/0\0</div>
+                
+            </div>
+        
+    
+        <div class="box-title">Condensed-Light 20pt</div>
+        
+            <div class="box">
+                <div class="box-title">Letter Groups</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        EFHIJLTU AVWXZ KMNY</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        COQS BPRDGÞẞ</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        hmnu ceogðsß abdpqþ</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        kvwxyz fijltr</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        0123456789</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        .,:;/|?!-–—&@%([{}])°</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        +−×÷=≠><≥≤±≈~¬∞</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Spacing</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        HHOHHOOHOO HIHOIO</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        uuonouonoo ninoioolonlniuo</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        010 080 030 020 050 060 070</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        3+4=7 5>2 2x²−(8×7)÷9≈1</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="ca">
+                        L·L l·l</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Kerning</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        ďá ďu gj ľk włw yły ółr fħ ílïlîl</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        ¿o,O? w@y «n•n» n*</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        080 076 474 973 94 7078 54 24 272 679</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        P4T47A .47,9.7-»4</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        42°21′29″N 71°03′49″W</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        d² m³ 15°C/26°F</div>
+                
+                    <div class="box-text Condensed-Light" style="font-size: 20pt" lang="en">
+                        0/0\0</div>
+                
+            </div>
+        
+    
+        <div class="box-title">Condensed-Medium 20pt</div>
+        
+            <div class="box">
+                <div class="box-title">Letter Groups</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        EFHIJLTU AVWXZ KMNY</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        COQS BPRDGÞẞ</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        hmnu ceogðsß abdpqþ</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        kvwxyz fijltr</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        0123456789</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        .,:;/|?!-–—&@%([{}])°</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        +−×÷=≠><≥≤±≈~¬∞</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Spacing</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        HHOHHOOHOO HIHOIO</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        uuonouonoo ninoioolonlniuo</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        010 080 030 020 050 060 070</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        3+4=7 5>2 2x²−(8×7)÷9≈1</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="ca">
+                        L·L l·l</div>
+                
+            </div>
+        
+            <div class="box">
+                <div class="box-title">Kerning</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        nin non nvn ovo oxo ayn fl fi fj ft gj ko rento</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        ďá ďu gj ľk włw yły ółr fħ ílïlîl</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        ¿o,O? w@y «n•n» n*</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        080 076 474 973 94 7078 54 24 272 679</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        P4T47A .47,9.7-»4</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        42°21′29″N 71°03′49″W</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        d² m³ 15°C/26°F</div>
+                
+                    <div class="box-text Condensed-Medium" style="font-size: 20pt" lang="en">
+                        0/0\0</div>
+                
+            </div>
+        
+    
  
 </div>
 
@@ -2208,36 +2208,36 @@
     <h3>Glyphset: GF_Latin_Core</h3>
     
         <div class="box-side-by-side">
-            <div class="box-title">Condensed-SemiBold 20pt</div>
+            <div class="box-title">Condensed-Black 20pt</div>
             
                 <div class="box">
                     <div class="box-title">Letter Groups</div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             EFHIJLTU AVWXZ KMNY
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             COQS BPRDGÞẞ
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             hmnu ceogðsß abdpqþ
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             kvwxyz fijltr
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             0123456789
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             .,:;/|?!-–—&@%([{}])°
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             +−×÷=≠><≥≤±≈~¬∞
                         </div>
                     
@@ -2246,23 +2246,23 @@
                 <div class="box">
                     <div class="box-title">Spacing</div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             HHOHHOOHOO HIHOIO
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             uuonouonoo ninoioolonlniuo
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             010 080 030 020 050 060 070
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             3+4=7 5>2 2x²−(8×7)÷9≈1
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="ca">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="ca">
                             L·L l·l
                         </div>
                     
@@ -2271,55 +2271,175 @@
                 <div class="box">
                     <div class="box-title">Kerning</div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             nin non nvn ovo oxo ayn fl fi fj ft gj ko rento
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             ďá ďu gj ľk włw yły ółr fħ ílïlîl
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             ¿o,O? w@y «n•n» n*
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             080 076 474 973 94 7078 54 24 272 679
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             P4T47A .47,9.7-»4
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             42°21′29″N 71°03′49″W
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
                             d² m³ 15°C/26°F
                         </div>
                     
-                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                            0/0\0
+                        </div>
+                    
+                </div>
+            
+        </div>
+    
+        <div class="box-side-by-side">
+            <div class="box-title">Condensed-Bold 20pt</div>
+            
+                <div class="box">
+                    <div class="box-title">Letter Groups</div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            EFHIJLTU AVWXZ KMNY
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            COQS BPRDGÞẞ
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            hmnu ceogðsß abdpqþ
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            kvwxyz fijltr
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            0123456789
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            .,:;/|?!-–—&@%([{}])°
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            +−×÷=≠><≥≤±≈~¬∞
+                        </div>
+                    
+                </div>
+            
+                <div class="box">
+                    <div class="box-title">Spacing</div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            HHOHHOOHOO HIHOIO
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            uuonouonoo ninoioolonlniuo
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            010 080 030 020 050 060 070
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            3+4=7 5>2 2x²−(8×7)÷9≈1
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="ca">
+                            L·L l·l
+                        </div>
+                    
+                </div>
+            
+                <div class="box">
+                    <div class="box-title">Kerning</div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            nin non nvn ovo oxo ayn fl fi fj ft gj ko rento
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            ďá ďu gj ľk włw yły ółr fħ ílïlîl
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            ¿o,O? w@y «n•n» n*
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            080 076 474 973 94 7078 54 24 272 679
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            P4T47A .47,9.7-»4
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            42°21′29″N 71°03′49″W
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                            d² m³ 15°C/26°F
+                        </div>
+                    
+                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
                             0/0\0
                         </div>
                     
@@ -2448,36 +2568,36 @@
         </div>
     
         <div class="box-side-by-side">
-            <div class="box-title">Condensed 20pt</div>
+            <div class="box-title">Condensed-ExtraLight 20pt</div>
             
                 <div class="box">
                     <div class="box-title">Letter Groups</div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             EFHIJLTU AVWXZ KMNY
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             COQS BPRDGÞẞ
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             hmnu ceogðsß abdpqþ
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             kvwxyz fijltr
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             0123456789
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             .,:;/|?!-–—&@%([{}])°
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             +−×÷=≠><≥≤±≈~¬∞
                         </div>
                     
@@ -2486,23 +2606,23 @@
                 <div class="box">
                     <div class="box-title">Spacing</div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             HHOHHOOHOO HIHOIO
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             uuonouonoo ninoioolonlniuo
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             010 080 030 020 050 060 070
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             3+4=7 5>2 2x²−(8×7)÷9≈1
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="ca">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="ca">
                             L·L l·l
                         </div>
                     
@@ -2511,55 +2631,175 @@
                 <div class="box">
                     <div class="box-title">Kerning</div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             nin non nvn ovo oxo ayn fl fi fj ft gj ko rento
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             ďá ďu gj ľk włw yły ółr fħ ílïlîl
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             ¿o,O? w@y «n•n» n*
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             080 076 474 973 94 7078 54 24 272 679
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             P4T47A .47,9.7-»4
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             42°21′29″N 71°03′49″W
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
                             d² m³ 15°C/26°F
                         </div>
                     
-                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                            0/0\0
+                        </div>
+                    
+                </div>
+            
+        </div>
+    
+        <div class="box-side-by-side">
+            <div class="box-title">Condensed-SemiBold 20pt</div>
+            
+                <div class="box">
+                    <div class="box-title">Letter Groups</div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            EFHIJLTU AVWXZ KMNY
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            COQS BPRDGÞẞ
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            hmnu ceogðsß abdpqþ
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            kvwxyz fijltr
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            0123456789
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            .,:;/|?!-–—&@%([{}])°
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            +−×÷=≠><≥≤±≈~¬∞
+                        </div>
+                    
+                </div>
+            
+                <div class="box">
+                    <div class="box-title">Spacing</div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            HHOHHOOHOO HIHOIO
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            uuonouonoo ninoioolonlniuo
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            010 080 030 020 050 060 070
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            3+4=7 5>2 2x²−(8×7)÷9≈1
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="ca">
+                            L·L l·l
+                        </div>
+                    
+                </div>
+            
+                <div class="box">
+                    <div class="box-title">Kerning</div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            nin non nvn ovo oxo ayn fl fi fj ft gj ko rento
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            ďá ďu gj ľk włw yły ółr fħ ílïlîl
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            ¿o,O? w@y «n•n» n*
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            080 076 474 973 94 7078 54 24 272 679
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            P4T47A .47,9.7-»4
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            42°21′29″N 71°03′49″W
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
+                            d² m³ 15°C/26°F
+                        </div>
+                    
+                        <div class="box-text Condensed-SemiBold box-text" style="font-size: 20pt" lang="en">
                             0/0\0
                         </div>
                     
@@ -2688,36 +2928,36 @@
         </div>
     
         <div class="box-side-by-side">
-            <div class="box-title">Condensed-Black 20pt</div>
+            <div class="box-title">Condensed 20pt</div>
             
                 <div class="box">
                     <div class="box-title">Letter Groups</div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             EFHIJLTU AVWXZ KMNY
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             COQS BPRDGÞẞ
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             hmnu ceogðsß abdpqþ
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             kvwxyz fijltr
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             0123456789
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             .,:;/|?!-–—&@%([{}])°
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             +−×÷=≠><≥≤±≈~¬∞
                         </div>
                     
@@ -2726,23 +2966,23 @@
                 <div class="box">
                     <div class="box-title">Spacing</div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             HHOHHOOHOO HIHOIO
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             uuonouonoo ninoioolonlniuo
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             010 080 030 020 050 060 070
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             3+4=7 5>2 2x²−(8×7)÷9≈1
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="ca">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="ca">
                             L·L l·l
                         </div>
                     
@@ -2751,175 +2991,55 @@
                 <div class="box">
                     <div class="box-title">Kerning</div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             nin non nvn ovo oxo ayn fl fi fj ft gj ko rento
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             ďá ďu gj ľk włw yły ółr fħ ílïlîl
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             ¿o,O? w@y «n•n» n*
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             080 076 474 973 94 7078 54 24 272 679
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             P4T47A .47,9.7-»4
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             42°21′29″N 71°03′49″W
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             d² m³ 15°C/26°F
                         </div>
                     
-                        <div class="box-text Condensed-Black box-text" style="font-size: 20pt" lang="en">
-                            0/0\0
-                        </div>
-                    
-                </div>
-            
-        </div>
-    
-        <div class="box-side-by-side">
-            <div class="box-title">Condensed-Medium 20pt</div>
-            
-                <div class="box">
-                    <div class="box-title">Letter Groups</div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            EFHIJLTU AVWXZ KMNY
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            COQS BPRDGÞẞ
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            hmnu ceogðsß abdpqþ
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            kvwxyz fijltr
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            0123456789
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            .,:;/|?!-–—&@%([{}])°
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            +−×÷=≠><≥≤±≈~¬∞
-                        </div>
-                    
-                </div>
-            
-                <div class="box">
-                    <div class="box-title">Spacing</div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            HHOHHOOHOO HIHOIO
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            uuonouonoo ninoioolonlniuo
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            010 080 030 020 050 060 070
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            3+4=7 5>2 2x²−(8×7)÷9≈1
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="ca">
-                            L·L l·l
-                        </div>
-                    
-                </div>
-            
-                <div class="box">
-                    <div class="box-title">Kerning</div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            nin non nvn ovo oxo ayn fl fi fj ft gj ko rento
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            ďá ďu gj ľk włw yły ółr fħ ílïlîl
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            ¿o,O? w@y «n•n» n*
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            080 076 474 973 94 7078 54 24 272 679
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            P4T47A .47,9.7-»4
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            42°21′29″N 71°03′49″W
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
-                            d² m³ 15°C/26°F
-                        </div>
-                    
-                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed box-text" style="font-size: 20pt" lang="en">
                             0/0\0
                         </div>
                     
@@ -3048,36 +3168,36 @@
         </div>
     
         <div class="box-side-by-side">
-            <div class="box-title">Condensed-ExtraLight 20pt</div>
+            <div class="box-title">Condensed-Medium 20pt</div>
             
                 <div class="box">
                     <div class="box-title">Letter Groups</div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             EFHIJLTU AVWXZ KMNY
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             COQS BPRDGÞẞ
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             hmnu ceogðsß abdpqþ
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             kvwxyz fijltr
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             0123456789
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             .,:;/|?!-–—&@%([{}])°
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             +−×÷=≠><≥≤±≈~¬∞
                         </div>
                     
@@ -3086,23 +3206,23 @@
                 <div class="box">
                     <div class="box-title">Spacing</div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             HHOHHOOHOO HIHOIO
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             uuonouonoo ninoioolonlniuo
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             010 080 030 020 050 060 070
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             3+4=7 5>2 2x²−(8×7)÷9≈1
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="ca">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="ca">
                             L·L l·l
                         </div>
                     
@@ -3111,175 +3231,55 @@
                 <div class="box">
                     <div class="box-title">Kerning</div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             nin non nvn ovo oxo ayn fl fi fj ft gj ko rento
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             ďá ďu gj ľk włw yły ółr fħ ílïlîl
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             ¿o,O? w@y «n•n» n*
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             080 076 474 973 94 7078 54 24 272 679
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             P4T47A .47,9.7-»4
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             42°21′29″N 71°03′49″W
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             d² m³ 15°C/26°F
                         </div>
                     
-                        <div class="box-text Condensed-ExtraLight box-text" style="font-size: 20pt" lang="en">
-                            0/0\0
-                        </div>
-                    
-                </div>
-            
-        </div>
-    
-        <div class="box-side-by-side">
-            <div class="box-title">Condensed-Bold 20pt</div>
-            
-                <div class="box">
-                    <div class="box-title">Letter Groups</div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            EFHIJLTU AVWXZ KMNY
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            COQS BPRDGÞẞ
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            hmnu ceogðsß abdpqþ
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            kvwxyz fijltr
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            0123456789
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            .,:;/|?!-–—&@%([{}])°
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            +−×÷=≠><≥≤±≈~¬∞
-                        </div>
-                    
-                </div>
-            
-                <div class="box">
-                    <div class="box-title">Spacing</div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            HHOHHOOHOO HIHOIO
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            uuonouonoo ninoioolonlniuo
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            010 080 030 020 050 060 070
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            3+4=7 5>2 2x²−(8×7)÷9≈1
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="ca">
-                            L·L l·l
-                        </div>
-                    
-                </div>
-            
-                <div class="box">
-                    <div class="box-title">Kerning</div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            HHAVAHH OXOWAFAPATAUAYAÞYLYTJLVÆAVAOYO HH
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            Ti Tí Tî Tï Tì Tī Vă Tä Tü Tõ Tŭ Tř
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            HHTan oTo yTy vAv oVo oWo eYe Ly Ky Ac Ay gj
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            nin non nvn ovo oxo ayn fl fi fj ft gj ko rento
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            ďá ďu gj ľk włw yły ółr fħ ílïlîl
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            H.Y-Y.T,F.P,V:Y„V-T-A*A’A“A’A-AL–L—L-
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            n.r.r,y.y,(o)(i)(d)(j)(f)[j]{f}
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            ¿o,O? w@y «n•n» n*
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            080 076 474 973 94 7078 54 24 272 679
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            P4T47A .47,9.7-»4
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            42°21′29″N 71°03′49″W
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
-                            d² m³ 15°C/26°F
-                        </div>
-                    
-                        <div class="box-text Condensed-Bold box-text" style="font-size: 20pt" lang="en">
+                        <div class="box-text Condensed-Medium box-text" style="font-size: 20pt" lang="en">
                             0/0\0
                         </div>
                     
