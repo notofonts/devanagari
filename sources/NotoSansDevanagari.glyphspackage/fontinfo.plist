@@ -5052,7 +5052,9 @@ language dflt ;
 		sub halant-deva ra-deva by rakar-deva;
 	} belowBase_forms_dev2;
 
-language MAR ;
+language NEP;
+lookup belowBase_forms_dev2 ;
+language MAR;
 lookup belowBase_forms_dev2 ;
 
 #//////////////////////////////////////////////////////////////////////////////////
