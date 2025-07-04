@@ -5616,6 +5616,11 @@ lookup decompose_long_vowels {
 	sub ai-deva by e-deva eMatra-deva;
 } decompose_long_vowels;
 
+lookup reph_ligature_after_decomposed_ii {
+	sub i-deva reph-deva' lookup reph_ligature anusvara-deva';
+	sub i-deva reph-deva' lookup reph_ligature candraBindu-deva';
+} reph_ligature_after_decomposed_ii;
+
 lookup abvs_01 {
 
 	sub ayMatra-deva anusvara-deva by ayMatra_anusvara-deva;
