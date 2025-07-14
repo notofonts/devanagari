@@ -5052,7 +5052,9 @@ language dflt ;
 		sub halant-deva ra-deva by rakar-deva;
 	} belowBase_forms_dev2;
 
-language MAR ;
+language NEP;
+lookup belowBase_forms_dev2 ;
+language MAR;
 lookup belowBase_forms_dev2 ;
 
 #//////////////////////////////////////////////////////////////////////////////////
@@ -5613,6 +5615,11 @@ lookup decompose_long_vowels {
 	sub ii-deva by i-deva reph-deva;
 	sub ai-deva by e-deva eMatra-deva;
 } decompose_long_vowels;
+
+lookup reph_ligature_after_decomposed_ii {
+	sub i-deva reph-deva' lookup reph_ligature anusvara-deva';
+	sub i-deva reph-deva' lookup reph_ligature candraBindu-deva';
+} reph_ligature_after_decomposed_ii;
 
 lookup abvs_01 {
 
