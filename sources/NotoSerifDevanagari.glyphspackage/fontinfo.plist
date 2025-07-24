@@ -6351,6 +6351,10 @@ lookup decompose_long_vowels {
 } decompose_long_vowels;
 
 
+lookup reph_ligature_after_decomposed_ii {
+	sub i-deva reph-deva' lookup reph_ligature anusvara-deva';
+	sub i-deva reph-deva' lookup reph_ligature candraBindu-deva';
+} reph_ligature_after_decomposed_ii;
 
 #----------------------------------------------------------------------------------
 # 		Lookups for Composite Above-base Marks
