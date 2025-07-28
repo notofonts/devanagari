@@ -1,5 +1,5 @@
 {
-.appVersion = "3243";
+.appVersion = "3310";
 .formatVersion = 3;
 axes = (
 {
@@ -4822,7 +4822,6 @@ language NEP ;
 		sub jha-deva by jha-deva.NEP;
 		sub five-deva by five-deva.NEP;
 		sub eight-deva by eight-deva.NEP;
-		sub nine-deva by nine-deva.NEP;
 	} NEP_alternates ;
 
 language SAN ;
@@ -6246,6 +6245,17 @@ lookup AvoidVedicTopMarkClash_03 {
 #//////////////////////////////////////////////////////////////////////////////////
 ";
 tag = dist;
+},
+{
+code = "	sub nine-deva by nine-deva.NEP;
+";
+labels = (
+{
+language = dflt;
+value = "Alternate numeral forms";
+}
+);
+tag = ss01;
 }
 );
 fontMaster = (
