@@ -14740,5 +14740,5 @@ nV = 89;
 GSDontShowVersionAlert = 1;
 };
 versionMajor = 2;
-versionMinor = 6;
+versionMinor = 7;
 }
