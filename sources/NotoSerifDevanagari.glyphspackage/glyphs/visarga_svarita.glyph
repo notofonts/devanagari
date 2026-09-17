@@ -13,7 +13,7 @@ ref = "visargaSvarita-vedic";
 {
 alignment = -1;
 pos = (53,0);
-ref = "visarga-deva.alt";
+ref = "visarga-deva";
 }
 );
 width = 357;
@@ -29,7 +29,7 @@ ref = "visargaSvarita-vedic";
 {
 alignment = -1;
 pos = (70,0);
-ref = "visarga-deva.alt";
+ref = "visarga-deva";
 }
 );
 width = 350;
@@ -45,7 +45,7 @@ ref = "visargaSvarita-vedic";
 {
 alignment = -1;
 pos = (63,0);
-ref = "visarga-deva.alt";
+ref = "visarga-deva";
 }
 );
 width = 415;
@@ -61,7 +61,7 @@ ref = "visargaSvarita-vedic";
 {
 alignment = -1;
 pos = (58,0);
-ref = "visarga-deva.alt";
+ref = "visarga-deva";
 }
 );
 width = 286;
@@ -77,7 +77,7 @@ ref = "visargaSvarita-vedic";
 {
 alignment = -1;
 pos = (47,0);
-ref = "visarga-deva.alt";
+ref = "visarga-deva";
 }
 );
 width = 298;
@@ -93,7 +93,7 @@ ref = "visargaSvarita-vedic";
 {
 alignment = -1;
 pos = (51,0);
-ref = "visarga-deva.alt";
+ref = "visarga-deva";
 }
 );
 width = 342;

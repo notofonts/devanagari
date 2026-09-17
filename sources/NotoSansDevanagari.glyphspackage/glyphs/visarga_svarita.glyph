@@ -6,7 +6,7 @@ layers = (
 layerId = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
 shapes = (
 {
-ref = "visarga-deva.alt";
+ref = "visarga-deva";
 },
 {
 pos = (253,0);
@@ -19,7 +19,7 @@ width = 258;
 layerId = "6C7CC43D-04A1-4971-B3B5-A41D54964AD2";
 shapes = (
 {
-ref = "visarga-deva.alt";
+ref = "visarga-deva";
 },
 {
 pos = (260,0);
@@ -33,7 +33,7 @@ layerId = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
 shapes = (
 {
 pos = (1,0);
-ref = "visarga-deva.alt";
+ref = "visarga-deva";
 },
 {
 pos = (309,0);
@@ -46,7 +46,7 @@ width = 317;
 layerId = "5CC745D4-D12D-435B-A472-7D28876E43BC";
 shapes = (
 {
-ref = "visarga-deva.alt";
+ref = "visarga-deva";
 },
 {
 pos = (211,0);
@@ -59,7 +59,7 @@ width = 213;
 layerId = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
 shapes = (
 {
-ref = "visarga-deva.alt";
+ref = "visarga-deva";
 },
 {
 pos = (227,0);
@@ -72,7 +72,7 @@ width = 228;
 layerId = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
 shapes = (
 {
-ref = "visarga-deva.alt";
+ref = "visarga-deva";
 },
 {
 pos = (256,0);
