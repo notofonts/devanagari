@@ -2036,164 +2036,167 @@ code = "lookup addU {
 name = addU;
 },
 {
-code = "# These are the rules for the regular weight. Other masters are in
-# Replace Prefix custom parameters.
-lookup SinglePositioning11 {
+code = "lookup SinglePositioning11 {
     lookupflag 0;
     ;
     # Original source: 6 
-    pos uevowelsigndeva <0 -44 0 0>;
-    pos uuevowelsigndeva <0 -71 0 0>;
+    pos uevowelsigndeva <0 $SinglePositioning11_uevowelsigndeva 0 0>;
+    pos uuevowelsigndeva <0 $SinglePositioning11_uuevowelsigndeva 0 0>;
 } SinglePositioning11;
 
 lookup SinglePositioning16 {
     lookupflag 0;
     ;
     # Original source: 11 
-    pos anudattadeva <0 -186 0 0>;
-    pos uni1CD5 <0 -186 0 0>;
-    pos uni1CD6 <0 -186 0 0>;
-    pos uni1CD7 <0 -186 0 0>;
-    pos uni1CD8 <0 -186 0 0>;
-    pos uni1CD9 <0 -186 0 0>;
-    pos uni1CDC <0 -186 0 0>;
-    pos uni1CDD <0 -151 0 0>;
-    pos uni1CDE <0 -186 0 0>;
-    pos uni1CDF <0 -186 0 0>;
-    pos uni1CED <0 -186 0 0>;
+    pos anudattadeva <0 $SinglePositioning16_anudattadeva 0 0>;
+    pos uni1CD5 <0 $SinglePositioning16_anudattadeva 0 0>;
+    pos uni1CD6 <0 $SinglePositioning16_anudattadeva 0 0>;
+    pos uni1CD7 <0 $SinglePositioning16_anudattadeva 0 0>;
+    pos uni1CD8 <0 $SinglePositioning16_anudattadeva 0 0>;
+    pos uni1CD9 <0 $SinglePositioning16_anudattadeva 0 0>;
+    pos uni1CDC <0 $SinglePositioning16_anudattadeva 0 0>;
+    pos uni1CDD <0 $SinglePositioning16_uni1CDD 0 0>;
+    pos uni1CDE <0 $SinglePositioning16_anudattadeva 0 0>;
+    pos uni1CDF <0 $SinglePositioning16_anudattadeva 0 0>;
+    pos uni1CED <0 $SinglePositioning16_anudattadeva 0 0>;
 } SinglePositioning16;
 
 lookup SinglePositioning15 {
-    pos [anudattadeva uni1CD5 uni1CD6 uni1CD7 uni1CD8 uni1CD9 uni1CDC uni1CDE uni1CDF uni1CED] <0 -127 0 0>;
-    pos uni1CDD <0 -98 0 0>;
+    pos [anudattadeva uni1CD5 uni1CD6 uni1CD7 uni1CD8 uni1CD9 uni1CDC uni1CED] <0 $SinglePositioning15_anudattadeva 0 0>;
+    pos [uni1CDE uni1CDF] <0 $SinglePositioning15_uni1CDE 0 0>;
+    pos uni1CDD <0 $SinglePositioning15_uni1CDD 0 0>;
 } SinglePositioning15;
 
 lookup SinglePositioning14 {
-    pos [anudattadeva uni1CD5 uni1CD6 uni1CD7 uni1CD8 uni1CD9 uni1CDC uni1CDD uni1CDE uni1CDF uni1CED] <0 -59 0 0>;
+    pos [anudattadeva uni1CD5 uni1CD6 uni1CD8 uni1CD9 uni1CDC uni1CDD uni1CDE uni1CDF uni1CED] <0 $SinglePositioning14_anudattadeva 0 0>;
+    pos uni1CD7 <0 $SinglePositioning14_uni1CD7 0 0>;
 } SinglePositioning14;
 
 lookup SinglePositioning13 {
-    pos [anudattadeva  uni1CD5 uni1CD6 uni1CD7 uni1CD8 uni1CED uni1CDE uni1CDF] <0 -234 0 0>;
-    pos [uni1CD9 uni1CDC] <0 -244 0 0>;
+    pos [anudattadeva  uni1CD5 uni1CD6 uni1CD8 uni1CED] <0 $SinglePositioning13_anudattadeva 0 0>;
+    pos uni1CD7 <0 $SinglePositioning13_uni1CD7 0 0>;
+    pos [uni1CDE uni1CDF] <0 $SinglePositioning13_uni1CDE 0 0>;
+    pos [uni1CD9 uni1CDC] <0 $SinglePositioning13_uni1CD9 0 0>;
+    pos uni1CDD <0 $SinglePositioning13_uni1CDD 0 0>;
 } SinglePositioning13;
 
 lookup SinglePositioning28 {
-    pos anusvaradeva <-39 0 0 0>;
-    pos [candrabindudeva rephcandrabindudeva] <-90 0 0 0>;
-    pos [rephdeva rephanusvaradeva] <-49 0 0 0>;
-    pos [evowelsignanusvaradeva evowelsignrephdeva evowelsignrephanusvaradeva aivowelsignanusvaradeva aivowelsignrephdeva aivowelsignrephanusvaradeva evowelsigncandrabindudeva aivowelsigncandrabindudeva evowelsignrephcandrabindudeva aivowelsignrephcandrabindudeva] <-22 0 0 0>;
+    pos anusvaradeva <$SinglePositioning28_anusvaradeva 0 0 0>;
+    pos [candrabindudeva rephcandrabindudeva] <$SinglePositioning28_candrabindudeva 0 0 0>;
+    pos [rephdeva rephanusvaradeva] <$SinglePositioning28_rephdeva 0 0 0>;
+    pos [evowelsignanusvaradeva evowelsignrephdeva evowelsignrephanusvaradeva aivowelsignanusvaradeva aivowelsignrephdeva aivowelsignrephanusvaradeva evowelsigncandrabindudeva aivowelsigncandrabindudeva evowelsignrephcandrabindudeva aivowelsignrephcandrabindudeva] <$SinglePositioning28_evowelsignanusvaradeva 0 0 0>;
 } SinglePositioning28;
 
 lookup SinglePositioning34 {
-    pos udattadeva <342 0 0 0>;
-    pos uni1CDA <391 0 0 0>;
-    pos uni1CF8 <372 0 0 0>;
-    pos uni1CF9 <441 0 0 0>;
+    pos udattadeva <$SinglePositioning34_udattadeva 0 0 0>;
+    pos uni1CDA <$SinglePositioning34_uni1CDA 0 0 0>;
+    pos uni1CF8 <$SinglePositioning34_uni1CF8 0 0 0>;
+    pos uni1CF9 <$SinglePositioning34_uni1CF9 0 0 0>;
 } SinglePositioning34;
 
 lookup SinglePositioning20 {
-    pos udattadeva <317 0 0 0>;
-    pos uni1CDA <366 0 0 0>;
-    pos uni1CF8 <347 0 0 0>;
-    pos uni1CF9 <416 0 0 0>;
+    pos udattadeva <$SinglePositioning20_udattadeva 0 0 0>;
+    pos uni1CDA <$SinglePositioning20_uni1CDA 0 0 0>;
+    pos uni1CF8 <$SinglePositioning20_uni1CF8 0 0 0>;
+    pos uni1CF9 <$SinglePositioning20_uni1CF9 0 0 0>;
 } SinglePositioning20;
 
 lookup SinglePositioning19 {
-    pos udattadeva <288 0 0 0>;
-    pos uni1CDA <337 0 0 0>;
-    pos uni1CF8 <318 0 0 0>;
-    pos uni1CF9 <387 0 0 0>;
+    pos udattadeva <$SinglePositioning19_udattadeva 0 0 0>;
+    pos uni1CDA <$SinglePositioning19_uni1CDA 0 0 0>;
+    pos uni1CF8 <$SinglePositioning19_uni1CF8 0 0 0>;
+    pos uni1CF9 <$SinglePositioning19_uni1CF9 0 0 0>;
 } SinglePositioning19;
 
 lookup SinglePositioning18 {
-    pos udattadeva <220 0 0 0>;
-    pos uni1CDA <269 0 0 0>;
-    pos uni1CF8 <250 0 0 0>;
-    pos uni1CF9 <319 0 0 0>;
+    pos udattadeva <$SinglePositioning18_udattadeva 0 0 0>;
+    pos uni1CDA <$SinglePositioning18_uni1CDA 0 0 0>;
+    pos uni1CF8 <$SinglePositioning18_uni1CF8 0 0 0>;
+    pos uni1CF9 <$SinglePositioning18_uni1CF9 0 0 0>;
 } SinglePositioning18;
 
 lookup SinglePositioning33 {
-    pos udattadeva <269 0 0 0>;
-    pos uni1CDA <317 0 0 0>;
-    pos uni1CF8 <299 0 0 0>;
-    pos uni1CF9 <367 0 0 0>;
+    pos udattadeva <$SinglePositioning33_udattadeva 0 0 0>;
+    pos uni1CDA <$SinglePositioning33_uni1CDA 0 0 0>;
+    pos uni1CF8 <$SinglePositioning33_uni1CF8 0 0 0>;
+    pos uni1CF9 <$SinglePositioning33_uni1CF9 0 0 0>;
 } SinglePositioning33;
 
 lookup SinglePositioning32 {
-    pos udattadeva <176 0 0 0>;
-    pos uni1CDA <225 0 0 0>;
-    pos uni1CF8 <206 0 0 0>;
-    pos uni1CF9 <275 0 0 0>;
+    pos udattadeva <$SinglePositioning32_udattadeva 0 0 0>;
+    pos uni1CDA <$SinglePositioning32_uni1CDA 0 0 0>;
+    pos uni1CF8 <$SinglePositioning32_uni1CF8 0 0 0>;
+    pos uni1CF9 <$SinglePositioning32_uni1CF9 0 0 0>;
 } SinglePositioning32;
 
 lookup SinglePositioning31 {
-    pos udattadeva <234 0 0 0>;
-    pos uni1CDA <283 0 0 0>;
-    pos uni1CF8 <264 0 0 0>;
-    pos uni1CF9 <333 0 0 0>;
+    pos udattadeva <$SinglePositioning31_udattadeva 0 0 0>;
+    pos uni1CDA <$SinglePositioning31_uni1CDA 0 0 0>;
+    pos uni1CF8 <$SinglePositioning31_uni1CF8 0 0 0>;
+    pos uni1CF9 <$SinglePositioning31_uni1CF9 0 0 0>;
 } SinglePositioning31;
 
 lookup SinglePositioning30 {
-    pos udattadeva <98 0 0 0>;
-    pos uni1CDA <146 0 0 0>;
-    pos uni1CF8 <128 0 0 0>;
-    pos uni1CF9 <196 0 0 0>;
+    pos udattadeva <$SinglePositioning30_udattadeva 0 0 0>;
+    pos uni1CDA <$SinglePositioning30_uni1CDA 0 0 0>;
+    pos uni1CF8 <$SinglePositioning30_uni1CF8 0 0 0>;
+    pos uni1CF9 <$SinglePositioning30_uni1CF9 0 0 0>;
 } SinglePositioning30;
 
 lookup SinglePositioning27 {
-    pos udattadeva <169 0 0 0>;
-    pos uni1CDA <218 0 0 0>;
-    pos uni1CF8 <199 0 0 0>;
-    pos uni1CF9 <268 0 0 0>;
+    pos udattadeva <$SinglePositioning27_udattadeva 0 0 0>;
+    pos uni1CDA <$SinglePositioning27_uni1CDA 0 0 0>;
+    pos uni1CF8 <$SinglePositioning27_uni1CF8 0 0 0>;
+    pos uni1CF9 <$SinglePositioning27_uni1CF9 0 0 0>;
 } SinglePositioning27;
 
 lookup SinglePositioning29 {
-    pos udattadeva <98 0 0 0>;
-    pos uni1CDA <146 0 0 0>;
-    pos uni1CF8 <128 0 0 0>;
-    pos uni1CF9 <196 0 0 0>;
+    pos udattadeva <$SinglePositioning29_udattadeva 0 0 0>;
+    pos uni1CDA <$SinglePositioning29_uni1CDA 0 0 0>;
+    pos uni1CF8 <$SinglePositioning29_uni1CF8 0 0 0>;
+    pos uni1CF9 <$SinglePositioning29_uni1CF9 0 0 0>;
 } SinglePositioning29;
 
 lookup SinglePositioning26 {
-    pos udattadeva <159 0 0 0>;
-    pos uni1CDA <208 0 0 0>;
-    pos uni1CF8 <189 0 0 0>;
-    pos uni1CF9 <258 0 0 0>;
+    pos udattadeva <$SinglePositioning26_udattadeva 0 0 0>;
+    pos uni1CDA <$SinglePositioning26_uni1CDA 0 0 0>;
+    pos uni1CF8 <$SinglePositioning26_uni1CF8 0 0 0>;
+    pos uni1CF9 <$SinglePositioning26_uni1CF9 0 0 0>;
 } SinglePositioning26;
 
 lookup SinglePositioning23 {
-    pos udattadeva <215 0 0 0>;
-    pos uni1CDA <264 0 0 0>;
-    pos uni1CF8 <245 0 0 0>;
-    pos uni1CF9 <314 0 0 0>;
+    pos udattadeva <$SinglePositioning23_udattadeva 0 0 0>;
+    pos uni1CDA <$SinglePositioning23_uni1CDA 0 0 0>;
+    pos uni1CF8 <$SinglePositioning23_uni1CF8 0 0 0>;
+    pos uni1CF9 <$SinglePositioning23_uni1CF9 0 0 0>;
 } SinglePositioning23;
 
 lookup SinglePositioning25 {
-    pos udattadeva <245 0 0 0>;
-    pos uni1CDA <294 0 0 0>;
-    pos uni1CF8 <275 0 0 0>;
-    pos uni1CF9 <344 0 0 0>;
+    pos udattadeva <$SinglePositioning25_udattadeva 0 0 0>;
+    pos uni1CDA <$SinglePositioning25_uni1CDA 0 0 0>;
+    pos uni1CF8 <$SinglePositioning25_uni1CF8 0 0 0>;
+    pos uni1CF9 <$SinglePositioning25_uni1CF9 0 0 0>;
 } SinglePositioning25;
 
 lookup SinglePositioning24 {
-    pos udattadeva <317 0 0 0>;
-    pos uni1CDA <366 0 0 0>;
-    pos uni1CF8 <347 0 0 0>;
-    pos uni1CF9 <416 0 0 0>;
+    pos udattadeva <$SinglePositioning24_udattadeva 0 0 0>;
+    pos uni1CDA <$SinglePositioning24_uni1CDA 0 0 0>;
+    pos uni1CF8 <$SinglePositioning24_uni1CF8 0 0 0>;
+    pos uni1CF9 <$SinglePositioning24_uni1CF9 0 0 0>;
 } SinglePositioning24;
 
 lookup SinglePositioning22 {
-    pos udattadeva <142 0 0 0>;
-    pos uni1CDA <190 0 0 0>;
-    pos uni1CF8 <172 0 0 0>;
-    pos uni1CF9 <240 0 0 0>;
+    pos udattadeva <$SinglePositioning22_udattadeva 0 0 0>;
+    pos uni1CDA <$SinglePositioning22_uni1CDA 0 0 0>;
+    pos uni1CF8 <$SinglePositioning22_uni1CF8 0 0 0>;
+    pos uni1CF9 <$SinglePositioning22_uni1CF9 0 0 0>;
 } SinglePositioning22;
 
 lookup SinglePositioning21 {
-    pos udattadeva <37 0 0 0>;
-    pos uni1CDA <85 0 0 0>;
-    pos uni1CF8 <67 0 0 0>;
-    pos uni1CF9 <135 0 0 0>;
+    pos udattadeva <$SinglePositioning21_udattadeva 0 0 0>;
+    pos uni1CDA <$SinglePositioning21_uni1CDA 0 0 0>;
+    pos uni1CF8 <$SinglePositioning21_uni1CF8 0 0 0>;
+    pos uni1CF9 <$SinglePositioning21_uni1CF9 0 0 0>;
 } SinglePositioning21;
 
 lookup SinglePositioning38 {
@@ -3712,12 +3715,6 @@ axesValues = (
 26,
 100
 );
-customParameters = (
-{
-name = "Replace Prefix";
-value = "PositioningRules;lookup SinglePositioning11 {\012    lookupflag 0;\012    ;\012    # Original source: 6 \012    pos uevowelsigndeva <0 -44 0 0>;\012    pos uuevowelsigndeva <0 -71 0 0>;\012} SinglePositioning11;\012\012lookup SinglePositioning16 {\012    lookupflag 0;\012    ;\012    # Original source: 11 \012    pos anudattadeva <0 -155 0 0>;\012    pos uni1CD5 <0 -155 0 0>;\012    pos uni1CD6 <0 -155 0 0>;\012    pos uni1CD7 <0 -155 0 0>;\012    pos uni1CD8 <0 -155 0 0>;\012    pos uni1CD9 <0 -155 0 0>;\012    pos uni1CDC <0 -155 0 0>;\012    pos uni1CDD <0 -100 0 0>;\012    pos uni1CDE <0 -155 0 0>;\012    pos uni1CDF <0 -155 0 0>;\012    pos uni1CED <0 -155 0 0>;\012} SinglePositioning16;\012\012lookup SinglePositioning15 {\012    lookupflag 0;\012    ;\012    # Original source: 10 \012    pos anudattadeva <0 -117 0 0>;\012    pos uni1CD5 <0 -117 0 0>;\012    pos uni1CD6 <0 -117 0 0>;\012    pos uni1CD7 <0 -117 0 0>;\012    pos uni1CD8 <0 -117 0 0>;\012    pos uni1CD9 <0 -117 0 0>;\012    pos uni1CDC <0 -117 0 0>;\012    pos uni1CDD <0 -70 0 0>;\012    pos uni1CDE <0 -107 0 0>;\012    pos uni1CDF <0 -107 0 0>;\012    pos uni1CED <0 -117 0 0>;\012} SinglePositioning15;\012\012lookup SinglePositioning14 {\012    lookupflag 0;\012    ;\012    # Original source: 9 \012    pos [anudattadeva uni1CD5 uni1CD6 uni1CD7 uni1CD8 uni1CD9 uni1CDC uni1CDD uni1CDE uni1CDF uni1CED] <0 -55 0 0>;\012} SinglePositioning14;\012\012lookup SinglePositioning13 {\012    lookupflag 0;\012    ;\012    # Original source: 8 \012    pos anudattadeva <0 -220 0 0>;\012    pos uni1CD5 <0 -220 0 0>;\012    pos uni1CD6 <0 -220 0 0>;\012    pos uni1CD7 <0 -220 0 0>;\012    pos uni1CD8 <0 -220 0 0>;\012    pos uni1CD9 <0 -220 0 0>;\012    pos uni1CDC <0 -220 0 0>;\012    pos uni1CDD <0 -176 0 0>;\012    pos uni1CDE <0 -210 0 0>;\012    pos uni1CDF <0 -210 0 0>;\012    pos uni1CED <0 -220 0 0>;\012} SinglePositioning13;\012\012lookup SinglePositioning28 {\012    lookupflag 0;\012    ;\012    # Original source: 23 \012    pos candrabindudeva <-65 0 0 0>;\012    pos anusvaradeva <-19 0 0 0>;\012    pos rephdeva <-29 0 0 0>;\012    pos evowelsignanusvaradeva <-5 0 0 0>;\012    pos evowelsignrephdeva <-5 0 0 0>;\012    pos evowelsignrephanusvaradeva <-5 0 0 0>;\012    pos aivowelsignanusvaradeva <-5 0 0 0>;\012    pos aivowelsignrephdeva <-5 0 0 0>;\012    pos aivowelsignrephanusvaradeva <-5 0 0 0>;\012    pos rephanusvaradeva <-29 0 0 0>;\012    pos rephcandrabindudeva <-65 0 0 0>;\012    pos evowelsigncandrabindudeva <-5 0 0 0>;\012    pos aivowelsigncandrabindudeva <-5 0 0 0>;\012    pos evowelsignrephcandrabindudeva <-5 0 0 0>;\012    pos aivowelsignrephcandrabindudeva <-5 0 0 0>;\012} SinglePositioning28;\012\012lookup SinglePositioning34 {\012    lookupflag 0;\012    ;\012    # Original source: 29 \012    pos udattadeva <288 0 0 0>;\012    pos uni1CDA <336 0 0 0>;\012    pos uni1CF8 <318 0 0 0>;\012    pos uni1CF9 <386 0 0 0>;\012} SinglePositioning34;\012\012lookup SinglePositioning20 {\012    lookupflag 0;\012    ;\012    # Original source: 15 \012    pos udattadeva <307 0 0 0>;\012    pos uni1CDA <356 0 0 0>;\012    pos uni1CF8 <337 0 0 0>;\012    pos uni1CF9 <406 0 0 0>;\012} SinglePositioning20;\012\012lookup SinglePositioning19 {\012    lookupflag 0;\012    ;\012    # Original source: 14 \012    pos udattadeva <283 0 0 0>;\012    pos uni1CDA <312 0 0 0>;\012    pos uni1CF8 <295 0 0 0>;\012    pos uni1CF9 <362 0 0 0>;\012} SinglePositioning19;\012\012lookup SinglePositioning18 {\012    lookupflag 0;\012    ;\012    # Original source: 13 \012    pos udattadeva <220 0 0 0>;\012    pos uni1CDA <269 0 0 0>;\012    pos uni1CF8 <250 0 0 0>;\012    pos uni1CF9 <319 0 0 0>;\012} SinglePositioning18;\012\012lookup SinglePositioning33 {\012    lookupflag 0;\012    ;\012    # Original source: 28 \012    pos udattadeva <269 0 0 0>;\012    pos uni1CDA <317 0 0 0>;\012    pos uni1CF8 <299 0 0 0>;\012    pos uni1CF9 <367 0 0 0>;\012} SinglePositioning33;\012\012lookup SinglePositioning32 {\012    lookupflag 0;\012    ;\012    # Original source: 27 \012    pos udattadeva <130 0 0 0>;\012    pos uni1CDA <180 0 0 0>;\012    pos uni1CF8 <161 0 0 0>;\012    pos uni1CF9 <230 0 0 0>;\012} SinglePositioning32;\012\012lookup SinglePositioning31 {\012    lookupflag 0;\012    ;\012    # Original source: 26 \012    pos udattadeva <204 0 0 0>;\012    pos uni1CDA <252 0 0 0>;\012    pos uni1CF8 <234 0 0 0>;\012    pos uni1CF9 <303 0 0 0>;\012} SinglePositioning31;\012\012lookup SinglePositioning30 {\012    lookupflag 0;\012    ;\012    # Original source: 25 \012    pos udattadeva <53 0 0 0>;\012    pos uni1CDA <100 0 0 0>;\012    pos uni1CF8 <83 0 0 0>;\012    pos uni1CF9 <151 0 0 0>;\012} SinglePositioning30;\012\012lookup SinglePositioning27 {\012    lookupflag 0;\012    ;\012    # Original source: 22 \012    pos udattadeva <159 0 0 0>;\012    pos uni1CDA <208 0 0 0>;\012    pos uni1CF8 <189 0 0 0>;\012    pos uni1CF9 <258 0 0 0>;\012} SinglePositioning27;\012\012lookup SinglePositioning29 {\012    lookupflag 0;\012    ;\012    # Original source: 24 \012    pos udattadeva <98 0 0 0>;\012    pos uni1CDA <146 0 0 0>;\012    pos uni1CF8 <128 0 0 0>;\012    pos uni1CF9 <196 0 0 0>;\012} SinglePositioning29;\012\012lookup SinglePositioning26 {\012    lookupflag 0;\012    ;\012    # Original source: 21 \012    pos udattadeva <159 0 0 0>;\012    pos uni1CDA <208 0 0 0>;\012    pos uni1CF8 <189 0 0 0>;\012    pos uni1CF9 <258 0 0 0>;\012} SinglePositioning26;\012\012lookup SinglePositioning23 {\012    lookupflag 0;\012    ;\012    # Original source: 18 \012    pos udattadeva <205 0 0 0>;\012    pos uni1CDA <254 0 0 0>;\012    pos uni1CF8 <235 0 0 0>;\012    pos uni1CF9 <304 0 0 0>;\012} SinglePositioning23;\012\012lookup SinglePositioning25 {\012    lookupflag 0;\012    ;\012    # Original source: 20 \012    pos udattadeva <195 0 0 0>;\012    pos uni1CDA <244 0 0 0>;\012    pos uni1CF8 <225 0 0 0>;\012    pos uni1CF9 <294 0 0 0>;\012} SinglePositioning25;\012\012lookup SinglePositioning24 {\012    lookupflag 0;\012    ;\012    # Original source: 19 \012    pos udattadeva <287 0 0 0>;\012    pos uni1CDA <336 0 0 0>;\012    pos uni1CF8 <317 0 0 0>;\012    pos uni1CF9 <386 0 0 0>;\012} SinglePositioning24;\012\012lookup SinglePositioning22 {\012    lookupflag 0;\012    ;\012    # Original source: 17 \012    pos udattadeva <102 0 0 0>;\012    pos uni1CDA <150 0 0 0>;\012    pos uni1CF8 <132 0 0 0>;\012    pos uni1CF9 <200 0 0 0>;\012} SinglePositioning22;\012\012lookup SinglePositioning21 {\012    lookupflag 0;\012    ;\012    # Original source: 16 \012    pos udattadeva <17 0 0 0>;\012    pos uni1CDA <65 0 0 0>;\012    pos uni1CF8 <47 0 0 0>;\012    pos uni1CF9 <115 0 0 0>;\012} SinglePositioning21;\012\012lookup SinglePositioning38 {\012    lookupflag 0;\012    ;\012    # Original source: 32 \012    pos [five_radeva four_radeva one_onedeva one_radeva three_kadeva three_radeva two_avagrahadeva two_radeva two_udeva two_uni1CD0 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 vi_radeva visarga_uni1CE2 visarga_uni1CE4 visarga_uni1CE5 visarga_uni1CE8] <-200 0 0 0>;\012} SinglePositioning38;\012\012lookup SinglePositioning40 {\012    lookupflag 0;\012    ;\012    # Original source: 34 \012    pos uniA8E0 <0 -347 0 0>;\012    pos uniA8E1 <0 -347 0 0>;\012    pos uniA8E2 <0 -347 0 0>;\012    pos uniA8E3 <0 -347 0 0>;\012    pos uniA8E4 <0 -347 0 0>;\012    pos uniA8E5 <0 -347 0 0>;\012    pos uniA8E6 <0 -347 0 0>;\012    pos uniA8E7 <0 -347 0 0>;\012    pos uniA8E8 <0 -347 0 0>;\012    pos uniA8E9 <0 -347 0 0>;\012    pos uniA8EA <0 -347 0 0>;\012    pos uniA8EB <0 -347 0 0>;\012    pos uniA8EC <0 -347 0 0>;\012    pos uniA8ED <0 -347 0 0>;\012    pos uniA8EE <0 -347 0 0>;\012    pos uniA8EF <0 -347 0 0>;\012    pos uniA8F0 <0 -451 0 0>;\012    pos uniA8F1 <0 -347 0 0>;\012    pos uni1CD0 <0 -347 0 0>;\012    pos uni1CD1 <0 -347 0 0>;\012    pos uni1CD2 <0 -347 0 0>;\012    pos uni1CF4 <0 -347 0 0>;\012    pos one_onedeva <0 -347 0 0>;\012    pos two_udeva <0 -347 0 0>;\012    pos three_kadeva <0 -347 0 0>;\012    pos one_radeva <0 -347 0 0>;\012    pos two_radeva <0 -347 0 0>;\012    pos three_radeva <0 -347 0 0>;\012    pos four_radeva <0 -347 0 0>;\012    pos five_radeva <0 -347 0 0>;\012    pos two_avagrahadeva <0 -347 0 0>;\012    pos two_uni1CD0 <0 -347 0 0>;\012    pos vi_radeva <0 -451 0 0>;\012    pos uni20F0 <0 -347 0 0>;\012} SinglePositioning40;\012";
-}
-);
 iconName = Light;
 id = "B871EA9A-50AC-43A6-961C-B7EB8764AD7C";
 metricValues = (
@@ -3746,6 +3743,90 @@ pos = 713;
 }
 );
 name = Light;
+numberValues = (
+-44,
+-71,
+-155,
+-100,
+-117,
+-107,
+-70,
+-55,
+-55,
+-220,
+-220,
+-210,
+-220,
+-176,
+-19,
+-65,
+-29,
+-5,
+288,
+336,
+318,
+386,
+307,
+356,
+337,
+406,
+283,
+312,
+295,
+362,
+220,
+269,
+250,
+319,
+269,
+317,
+299,
+367,
+130,
+180,
+161,
+230,
+204,
+252,
+234,
+303,
+53,
+100,
+83,
+151,
+159,
+208,
+189,
+258,
+98,
+146,
+128,
+196,
+159,
+208,
+189,
+258,
+205,
+254,
+235,
+304,
+195,
+244,
+225,
+294,
+287,
+336,
+317,
+386,
+102,
+150,
+132,
+200,
+17,
+65,
+47,
+115
+);
 stemValues = (
 26,
 26
@@ -3783,6 +3864,90 @@ pos = 713;
 }
 );
 name = Regular;
+numberValues = (
+-44,
+-71,
+-186,
+-151,
+-127,
+-127,
+-98,
+-59,
+-59,
+-234,
+-234,
+-234,
+-244,
+0,
+-39,
+-90,
+-49,
+-22,
+342,
+391,
+372,
+441,
+317,
+366,
+347,
+416,
+288,
+337,
+318,
+387,
+220,
+269,
+250,
+319,
+269,
+317,
+299,
+367,
+176,
+225,
+206,
+275,
+234,
+283,
+264,
+333,
+98,
+146,
+128,
+196,
+169,
+218,
+199,
+268,
+98,
+146,
+128,
+196,
+159,
+208,
+189,
+258,
+215,
+264,
+245,
+314,
+245,
+294,
+275,
+344,
+317,
+366,
+347,
+416,
+142,
+190,
+172,
+240,
+37,
+85,
+67,
+135
+);
 stemValues = (
 71,
 81
@@ -3792,12 +3957,6 @@ stemValues = (
 axesValues = (
 151,
 100
-);
-customParameters = (
-{
-name = "Replace Prefix";
-value = "PositioningRules;lookup SinglePositioning11 {\012    lookupflag 0;\012    ;\012    # Original source: 6 \012    pos uevowelsigndeva <0 -44 0 0>;\012    pos uuevowelsigndeva <0 -71 0 0>;\012} SinglePositioning11;\012\012lookup SinglePositioning16 {\012    lookupflag 0;\012    ;\012    # Original source: 11 \012    pos anudattadeva <0 -198 0 0>;\012    pos uni1CD5 <0 -198 0 0>;\012    pos uni1CD6 <0 -198 0 0>;\012    pos uni1CD7 <0 -198 0 0>;\012    pos uni1CD8 <0 -198 0 0>;\012    pos uni1CD9 <0 -198 0 0>;\012    pos uni1CDC <0 -198 0 0>;\012    pos uni1CDD <0 -185 0 0>;\012    pos uni1CDE <0 -198 0 0>;\012    pos uni1CDF <0 -198 0 0>;\012    pos uni1CED <0 -198 0 0>;\012} SinglePositioning16;\012\012lookup SinglePositioning15 {\012    lookupflag 0;\012    ;\012    # Original source: 10 \012    pos anudattadeva <0 -144 0 0>;\012    pos uni1CD5 <0 -144 0 0>;\012    pos uni1CD6 <0 -144 0 0>;\012    pos uni1CD7 <0 -144 0 0>;\012    pos uni1CD8 <0 -144 0 0>;\012    pos uni1CD9 <0 -144 0 0>;\012    pos uni1CDC <0 -144 0 0>;\012    pos uni1CDD <0 -134 0 0>;\012    pos uni1CDE <0 -144 0 0>;\012    pos uni1CDF <0 -144 0 0>;\012    pos uni1CED <0 -144 0 0>;\012} SinglePositioning15;\012\012lookup SinglePositioning14 {\012    lookupflag 0;\012    ;\012    # Original source: 9 \012    pos anudattadeva <0 -65 0 0>;\012    pos uni1CD5 <0 -65 0 0>;\012    pos uni1CD6 <0 -65 0 0>;\012    pos uni1CD7 <0 -71 0 0>;\012    pos uni1CD8 <0 -65 0 0>;\012    pos uni1CD9 <0 -65 0 0>;\012    pos uni1CDC <0 -65 0 0>;\012    pos uni1CDD <0 -65 0 0>;\012    pos uni1CDE <0 -65 0 0>;\012    pos uni1CDF <0 -65 0 0>;\012    pos uni1CED <0 -65 0 0>;\012} SinglePositioning14;\012\012lookup SinglePositioning13 {\012    lookupflag 0;\012    ;\012    # Original source: 8 \012    pos anudattadeva <0 -231 0 0>;\012    pos uni1CD5 <0 -231 0 0>;\012    pos uni1CD6 <0 -231 0 0>;\012    pos uni1CD7 <0 -231 0 0>;\012    pos uni1CD8 <0 -231 0 0>;\012    pos uni1CD9 <0 -235 0 0>;\012    pos uni1CDC <0 -235 0 0>;\012    pos uni1CDD <0 -218 0 0>;\012    pos uni1CDE <0 -231 0 0>;\012    pos uni1CDF <0 -231 0 0>;\012    pos uni1CED <0 -231 0 0>;\012} SinglePositioning13;\012\012lookup SinglePositioning28 {\012    lookupflag 0;\012    ;\012    # Original source: 23 \012    pos candrabindudeva <-90 0 0 0>;\012    pos anusvaradeva <-48 0 0 0>;\012    pos rephdeva <-58 0 0 0>;\012    pos evowelsignanusvaradeva <-31 0 0 0>;\012    pos evowelsignrephdeva <-31 0 0 0>;\012    pos evowelsignrephanusvaradeva <-31 0 0 0>;\012    pos aivowelsignanusvaradeva <-31 0 0 0>;\012    pos aivowelsignrephdeva <-31 0 0 0>;\012    pos aivowelsignrephanusvaradeva <-31 0 0 0>;\012    pos rephanusvaradeva <-58 0 0 0>;\012    pos rephcandrabindudeva <-90 0 0 0>;\012    pos evowelsigncandrabindudeva <-31 0 0 0>;\012    pos aivowelsigncandrabindudeva <-31 0 0 0>;\012    pos evowelsignrephcandrabindudeva <-31 0 0 0>;\012    pos aivowelsignrephcandrabindudeva <-31 0 0 0>;\012} SinglePositioning28;\012\012lookup SinglePositioning34 {\012    lookupflag 0;\012    ;\012    # Original source: 29 \012    pos udattadeva <348 0 0 0>;\012    pos uni1CDA <403 0 0 0>;\012    pos uni1CF8 <378 0 0 0>;\012    pos uni1CF9 <453 0 0 0>;\012} SinglePositioning34;\012\012lookup SinglePositioning20 {\012    lookupflag 0;\012    ;\012    # Original source: 15 \012    pos udattadeva <326 0 0 0>;\012    pos uni1CDA <382 0 0 0>;\012    pos uni1CF8 <356 0 0 0>;\012    pos uni1CF9 <432 0 0 0>;\012} SinglePositioning20;\012\012lookup SinglePositioning19 {\012    lookupflag 0;\012    ;\012    # Original source: 14 \012    pos udattadeva <300 0 0 0>;\012    pos uni1CDA <355 0 0 0>;\012    pos uni1CF8 <330 0 0 0>;\012    pos uni1CF9 <405 0 0 0>;\012} SinglePositioning19;\012\012lookup SinglePositioning18 {\012    lookupflag 0;\012    ;\012    # Original source: 13 \012    pos udattadeva <229 0 0 0>;\012    pos uni1CDA <284 0 0 0>;\012    pos uni1CF8 <259 0 0 0>;\012    pos uni1CF9 <334 0 0 0>;\012} SinglePositioning18;\012\012lookup SinglePositioning33 {\012    lookupflag 0;\012    ;\012    # Original source: 28 \012    pos udattadeva <278 0 0 0>;\012    pos uni1CDA <333 0 0 0>;\012    pos uni1CF8 <308 0 0 0>;\012    pos uni1CF9 <383 0 0 0>;\012} SinglePositioning33;\012\012lookup SinglePositioning32 {\012    lookupflag 0;\012    ;\012    # Original source: 27 \012    pos udattadeva <194 0 0 0>;\012    pos uni1CDA <249 0 0 0>;\012    pos uni1CF8 <224 0 0 0>;\012    pos uni1CF9 <299 0 0 0>;\012} SinglePositioning32;\012\012lookup SinglePositioning31 {\012    lookupflag 0;\012    ;\012    # Original source: 26 \012    pos udattadeva <246 0 0 0>;\012    pos uni1CDA <301 0 0 0>;\012    pos uni1CF8 <276 0 0 0>;\012    pos uni1CF9 <351 0 0 0>;\012} SinglePositioning31;\012\012lookup SinglePositioning30 {\012    lookupflag 0;\012    ;\012    # Original source: 25 \012    pos udattadeva <101 0 0 0>;\012    pos uni1CDA <155 0 0 0>;\012    pos uni1CF8 <131 0 0 0>;\012    pos uni1CF9 <205 0 0 0>;\012} SinglePositioning30;\012\012lookup SinglePositioning27 {\012    lookupflag 0;\012    ;\012    # Original source: 22 \012    pos udattadeva <181 0 0 0>;\012    pos uni1CDA <236 0 0 0>;\012    pos uni1CF8 <211 0 0 0>;\012    pos uni1CF9 <286 0 0 0>;\012} SinglePositioning27;\012\012lookup SinglePositioning29 {\012    lookupflag 0;\012    ;\012    # Original source: 24 \012    pos udattadeva <107 0 0 0>;\012    pos uni1CDA <162 0 0 0>;\012    pos uni1CF8 <137 0 0 0>;\012    pos uni1CF9 <212 0 0 0>;\012} SinglePositioning29;\012\012lookup SinglePositioning26 {\012    lookupflag 0;\012    ;\012    # Original source: 21 \012    pos udattadeva <168 0 0 0>;\012    pos uni1CDA <223 0 0 0>;\012    pos uni1CF8 <198 0 0 0>;\012    pos uni1CF9 <273 0 0 0>;\012} SinglePositioning26;\012\012lookup SinglePositioning23 {\012    lookupflag 0;\012    ;\012    # Original source: 18 \012    pos udattadeva <224 0 0 0>;\012    pos uni1CDA <279 0 0 0>;\012    pos uni1CF8 <254 0 0 0>;\012    pos uni1CF9 <329 0 0 0>;\012} SinglePositioning23;\012\012lookup SinglePositioning25 {\012    lookupflag 0;\012    ;\012    # Original source: 20 \012    pos udattadeva <245 0 0 0>;\012    pos uni1CDA <294 0 0 0>;\012    pos uni1CF8 <275 0 0 0>;\012    pos uni1CF9 <344 0 0 0>;\012} SinglePositioning25;\012\012lookup SinglePositioning24 {\012    lookupflag 0;\012    ;\012    # Original source: 19 \012    pos udattadeva <311 0 0 0>;\012    pos uni1CDA <366 0 0 0>;\012    pos uni1CF8 <341 0 0 0>;\012    pos uni1CF9 <416 0 0 0>;\012} SinglePositioning24;\012\012lookup SinglePositioning22 {\012    lookupflag 0;\012    ;\012    # Original source: 17 \012    pos udattadeva <148 0 0 0>;\012    pos uni1CDA <202 0 0 0>;\012    pos uni1CF8 <178 0 0 0>;\012    pos uni1CF9 <252 0 0 0>;\012} SinglePositioning22;\012\012lookup SinglePositioning21 {\012    lookupflag 0;\012    ;\012    # Original source: 16 \012    pos udattadeva <46 0 0 0>;\012    pos uni1CDA <101 0 0 0>;\012    pos uni1CF8 <57 0 0 0>;\012    pos uni1CF9 <119 0 0 0>;\012} SinglePositioning21;\012\012lookup SinglePositioning38 {\012    lookupflag 0;\012    ;\012    # Original source: 32 \012    pos [five_radeva four_radeva one_onedeva one_radeva three_kadeva three_radeva two_avagrahadeva two_radeva two_udeva two_uni1CD0 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 vi_radeva visarga_uni1CE2 visarga_uni1CE4 visarga_uni1CE5 visarga_uni1CE8] <-200 0 0 0>;\012} SinglePositioning38;\012\012lookup SinglePositioning40 {\012    lookupflag 0;\012    ;\012    # Original source: 34 \012    pos uniA8E0 <0 -347 0 0>;\012    pos uniA8E1 <0 -347 0 0>;\012    pos uniA8E2 <0 -347 0 0>;\012    pos uniA8E3 <0 -347 0 0>;\012    pos uniA8E4 <0 -347 0 0>;\012    pos uniA8E5 <0 -347 0 0>;\012    pos uniA8E6 <0 -347 0 0>;\012    pos uniA8E7 <0 -347 0 0>;\012    pos uniA8E8 <0 -347 0 0>;\012    pos uniA8E9 <0 -347 0 0>;\012    pos uniA8EA <0 -347 0 0>;\012    pos uniA8EB <0 -347 0 0>;\012    pos uniA8EC <0 -347 0 0>;\012    pos uniA8ED <0 -347 0 0>;\012    pos uniA8EE <0 -347 0 0>;\012    pos uniA8EF <0 -347 0 0>;\012    pos uniA8F0 <0 -451 0 0>;\012    pos uniA8F1 <0 -347 0 0>;\012    pos uni1CD0 <0 -347 0 0>;\012    pos uni1CD1 <0 -347 0 0>;\012    pos uni1CD2 <0 -347 0 0>;\012    pos uni1CF4 <0 -347 0 0>;\012    pos one_onedeva <0 -347 0 0>;\012    pos two_udeva <0 -347 0 0>;\012    pos three_kadeva <0 -347 0 0>;\012    pos one_radeva <0 -347 0 0>;\012    pos two_radeva <0 -347 0 0>;\012    pos three_radeva <0 -347 0 0>;\012    pos four_radeva <0 -347 0 0>;\012    pos five_radeva <0 -347 0 0>;\012    pos two_avagrahadeva <0 -347 0 0>;\012    pos two_uni1CD0 <0 -347 0 0>;\012    pos vi_radeva <0 -451 0 0>;\012    pos uni20F0 <0 -347 0 0>;\012} SinglePositioning40;\012";
-}
 );
 iconName = SemiBold;
 id = UUID0;
@@ -3827,6 +3986,90 @@ pos = 713;
 }
 );
 name = SemiBold;
+numberValues = (
+-44,
+-71,
+-198,
+-185,
+-144,
+-144,
+-134,
+-65,
+-71,
+-231,
+-231,
+-231,
+-235,
+-218,
+-48,
+-90,
+-58,
+-31,
+348,
+403,
+378,
+453,
+326,
+382,
+356,
+432,
+300,
+355,
+330,
+405,
+229,
+284,
+259,
+334,
+278,
+333,
+308,
+383,
+194,
+249,
+224,
+299,
+246,
+301,
+276,
+351,
+101,
+155,
+131,
+205,
+181,
+236,
+211,
+286,
+107,
+162,
+137,
+212,
+168,
+223,
+198,
+273,
+224,
+279,
+254,
+329,
+245,
+294,
+275,
+344,
+311,
+366,
+341,
+416,
+148,
+202,
+178,
+252,
+46,
+101,
+57,
+119
+);
 stemValues = (
 110,
 134
@@ -3836,12 +4079,6 @@ stemValues = (
 axesValues = (
 190,
 100
-);
-customParameters = (
-{
-name = "Replace Prefix";
-value = "PositioningRules;lookup SinglePositioning11 {\012    pos uevowelsigndeva <0 -54 0 0>;\012    pos uuevowelsigndeva <0 -81 0 0>;\012} SinglePositioning11;\012\012lookup SinglePositioning16 {\012    lookupflag 0;\012    ;\012    # Original source: 11 \012    pos [anudattadeva uni1CD5 uni1CD6 uni1CD7 uni1CD8 uni1CD9 uni1CDC uni1CDD uni1CDE uni1CDF uni1CED] <0 -210 0 0>;\012} SinglePositioning16;\012\012lookup SinglePositioning15 {\012    pos [anudattadeva uni1CD5 uni1CD6 uni1CD7 uni1CD8 uni1CD9 uni1CDC uni1CDD uni1CDE uni1CDF uni1CED] <0 -146 0 0>;\012} SinglePositioning15;\012\012lookup SinglePositioning14 {\012    pos [anudattadeva uni1CD5 uni1CD6 uni1CD7 uni1CD8 uni1CD9 uni1CDC uni1CDD uni1CDE uni1CDF uni1CED] <0 -75 0 0>;\012} SinglePositioning14;\012\012lookup SinglePositioning13 {\012    pos anudattadeva <0 -234 0 0>;\012    pos uni1CD5 <0 -234 0 0>;\012    pos uni1CD6 <0 -234 0 0>;\012    pos uni1CD7 <0 -244 0 0>;\012    pos uni1CD8 <0 -234 0 0>;\012    pos uni1CD9 <0 -244 0 0>;\012    pos uni1CDC <0 -244 0 0>;\012    pos uni1CDD <0 -234 0 0>;\012    pos uni1CDE <0 -239 0 0>;\012    pos uni1CDF <0 -239 0 0>;\012    pos uni1CED <0 -234 0 0>;\012} SinglePositioning13;\012\012lookup SinglePositioning28 {\012    pos candrabindudeva <-90 0 0 0>;\012    pos anusvaradeva <-54 0 0 0>;\012    pos rephdeva <-63 0 0 0>;\012    pos evowelsignanusvaradeva <-37 0 0 0>;\012    pos evowelsignrephdeva <-37 0 0 0>;\012    pos evowelsignrephanusvaradeva <-37 0 0 0>;\012    pos aivowelsignanusvaradeva <-37 0 0 0>;\012    pos aivowelsignrephdeva <-37 0 0 0>;\012    pos aivowelsignrephanusvaradeva <-37 0 0 0>;\012    pos rephanusvaradeva <-63 0 0 0>;\012    pos rephcandrabindudeva <-90 0 0 0>;\012    pos evowelsigncandrabindudeva <-37 0 0 0>;\012    pos aivowelsigncandrabindudeva <-37 0 0 0>;\012    pos evowelsignrephcandrabindudeva <-37 0 0 0>;\012    pos aivowelsignrephcandrabindudeva <-37 0 0 0>;\012} SinglePositioning28;\012\012lookup SinglePositioning34 {\012    pos udattadeva <364 0 0 0>;\012    pos uni1CDA <422 0 0 0>;\012    pos uni1CF8 <394 0 0 0>;\012    pos uni1CF9 <472 0 0 0>;\012} SinglePositioning34;\012\012lookup SinglePositioning20 {\012    pos udattadeva <344 0 0 0>;\012    pos uni1CDA <403 0 0 0>;\012    pos uni1CF8 <374 0 0 0>;\012    pos uni1CF9 <453 0 0 0>;\012} SinglePositioning20;\012\012lookup SinglePositioning19 {\012    pos udattadeva <320 0 0 0>;\012    pos uni1CDA <378 0 0 0>;\012    pos uni1CF8 <350 0 0 0>;\012    pos uni1CF9 <428 0 0 0>;\012} SinglePositioning19;\012\012lookup SinglePositioning18 {\012    pos udattadeva <246 0 0 0>;\012    pos uni1CDA <305 0 0 0>;\012    pos uni1CF8 <276 0 0 0>;\012    pos uni1CF9 <355 0 0 0>;\012} SinglePositioning18;\012\012lookup SinglePositioning33 {\012    pos udattadeva <295 0 0 0>;\012    pos uni1CDA <354 0 0 0>;\012    pos uni1CF8 <325 0 0 0>;\012    pos uni1CF9 <404 0 0 0>;\012} SinglePositioning33;\012\012lookup SinglePositioning32 {\012    pos udattadeva <217 0 0 0>;\012    pos uni1CDA <276 0 0 0>;\012    pos uni1CF8 <247 0 0 0>;\012    pos uni1CF9 <326 0 0 0>;\012} SinglePositioning32;\012\012lookup SinglePositioning31 {\012    pos udattadeva <266 0 0 0>;\012    pos uni1CDA <324 0 0 0>;\012    pos uni1CF8 <296 0 0 0>;\012    pos uni1CF9 <374 0 0 0>;\012} SinglePositioning31;\012\012lookup SinglePositioning30 {\012    pos udattadeva <120 0 0 0>;\012    pos uni1CDA <178 0 0 0>;\012    pos uni1CF8 <150 0 0 0>;\012    pos uni1CF9 <228 0 0 0>;\012} SinglePositioning30;\012\012lookup SinglePositioning27 {\012    pos udattadeva <200 0 0 0>;\012    pos uni1CDA <259 0 0 0>;\012    pos uni1CF8 <230 0 0 0>;\012    pos uni1CF9 <309 0 0 0>;\012} SinglePositioning27;\012\012lookup SinglePositioning29 {\012    pos udattadeva <124 0 0 0>;\012    pos uni1CDA <183 0 0 0>;\012    pos uni1CF8 <154 0 0 0>;\012    pos uni1CF9 <233 0 0 0>;\012} SinglePositioning29;\012\012lookup SinglePositioning26 {\012    pos udattadeva <185 0 0 0>;\012    pos uni1CDA <244 0 0 0>;\012    pos uni1CF8 <215 0 0 0>;\012    pos uni1CF9 <294 0 0 0>;\012} SinglePositioning26;\012\012lookup SinglePositioning23 {\012    pos udattadeva <241 0 0 0>;\012    pos uni1CDA <300 0 0 0>;\012    pos uni1CF8 <271 0 0 0>;\012    pos uni1CF9 <350 0 0 0>;\012} SinglePositioning23;\012\012lookup SinglePositioning25 {\012    pos udattadeva <255 0 0 0>;\012    pos uni1CDA <304 0 0 0>;\012    pos uni1CF8 <285 0 0 0>;\012    pos uni1CF9 <354 0 0 0>;\012} SinglePositioning25;\012\012lookup SinglePositioning24 {\012    pos udattadeva <335 0 0 0>;\012    pos uni1CDA <393 0 0 0>;\012    pos uni1CF8 <365 0 0 0>;\012    pos uni1CF9 <443 0 0 0>;\012} SinglePositioning24;\012\012lookup SinglePositioning22 {\012    pos udattadeva <163 0 0 0>;\012    pos uni1CDA <222 0 0 0>;\012    pos uni1CF8 <193 0 0 0>;\012    pos uni1CF9 <272 0 0 0>;\012} SinglePositioning22;\012\012lookup SinglePositioning21 {\012    pos udattadeva <73 0 0 0>;\012    pos uni1CDA <132 0 0 0>;\012    pos uni1CF8 <73 0 0 0>;\012    pos uni1CF9 <132 0 0 0>;\012} SinglePositioning21;\012\012lookup SinglePositioning38 {\012    pos [five_radeva four_radeva one_onedeva one_radeva three_kadeva three_radeva two_avagrahadeva two_radeva two_udeva two_uni1CD0 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 vi_radeva visarga_uni1CE2 visarga_uni1CE4 visarga_uni1CE5 visarga_uni1CE8] <-200 0 0 0>;\012} SinglePositioning38;\012\012lookup SinglePositioning40 {\012    pos uniA8E0 <0 -347 0 0>;\012    pos uniA8E1 <0 -347 0 0>;\012    pos uniA8E2 <0 -347 0 0>;\012    pos uniA8E3 <0 -347 0 0>;\012    pos uniA8E4 <0 -347 0 0>;\012    pos uniA8E5 <0 -347 0 0>;\012    pos uniA8E6 <0 -347 0 0>;\012    pos uniA8E7 <0 -347 0 0>;\012    pos uniA8E8 <0 -347 0 0>;\012    pos uniA8E9 <0 -347 0 0>;\012    pos uniA8EA <0 -347 0 0>;\012    pos uniA8EB <0 -347 0 0>;\012    pos uniA8EC <0 -347 0 0>;\012    pos uniA8ED <0 -347 0 0>;\012    pos uniA8EE <0 -347 0 0>;\012    pos uniA8EF <0 -347 0 0>;\012    pos uniA8F0 <0 -451 0 0>;\012    pos uniA8F1 <0 -347 0 0>;\012    pos uni1CD0 <0 -347 0 0>;\012    pos uni1CD1 <0 -347 0 0>;\012    pos uni1CD2 <0 -347 0 0>;\012    pos uni1CF4 <0 -347 0 0>;\012    pos one_onedeva <0 -347 0 0>;\012    pos two_udeva <0 -347 0 0>;\012    pos three_kadeva <0 -347 0 0>;\012    pos one_radeva <0 -347 0 0>;\012    pos two_radeva <0 -347 0 0>;\012    pos three_radeva <0 -347 0 0>;\012    pos four_radeva <0 -347 0 0>;\012    pos five_radeva <0 -347 0 0>;\012    pos two_avagrahadeva <0 -347 0 0>;\012    pos two_uni1CD0 <0 -347 0 0>;\012    pos vi_radeva <0 -451 0 0>;\012    pos uni20F0 <0 -347 0 0>;\012} SinglePositioning40;\012";
-}
 );
 iconName = Bold;
 id = "C05809E0-FD9D-43C4-90EB-E9E886B1ADAB";
@@ -3871,6 +4108,90 @@ pos = 713;
 }
 );
 name = Bold;
+numberValues = (
+-54,
+-81,
+-210,
+-210,
+-146,
+-146,
+-146,
+-75,
+-75,
+-234,
+-244,
+-239,
+-244,
+-234,
+-54,
+-90,
+-63,
+-37,
+364,
+422,
+394,
+472,
+344,
+403,
+374,
+453,
+320,
+378,
+350,
+428,
+246,
+305,
+276,
+355,
+295,
+354,
+325,
+404,
+217,
+276,
+247,
+326,
+266,
+324,
+296,
+374,
+120,
+178,
+150,
+228,
+200,
+259,
+230,
+309,
+124,
+183,
+154,
+233,
+185,
+244,
+215,
+294,
+241,
+300,
+271,
+350,
+255,
+304,
+285,
+354,
+335,
+393,
+365,
+443,
+163,
+222,
+193,
+272,
+73,
+132,
+73,
+132
+);
 stemValues = (
 138,
 177
@@ -3880,12 +4201,6 @@ stemValues = (
 axesValues = (
 26,
 70
-);
-customParameters = (
-{
-name = "Replace Prefix";
-value = "PositioningRules;lookup SinglePositioning11 {\012    lookupflag 0;\012    ;\012    # Original source: 6 \012    pos uevowelsigndeva <0 -44 0 0>;\012    pos uuevowelsigndeva <0 -71 0 0>;\012} SinglePositioning11;\012\012lookup SinglePositioning16 {\012    lookupflag 0;\012    ;\012    # Original source: 11 \012    pos anudattadeva <0 -155 0 0>;\012    pos uni1CD5 <0 -155 0 0>;\012    pos uni1CD6 <0 -155 0 0>;\012    pos uni1CD7 <0 -155 0 0>;\012    pos uni1CD8 <0 -155 0 0>;\012    pos uni1CD9 <0 -155 0 0>;\012    pos uni1CDC <0 -155 0 0>;\012    pos uni1CDD <0 -100 0 0>;\012    pos uni1CDE <0 -155 0 0>;\012    pos uni1CDF <0 -155 0 0>;\012    pos uni1CED <0 -155 0 0>;\012} SinglePositioning16;\012\012lookup SinglePositioning15 {\012    lookupflag 0;\012    ;\012    # Original source: 10 \012    pos anudattadeva <0 -117 0 0>;\012    pos uni1CD5 <0 -117 0 0>;\012    pos uni1CD6 <0 -117 0 0>;\012    pos uni1CD7 <0 -117 0 0>;\012    pos uni1CD8 <0 -117 0 0>;\012    pos uni1CD9 <0 -117 0 0>;\012    pos uni1CDC <0 -117 0 0>;\012    pos uni1CDD <0 -70 0 0>;\012    pos uni1CDE <0 -107 0 0>;\012    pos uni1CDF <0 -107 0 0>;\012    pos uni1CED <0 -117 0 0>;\012} SinglePositioning15;\012\012lookup SinglePositioning14 {\012    lookupflag 0;\012    ;\012    # Original source: 9 \012    pos [anudattadeva uni1CD5 uni1CD6 uni1CD7 uni1CD8 uni1CD9 uni1CDC uni1CDD uni1CDE uni1CDF uni1CED] <0 -55 0 0>;\012} SinglePositioning14;\012\012lookup SinglePositioning13 {\012    lookupflag 0;\012    ;\012    # Original source: 8 \012    pos anudattadeva <0 -220 0 0>;\012    pos uni1CD5 <0 -220 0 0>;\012    pos uni1CD6 <0 -220 0 0>;\012    pos uni1CD7 <0 -220 0 0>;\012    pos uni1CD8 <0 -220 0 0>;\012    pos uni1CD9 <0 -220 0 0>;\012    pos uni1CDC <0 -220 0 0>;\012    pos uni1CDD <0 -176 0 0>;\012    pos uni1CDE <0 -210 0 0>;\012    pos uni1CDF <0 -210 0 0>;\012    pos uni1CED <0 -220 0 0>;\012} SinglePositioning13;\012\012lookup SinglePositioning28 {\012    lookupflag 0;\012    ;\012    # Original source: 23 \012    pos candrabindudeva <-52 0 0 0>;\012    pos anusvaradeva <-17 0 0 0>;\012    pos rephdeva <-23 0 0 0>;\012    pos evowelsignanusvaradeva <-5 0 0 0>;\012    pos evowelsignrephdeva <-5 0 0 0>;\012    pos evowelsignrephanusvaradeva <-5 0 0 0>;\012    pos aivowelsignanusvaradeva <-5 0 0 0>;\012    pos aivowelsignrephdeva <-5 0 0 0>;\012    pos aivowelsignrephanusvaradeva <-5 0 0 0>;\012    pos rephanusvaradeva <-23 0 0 0>;\012    pos rephcandrabindudeva <-52 0 0 0>;\012    pos evowelsigncandrabindudeva <-5 0 0 0>;\012    pos aivowelsigncandrabindudeva <-5 0 0 0>;\012    pos evowelsignrephcandrabindudeva <-5 0 0 0>;\012    pos aivowelsignrephcandrabindudeva <-5 0 0 0>;\012} SinglePositioning28;\012\012lookup SinglePositioning34 {\012    lookupflag 0;\012    ;\012    # Original source: 29 \012    pos udattadeva <222 0 0 0>;\012    pos uni1CDA <259 0 0 0>;\012    pos uni1CF8 <280 0 0 0>;\012    pos uni1CF9 <352 0 0 0>;\012} SinglePositioning34;\012\012lookup SinglePositioning20 {\012    lookupflag 0;\012    ;\012    # Original source: 15 \012    pos udattadeva <246 0 0 0>;\012    pos uni1CDA <283 0 0 0>;\012    pos uni1CF8 <304 0 0 0>;\012    pos uni1CF9 <376 0 0 0>;\012} SinglePositioning20;\012\012lookup SinglePositioning19 {\012    lookupflag 0;\012    ;\012    # Original source: 14 \012    pos udattadeva <200 0 0 0>;\012    pos uni1CDA <237 0 0 0>;\012    pos uni1CF8 <258 0 0 0>;\012    pos uni1CF9 <330 0 0 0>;\012} SinglePositioning19;\012\012lookup SinglePositioning18 {\012    lookupflag 0;\012    ;\012    # Original source: 13 \012    pos udattadeva <176 0 0 0>;\012    pos uni1CDA <213 0 0 0>;\012    pos uni1CF8 <234 0 0 0>;\012    pos uni1CF9 <306 0 0 0>;\012} SinglePositioning18;\012\012lookup SinglePositioning33 {\012    lookupflag 0;\012    ;\012    # Original source: 28 \012    pos udattadeva <210 0 0 0>;\012    pos uni1CDA <247 0 0 0>;\012    pos uni1CF8 <268 0 0 0>;\012    pos uni1CF9 <340 0 0 0>;\012} SinglePositioning33;\012\012lookup SinglePositioning32 {\012    lookupflag 0;\012    ;\012    # Original source: 27 \012    pos udattadeva <110 0 0 0>;\012    pos uni1CDA <147 0 0 0>;\012    pos uni1CF8 <168 0 0 0>;\012    pos uni1CF9 <240 0 0 0>;\012} SinglePositioning32;\012\012lookup SinglePositioning31 {\012    lookupflag 0;\012    ;\012    # Original source: 26 \012    pos udattadeva <166 0 0 0>;\012    pos uni1CDA <203 0 0 0>;\012    pos uni1CF8 <224 0 0 0>;\012    pos uni1CF9 <296 0 0 0>;\012} SinglePositioning31;\012\012lookup SinglePositioning30 {\012    lookupflag 0;\012    ;\012    # Original source: 25 \012    pos udattadeva <51 0 0 0>;\012    pos uni1CDA <88 0 0 0>;\012    pos uni1CF8 <109 0 0 0>;\012    pos uni1CF9 <181 0 0 0>;\012} SinglePositioning30;\012\012lookup SinglePositioning27 {\012    lookupflag 0;\012    ;\012    # Original source: 22 \012    pos udattadeva <118 0 0 0>;\012    pos uni1CDA <155 0 0 0>;\012    pos uni1CF8 <176 0 0 0>;\012    pos uni1CF9 <248 0 0 0>;\012} SinglePositioning27;\012\012lookup SinglePositioning29 {\012    lookupflag 0;\012    ;\012    # Original source: 24 \012    pos udattadeva <77 0 0 0>;\012    pos uni1CDA <114 0 0 0>;\012    pos uni1CF8 <135 0 0 0>;\012    pos uni1CF9 <207 0 0 0>;\012} SinglePositioning29;\012\012lookup SinglePositioning26 {\012    lookupflag 0;\012    ;\012    # Original source: 21 \012    pos udattadeva <133 0 0 0>;\012    pos uni1CDA <170 0 0 0>;\012    pos uni1CF8 <191 0 0 0>;\012    pos uni1CF9 <263 0 0 0>;\012} SinglePositioning26;\012\012lookup SinglePositioning23 {\012    lookupflag 0;\012    ;\012    # Original source: 18 \012    pos udattadeva <174 0 0 0>;\012    pos uni1CDA <211 0 0 0>;\012    pos uni1CF8 <232 0 0 0>;\012    pos uni1CF9 <304 0 0 0>;\012} SinglePositioning23;\012\012lookup SinglePositioning25 {\012    lookupflag 0;\012    ;\012    # Original source: 20 \012    pos udattadeva <142 0 0 0>;\012    pos uni1CDA <179 0 0 0>;\012    pos uni1CF8 <200 0 0 0>;\012    pos uni1CF9 <272 0 0 0>;\012} SinglePositioning25;\012\012lookup SinglePositioning24 {\012    lookupflag 0;\012    ;\012    # Original source: 19 \012    pos udattadeva <211 0 0 0>;\012    pos uni1CDA <248 0 0 0>;\012    pos uni1CF8 <269 0 0 0>;\012    pos uni1CF9 <341 0 0 0>;\012} SinglePositioning24;\012\012lookup SinglePositioning22 {\012    lookupflag 0;\012    ;\012    # Original source: 17 \012    pos udattadeva <97 0 0 0>;\012    pos uni1CDA <134 0 0 0>;\012    pos uni1CF8 <155 0 0 0>;\012    pos uni1CF9 <227 0 0 0>;\012} SinglePositioning22;\012\012lookup SinglePositioning21 {\012    lookupflag 0;\012    ;\012    # Original source: 16 \012    pos udattadeva <21 0 0 0>;\012    pos uni1CDA <58 0 0 0>;\012    pos uni1CF8 <79 0 0 0>;\012    pos uni1CF9 <151 0 0 0>;\012} SinglePositioning21;\012\012lookup SinglePositioning38 {\012    lookupflag 0;\012    ;\012    # Original source: 32 \012    pos [five_radeva four_radeva one_onedeva one_radeva three_kadeva three_radeva two_avagrahadeva two_radeva two_udeva two_uni1CD0 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 vi_radeva visarga_uni1CE2 visarga_uni1CE4 visarga_uni1CE5 visarga_uni1CE8] <-200 0 0 0>;\012} SinglePositioning38;\012\012lookup SinglePositioning40 {\012    lookupflag 0;\012    ;\012    # Original source: 34 \012    pos uniA8E0 <0 -347 0 0>;\012    pos uniA8E1 <0 -347 0 0>;\012    pos uniA8E2 <0 -347 0 0>;\012    pos uniA8E3 <0 -347 0 0>;\012    pos uniA8E4 <0 -347 0 0>;\012    pos uniA8E5 <0 -347 0 0>;\012    pos uniA8E6 <0 -347 0 0>;\012    pos uniA8E7 <0 -347 0 0>;\012    pos uniA8E8 <0 -347 0 0>;\012    pos uniA8E9 <0 -347 0 0>;\012    pos uniA8EA <0 -347 0 0>;\012    pos uniA8EB <0 -347 0 0>;\012    pos uniA8EC <0 -347 0 0>;\012    pos uniA8ED <0 -347 0 0>;\012    pos uniA8EE <0 -347 0 0>;\012    pos uniA8EF <0 -347 0 0>;\012    pos uniA8F0 <0 -451 0 0>;\012    pos uniA8F1 <0 -347 0 0>;\012    pos uni1CD0 <0 -347 0 0>;\012    pos uni1CD1 <0 -347 0 0>;\012    pos uni1CD2 <0 -347 0 0>;\012    pos uni1CF4 <0 -347 0 0>;\012    pos one_onedeva <0 -347 0 0>;\012    pos two_udeva <0 -347 0 0>;\012    pos three_kadeva <0 -347 0 0>;\012    pos one_radeva <0 -347 0 0>;\012    pos two_radeva <0 -347 0 0>;\012    pos three_radeva <0 -347 0 0>;\012    pos four_radeva <0 -347 0 0>;\012    pos five_radeva <0 -347 0 0>;\012    pos two_avagrahadeva <0 -347 0 0>;\012    pos two_uni1CD0 <0 -347 0 0>;\012    pos vi_radeva <0 -451 0 0>;\012    pos uni20F0 <0 -347 0 0>;\012} SinglePositioning40;\012";
-}
 );
 iconName = Light_Condensed;
 id = "5CC745D4-D12D-435B-A472-7D28876E43BC";
@@ -3915,6 +4230,90 @@ pos = 713;
 }
 );
 name = "Light Condensed";
+numberValues = (
+-44,
+-71,
+-155,
+-100,
+-117,
+-107,
+-70,
+-55,
+-55,
+-220,
+-220,
+-210,
+-220,
+-176,
+-17,
+-52,
+-23,
+-5,
+222,
+259,
+280,
+352,
+246,
+283,
+304,
+376,
+200,
+237,
+258,
+330,
+176,
+213,
+234,
+306,
+210,
+247,
+268,
+340,
+110,
+147,
+168,
+240,
+166,
+203,
+224,
+296,
+51,
+88,
+109,
+181,
+118,
+155,
+176,
+248,
+77,
+114,
+135,
+207,
+133,
+170,
+191,
+263,
+174,
+211,
+232,
+304,
+142,
+179,
+200,
+272,
+211,
+248,
+269,
+341,
+97,
+134,
+155,
+227,
+21,
+58,
+79,
+151
+);
 stemValues = (
 26,
 26
@@ -3924,12 +4323,6 @@ stemValues = (
 axesValues = (
 90,
 70
-);
-customParameters = (
-{
-name = "Replace Prefix";
-value = "PositioningRules;lookup SinglePositioning11 {\012    lookupflag 0;\012    ;\012    # Original source: 6 \012    pos uevowelsigndeva <0 -44 0 0>;\012    pos uuevowelsigndeva <0 -71 0 0>;\012} SinglePositioning11;\012\012lookup SinglePositioning16 {\012    lookupflag 0;\012    ;\012    # Original source: 11 \012    pos anudattadeva <0 -186 0 0>;\012    pos uni1CD5 <0 -186 0 0>;\012    pos uni1CD6 <0 -186 0 0>;\012    pos uni1CD7 <0 -186 0 0>;\012    pos uni1CD8 <0 -186 0 0>;\012    pos uni1CD9 <0 -186 0 0>;\012    pos uni1CDC <0 -186 0 0>;\012    pos uni1CDD <0 -151 0 0>;\012    pos uni1CDE <0 -186 0 0>;\012    pos uni1CDF <0 -186 0 0>;\012    pos uni1CED <0 -186 0 0>;\012} SinglePositioning16;\012\012lookup SinglePositioning15 {\012    lookupflag 0;\012    ;\012    # Original source: 10 \012    pos anudattadeva <0 -127 0 0>;\012    pos uni1CD5 <0 -127 0 0>;\012    pos uni1CD6 <0 -127 0 0>;\012    pos uni1CD7 <0 -127 0 0>;\012    pos uni1CD8 <0 -127 0 0>;\012    pos uni1CD9 <0 -127 0 0>;\012    pos uni1CDC <0 -127 0 0>;\012    pos uni1CDD <0 -98 0 0>;\012    pos uni1CDE <0 -127 0 0>;\012    pos uni1CDF <0 -127 0 0>;\012    pos uni1CED <0 -127 0 0>;\012} SinglePositioning15;\012\012lookup SinglePositioning14 {\012    lookupflag 0;\012    ;\012    # Original source: 9 \012    pos [anudattadeva uni1CD5 uni1CD6 uni1CD7 uni1CD8 uni1CD9 uni1CDC uni1CDD uni1CDE uni1CDF uni1CED] <0 -59 0 0>;\012} SinglePositioning14;\012\012lookup SinglePositioning13 {\012    lookupflag 0;\012    ;\012    # Original source: 8 \012    pos anudattadeva <0 -234 0 0>;\012    pos uni1CD5 <0 -234 0 0>;\012    pos uni1CD6 <0 -234 0 0>;\012    pos uni1CD7 <0 -234 0 0>;\012    pos uni1CD8 <0 -234 0 0>;\012    pos uni1CD9 <0 -244 0 0>;\012    pos uni1CDC <0 -244 0 0>;\012    pos uni1CDD <0 -200 0 0>;\012    pos uni1CDE <0 -234 0 0>;\012    pos uni1CDF <0 -234 0 0>;\012    pos uni1CED <0 -234 0 0>;\012} SinglePositioning13;\012\012lookup SinglePositioning28 {\012    lookupflag 0;\012    ;\012    # Original source: 23 \012    pos candrabindudeva <-72 0 0 0>;\012    pos anusvaradeva <-35 0 0 0>;\012    pos rephdeva <-39 0 0 0>;\012    pos evowelsignanusvaradeva <-18 0 0 0>;\012    pos evowelsignrephdeva <-18 0 0 0>;\012    pos evowelsignrephanusvaradeva <-18 0 0 0>;\012    pos aivowelsignanusvaradeva <-18 0 0 0>;\012    pos aivowelsignrephdeva <-18 0 0 0>;\012    pos aivowelsignrephanusvaradeva <-18 0 0 0>;\012    pos rephanusvaradeva <-39 0 0 0>;\012    pos rephcandrabindudeva <-72 0 0 0>;\012    pos evowelsigncandrabindudeva <-18 0 0 0>;\012    pos aivowelsigncandrabindudeva <-18 0 0 0>;\012    pos evowelsignrephcandrabindudeva <-18 0 0 0>;\012    pos aivowelsignrephcandrabindudeva <-18 0 0 0>;\012} SinglePositioning28;\012\012lookup SinglePositioning34 {\012    lookupflag 0;\012    ;\012    # Original source: 29 \012    pos udattadeva <282 0 0 0>;\012    pos uni1CDA <329 0 0 0>;\012    pos uni1CF8 <329 0 0 0>;\012    pos uni1CF9 <418 0 0 0>;\012} SinglePositioning34;\012\012lookup SinglePositioning20 {\012    lookupflag 0;\012    ;\012    # Original source: 15 \012    pos udattadeva <262 0 0 0>;\012    pos uni1CDA <309 0 0 0>;\012    pos uni1CF8 <309 0 0 0>;\012    pos uni1CF9 <398 0 0 0>;\012} SinglePositioning20;\012\012lookup SinglePositioning19 {\012    lookupflag 0;\012    ;\012    # Original source: 14 \012    pos udattadeva <208 0 0 0>;\012    pos uni1CDA <255 0 0 0>;\012    pos uni1CF8 <255 0 0 0>;\012    pos uni1CF9 <344 0 0 0>;\012} SinglePositioning19;\012\012lookup SinglePositioning18 {\012    lookupflag 0;\012    ;\012    # Original source: 13 \012    pos udattadeva <181 0 0 0>;\012    pos uni1CDA <228 0 0 0>;\012    pos uni1CF8 <228 0 0 0>;\012    pos uni1CF9 <317 0 0 0>;\012} SinglePositioning18;\012\012lookup SinglePositioning33 {\012    lookupflag 0;\012    ;\012    # Original source: 28 \012    pos udattadeva <220 0 0 0>;\012    pos uni1CDA <267 0 0 0>;\012    pos uni1CF8 <267 0 0 0>;\012    pos uni1CF9 <356 0 0 0>;\012} SinglePositioning33;\012\012lookup SinglePositioning32 {\012    lookupflag 0;\012    ;\012    # Original source: 27 \012    pos udattadeva <152 0 0 0>;\012    pos uni1CDA <199 0 0 0>;\012    pos uni1CF8 <199 0 0 0>;\012    pos uni1CF9 <288 0 0 0>;\012} SinglePositioning32;\012\012lookup SinglePositioning31 {\012    lookupflag 0;\012    ;\012    # Original source: 26 \012    pos udattadeva <202 0 0 0>;\012    pos uni1CDA <249 0 0 0>;\012    pos uni1CF8 <249 0 0 0>;\012    pos uni1CF9 <338 0 0 0>;\012} SinglePositioning31;\012\012lookup SinglePositioning30 {\012    lookupflag 0;\012    ;\012    # Original source: 25 \012    pos udattadeva <88 0 0 0>;\012    pos uni1CDA <132 0 0 0>;\012    pos uni1CF8 <132 0 0 0>;\012    pos uni1CF9 <221 0 0 0>;\012} SinglePositioning30;\012\012lookup SinglePositioning27 {\012    lookupflag 0;\012    ;\012    # Original source: 22 \012    pos udattadeva <136 0 0 0>;\012    pos uni1CDA <183 0 0 0>;\012    pos uni1CF8 <183 0 0 0>;\012    pos uni1CF9 <272 0 0 0>;\012} SinglePositioning27;\012\012lookup SinglePositioning29 {\012    lookupflag 0;\012    ;\012    # Original source: 24 \012    pos udattadeva <85 0 0 0>;\012    pos uni1CDA <132 0 0 0>;\012    pos uni1CF8 <132 0 0 0>;\012    pos uni1CF9 <221 0 0 0>;\012} SinglePositioning29;\012\012lookup SinglePositioning26 {\012    lookupflag 0;\012    ;\012    # Original source: 21 \012    pos udattadeva <138 0 0 0>;\012    pos uni1CDA <185 0 0 0>;\012    pos uni1CF8 <185 0 0 0>;\012    pos uni1CF9 <274 0 0 0>;\012} SinglePositioning26;\012\012lookup SinglePositioning23 {\012    lookupflag 0;\012    ;\012    # Original source: 18 \012    pos udattadeva <172 0 0 0>;\012    pos uni1CDA <219 0 0 0>;\012    pos uni1CF8 <219 0 0 0>;\012    pos uni1CF9 <308 0 0 0>;\012} SinglePositioning23;\012\012lookup SinglePositioning25 {\012    lookupflag 0;\012    ;\012    # Original source: 20 \012    pos udattadeva <194 0 0 0>;\012    pos uni1CDA <241 0 0 0>;\012    pos uni1CF8 <241 0 0 0>;\012    pos uni1CF9 <330 0 0 0>;\012} SinglePositioning25;\012\012lookup SinglePositioning24 {\012    lookupflag 0;\012    ;\012    # Original source: 19 \012    pos udattadeva <268 0 0 0>;\012    pos uni1CDA <315 0 0 0>;\012    pos uni1CF8 <315 0 0 0>;\012    pos uni1CF9 <404 0 0 0>;\012} SinglePositioning24;\012\012lookup SinglePositioning22 {\012    lookupflag 0;\012    ;\012    # Original source: 17 \012    pos udattadeva <118 0 0 0>;\012    pos uni1CDA <165 0 0 0>;\012    pos uni1CF8 <165 0 0 0>;\012    pos uni1CF9 <254 0 0 0>;\012} SinglePositioning22;\012\012lookup SinglePositioning21 {\012    lookupflag 0;\012    ;\012    # Original source: 16 \012    pos udattadeva <37 0 0 0>;\012    pos uni1CDA <84 0 0 0>;\012    pos uni1CF8 <84 0 0 0>;\012    pos uni1CF9 <173 0 0 0>;\012} SinglePositioning21;\012\012lookup SinglePositioning38 {\012    lookupflag 0;\012    ;\012    # Original source: 32 \012    pos [five_radeva four_radeva one_onedeva one_radeva three_kadeva three_radeva two_avagrahadeva two_radeva two_udeva two_uni1CD0 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 vi_radeva visarga_uni1CE2 visarga_uni1CE4 visarga_uni1CE5 visarga_uni1CE8] <-200 0 0 0>;\012} SinglePositioning38;\012\012lookup SinglePositioning40 {\012    lookupflag 0;\012    ;\012    # Original source: 34 \012    pos uniA8E0 <0 -347 0 0>;\012    pos uniA8E1 <0 -347 0 0>;\012    pos uniA8E2 <0 -347 0 0>;\012    pos uniA8E3 <0 -347 0 0>;\012    pos uniA8E4 <0 -347 0 0>;\012    pos uniA8E5 <0 -347 0 0>;\012    pos uniA8E6 <0 -347 0 0>;\012    pos uniA8E7 <0 -347 0 0>;\012    pos uniA8E8 <0 -347 0 0>;\012    pos uniA8E9 <0 -347 0 0>;\012    pos uniA8EA <0 -347 0 0>;\012    pos uniA8EB <0 -347 0 0>;\012    pos uniA8EC <0 -347 0 0>;\012    pos uniA8ED <0 -347 0 0>;\012    pos uniA8EE <0 -347 0 0>;\012    pos uniA8EF <0 -347 0 0>;\012    pos uniA8F0 <0 -451 0 0>;\012    pos uniA8F1 <0 -347 0 0>;\012    pos uni1CD0 <0 -347 0 0>;\012    pos uni1CD1 <0 -347 0 0>;\012    pos uni1CD2 <0 -347 0 0>;\012    pos uni1CF4 <0 -347 0 0>;\012    pos one_onedeva <0 -347 0 0>;\012    pos two_udeva <0 -347 0 0>;\012    pos three_kadeva <0 -347 0 0>;\012    pos one_radeva <0 -347 0 0>;\012    pos two_radeva <0 -347 0 0>;\012    pos three_radeva <0 -347 0 0>;\012    pos four_radeva <0 -347 0 0>;\012    pos five_radeva <0 -347 0 0>;\012    pos two_avagrahadeva <0 -347 0 0>;\012    pos two_uni1CD0 <0 -347 0 0>;\012    pos vi_radeva <0 -451 0 0>;\012    pos uni20F0 <0 -347 0 0>;\012} SinglePositioning40;\012";
-}
 );
 iconName = Condensed;
 id = "AA2163BC-B14D-4D16-A884-99BB623F1DBF";
@@ -3959,6 +4352,90 @@ pos = 713;
 }
 );
 name = Condensed;
+numberValues = (
+-44,
+-71,
+-186,
+-151,
+-127,
+-127,
+-98,
+-59,
+-59,
+-234,
+-234,
+-234,
+-244,
+-200,
+-35,
+-72,
+-39,
+-18,
+282,
+329,
+329,
+418,
+262,
+309,
+309,
+398,
+208,
+255,
+255,
+344,
+181,
+228,
+228,
+317,
+220,
+267,
+267,
+356,
+152,
+199,
+199,
+288,
+202,
+249,
+249,
+338,
+88,
+132,
+132,
+221,
+136,
+183,
+183,
+272,
+85,
+132,
+132,
+221,
+138,
+185,
+185,
+274,
+172,
+219,
+219,
+308,
+194,
+241,
+241,
+330,
+268,
+315,
+315,
+404,
+118,
+165,
+165,
+254,
+37,
+84,
+84,
+173
+);
 stemValues = (
 68,
 75
@@ -3968,12 +4445,6 @@ stemValues = (
 axesValues = (
 151,
 70
-);
-customParameters = (
-{
-name = "Replace Prefix";
-value = "PositioningRules;lookup SinglePositioning11 {\012    lookupflag 0;\012    ;\012    # Original source: 6 \012    pos uevowelsigndeva <0 -44 0 0>;\012    pos uuevowelsigndeva <0 -71 0 0>;\012} SinglePositioning11;\012\012lookup SinglePositioning16 {\012    lookupflag 0;\012    ;\012    # Original source: 11 \012    pos [anudattadeva uni1CD5 uni1CD6 uni1CD7 uni1CD8 uni1CD9 uni1CDC uni1CDD uni1CDE uni1CDF uni1CED] <0 -205 0 0>;\012} SinglePositioning16;\012\012lookup SinglePositioning15 {\012    lookupflag 0;\012    ;\012    # Original source: 10 \012    pos [anudattadeva uni1CD5 uni1CD6 uni1CD7 uni1CD8 uni1CD9 uni1CDC uni1CDD uni1CDE uni1CDF uni1CED] <0 -155 0 0>;\012} SinglePositioning15;\012\012lookup SinglePositioning14 {\012    lookupflag 0;\012    ;\012    # Original source: 9 \012    pos anudattadeva <0 -68 0 0>;\012    pos uni1CD5 <0 -68 0 0>;\012    pos uni1CD6 <0 -68 0 0>;\012    pos uni1CD7 <0 -78 0 0>;\012    pos uni1CD8 <0 -68 0 0>;\012    pos uni1CD9 <0 -68 0 0>;\012    pos uni1CDC <0 -68 0 0>;\012    pos uni1CDD <0 -68 0 0>;\012    pos uni1CDE <0 -68 0 0>;\012    pos uni1CDF <0 -68 0 0>;\012    pos uni1CED <0 -68 0 0>;\012} SinglePositioning14;\012\012lookup SinglePositioning13 {\012    lookupflag 0;\012    ;\012    # Original source: 8 \012    pos [anudattadeva uni1CD5 uni1CD6 uni1CD7 uni1CD8 uni1CD9 uni1CDC uni1CDD uni1CDE uni1CDF uni1CED] <0 -229 0 0>;\012} SinglePositioning13;\012\012lookup SinglePositioning28 {\012    lookupflag 0;\012    ;\012    # Original source: 23 \012    pos candrabindudeva <-72 0 0 0>;\012    pos anusvaradeva <-43 0 0 0>;\012    pos rephdeva <-50 0 0 0>;\012    pos evowelsignanusvaradeva <-30 0 0 0>;\012    pos evowelsignrephdeva <-30 0 0 0>;\012    pos evowelsignrephanusvaradeva <-30 0 0 0>;\012    pos aivowelsignanusvaradeva <-30 0 0 0>;\012    pos aivowelsignrephdeva <-30 0 0 0>;\012    pos aivowelsignrephanusvaradeva <-30 0 0 0>;\012    pos rephanusvaradeva <-50 0 0 0>;\012    pos rephcandrabindudeva <-72 0 0 0>;\012    pos evowelsigncandrabindudeva <-30 0 0 0>;\012    pos aivowelsigncandrabindudeva <-30 0 0 0>;\012    pos evowelsignrephcandrabindudeva <-30 0 0 0>;\012    pos aivowelsignrephcandrabindudeva <-30 0 0 0>;\012} SinglePositioning28;\012\012lookup SinglePositioning34 {\012    lookupflag 0;\012    ;\012    # Original source: 29 \012    pos udattadeva <303 0 0 0>;\012    pos uni1CDA <349 0 0 0>;\012    pos uni1CF8 <349 0 0 0>;\012    pos uni1CF9 <441 0 0 0>;\012} SinglePositioning34;\012\012lookup SinglePositioning20 {\012    lookupflag 0;\012    ;\012    # Original source: 15 \012    pos udattadeva <275 0 0 0>;\012    pos uni1CDA <321 0 0 0>;\012    pos uni1CF8 <321 0 0 0>;\012    pos uni1CF9 <413 0 0 0>;\012} SinglePositioning20;\012\012lookup SinglePositioning19 {\012    lookupflag 0;\012    ;\012    # Original source: 14 \012    pos udattadeva <217 0 0 0>;\012    pos uni1CDA <263 0 0 0>;\012    pos uni1CF8 <263 0 0 0>;\012    pos uni1CF9 <355 0 0 0>;\012} SinglePositioning19;\012\012lookup SinglePositioning18 {\012    lookupflag 0;\012    ;\012    # Original source: 13 \012    pos udattadeva <202 0 0 0>;\012    pos uni1CDA <248 0 0 0>;\012    pos uni1CF8 <248 0 0 0>;\012    pos uni1CF9 <340 0 0 0>;\012} SinglePositioning18;\012\012lookup SinglePositioning33 {\012    lookupflag 0;\012    ;\012    # Original source: 28 \012    pos udattadeva <243 0 0 0>;\012    pos uni1CDA <289 0 0 0>;\012    pos uni1CF8 <289 0 0 0>;\012    pos uni1CF9 <381 0 0 0>;\012} SinglePositioning33;\012\012lookup SinglePositioning32 {\012    lookupflag 0;\012    ;\012    # Original source: 27 \012    pos udattadeva <164 0 0 0>;\012    pos uni1CDA <210 0 0 0>;\012    pos uni1CF8 <210 0 0 0>;\012    pos uni1CF9 <302 0 0 0>;\012} SinglePositioning32;\012\012lookup SinglePositioning31 {\012    lookupflag 0;\012    ;\012    # Original source: 26 \012    pos udattadeva <226 0 0 0>;\012    pos uni1CDA <272 0 0 0>;\012    pos uni1CF8 <272 0 0 0>;\012    pos uni1CF9 <364 0 0 0>;\012} SinglePositioning31;\012\012lookup SinglePositioning30 {\012    lookupflag 0;\012    ;\012    # Original source: 25 \012    pos udattadeva <99 0 0 0>;\012    pos uni1CDA <145 0 0 0>;\012    pos uni1CF8 <145 0 0 0>;\012    pos uni1CF9 <237 0 0 0>;\012} SinglePositioning30;\012\012lookup SinglePositioning27 {\012    lookupflag 0;\012    ;\012    # Original source: 22 \012    pos udattadeva <141 0 0 0>;\012    pos uni1CDA <187 0 0 0>;\012    pos uni1CF8 <187 0 0 0>;\012    pos uni1CF9 <279 0 0 0>;\012} SinglePositioning27;\012\012lookup SinglePositioning29 {\012    lookupflag 0;\012    ;\012    # Original source: 24 \012    pos udattadeva <95 0 0 0>;\012    pos uni1CDA <141 0 0 0>;\012    pos uni1CF8 <141 0 0 0>;\012    pos uni1CF9 <233 0 0 0>;\012} SinglePositioning29;\012\012lookup SinglePositioning26 {\012    lookupflag 0;\012    ;\012    # Original source: 21 \012    pos udattadeva <154 0 0 0>;\012    pos uni1CDA <200 0 0 0>;\012    pos uni1CF8 <200 0 0 0>;\012    pos uni1CF9 <292 0 0 0>;\012} SinglePositioning26;\012\012lookup SinglePositioning23 {\012    lookupflag 0;\012    ;\012    # Original source: 18 \012    pos udattadeva <196 0 0 0>;\012    pos uni1CDA <242 0 0 0>;\012    pos uni1CF8 <242 0 0 0>;\012    pos uni1CF9 <334 0 0 0>;\012} SinglePositioning23;\012\012lookup SinglePositioning25 {\012    lookupflag 0;\012    ;\012    # Original source: 20 \012    pos udattadeva <200 0 0 0>;\012    pos uni1CDA <246 0 0 0>;\012    pos uni1CF8 <246 0 0 0>;\012    pos uni1CF9 <338 0 0 0>;\012} SinglePositioning25;\012\012lookup SinglePositioning24 {\012    lookupflag 0;\012    ;\012    # Original source: 19 \012    pos udattadeva <280 0 0 0>;\012    pos uni1CDA <326 0 0 0>;\012    pos uni1CF8 <326 0 0 0>;\012    pos uni1CF9 <418 0 0 0>;\012} SinglePositioning24;\012\012lookup SinglePositioning22 {\012    lookupflag 0;\012    ;\012    # Original source: 17 \012    pos udattadeva <126 0 0 0>;\012    pos uni1CDA <172 0 0 0>;\012    pos uni1CF8 <172 0 0 0>;\012    pos uni1CF9 <264 0 0 0>;\012} SinglePositioning22;\012\012lookup SinglePositioning21 {\012    lookupflag 0;\012    ;\012    # Original source: 16 \012    pos udattadeva <62 0 0 0>;\012    pos uni1CDA <108 0 0 0>;\012    pos uni1CF8 <108 0 0 0>;\012    pos uni1CF9 <200 0 0 0>;\012} SinglePositioning21;\012\012lookup SinglePositioning38 {\012    lookupflag 0;\012    ;\012    # Original source: 32 \012    pos [five_radeva four_radeva one_onedeva one_radeva three_kadeva three_radeva two_avagrahadeva two_radeva two_udeva two_uni1CD0 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 vi_radeva visarga_uni1CE2 visarga_uni1CE4 visarga_uni1CE5 visarga_uni1CE8] <-200 0 0 0>;\012} SinglePositioning38;\012\012lookup SinglePositioning40 {\012    lookupflag 0;\012    ;\012    # Original source: 34 \012    pos uniA8E0 <0 -347 0 0>;\012    pos uniA8E1 <0 -347 0 0>;\012    pos uniA8E2 <0 -347 0 0>;\012    pos uniA8E3 <0 -347 0 0>;\012    pos uniA8E4 <0 -347 0 0>;\012    pos uniA8E5 <0 -347 0 0>;\012    pos uniA8E6 <0 -347 0 0>;\012    pos uniA8E7 <0 -347 0 0>;\012    pos uniA8E8 <0 -347 0 0>;\012    pos uniA8E9 <0 -347 0 0>;\012    pos uniA8EA <0 -347 0 0>;\012    pos uniA8EB <0 -347 0 0>;\012    pos uniA8EC <0 -347 0 0>;\012    pos uniA8ED <0 -347 0 0>;\012    pos uniA8EE <0 -347 0 0>;\012    pos uniA8EF <0 -347 0 0>;\012    pos uniA8F0 <0 -451 0 0>;\012    pos uniA8F1 <0 -347 0 0>;\012    pos uni1CD0 <0 -347 0 0>;\012    pos uni1CD1 <0 -347 0 0>;\012    pos uni1CD2 <0 -347 0 0>;\012    pos uni1CF4 <0 -347 0 0>;\012    pos one_onedeva <0 -347 0 0>;\012    pos two_udeva <0 -347 0 0>;\012    pos three_kadeva <0 -347 0 0>;\012    pos one_radeva <0 -347 0 0>;\012    pos two_radeva <0 -347 0 0>;\012    pos three_radeva <0 -347 0 0>;\012    pos four_radeva <0 -347 0 0>;\012    pos five_radeva <0 -347 0 0>;\012    pos two_avagrahadeva <0 -347 0 0>;\012    pos two_uni1CD0 <0 -347 0 0>;\012    pos vi_radeva <0 -451 0 0>;\012    pos uni20F0 <0 -347 0 0>;\012} SinglePositioning40;\012";
-}
 );
 iconName = SemiBold_Condensed;
 id = "9A082071-1CDF-4F9E-B116-82A287035C9D";
@@ -4003,6 +4474,90 @@ pos = 713;
 }
 );
 name = "SemiBold Condensed";
+numberValues = (
+-44,
+-71,
+-205,
+-205,
+-155,
+-155,
+-155,
+-68,
+-78,
+-229,
+-229,
+-229,
+-229,
+-229,
+-43,
+-72,
+-50,
+-30,
+303,
+349,
+349,
+441,
+275,
+321,
+321,
+413,
+217,
+263,
+263,
+355,
+202,
+248,
+248,
+340,
+243,
+289,
+289,
+381,
+164,
+210,
+210,
+302,
+226,
+272,
+272,
+364,
+99,
+145,
+145,
+237,
+141,
+187,
+187,
+279,
+95,
+141,
+141,
+233,
+154,
+200,
+200,
+292,
+196,
+242,
+242,
+334,
+200,
+246,
+246,
+338,
+280,
+326,
+326,
+418,
+126,
+172,
+172,
+264,
+62,
+108,
+108,
+200
+);
 stemValues = (
 108,
 121
@@ -4012,12 +4567,6 @@ stemValues = (
 axesValues = (
 190,
 70
-);
-customParameters = (
-{
-name = "Replace Prefix";
-value = "PositioningRules;lookup SinglePositioning11 {\012    lookupflag 0;\012    ;\012    # Original source: 6 \012    pos uevowelsigndeva <0 -54 0 0>;\012    pos uuevowelsigndeva <0 -81 0 0>;\012} SinglePositioning11;\012\012lookup SinglePositioning16 {\012    lookupflag 0;\012    ;\012    # Original source: 11 \012    pos [anudattadeva uni1CD5 uni1CD6 uni1CD7 uni1CD8 uni1CD9 uni1CDC uni1CDD uni1CDE uni1CDF uni1CED] <0 -210 0 0>;\012} SinglePositioning16;\012\012lookup SinglePositioning15 {\012    lookupflag 0;\012    ;\012    # Original source: 10 \012    pos [anudattadeva uni1CD5 uni1CD6 uni1CD7 uni1CD8 uni1CD9 uni1CDC uni1CDD uni1CDE uni1CDF uni1CED] <0 -146 0 0>;\012} SinglePositioning15;\012\012lookup SinglePositioning14 {\012    lookupflag 0;\012    ;\012    # Original source: 9 \012    pos [anudattadeva uni1CD5 uni1CD6 uni1CD7 uni1CD8 uni1CD9 uni1CDC uni1CDD uni1CDE uni1CDF uni1CED] <0 -75 0 0>;\012} SinglePositioning14;\012\012lookup SinglePositioning13 {\012    lookupflag 0;\012    ;\012    # Original source: 8 \012    pos anudattadeva <0 -234 0 0>;\012    pos uni1CD5 <0 -234 0 0>;\012    pos uni1CD6 <0 -234 0 0>;\012    pos uni1CD7 <0 -244 0 0>;\012    pos uni1CD8 <0 -234 0 0>;\012    pos uni1CD9 <0 -244 0 0>;\012    pos uni1CDC <0 -244 0 0>;\012    pos uni1CDD <0 -234 0 0>;\012    pos uni1CDE <0 -239 0 0>;\012    pos uni1CDF <0 -239 0 0>;\012    pos uni1CED <0 -234 0 0>;\012} SinglePositioning13;\012\012lookup SinglePositioning28 {\012    lookupflag 0;\012    ;\012    # Original source: 23 \012    pos candrabindudeva <-72 0 0 0>;\012    pos anusvaradeva <-43 0 0 0>;\012    pos rephdeva <-50 0 0 0>;\012    pos evowelsignanusvaradeva <-30 0 0 0>;\012    pos evowelsignrephdeva <-30 0 0 0>;\012    pos evowelsignrephanusvaradeva <-30 0 0 0>;\012    pos aivowelsignanusvaradeva <-30 0 0 0>;\012    pos aivowelsignrephdeva <-30 0 0 0>;\012    pos aivowelsignrephanusvaradeva <-30 0 0 0>;\012    pos rephanusvaradeva <-50 0 0 0>;\012    pos rephcandrabindudeva <-72 0 0 0>;\012    pos evowelsigncandrabindudeva <-30 0 0 0>;\012    pos aivowelsigncandrabindudeva <-30 0 0 0>;\012    pos evowelsignrephcandrabindudeva <-30 0 0 0>;\012    pos aivowelsignrephcandrabindudeva <-30 0 0 0>;\012} SinglePositioning28;\012\012lookup SinglePositioning34 {\012    lookupflag 0;\012    ;\012    # Original source: 29 \012    pos udattadeva <303 0 0 0>;\012    pos uni1CDA <348 0 0 0>;\012    pos uni1CF8 <348 0 0 0>;\012    pos uni1CF9 <423 0 0 0>;\012} SinglePositioning34;\012\012lookup SinglePositioning20 {\012    lookupflag 0;\012    ;\012    # Original source: 15 \012    pos udattadeva <279 0 0 0>;\012    pos uni1CDA <324 0 0 0>;\012    pos uni1CF8 <324 0 0 0>;\012    pos uni1CF9 <399 0 0 0>;\012} SinglePositioning20;\012\012lookup SinglePositioning19 {\012    lookupflag 0;\012    ;\012    # Original source: 14 \012    pos udattadeva <240 0 0 0>;\012    pos uni1CDA <285 0 0 0>;\012    pos uni1CF8 <285 0 0 0>;\012    pos uni1CF9 <360 0 0 0>;\012} SinglePositioning19;\012\012lookup SinglePositioning18 {\012    lookupflag 0;\012    ;\012    # Original source: 13 \012    pos udattadeva <225 0 0 0>;\012    pos uni1CDA <270 0 0 0>;\012    pos uni1CF8 <270 0 0 0>;\012    pos uni1CF9 <345 0 0 0>;\012} SinglePositioning18;\012\012lookup SinglePositioning33 {\012    lookupflag 0;\012    ;\012    # Original source: 28 \012    pos udattadeva <255 0 0 0>;\012    pos uni1CDA <300 0 0 0>;\012    pos uni1CF8 <300 0 0 0>;\012    pos uni1CF9 <375 0 0 0>;\012} SinglePositioning33;\012\012lookup SinglePositioning32 {\012    lookupflag 0;\012    ;\012    # Original source: 27 \012    pos udattadeva <184 0 0 0>;\012    pos uni1CDA <229 0 0 0>;\012    pos uni1CF8 <229 0 0 0>;\012    pos uni1CF9 <304 0 0 0>;\012} SinglePositioning32;\012\012lookup SinglePositioning31 {\012    lookupflag 0;\012    ;\012    # Original source: 26 \012    pos udattadeva <221 0 0 0>;\012    pos uni1CDA <266 0 0 0>;\012    pos uni1CF8 <266 0 0 0>;\012    pos uni1CF9 <341 0 0 0>;\012} SinglePositioning31;\012\012lookup SinglePositioning30 {\012    lookupflag 0;\012    ;\012    # Original source: 25 \012    pos udattadeva <110 0 0 0>;\012    pos uni1CDA <155 0 0 0>;\012    pos uni1CF8 <155 0 0 0>;\012    pos uni1CF9 <230 0 0 0>;\012} SinglePositioning30;\012\012lookup SinglePositioning27 {\012    lookupflag 0;\012    ;\012    # Original source: 22 \012    pos udattadeva <166 0 0 0>;\012    pos uni1CDA <211 0 0 0>;\012    pos uni1CF8 <211 0 0 0>;\012    pos uni1CF9 <286 0 0 0>;\012} SinglePositioning27;\012\012lookup SinglePositioning29 {\012    lookupflag 0;\012    ;\012    # Original source: 24 \012    pos udattadeva <106 0 0 0>;\012    pos uni1CDA <151 0 0 0>;\012    pos uni1CF8 <151 0 0 0>;\012    pos uni1CF9 <226 0 0 0>;\012} SinglePositioning29;\012\012lookup SinglePositioning26 {\012    lookupflag 0;\012    ;\012    # Original source: 21 \012    pos udattadeva <171 0 0 0>;\012    pos uni1CDA <216 0 0 0>;\012    pos uni1CF8 <216 0 0 0>;\012    pos uni1CF9 <291 0 0 0>;\012} SinglePositioning26;\012\012lookup SinglePositioning23 {\012    lookupflag 0;\012    ;\012    # Original source: 18 \012    pos udattadeva <202 0 0 0>;\012    pos uni1CDA <247 0 0 0>;\012    pos uni1CF8 <247 0 0 0>;\012    pos uni1CF9 <322 0 0 0>;\012} SinglePositioning23;\012\012lookup SinglePositioning25 {\012    lookupflag 0;\012    ;\012    # Original source: 20 \012    pos udattadeva <205 0 0 0>;\012    pos uni1CDA <250 0 0 0>;\012    pos uni1CF8 <250 0 0 0>;\012    pos uni1CF9 <325 0 0 0>;\012} SinglePositioning25;\012\012lookup SinglePositioning24 {\012    lookupflag 0;\012    ;\012    # Original source: 19 \012    pos udattadeva <260 0 0 0>;\012    pos uni1CDA <305 0 0 0>;\012    pos uni1CF8 <305 0 0 0>;\012    pos uni1CF9 <380 0 0 0>;\012} SinglePositioning24;\012\012lookup SinglePositioning22 {\012    lookupflag 0;\012    ;\012    # Original source: 17 \012    pos udattadeva <132 0 0 0>;\012    pos uni1CDA <177 0 0 0>;\012    pos uni1CF8 <177 0 0 0>;\012    pos uni1CF9 <252 0 0 0>;\012} SinglePositioning22;\012\012lookup SinglePositioning21 {\012    lookupflag 0;\012    ;\012    # Original source: 16 \012    pos udattadeva <81 0 0 0>;\012    pos uni1CDA <126 0 0 0>;\012    pos uni1CF8 <126 0 0 0>;\012    pos uni1CF9 <201 0 0 0>;\012} SinglePositioning21;\012\012lookup SinglePositioning38 {\012    lookupflag 0;\012    ;\012    # Original source: 32 \012    pos [five_radeva four_radeva one_onedeva one_radeva three_kadeva three_radeva two_avagrahadeva two_radeva two_udeva two_uni1CD0 uniA8E0 uniA8E1 uniA8E2 uniA8E3 uniA8E4 uniA8E5 uniA8E6 uniA8E7 uniA8E8 uniA8E9 uniA8EA uniA8EB uniA8EC uniA8ED uniA8EE uniA8EF uniA8F0 uniA8F1 vi_radeva visarga_uni1CE2 visarga_uni1CE4 visarga_uni1CE5 visarga_uni1CE8] <-200 0 0 0>;\012} SinglePositioning38;\012\012lookup SinglePositioning40 {\012    lookupflag 0;\012    ;\012    # Original source: 34 \012    pos uniA8E0 <0 -347 0 0>;\012    pos uniA8E1 <0 -347 0 0>;\012    pos uniA8E2 <0 -347 0 0>;\012    pos uniA8E3 <0 -347 0 0>;\012    pos uniA8E4 <0 -347 0 0>;\012    pos uniA8E5 <0 -347 0 0>;\012    pos uniA8E6 <0 -347 0 0>;\012    pos uniA8E7 <0 -347 0 0>;\012    pos uniA8E8 <0 -347 0 0>;\012    pos uniA8E9 <0 -347 0 0>;\012    pos uniA8EA <0 -347 0 0>;\012    pos uniA8EB <0 -347 0 0>;\012    pos uniA8EC <0 -347 0 0>;\012    pos uniA8ED <0 -347 0 0>;\012    pos uniA8EE <0 -347 0 0>;\012    pos uniA8EF <0 -347 0 0>;\012    pos uniA8F0 <0 -451 0 0>;\012    pos uniA8F1 <0 -347 0 0>;\012    pos uni1CD0 <0 -347 0 0>;\012    pos uni1CD1 <0 -347 0 0>;\012    pos uni1CD2 <0 -347 0 0>;\012    pos uni1CF4 <0 -347 0 0>;\012    pos one_onedeva <0 -347 0 0>;\012    pos two_udeva <0 -347 0 0>;\012    pos three_kadeva <0 -347 0 0>;\012    pos one_radeva <0 -347 0 0>;\012    pos two_radeva <0 -347 0 0>;\012    pos three_radeva <0 -347 0 0>;\012    pos four_radeva <0 -347 0 0>;\012    pos five_radeva <0 -347 0 0>;\012    pos two_avagrahadeva <0 -347 0 0>;\012    pos two_uni1CD0 <0 -347 0 0>;\012    pos vi_radeva <0 -451 0 0>;\012    pos uni20F0 <0 -347 0 0>;\012} SinglePositioning40;\012";
-}
 );
 iconName = Bold_Condensed;
 id = "6EDA54BC-5413-4E6E-9D6B-A24A39A704A7";
@@ -4047,6 +4596,90 @@ pos = 713;
 }
 );
 name = "Bold Condensed";
+numberValues = (
+-54,
+-81,
+-210,
+-210,
+-146,
+-146,
+-146,
+-75,
+-75,
+-234,
+-244,
+-239,
+-244,
+-234,
+-43,
+-72,
+-50,
+-30,
+303,
+348,
+348,
+423,
+279,
+324,
+324,
+399,
+240,
+285,
+285,
+360,
+225,
+270,
+270,
+345,
+255,
+300,
+300,
+375,
+184,
+229,
+229,
+304,
+221,
+266,
+266,
+341,
+110,
+155,
+155,
+230,
+166,
+211,
+211,
+286,
+106,
+151,
+151,
+226,
+171,
+216,
+216,
+291,
+202,
+247,
+247,
+322,
+205,
+250,
+250,
+325,
+260,
+305,
+305,
+380,
+132,
+177,
+177,
+252,
+81,
+126,
+126,
+201
+);
 stemValues = (
 133,
 150
@@ -9971,6 +10604,254 @@ type = "italic angle";
 },
 {
 name = "zone 1";
+}
+);
+numbers = (
+{
+name = SinglePositioning11_uevowelsigndeva;
+},
+{
+name = SinglePositioning11_uuevowelsigndeva;
+},
+{
+name = SinglePositioning16_anudattadeva;
+},
+{
+name = SinglePositioning16_uni1CDD;
+},
+{
+name = SinglePositioning15_anudattadeva;
+},
+{
+name = SinglePositioning15_uni1CDE;
+},
+{
+name = SinglePositioning15_uni1CDD;
+},
+{
+name = SinglePositioning14_anudattadeva;
+},
+{
+name = SinglePositioning14_uni1CD7;
+},
+{
+name = SinglePositioning13_anudattadeva;
+},
+{
+name = SinglePositioning13_uni1CD7;
+},
+{
+name = SinglePositioning13_uni1CDE;
+},
+{
+name = SinglePositioning13_uni1CD9;
+},
+{
+name = SinglePositioning13_uni1CDD;
+},
+{
+name = SinglePositioning28_anusvaradeva;
+},
+{
+name = SinglePositioning28_candrabindudeva;
+},
+{
+name = SinglePositioning28_rephdeva;
+},
+{
+name = SinglePositioning28_evowelsignanusvaradeva;
+},
+{
+name = SinglePositioning34_udattadeva;
+},
+{
+name = SinglePositioning34_uni1CDA;
+},
+{
+name = SinglePositioning34_uni1CF8;
+},
+{
+name = SinglePositioning34_uni1CF9;
+},
+{
+name = SinglePositioning20_udattadeva;
+},
+{
+name = SinglePositioning20_uni1CDA;
+},
+{
+name = SinglePositioning20_uni1CF8;
+},
+{
+name = SinglePositioning20_uni1CF9;
+},
+{
+name = SinglePositioning19_udattadeva;
+},
+{
+name = SinglePositioning19_uni1CDA;
+},
+{
+name = SinglePositioning19_uni1CF8;
+},
+{
+name = SinglePositioning19_uni1CF9;
+},
+{
+name = SinglePositioning18_udattadeva;
+},
+{
+name = SinglePositioning18_uni1CDA;
+},
+{
+name = SinglePositioning18_uni1CF8;
+},
+{
+name = SinglePositioning18_uni1CF9;
+},
+{
+name = SinglePositioning33_udattadeva;
+},
+{
+name = SinglePositioning33_uni1CDA;
+},
+{
+name = SinglePositioning33_uni1CF8;
+},
+{
+name = SinglePositioning33_uni1CF9;
+},
+{
+name = SinglePositioning32_udattadeva;
+},
+{
+name = SinglePositioning32_uni1CDA;
+},
+{
+name = SinglePositioning32_uni1CF8;
+},
+{
+name = SinglePositioning32_uni1CF9;
+},
+{
+name = SinglePositioning31_udattadeva;
+},
+{
+name = SinglePositioning31_uni1CDA;
+},
+{
+name = SinglePositioning31_uni1CF8;
+},
+{
+name = SinglePositioning31_uni1CF9;
+},
+{
+name = SinglePositioning30_udattadeva;
+},
+{
+name = SinglePositioning30_uni1CDA;
+},
+{
+name = SinglePositioning30_uni1CF8;
+},
+{
+name = SinglePositioning30_uni1CF9;
+},
+{
+name = SinglePositioning27_udattadeva;
+},
+{
+name = SinglePositioning27_uni1CDA;
+},
+{
+name = SinglePositioning27_uni1CF8;
+},
+{
+name = SinglePositioning27_uni1CF9;
+},
+{
+name = SinglePositioning29_udattadeva;
+},
+{
+name = SinglePositioning29_uni1CDA;
+},
+{
+name = SinglePositioning29_uni1CF8;
+},
+{
+name = SinglePositioning29_uni1CF9;
+},
+{
+name = SinglePositioning26_udattadeva;
+},
+{
+name = SinglePositioning26_uni1CDA;
+},
+{
+name = SinglePositioning26_uni1CF8;
+},
+{
+name = SinglePositioning26_uni1CF9;
+},
+{
+name = SinglePositioning23_udattadeva;
+},
+{
+name = SinglePositioning23_uni1CDA;
+},
+{
+name = SinglePositioning23_uni1CF8;
+},
+{
+name = SinglePositioning23_uni1CF9;
+},
+{
+name = SinglePositioning25_udattadeva;
+},
+{
+name = SinglePositioning25_uni1CDA;
+},
+{
+name = SinglePositioning25_uni1CF8;
+},
+{
+name = SinglePositioning25_uni1CF9;
+},
+{
+name = SinglePositioning24_udattadeva;
+},
+{
+name = SinglePositioning24_uni1CDA;
+},
+{
+name = SinglePositioning24_uni1CF8;
+},
+{
+name = SinglePositioning24_uni1CF9;
+},
+{
+name = SinglePositioning22_udattadeva;
+},
+{
+name = SinglePositioning22_uni1CDA;
+},
+{
+name = SinglePositioning22_uni1CF8;
+},
+{
+name = SinglePositioning22_uni1CF9;
+},
+{
+name = SinglePositioning21_udattadeva;
+},
+{
+name = SinglePositioning21_uni1CDA;
+},
+{
+name = SinglePositioning21_uni1CF8;
+},
+{
+name = SinglePositioning21_uni1CF9;
 }
 );
 properties = (
